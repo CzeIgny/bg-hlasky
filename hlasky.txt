@@ -491,28 +491,28 @@ Viděli jsme to jinak | Rozhodčí: Viděli jsme to jinak. |  |  | hra-rozhodci
 Tohle je na protest | Rozhodčí: Tohle je na protest. Nebo na pivo. |  |  | hra-rozhodci
 
 # ===== HRA — JMÉNA BOULDRŮ =====
-Krysí traverz | Krysí traverz |  |  | hra-boulder
-Vodičku né | Vodičku né |  |  | hra-boulder
-Do-do-dopadiště | Do-do-dopadiště |  |  | hra-boulder
-Prochcaný vrata | Prochcaný vrata |  |  | hra-boulder
-Zevl kýbl | Zevl kýbl |  |  | hra-boulder
-Poslední cigáro | Poslední cigáro |  |  | hra-boulder
-Basa kozlíka | Basa kozlíka |  |  | hra-boulder
-Spacák s překvapením | Spacák s překvapením |  |  | hra-boulder
-Ovoce na provázku | Ovoce na provázku |  |  | hra-boulder
-Úplatek pro rozhodčí | Úplatek pro rozhodčí |  |  | hra-boulder
-Grunťák | Grunťák |  |  | hra-boulder
-Srání s trámy | Srání s trámy |  |  | hra-boulder
-Půl roku jen lezení | Půl roku jen lezení |  |  | hra-boulder
-Gravitace je svinstvo | Gravitace je svinstvo |  |  | hra-boulder
-Kolaudace | Kolaudace |  |  | hra-boulder
-Druhá garáž | Druhá garáž |  |  | hra-boulder
-Jednorožec | Jednorožec |  |  | hra-boulder
-Hodně nahoru, málo dolů | Hodně nahoru, málo dolů |  |  | hra-boulder
-Ptačí hnízdo | Ptačí hnízdo |  |  | hra-boulder
-Luxfera | Luxfera |  |  | hra-boulder
-Stále pijeme | Stále pijeme |  |  | hra-boulder
-Molitan z Meziříčí | Molitan z Meziříčí |  |  | hra-boulder
+Krysí traverz | Krysí traverz 6B+ |  |  | hra-boulder
+Vodičku né | Vodičku né 5C |  |  | hra-boulder
+Do-do-dopadiště | Do-do-dopadiště 5C |  |  | hra-boulder
+Prochcaný vrata | Prochcaný vrata 6A+ |  |  | hra-boulder
+Zevl kýbl | Zevl kýbl 6A+ |  |  | hra-boulder
+Poslední cigáro | Poslední cigáro 6C |  |  | hra-boulder
+Basa kozlíka | Basa kozlíka 6B |  |  | hra-boulder
+Spacák s překvapením | Spacák s překvapením 6C+ |  |  | hra-boulder
+Ovoce na provázku | Ovoce na provázku 6B |  |  | hra-boulder
+Úplatek pro rozhodčí | Úplatek pro rozhodčí 6C |  |  | hra-boulder
+Grunťák | Grunťák 7A |  |  | hra-boulder
+Srání s trámy | Srání s trámy 6B+ |  |  | hra-boulder
+Půl roku jen lezení | Půl roku jen lezení 6C+ |  |  | hra-boulder
+Gravitace je svinstvo | Gravitace je svinstvo 5C |  |  | hra-boulder
+Kolaudace | Kolaudace 5C |  |  | hra-boulder
+Druhá garáž | Druhá garáž 6A+ |  |  | hra-boulder
+Jednorožec | Jednorožec 7A |  |  | hra-boulder
+Hodně nahoru, málo dolů | Hodně nahoru, málo dolů 5C |  |  | hra-boulder
+Ptačí hnízdo | Ptačí hnízdo 6B |  |  | hra-boulder
+Luxfera | Luxfera 6C |  |  | hra-boulder
+Stále pijeme | Stále pijeme 5C |  |  | hra-boulder
+Molitan z Meziříčí | Molitan z Meziříčí 5C |  |  | hra-boulder
 Já tu byla dřív | Já tu byla dřív. |  |  | hra-krysa
 Mám permanentku | Mám permanentku. |  |  | hra-krysa
 Čí je ten rohlík | Čí je ten rohlík? |  |  | hra-krysa

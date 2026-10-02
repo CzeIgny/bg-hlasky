@@ -304,3 +304,20 @@ Ještě *ne*. | Stránky spí. Kdo je vzbudí, kazí ráno všem ostatním. | Vz
 *Spacák* zavřenej. | Stránky se zavřely do spacáku a nevylezou. Zkuste to po šesté. | Rozepnout spacák | Uvnitř může být krysa. | noc
 *Pozdě* v noci. | Teď se nevolá, nepíše a nenačítá. Stránky spí do šesti. | Načíst i tak | Zapíšeme si čas. | noc
 *Zítra* je taky den. | Stránky jdou spát. Vy byste taky měli. | Nejít spát | Ráno uvidíte, kdo byl vzhůru. | noc
+*Stále* pijeme. | V deníku je zápis, který končí slovy „Stále pijeme! (update 23:37)“. Stránky se ho drží dodnes. Do šesti je nebuďte. | Připít si s nimi | Ráno to bude bolet. Všechny. | noc
+Přespání *na garáži*. | Po závodech se tu vždycky spí, kde kdo padne. Stránky padly na dopadiště a vstávají v šest. | Překročit je | Opatrně. Některé chrápou i kopou. | noc
+*Afterparty*. | Po závodech se tu jelo do dvou, do tří, jednou i do šesti ráno. Stránky to dneska zkusily taky a už nemůžou. | Pokračovat s nimi | Pípa je zavřená. Krutý, ale je to tak. | noc
+*Zhasnuto*. | V deníku stojí: máme světla! na vypínač!! Stránky ho dneska našly a zhasly. Rozsvítí v šest. | Rozsvítit | Vypínač je jejich. Respektujte to. | noc
+Spí *jak NeLezec*. | Stránky spí tvrdě jak NeLezec po šesti pivech za hodinu. Probudí se v šest. Možná. | Probudit je | Ani rozhodčí to nedokázali. | noc
+*Ptáci* vstávají dřív. | Ptáci na garáži bývali vzhůru dřív než všichni. Stránky spí a vstanou až po nich, v šest. | Vzbudit ptáky | Ptáci jsou v pohodě. Vzbudíte jen stránky. | noc
+*Silvestr* nebyl. | Stránky si myslely, že je Silvestr na BG, a oslavily to tak, že už spí. Vstávají v šest. | Popřát jim | Ať se daří. Hodně nahoru a málo dolů. | noc
+*Nekuřácké* BG. | Od listopadu 2018 je garáž nekuřácká. Stránky si šly zakouřit ven a usnuly na parkovišti. Vstávají v šest. | Odnést je dovnitř | Těžký. Jak to topení v roce 2018. | noc
+*Smradlavé* boty. | Garáž v noci voní botama všech, co tu přes den lezli. Stránky si zacpaly nos a usnuly. Vstávají v šest. | Otevřít vrata | Pustíte dovnitř zimu. A sousedy. | noc
+*Hodiny* tikají. | Hodiny má garáž od dubna 2020 a teď ukazujou, že je noc. Stránky jim věří a spí do šesti. | Přetočit hodiny | Hodiny nelžou. Jen stránky. | noc
+*Spacák* plnej. | Ve spacáku jsou stránky. A možná krysa. Do šesti se to nebude řešit. | Zkontrolovat spacák | Na vlastní nebezpečí. Viz poučení. | noc
+*Gril* dohořel. | Pivo, gril a tak. Přesně tohle stojí v deníku a přesně tak skončil i dnešek. Stránky spí do šesti. | Rozdmýchat gril | Uhlí je mokrý. Klobása snědená. | noc
+*Psst*, kapela spí. | Po závodech s kapelama tu ještě dlouho zvoní v uších. Stránky si daly špunty a spí do šesti. | Zahrát jim | Bluetooth je vypnutej. Naštěstí. | noc
+*Noční* lezba. | Kdysi se tu lezlo i po půlnoci. Stránky už ne, na to jsou staré. Vstávají v šest. | Jít lézt sám | Klíč máte? Tak potichu. | noc
+*Fotbálek* spí. | I fotbálek ve druhé garáži má noc. Panáčci visí hlavou dolů a stránky taky. Do šesti. | Zatočit tyčí | Probudíte celou ulici. | noc
+*Wi-Fi* má noc. | Wi-Fi tu máme, ale v noci nikomu nic nepošle. Stránky jsou offline a spí do šesti. | Připojit se stejně | Heslo ví jen rozhodčí. A ten spí. | noc
+*Ráno* bude kocovina. | Stránky to vědí, a tak spí, dokud to jde. Do šesti je nechte být. | Udělat jim kafe | Rychlovarka je v zázemí. Stránky taky. | noc

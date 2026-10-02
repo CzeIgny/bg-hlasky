@@ -6,7 +6,7 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · meteo-bourka · meteo-snih · meteo-dest · meteo-mlha · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno
 #           Prázdné nebo neznámé téma = náhodná schválnost.
 #           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
 #
@@ -537,3 +537,63 @@ Bez rozhodčích | Bez rozhodčích |  |  | hra-boulder-cvicne
 Zkušební jízda | Zkušební jízda |  |  | hra-boulder-cvicne
 Kolmáč na zahřátí | Kolmáč na zahřátí |  |  | hra-boulder-cvicne
 Bezradný | Bezradný |  |  | hra-boulder-cvicne
+
+# ===== METEOSTANICE — BOUŘKA =====
+Meteostanice | Bouřka. To se dalo čekat, celej tejden bylo dusno a teď tohle. |  |  | meteo-bourka
+Meteostanice | Hřmí jak blázen. Ještě že máme vrata, co netěsní, aspoň to slyšíme pořádně. |  |  | meteo-bourka
+Meteostanice | Blýská se. Kdo dneska leze, leze na vlastní nebezpečí. Jako vždycky, ale dneska víc. |  |  | meteo-bourka
+
+# ===== METEOSTANICE — SNÍH =====
+Meteostanice | Bílý svinstvo všude. Venku nikdo nepoleze, tak aspoň v garáži. |  |  | meteo-snih
+Meteostanice | Napadlo. Za hodinu to bude břečka a za dvě ledovka. Krása. |  |  | meteo-snih
+Meteostanice | Na Vysokáči to dneska nevylezeš ani v mačkách. |  |  | meteo-snih
+
+# ===== METEOSTANICE — DÉŠŤ =====
+Meteostanice | Vrata zas prochcaný. Kdyby aspoň pořádně, ale takhle? |  |  | meteo-dest
+Meteostanice | Ani pořádnej déšť to nezvládne. Skála mokrá, nálada taky. |  |  | meteo-dest
+Meteostanice | Magnézko se lepí, chyty kloužou, a to se ještě nikdo nezačal potit. |  |  | meteo-dest
+
+# ===== METEOSTANICE — MLHA =====
+Meteostanice | Nevidíš ani na druhej konec garáže. Top neexistuje. |  |  | meteo-mlha
+Meteostanice | Mlha jak mlíko. Kdo nedojde, ztratil se. Nehledáme. |  |  | meteo-mlha
+Meteostanice | Vlhko leze do kostí i do chytů. |  |  | meteo-mlha
+
+# ===== METEOSTANICE — MRÁZ =====
+Meteostanice | Chyty jak kusy ledu, prsty necítíš od prvního kroku. |  |  | meteo-mraz
+Meteostanice | Fukar jede naplno a stejně je tu zima jak v psírně. |  |  | meteo-mraz
+Meteostanice | Pivo se chladí samo. To je jediný plus. |  |  | meteo-mraz
+
+# ===== METEOSTANICE — VEDRO =====
+Meteostanice | Chyty se potěj víc než ty. Magnézko nestačí. |  |  | meteo-vedro
+Meteostanice | V garáži se nedá dejchat a venku taky ne. |  |  | meteo-vedro
+Meteostanice | Kdo dneska vyleze nahoru, dostane úpal. |  |  | meteo-vedro
+
+# ===== METEOSTANICE — DUSNO =====
+Meteostanice | Vzduch se dá krájet a pumpa přijde dřív než obvykle. |  |  | meteo-dusno
+Meteostanice | Něco se chystá. Asi bouřka. Nebo zase jenom dusno. |  |  | meteo-dusno
+Meteostanice | Jak v prádelně. Trička se suší přímo na lidech. |  |  | meteo-dusno
+
+# ===== METEOSTANICE — VÍTR =====
+Meteostanice | Vrata mlátěj, plachty lítaj, magnézko je všude kromě rukou. |  |  | meteo-vitr
+Meteostanice | Na Vysokáči by tě to sfouklo ze skály. Tady aspoň jen do žíněnky. |  |  | meteo-vitr
+Meteostanice | Fičí to. Kdo zase nechal otevřený vrata? |  |  | meteo-vitr
+
+# ===== METEOSTANICE — NÍZKÝ TLAK =====
+Meteostanice | Hlava třeští, síla žádná. Lezení se dneska omlouvá. |  |  | meteo-tlak
+Meteostanice | Celá garáž je nějaká rozbitá a nikdo neví proč. |  |  | meteo-tlak
+Meteostanice | Dneska to není tebou. Teda asi. |  |  | meteo-tlak
+
+# ===== METEOSTANICE — JASNO =====
+Meteostanice | Zase to slunce. Kdo to má furt mžourat? |  |  | meteo-hezky
+Meteostanice | Všichni jsou na Vysokáči a garáž je prázdná. Hezký počasí nás jednou zničí. |  |  | meteo-hezky
+Meteostanice | Na skále se spálíš, v garáži se uvaříš. Výběr žádnej. |  |  | meteo-hezky
+
+# ===== METEOSTANICE — POLOJASNO =====
+Meteostanice | Ani pořádný slunce, ani pořádný mraky. Nerozhodný jak NeLezec před bouldrem. |  |  | meteo-polojasno
+Meteostanice | Chvíli svítí, chvíli ne. Na skálu se to nevyplatí, v garáži je to škoda. |  |  | meteo-polojasno
+Meteostanice | Určitě se to zkazí přesně ve chvíli, kdy vylezeš. |  |  | meteo-polojasno
+
+# ===== METEOSTANICE — ZATAŽENO =====
+Meteostanice | Ani slunko, ani déšť. Prostě nic. To se nedá vydržet. |  |  | meteo-zatazeno
+Meteostanice | Šedivo. Den jak vymáchanej v kýblu. |  |  | meteo-zatazeno
+Meteostanice | Prej by mohlo pršet. Nebo taky ne. Nikdo nic neví. |  |  | meteo-zatazeno

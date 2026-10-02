@@ -1,0 +1,219 @@
+# Hlášky pro hodinu odpočinku na vylez.to
+#
+# Jedna hláška = jeden řádek:
+#   NADPIS | TEXT | TLAČÍTKO | POZNÁMKA | TÉMA
+#
+# NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
+# TEXT    — {min} = kolik minut zbývá do konce odpočinku.
+# TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy
+#           Prázdné nebo neznámé téma = náhodná schválnost.
+#
+# Řádky začínající # a prázdné řádky se ignorují.
+# Na veřejném webu nepoužívat jména lidí — narážky poznají jen lidi z BG.
+
+# ===== PIVO =====
+Stránky *leží*. | Stránky právě vypily 10 piv za hodinu a vyrovnaly tím rekord BG. Teď leží na dopadišti. Zkuste to za {min} minut. | Zvednout je z dopadiště | Budou se motat. Nečekejte zázraky. | pivo
+Stránky *si odskočily*. | Stránky musely na malou. Po pátém pivu za hodinu se to stává. Za {min} minut jsou zpátky. | Zabušit na ToiToi | Je obsazeno. Ozve se jen „Moment!“ | pivo
+*Exuje se*. | Probíhá rozřazovací úkol: exování piva ve visu na jedné ruce, na čas. Výsledek bude za {min} minut. | Přerušit exování | Rozlijete to. Tohle vám nikdo neodpustí. | pivo
+Pivo *došlo*. | Na garáži došlo pivo a stránky jely pro další. Zpátky jsou za {min} minut, pokud cestou nepotkají někoho známého. | Zavolat jim | Vezmou to s plnou pusou. | pivo
+*Strop* prolomen. | Roky jsme si mysleli, že šest piv za hodinu je strop. Stránky zrovna zjišťují, kde je ten nový. Výsledky za {min} minut. | Zastavit měření | Měření se nepřerušuje. Ale dobře. | pivo
+*Výčep* zavřen. | Pípa se čistí. Stránky u ní stojí a čekají, až poteče. To bude za {min} minut. | Načepovat si sám | Pěna se nepočítá jako pivo. Rozhodčí to vědí. | pivo
+*Desáté* pivo. | Stránky jdou na desáté pivo za hodinu. Kdo ho dopije, zapíše se do historie. Pokus potrvá {min} minut. | Fandit | Fanoušci body nedostávají. Pivo ano. | pivo
+
+# ===== ZRANĚNÍ =====
+*Au.* | Stránky spadly z boulderu. Nic vážného, jen zlomený malíček. Za {min} minut si přijdou pro Jednorožce. | Vejít i tak | Píšou jednou rukou, tak počítejte s překlepy. | zraneni
+*Dopad*. | Stránky seskočily z boulderu kousek vedle dopadiště. Teď leží a zjišťují, jestli to byl kotník. Za {min} minut budou vědět víc. | Pomoct jim vstát | Opatrně. Gravitace je svinstvo. | zraneni
+Stránky *v sádře*. | Stránky mají ruku v sádře a celý den jim na ni všichni píšou vzkazy. Za {min} minut ji sundají. | Napsat vzkaz na sádru | Něco slušného. Je to na veřejnosti. | zraneni
+*Kůže* dole. | Stránky si na lištách sedřely kůži na prstech. Lepí se páskou, hotovo za {min} minut. | Podat pásku | Bude to štípat. Vás, ne je. | zraneni
+*Ovázáno*. | Stránky dostaly Jednorožce za zranění a teď se s ním fotí. Za {min} minut se vrátí, i s obvazem. | Vyrušit focení | Na fotce budete rozmazaní. | zraneni
+*Strupy*. | Stránky čekají, až jim zaschnou strupy na prstech. Bez toho neudrží ani myš. Ještě {min} minut. | Podat lepicí pásku | Bílou. Barevná je na zóny. | zraneni
+*Rehabilitace*. | Stránky mají rehabilitaci. Doktor jim zakázal převisy, tak lezou kolmáč. Za {min} minut je pustí. | Vzít je na čtyřicítku | Doktor to neschvaluje. Stránky ano. | zraneni
+
+# ===== STAVBA =====
+*Přestavba.* | Stránky se zkoušely vejít na MoonBoard. Nevešly se. Probíhá přestavba garáže, hotovo za {min} minut. | Vlézt na staveniště | Bez helmy na vlastní nebezpečí. Gravitace je svinstvo. | stavba
+Web *na cestě*. | Web odjel kamionem do Velkého Meziříčí pro dopadiště. A pro do-dopadiště. A pro do-do-dopadiště. Bude zpátky za {min} minut. | Zastavit kamion | Řidič neumí parkovat. Uhněte. | stavba
+*Brigáda*. | Probíhá brigáda: vyklidit bordel, očistit zdi, vymést, vyplet vjezd. Web má koště v ruce ještě {min} minut. | Přiložit ruku k dílu | Dostanete lopatku. Tu horší. | stavba
+*Trámy*. | Stránky zrovna hoblují trámy. Někdo konečně sehnal hoblík. Hotovo za {min} minut. | Podržet trám | Na druhém konci. Tam, kde to padá. | stavba
+Třetí *garáž*. | Stránky jednají o třetí garáži. Návod je přitom jasný: třetí garáž nepořizujte. Jednání skončí za {min} minut. | Vstoupit do jednání | Stejně podepíšete. | stavba
+*Lešení*. | Stránky stojí na lešení, které nikdo nedrží. Slézt chtějí za {min} minut, pokud lešení vydrží. | Podržet lešení | Hlavně nekýchat. | stavba
+*Překližka*. | Dorazilo dvacet desek překližky a stránky je nosí do garáže. Práce zbývá ještě na {min} minut. | Vzít jednu desku | Dvě ruce. Na desku i na záda. | stavba
+
+# ===== ROZHODČÍ =====
+Rozhodčí *zasedají*. | Rozhodčí zavřeli web, protože jim nikdo nedal úplatek. Otevřou za {min} minut, nebo hned, když se domluvíme. | Podplatit rozhodčí | Pusa stačí. Doložený precedens z roku 2023. | rozhodci
+*Tajný úkol*. | Stránky plní tajný úkol. Nesmí říct jaký. Za {min} minut vám to rozhodčí možná prozradí. | Prozradit úkol | Za tajné úkoly je dohromady nejvýš pět bodů. Nestojí to za to. | rozhodci
+*Rozřazení*. | Stránky mají stejně bodů jako jiné stránky. Rozhodnou piva, a když ani to ne, rozhodčí. Verdikt za {min} minut. | Ovlivnit verdikt | Výše úplatku je na vás. | rozhodci
+*Kontrola karet*. | Rozhodčí kontrolují závodní karty. Stránky si napsaly 14 piv a nikdo tomu nevěří. Kontrola potrvá ještě {min} minut. | Dosvědčit | Křivé svědectví se trestá pivem. | rozhodci
+Rozhodčí *mají pauzu*. | Rozhodčí mají pauzu a bez nich nic neplatí. Ani tenhle web. Vrátí se za {min} minut. | Přinést rozhodčím pivo | To se počítá jako úplatek. Správně. | rozhodci
+Rozhodčí *nevidí*. | Rozhodčí se zrovna dívají jinam. Stránky toho využívají a dopisují si body. Rozhodčí se otočí za {min} minut. | Nahlásit podvod | Udavač dostane mínus bod. A pivo. | rozhodci
+*Bez úplatku*. | Rozhodčí dnes úplatky nepřijímají. Prý jen ještě {min} minut, pak to zase půjde. | Zkusit to i tak | Pusa na tvář se nepočítá. | rozhodci
+
+# ===== ZÁVODY =====
+*Nedostavil se.* | Kdo nepřijde na vyhlášení, přichází o umístění. Web na vyhlášení nepřišel. Zpátky do pořadí se může přihlásit za {min} minut. | Dotáhnout ho tam za ucho | Bude dělat, že vás nezná. | zavody
+*Hodina* běží. | Stránky si zapsaly start na kartu a mají hodinu na všechno. Zbývá jim {min} minut. Nerušit. | Vyrušit závodníka | Spolupráce je povolená. Vyrušování bohužel taky. | zavody
+*Vyhlášení*. | Probíhá vyhlášení výsledků. Kdo tam není, o umístění přichází. Stránky tam jsou. Vy ne. Hotovo za {min} minut. | Doběhnout na vyhlášení | Pozdě, ale zkusit to můžete. | zavody
+Kategorie *NeLezci*. | Stránky se přihlásily do NeLezců. Jenže mají moc bodů a rozhodčí řeší, jestli tam smí zůstat. Rozhodnuto za {min} minut. | Obhájit je | Hlavně nepřiznávejte, že loni lezly. | zavody
+*Medaile*? | Stránky čekají na medaili. Dřív se vítězům věšel na krk meloun, tak si to ještě rozmýšlejí. Za {min} minut se rozhodnou. | Vybrat za ně | Ananas, nebo dýně? | zavody
+*Startovné*. | Bez zaplaceného startovného není karta. Stránky ho zrovna shánějí, tak za {min} minut. | Zaplatit za ně | Pět stovek. Vracíme jen v pivu. | zavody
+*Bez dopadiště*. | Stránky lezou jako na prvních závodech: úplně bez dopadiště. Opatrně slézají už {min} minut. | Podložit jim matraci | Na prvních závodech to taky nikdo neudělal. | zavody
+*Rekord*. | Stránky útočí na bodový rekord: 66 bodů. Za {min} minut se uvidí, jestli padl. | Přidat jim bod | Jen přes úplatek. Však víte. | zavody
+
+# ===== LEZENÍ =====
+Stránky *lezou*. | Omlouváme se, ale stránky si šly na BG zalízt. Za {min} minut jsou zpět a budou se vám věnovat. | Přivolat stránky | Nebudou nadšené, že je rušíte od lezby. | lezeni
+*Vylezeno.* | Web zrovna někdo celý vylezl a pořadatelé jsou nasraní. Za {min} minut bude přestavěný tak, aby to už nikdo nedal. | Zkusit to stejně | Rozhodčí vás budou sledovat. | lezeni
+Na *MoonBoardu*. | Stránky visí na MoonBoardu, převis 40 stupňů. Ještě {min} minut, než je to pustí. | Podržet je za nohy | Neříká se tomu jištění, ale berte. | lezeni
+*Kampus*. | Stránky dělají kampusovku. Nohy nepoužívají, mozek taky ne. Hotovo za {min} minut. | Podat jim magnézko | Prosí bez komentářů ke stylu. | lezeni
+*Spára*. | Stránky jsou zaseklé ve spáře. Rukavice jsou povolené, rozum ne. Vyprošťování potrvá {min} minut. | Vytáhnout je | Za nohy, ne za ruku. Ta je ve spáře. | lezeni
+*Projekt*. | Stránky mají projekt na čtyřicítce a už ho skoro mají. Zkoušet to budou ještě {min} minut. | Dát jim betu | Nechtějí. Chtějí na to přijít samy. | lezeni
+*Spoďák*. | Stránky visí ze spoďáku a nemůžou dál. Tak tu budou viset ještě {min} minut. | Podat jim ruku | Spoďák se drží zespodu. Ruka taky. | lezeni
+*Kolmáč*. | Stránky se rozlézají na kolmáči. Rozlezení trvá {min} minut, jinak to bolí. | Přeskočit rozlezení | Pak to bude bolet vás. | lezeni
+
+# ===== DENÍK =====
+Web je *v koši*. | Web je zrovna v koši. Někdy tam vydrží 10 dní, tentokrát jen {min} minut. Pak ho někdo vytáhne. | Vytáhnout ho sám | Dost smrdí, tak pozor. | denik
+*Zápis*. | Stránky zapisují do stavebního deníku dnešní den. Píšou pomalu a hodně škrtají. Hotovo za {min} minut. | Nakouknout do deníku | Nečtěte jim přes rameno. | denik
+*Škrtnuto*. | Stránky byly škrtnuty. Neví se proč, v deníku je u toho jen otazník. Za {min} minut je někdo odškrtne. | Odškrtnout je | Na vlastní zodpovědnost. | denik
+Den *91*. | Deník skončil devadesátým dnem. Stránky píšou den devadesátý první a nejde jim to. Ještě {min} minut. | Poradit jim | Stačí napsat: „Už na to serte.“ | denik
+*Nástěnka*. | Stránky visí na nástěnce vedle mapy garáže. Sundají je za {min} minut. | Strhnout je | Připínáček je ostrý. | denik
+*Kočička*. | V deníku stojí: „Přitáhl si kočičku a hovno dělal.“ Stránky dělají totéž. Ještě {min} minut. | Vyrušit je | Nedělejte to. Fakt. | denik
+*Nečitelné*. | Stránky přepisují deník a narazily na slovo, které nikdo nepřečte. Luští ho už {min} minut. | Pomoct luštit | Nejspíš je tam „pivo“. Většinou je. | denik
+
+# ===== PUNK =====
+Web *na to sere*. | Web na to momentálně sere. Za {min} minut ho to možná přejde. | Přemluvit ho | Dlouho jsme na to srali, ale vy jste furt chodili. | punk
+*Pauza*. | Stránky mají pauzu. Neví se, na co. Za {min} minut se to možná dozvíme. | Zeptat se proč | Odpověď zní „protože“. | punk
+*Zavřeno*. | Stránky mají otevřeno po telefonické domluvě. Zrovna nikdo nebere telefon. Zkuste to za {min} minut. | Volat znovu | Napište SMS. Taky ji nepřečtou. | punk
+*Fotbálek*. | Stránky jsou ve druhé garáži u fotbálku. Prohrávají, takže to bude ještě {min} minut. | Vyzvat je | Bez točení, jinak to neplatí. | punk
+Web *nefunguje*. | Web nefunguje. Je to záměr. Asi. Za {min} minut to zjistíme. | Opravit to | Nepomůže to. Ale hezký pokus. | punk
+*Zákaz kouření*. | Na boulderovce se nesmí kouřit. Stránky si šly zapálit ven a vrátí se za {min} minut. | Zavolat je dovnitř | Poslední cigáro chutná hořkosladce. | punk
+
+# ===== KLÍČE =====
+*Klíč*? | Stránky hledají klíč od garáže. Rozdalo se jich sto, ale zrovna nikdo nemá ten svůj u sebe. Najdou ho za {min} minut. | Půjčit jim svůj | Musíte vypadat normálně. | klice
+*Zamčeno*. | Klíč dostane každý, kdo chce a vypadá normálně. Stránky normálně nevypadají. Řeší se to, hotovo za {min} minut. | Zaručit se za ně | Za jejich normálnost ručíte vy. | klice
+Nové *zámky*. | Měnily se zámky a stránky ještě nemají nový klíč. Kopie bude hotová za {min} minut. | Prolézt oknem | Tohle jsme neviděli. | klice
+*Kopie*. | Stránky jsou v zámečnictví a nechávají si udělat kopii klíče. Šest kusů, jako minule. Za {min} minut zpátky. | Objednat si taky | Stojí to šest piv. | klice
+*Zabouchnuto*. | Stránky si zabouchly klíče uvnitř garáže. Volají každému, kdo nějaký má. Za {min} minut to někdo zvedne. | Přijet s klíčem | Je to sto lidí. Někdo to vezme. | klice
+*Klíč nesedí*. | Stránky zkoušejí jeden klíč za druhým a žádný nesedí. Za {min} minut to vzdají a zazvoní. | Zkusit ten svůj | Kroutit doleva. Nebo doprava. | klice
+*Rohožka*. | Stránky schovaly klíč pod rohožku a teď nemůžou najít rohožku. Hledání potrvá {min} minut. | Hledat s nimi | Rohožku nemáme. Asi proto. | klice
+
+# ===== OSLAVA =====
+*Narozeniny*. | Stránky slaví narozeniny. Jako každé závody, které jsou ve skutečnosti něčí narozeniny. Dort, pípa, gril. Zpátky za {min} minut. | Přidat se k oslavě | Dárek je povinný. Pivo stačí. | oslava
+*Zvukovka*. | Kapela má zvukovku a stránky ladí basu. Zní to strašně ještě {min} minut. | Vypnout jim zesilovač | Budou hrát akusticky. Hlasitěji. | oslava
+*Gril*. | Stránky stojí u grilu a odmítají odejít, dokud to nebude hotové. To bude za {min} minut. | Ukrást klobásu | Rozhodčí to vidí. Bude to stát bod. | oslava
+*Vedro*. | Je ukrutný vedro a stránky se venku kropí hadicí. Uschnou za {min} minut. | Postříkat je víc | Rády. Hlavně ne monitor. | oslava
+*Přespání*. | Stránky přespávají na garáži. Po pípě, grilu a hudbě se jim nechce vstávat. Probudí se za {min} minut. | Vzbudit je | Na vlastní nebezpečí. Ráno jsou nevrlé. | oslava
+*Dort*. | Stránky krájí narozeninový dort. Kousků je víc než lidí, ale míň než piv. Za {min} minut je rozdáno. | Vzít si kousek | Bez svíčky. Ta šla na stěnu. | oslava
+*Koncert*. | Hraje kapela a stránky pogujou na dopadišti. Konec setu za {min} minut. | Přidat se do kotle | Pozor, dopadiště je místy prošlapané. | oslava
+*Kocovina*. | Je ráno po závodech a stránky hledají vodu, boty a důstojnost. Aspoň vodu najdou za {min} minut. | Přinést rohlík | A elektrolyty. Hodně. | oslava
+
+# ===== CHYTY =====
+*Přelepujeme*. | Stránky se přelepují. Staré chyty dolů, nové nahoru, všechno barevně. Hotovo za {min} minut. | Podat šroubovák | Imbus. Šroubovák nikdo nenajde. | chyty
+*Bludišťák*. | Stránky se zamotaly do bludišťáku a hledají cestu ven. Mapa neexistuje. Venku budou za {min} minut. | Navigovat je | Doleva. Ne, tu druhou levou. | chyty
+*Květináč*. | Stránky drží květináč. Ten chyt, ne opravdový. Pustí za {min} minut. | Zalít je | Chyty se nezalévají. Stránky ano. | chyty
+*Hadi*. | Stránky se pustily hadů. Hadi se nepustili stránek. Situace se vyřeší za {min} minut. | Přerušit souboj | Hadi jsou z pryskyřice, nekoušou. Většinou. | chyty
+*Lišta*. | Stránky drží lištu dvěma články prstů. Víc se tam nevejde. Ještě {min} minut. | Podržet je | Na liště jsou dva moc. | chyty
+
+# ===== KASA =====
+*Kasička*. | Stránky vybírají do BG kasičky. Na provoz, na chyty, na pivo. Vybráno bude za {min} minut. | Přispět | Hodí se mince. Knoflíky ne. | kasa
+*Účty*. | Stránky počítají, kolik stála stěna. Podle deníku přes dvě stě tisíc. Přepočítávají to už {min} minut a pořád tomu nevěří. | Pomoct počítat | Radši ne. Je to smutné číslo. | kasa
+*Trička*. | Stránky počítají trička: deset XL, dvacet L, deset M. Jedno chybí. Hledají ho {min} minut. | Vrátit tričko | Máte ho na sobě. Vidíme vás. | kasa
+*Na třetiny*. | Náklady na stěnu se dělily na třetiny. Stránky zjišťují, kdo je ta třetí třetina. Zjištěno za {min} minut. | Přihlásit se | Gratulujeme, dlužíte nám. | kasa
+*Platí se*. | Stránky stojí u pokladny a zjistily, že startovné vzrostlo na pět stovek. Vzpamatují se za {min} minut. | Zaplatit i tak | Šampioni mají vstup zdarma. Vy ne. | kasa
+
+# ===== TECHNIKA =====
+*Jistič*. | Někdo zapnul fukar, konvici a všechna světla naráz. Stránky hledají jistič. Světlo bude za {min} minut. | Posvítit mobilem | Baterka je vpravo nahoře. Jistič vlevo dole. | technika
+*Wifi*. | Na garáži se konečně zavádí wifi. Stránky leží pod stropem s kabelem v zubech. Připojeno za {min} minut. | Zjistit heslo | Heslo je „pivo“. Ne, není. | technika
+*Elektroměr*. | Přišel pán odečíst elektroměr. Stránky dělají, že nejsou doma. Odejde za {min} minut. | Otevřít mu | Neotvírejte. Fakt ne. | technika
+*Topení*. | V garáži je zima a stránky čekají, až se rozjede plynová bomba. To bude za {min} minut. | Přiložit | Bombě se nepřikládá. Jen se jí nadává. | technika
+*Vysavač*. | Stránky luxují magnézko. Je ho všude a vysavač ho jen přesouvá. Ještě {min} minut. | Vysypat sáček | Do koše. Ne na dopadiště. | technika
+
+# ===== POUČENÍ =====
+*Poučení*. | Než vás stránky pustí, musíte podepsat poučení. Čtou vám ho nahlas a mají za sebou polovinu. Zbývá {min} minut. | Podepsat bez čtení | Všichni to tak dělají. Proto je tam ta gravitace. | pouceni
+*Vlastní blbost*. | Stránky se zranily vlastní blbostí. Podle poučení je to jejich věc. Za {min} minut si to přiznají. | Utěšit je | Blbost jiného lezce je v poučení taky. Pozor. | pouceni
+*Gravitace*. | Gravitace je svinstvo. Stránky to právě ověřily z vrcholu boulderu. Vstanou za {min} minut. | Vypnout gravitaci | Zkoušeli jsme. Nejde to. | pouceni
+*Intoxikace*. | Stránky jsou intoxikované alkoholem, což poučení výslovně zmiňuje. Vystřízliví za {min} minut. Odhadem. | Dát jim vodu | Vodu nechtějí. Chtějí body. | pouceni
+*Fyzikální zákony*. | Stránky se hádají s fyzikálními zákony. Zatím prohrávají. Hádka skončí za {min} minut. | Přidat se na stranu stránek | Fyzika nebere úplatky. Jako jediná. | pouceni
+
+# ===== WEB =====
+*Připravujeme*. | Web se pořád připravuje. Je to tak od začátku a je to tak dobře. Ještě {min} minut a možná se dopřipraví. | Popohnat ho | Připravujeme i tohle tlačítko. | web
+*Kód*. | Web zrovna píše svůj vlastní kód a nevychází mu to. Za {min} minut to zkusí znova. | Poradit mu | Zkoušeli jste ho vypnout a zapnout? My taky. | web
+*404*. | Stránka nenalezena. Web ji hledá v druhé garáži u fotbálku. Najde ji za {min} minut. | Hledat taky | Pod fotbálkem jsme už koukali. | web
+
+# ===== KRYSY =====
+Stránky *mají krysy*. | Na garáži jsou zase krysy. Stránky je vyhánějí koštětem a krysy se nedají. Za {min} minut se uvidí, kdo vyhrál. | Přinést past | Past už tam je. Krysy na ní spí. | krysy
+*Ve spacáku*. | Stránky spaly na garáži a ve spacáku jim přistála krysa. Teď se obě bojí vylézt. Za {min} minut to někdo zkusí první. | Rozepnout spacák | Pomalu. Ona se bojí víc než vy. Asi. | krysy
+*Nájemníci*. | Krysy si na garáži platí nájem jen v drobcích. Stránky s nimi zrovna jednají o vystěhování. Jednání potrvá {min} minut. | Podepsat výpověď | Krysy neumí číst. Stejně neodejdou. | krysy
+*Krysí cesta*. | Krysa vylezla bouldery pro NeLezce a teď se hlásí do Pumpiček. Rozhodčí to řeší ještě {min} minut. | Dát jí bod | Bez úplatku to nepůjde. Ona má sýr. | krysy
+Kdo to *snědl*? | Někdo snědl klobásu z grilu. Stránky podezírají krysy a krysy podezírají stránky. Vyšetřování skončí za {min} minut. | Přiznat se | Drobky máte na triku. | krysy
+Prší *na plech*. | Stránky poslouchají déšť na střeše garáže a nechce se jim nic. Za {min} minut se možná zvednou. | Vyrušit je od deště | Budou mrzuté. Mokro je mrzí. | dest
+Pískovec *za mokra* nelez. | Venku prší, tak se všichni nahrnuli na garáž. Stránky se tam taky schovaly. Zpátky za {min} minut. | Prodrat se dovnitř | Je tam narváno a zpocený. | dest
+Stránky suší *ponožky*. | Po celé garáži visí mokrý věci z venku. Ještě {min} minut a budou suché. Asi. | Projít mezi ponožkama | Neříkejte, že jsme vás nevarovali. | dest
+*Duha* nebude. | Stránky čekaly na duhu. Nepřišla. Teď jsou smutné ještě {min} minut. | Utěšit stránky | Utěšovat se bude špatně, jsou mokré. | dest
+Mokrý *chyty*. | Někdo přišel z deště a nenamagnezoval se. Stránky teď všechno utírají. Za {min} minut je hotovo. | Přinést hadr | Hadr je taky mokrej. | dest
+Venku *slejvák*. | Stránky nechtějí ven a vy byste neměli chtít dovnitř. Ještě {min} minut. | Chtít dovnitř stejně | Stránky vám to nezapomenou. | dest
+*Plískanice*. | Stránky leží pod dekou a koukají, jak prší. Do konce chvilky zbývá {min} minut. | Strhnout deku | Budou vám to vyčítat. Dlouho. | dest
+Bláto *všude*. | Někdo se nepřezul a stránky vytírají. Za {min} minut bude sucho. | Přejít po mokrým | Nechte tam stopy a uvidíte. | dest
+Stránky jsou *na Vysokáči*. | Je hezky, takže stránky vzaly matraci a šly ven. Za {min} minut jsou zpátky. Možná. | Zavolat je zpátky | Budou naštvané, zrovna měly projekt. | vysokac
+*Venku* je hezky. | A vy čtete web? Stránky jsou na skalách. Vraťte se za {min} minut, nebo radši vůbec. | Zůstat u počítače | Stránky to vidí. | vysokac
+Šly na *písek*. | Stránky lezou pískovec na Vysokáči a nemají signál. Ještě {min} minut. | Dovolat se jim | Telefon se jim v kapse třese, ale nevezmou to. | vysokac
+*Tření* jak blázen. | Sucho, slunko, ideální tření. Stránky to nemůžou propásnout. Zpátky za {min} minut. | Vyrušit je na skále | Nikdo nemá rád, když se mu mluví do pokusu. | vysokac
+Stránky *spotují*. | Na Vysokáči je potřeba někoho chytat, tak stránky stojí pod balvanem s rukama nahoře. Ještě {min} minut. | Odvolat spotra | Když teď odejdou, někdo spadne. Na vás. | vysokac
+*Okruh* po balvanech. | Stránky jedou okruh na Vysokáči. Za {min} minut budou u posledního balvanu. | Zkrátit jim to | Pak vám budou vyprávět, co všechno nestihly. | vysokac
+Sluníčko *svítí*. | Stránky se opalují na balvanu a nic nedělají. Zbývá jim {min} minut. | Zastínit je | Spálené a naštvané stránky. Gratulujeme. | vysokac
+*Pokus* číslo 47. | Stránky mají na Vysokáči projekt a nevzdají se. Ještě {min} minut a buď to dají, nebo brečí. | Vytrhnout je z pokusu | Jestli to nedaly, je to vaše vina. | vysokac
+Stránky *spí*. | Je noc a stránky leží ve spacáku na garáži. Vstávají v šest. | Vzbudit stránky | Ráno to budou vědět všichni. | noc
+*Psst.* | Všichni spí. I stránky. Hlavně je nebuďte, ráno nebudou k ničemu. | Vzbudit stejně | Ráno vám to všichni spočítají. | noc
+*Chrrr*. | Stránky chrápou jak dřevorubec. Do šesti se nic neděje. | Šťouchnout do nich | Budou nevrlé celé dopoledne. | noc
+Noční *klid*. | Na garáži se zhaslo. Stránky usnuly na žíněnce a ani se nepřikryly. | Rozsvítit | Rozsvítíte jim. Všem. | noc
+Ještě *ne*. | Stránky spí. Kdo je vzbudí, kazí ráno všem ostatním. | Vzbudit a kazit | Ráno se ukáže, kolik bylo hodin. | noc
+*Spacák* zavřenej. | Stránky se zavřely do spacáku a nevylezou. Zkuste to po šesté. | Rozepnout spacák | Uvnitř může být krysa. | noc
+*Pozdě* v noci. | Teď se nevolá, nepíše a nenačítá. Stránky spí do šesti. | Načíst i tak | Zapíšeme si čas. | noc
+*Zítra* je taky den. | Stránky jdou spát. Vy byste taky měli. | Nejít spát | Ráno uvidíte, kdo byl vzhůru. | noc
+*Bouřka*. | Stránky se schovaly pod žíněnku a počítají vteřiny mezi bleskem a hromem. Vylezou za {min} minut. | Vytáhnout je | Kdyby to do vás praštilo, nebudeme se divit. | bourka
+Vypnuto *kvůli blesku*. | Za bouřky se počítače vypínají. Stránky to poctivě dodržují ještě {min} minut. | Zapnout je stejně | Na vlastní nebezpečí. Fakt. | bourka
+*Prásk*. | Zahřmělo tak, že stránky spadly ze stěny. Sbírají se ještě {min} minut. | Pomoct jim vstát | Až zase zahřmí, spadnete taky. | bourka
+*Slejvák* jak z konve. | Venku se valí voda a stránky drží vrata garáže, ať to nenateče dovnitř. Ještě {min} minut. | Otevřít vrata | Pak to vytíráte vy. | bourka
+Nebe *se zbláznilo*. | Stránky sedí na garáži, koukají na blesky a mají to za trest. Za {min} minut se to snad přežene. | Vyrušit je z trestu | Trest se tím prodlužuje. Vám. | bourka
+*Sněží*. | Stránky odhrnují sníh před garáží. Za {min} minut budou mít zmrzlé ruce a ještě horší náladu. | Podat jim lopatu | Lopata je jedna a je jejich. | snih
+Zase *ten sníh*. | Stránky nesnáší sníh. Je studenej, mokrej a bílej. Rozmrznou za {min} minut. | Hodit po nich koulí | Vrátí vám to. I s úroky. | snih
+*Zapadáno*. | Vrata garáže jsou zavátá a stránky zůstaly uvnitř. Prohrabou se za {min} minut. | Prokopat se dovnitř | Uvnitř je stejná zima jako venku. | snih
+Bílá *tma*. | Venku není vidět na krok. Stránky čekají, až přestane. Ještě {min} minut. | Vejít do vánice | Nehledejte nás. Nenajdete. | snih
+*Sněhulák*. | Stránky staví sněhuláka místo práce. Za {min} minut bude hotový a stejně ošklivý. | Zbourat sněhuláka | Stránky si to zapamatujou. | snih
+*Mrzne*. | Na garáži je taková zima, že magnézko zmrzlo na kámen. Stránky se zahřívají ještě {min} minut. | Zahřát je | Ruce mají ledový. Nechcete to. | mraz
+Chyty *jak led*. | Za mrazu se chyty nedají držet a stránky to nesnáší. Zkuste to za {min} minut. | Chytit se stejně | Prsty vám upadnou. My za to nemůžem. | mraz
+*Klepou se*. | Stránky se klepou zimou a nedokážou napsat ani slovo. Rozmrznou za {min} minut. | Přinést deku | Deka je ve spacáku a ve spacáku je krysa. | mraz
+Pod *nulou*. | Stránky přemýšlí, jestli už je dost zima na to, aby se nemuselo lézt. Je. Ještě {min} minut. | Přesvědčit je | Neprošlo by to ani v létě. | mraz
+*Zamrzlo* to. | Zamrzl zámek od garáže, zamrzlo pivo, zamrzly stránky. Rozmrazujeme ještě {min} minut. | Dýchnout na zámek | Je to trapný. Ale zkuste to. | mraz
+*Vedro*. | Stránky se rozteklé válí na žíněnce a čekají na zimu. Za {min} minut se seberou. Možná. | Zvednout je | Lepí se. Fakt hodně. | vedro
+Chyty *kloužou*. | Je takový vedro, že se nedá nic udržet. Stránky čekají, až se ochladí. Ještě {min} minut. | Lézt stejně | Pot se z chytů špatně utírá. | vedro
+*Trouba*. | Garáž je na slunci rozpálená jak trouba. Stránky se tam pečou ještě {min} minut. | Otevřít vrata | Dovnitř to stejně nefouká. | vedro
+Kde je *zima*, když je potřeba? | Stránky si stěžují na vedro. V zimě si budou stěžovat na zimu. Teď ještě {min} minut. | Stěžovat si s nimi | Vítejte v klubu. | vedro
+*Pivo* se ohřívá. | Stránky zachraňují pivo před vedrem. Akce potrvá {min} minut. | Pomoct se záchranou | Víme, jak to myslíte. | vedro
+*Dusno*. | Na garáži se nedá dýchat a stránky leží jak vyplavené ryby. Ještě {min} minut. | Otevřít okno | Okno nepomůže. Nic nepomůže. | dusno
+Zapocený *stránky*. | Je takové dusno, že se stránky potí, i když nic nedělají. Osuší se za {min} minut. | Podat ručník | Ručník je taky mokrej. | dusno
+Něco *visí ve vzduchu*. | Bude bouřka, nebude bouřka. Stránky čekají a potí se. Ještě {min} minut. | Přestat čekat | Stejně to nepřijde. Nebo jo. | dusno
+*Prádelna*. | Vlhko jako v prádelně a stránky z toho mají hlavu jak meloun. Ještě {min} minut. | Vejít do vlhka | Brýle se vám zamlží. Varovali jsme vás. | dusno
+*Lepí* se to. | Všechno se lepí: chyty, magnézko, stránky. Odlepí se za {min} minut. | Odlepit stránky | Lepí se i na vás. | dusno
+*Mlha*. | Stránky se ztratily v mlze cestou na garáž. Najdou se za {min} minut. | Jít je hledat | Neberte si nic bílýho. | mlha
+Není vidět *ani chyt*. | V mlze stránky nevidí, kam lezou. Počkají, až se rozplyne. Ještě {min} minut. | Lézt naslepo | Kdo leze naslepo, padá taky naslepo. | mlha
+*Šedá* tma. | Mlha jak mléko a stránky z toho mají depku. Za {min} minut se to snad zvedne. | Rozehnat mlhu | Zkoušeli jsme to. Nejde to. | mlha
+*Kdo* tam? | Stránky v mlze slyší kroky a nikoho nevidí. Radši se zamkly. Odemknou za {min} minut. | Zaklepat | Lekly se. Teď tam budou déle. | mlha
+Mlhavě *jasno*. | Předpověď slibovala jasno. Stránky jsou zklamané a čekají na lepší předpověď. Ještě {min} minut. | Věřit předpovědi | Nevěřte předpovědi. Nikdy. | mlha
+*Fouká*. | Vítr shodil stránky ze stěny a teď je honí po parkovišti. Chytí je za {min} minut. | Pomoct chytat | Fouká i na vás. | vitr
+Vrata *bouchají*. | Vítr mlátí s vraty garáže a stránky je drží. Ještě {min} minut. | Pustit vrata | Bum. Viděli jste to. | vitr
+*Ofouklo* to. | Stránkám ulétly všechny papíry. Sbírají je ještě {min} minut. | Přinést kámen na zatížení | Kámen ulétl taky. | vitr
+*Průvan*. | Fouká tak, že stránky mají vlasy v puse a náladu pod nulou. Ještě {min} minut. | Zavřít za sebou | Průvan. Hned je to horší. | vitr
+*Ulítly*. | Stránky se nechaly odfouknout až k Máchovu jezeru. Vrátí se za {min} minut. | Zavolat je zpátky | Proti větru vás neslyší. | vitr
+*Polojasno*. | Stránky neví, jestli si vzít bundu, nebo kraťasy, tak radši zůstaly doma. Rozhodnou se za {min} minut. | Rozhodnout za ně | Ať vyberete cokoli, bude to špatně. | polojasno
+*Napůl*. | Napůl slunce, napůl mraky. Stránky z toho mají napůl náladu. Ještě {min} minut. | Vzít to napůl | Napůl vás pustíme. | polojasno
+Počasí *bez názoru*. | Stránky nesnáší počasí, které se neumí rozhodnout. Čekají, až se rozhodne. Ještě {min} minut. | Přestat čekat | Počasí se nerozhodne. Nikdy. | polojasno
+*Mikina* sem, mikina tam. | Slunce, mrak, slunce. Stránky pořád sundávají a oblékají mikinu. Za {min} minut je to přestane bavit. | Podržet mikinu | Je zpocená. A studená. | polojasno
+*Možná* sluníčko. | Na Vysokáč se nejde, protože možná zaprší. Na garáž se nejde, protože možná bude hezky. Stránky čekají ještě {min} minut. | Vybrat za ně | Vyberete špatně. | polojasno
+*Zataženo*. | Celé nebe šedivé a stránky taky. Barvy se vrátí za {min} minut. | Vyrušit šedivé stránky | Jsou šedivé i uvnitř. | zatazeno
+Bez *sluníčka*. | Stránky nemají vitamín D a nechce se jim žít. Ještě {min} minut. | Rozveselit je | Nezkoušejte vtipy. Nejsou na ně. | zatazeno
+*Deka* na nebi. | Mraky visí nízko a stránky taky. Zvednou se za {min} minut. | Zvednout je | Níž už to nejde. | zatazeno
+Ani *neprší*. | Kdyby aspoň pršelo, bylo by na co nadávat. Stránky si to rozmýšlí ještě {min} minut. | Nadávat s nimi | Konečně někdo rozumnej. | zatazeno
+*Šedivo*. | Venku šedivo, uvnitř šedivo, stránky šedivé. Za {min} minut to bude stejné. | Vejít do šedivé | Šedivá vám nesluší. | zatazeno
+*Nízký tlak*. | Stránky mají biozátěž a leží. Vstanou za {min} minut, jestli to přežijou. | Zvednout je | Budou vám to dávat sežrat. | tlak
+*Hlava* třeští. | Tlak padá a stránkám se točí hlava. Nemluvte na ně ještě {min} minut. | Mluvit na ně stejně | Odpovídat nebudou. | tlak
+*Biozátěž*. | Stránky čtou biometeorologickou předpověď a cítí se o dvacet let starší. Omládnou za {min} minut. | Omladit je | Botox nemáme. | tlak
+Zase *ten tlak*. | Stránky jsou unavené, i když nic nedělaly. To je tím tlakem. Prý. Ještě {min} minut. | Nevěřit jim | Pravdu mají vždycky stránky. | tlak
+*Malátnost*. | Stránky se vlečou jak po závodech, i když žádné nebyly. Seberou se za {min} minut. | Postrčit je | Pomalu. Jsou křehké. | tlak

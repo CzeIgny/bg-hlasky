@@ -1,4 +1,4 @@
-# Hlášky pro vylez.to: pauzy 10–23 (12× po 10 min), ráno 6–10 (pruh), noc 23–6
+# Hlášky pro vylez.to: pauzy 10–23 (12× po 15 min), ráno 6–10 (pruh), noc 23–6
 #
 # Jedna hláška = jeden řádek:
 #   NADPIS | TEXT | TLAČÍTKO | POZNÁMKA | TÉMA

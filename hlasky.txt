@@ -6,7 +6,7 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa
 #           Prázdné nebo neznámé téma = náhodná schválnost.
 #           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
 #
@@ -360,7 +360,7 @@ Dělej | Dělej! |  |  | hra-chyt
 Nohy, nohy | Nohy, nohy! |  |  | hra-chyt
 Drž | Drž! |  |  | hra-chyt
 Ještě kus | Ještě kus! |  |  | hra-chyt
-Pumpuješ | Pumpuješ! |  |  | hra-chyt
+Lez! Natejká ti | Lez! Natejká ti! |  |  | hra-chyt
 Dýchej | Dýchej! |  |  | hra-chyt
 Hezký | Hezký! |  |  | hra-chyt
 Allez | Allez! |  |  | hra-chyt
@@ -513,3 +513,18 @@ Ptačí hnízdo | Ptačí hnízdo |  |  | hra-boulder
 Luxfera | Luxfera |  |  | hra-boulder
 Stále pijeme | Stále pijeme |  |  | hra-boulder
 Molitan z Meziříčí | Molitan z Meziříčí |  |  | hra-boulder
+Já tu byla dřív | Já tu byla dřív. |  |  | hra-krysa
+Mám permanentku | Mám permanentku. |  |  | hra-krysa
+Čí je ten rohlík | Čí je ten rohlík? |  |  | hra-krysa
+Nehoň mě, jen procházím | Nehoň mě, jen procházím. |  |  | hra-krysa
+Vstupný neplatím | Vstupný neplatím. |  |  | hra-krysa
+Lezu líp než ty | Lezu líp než ty. |  |  | hra-krysa
+Kde je pivo | Kde je pivo? |  |  | hra-krysa
+Okousala jsem ti lezečky | Okousala jsem ti lezečky. |  |  | hra-krysa
+5C? Dám bosá | 5C? Dám bosá. |  |  | hra-krysa
+Tohle je můj dopad | Tohle je můj dopad. |  |  | hra-krysa
+Dneska mám rest day | Dneska mám rest day. |  |  | hra-krysa
+Kdo nechal svačinu | Kdo nechal svačinu? |  |  | hra-krysa
+Mágo mi chutná | Mágo mi chutná. |  |  | hra-krysa
+Jsem tu nejstarší člen | Jsem tu nejstarší člen. |  |  | hra-krysa
+Píp. Tak co, dáš to | Píp. Tak co, dáš to? |  |  | hra-krysa

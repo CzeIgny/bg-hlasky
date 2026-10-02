@@ -1,4 +1,4 @@
-# Hlášky pro pauzy na vylez.to (12× denně po 10 min, noc 23–6)
+# Hlášky pro vylez.to: pauzy 10–23 (12× po 10 min), ráno 6–10 (pruh), noc 23–6
 #
 # Jedna hláška = jeden řádek:
 #   NADPIS | TEXT | TLAČÍTKO | POZNÁMKA | TÉMA
@@ -6,7 +6,7 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder
 #           Prázdné nebo neznámé téma = náhodná schválnost.
 #           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
 #
@@ -64,7 +64,7 @@ Kategorie *NeLezci*. | Stránky se přihlásily do NeLezců. Jenže mají moc bo
 Stránky *lezou*. | Omlouváme se, ale stránky si šly na BG zalízt. Za {min} minut jsou zpět a budou se vám věnovat. | Přivolat stránky | Nebudou nadšené, že je rušíte od lezby. | lezeni
 *Vylezeno.* | Web zrovna někdo celý vylezl a pořadatelé jsou nasraní. Za {min} minut bude přestavěný tak, aby to už nikdo nedal. | Zkusit to stejně | Rozhodčí vás budou sledovat. | lezeni
 Na *MoonBoardu*. | Stránky visí na MoonBoardu, převis 40 stupňů. Ještě {min} minut, než je to pustí. | Podržet je za nohy | Neříká se tomu jištění, ale berte. | lezeni
-*Kampus*. | Stránky dělají kampusovku. Nohy nepoužívají, mozek taky ne. Hotovo za {min} minut. | Podat jim magnézko | Prosí bez komentářů ke stylu. | lezeni
+*Kampus*. | Stránky dělají kampusovku. Nohy nepoužívají, mozek taky ne. Hotovo za {min} minut. | Podat jim mágo | Prosí bez komentářů ke stylu. | lezeni
 *Spára*. | Stránky jsou zaseklé ve spáře. Rukavice jsou povolené, rozum ne. Vyprošťování potrvá {min} minut. | Vytáhnout je | Za nohy, ne za ruku. Ta je ve spáře. | lezeni
 *Projekt*. | Stránky mají projekt na čtyřicítce a už ho skoro mají. Zkoušet to budou ještě {min} minut. | Dát jim betu | Nechtějí. Chtějí na to přijít samy. | lezeni
 *Spoďák*. | Stránky visí ze spoďáku a nemůžou dál. Tak tu budou viset ještě {min} minut. | Podat jim ruku | Spoďák se drží zespodu. Ruka taky. | lezeni
@@ -125,7 +125,7 @@ Nové *zámky*. | Měnily se zámky a stránky ještě nemají nový klíč. Kop
 *Wifi*. | Na garáži se konečně zavádí wifi. Stránky leží pod stropem s kabelem v zubech. Připojeno za {min} minut. | Zjistit heslo | Heslo je „pivo“. Ne, není. | technika
 *Elektroměr*. | Přišel pán odečíst elektroměr. Stránky dělají, že nejsou doma. Odejde za {min} minut. | Otevřít mu | Neotvírejte. Fakt ne. | technika
 *Topení*. | V garáži je zima a stránky čekají, až se rozjede plynová bomba. To bude za {min} minut. | Přiložit | Bombě se nepřikládá. Jen se jí nadává. | technika
-*Vysavač*. | Stránky luxují magnézko. Je ho všude a vysavač ho jen přesouvá. Ještě {min} minut. | Vysypat sáček | Do koše. Ne na dopadiště. | technika
+*Vysavač*. | Stránky luxují mágo. Je ho všude a vysavač ho jen přesouvá. Ještě {min} minut. | Vysypat sáček | Do koše. Ne na dopadiště. | technika
 
 # ===== POUČENÍ =====
 *Poučení*. | Než vás stránky pustí, musíte podepsat poučení. Čtou vám ho nahlas a mají za sebou polovinu. Zbývá {min} minut. | Podepsat bez čtení | Všichni to tak dělají. Proto je tam ta gravitace. | pouceni
@@ -195,7 +195,7 @@ Nálada *pod převisem*. | Pod čtyřicítkou je vždycky trochu šero. Dneska j
 *Šedá* zóna. | Zóna na stěně je žlutozelená. Venku je dneska jen šedá. Stránky nevědí, kde začít, a čekají ještě {min} minut. | Začít za ně | Start je černá páska. Najdete si ji sami. | zatazeno
 *Mrak* na střeše. | Nad garáží sedí jeden velkej mrak a nehne se. Stránky ho pozorujou a hrajou si na meteorology. Za {min} minut mu dají jméno. | Pojmenovat mrak | Už se jmenuje. Je to nadávka. | zatazeno
 Lezeme *bez stínu*. | Výhoda zatažena: nikomu nesvítí slunce do očí. Nevýhoda: všechno ostatní. Stránky to vyhodnocujou ještě {min} minut. | Vidět to pozitivně | Na garáži to neprojde. | zatazeno
-*Nostalgie*. | Při takovém šedivu stránky listují stavebním deníkem a brečí u zápisu „Už je hnusně a je brzo tma → začnem zas makat“. Makat se jim ale nechce ještě {min} minut. | Podat kapesník | Kapesník je od magnézka. Bude to horší. | zatazeno
+*Nostalgie*. | Při takovém šedivu stránky listují stavebním deníkem a brečí u zápisu „Už je hnusně a je brzo tma → začnem zas makat“. Makat se jim ale nechce ještě {min} minut. | Podat kapesník | Kapesník je od mága. Bude to horší. | zatazeno
 *Fotbálek* místo lezení. | Šedivo venku, šedivo v hlavě. Stránky se přesunuly do druhé garáže k fotbálku a prohrávají. Ještě {min} minut. | Vyzvat je na zápas | Prohrajete taky. To je tradice. | zatazeno
 *Spacákový* počasí. | Je přesně to počasí, kdy se na garáži leze jen do spacáku. Stránky už leží a vylezou za {min} minut. | Rozepnout spacák | Minule tam byla krysa. Opatrně. | zatazeno
 Nebe *bez topu*. | Mraky všude, žádná červená páska v dohledu. Stránky nevědí, kam lézt, a čekají, až se to protrhne. Ještě {min} minut. | Lézt naslepo | Bez topu se to nepočítá. Ani u nás. | zatazeno
@@ -218,7 +218,7 @@ Prší *na plech*. | Stránky poslouchají déšť na střeše garáže a nechce
 Pískovec *za mokra* nelez. | Venku prší, tak se všichni nahrnuli na garáž. Stránky se tam taky schovaly. Zpátky za {min} minut. | Prodrat se dovnitř | Je tam narváno a zpocený. | dest
 Stránky suší *ponožky*. | Po celé garáži visí mokrý věci z venku. Ještě {min} minut a budou suché. Asi. | Projít mezi ponožkama | Neříkejte, že jsme vás nevarovali. | dest
 *Prochcalo* to. | Vrata garáže prosákla už tolikrát, že to má ve stavebním deníku vlastní zápisy. Stránky to zase ucpávají montážní pěnou. Hotovo za {min} minut. | Podat pěnu | Pěna je na rukou. Navždy. | dest
-Mokrý *chyty*. | Někdo přišel z deště a nenamagnezoval se. Stránky teď všechno utírají. Za {min} minut je hotovo. | Přinést hadr | Hadr je taky mokrej. | dest
+Mokrý *chyty*. | Někdo přišel z deště a nenamágoval se. Stránky teď všechno utírají. Za {min} minut je hotovo. | Přinést hadr | Hadr je taky mokrej. | dest
 Venku *slejvák*. | Stránky nechtějí ven a vy byste neměli chtít dovnitř. Ještě {min} minut. | Chtít dovnitř stejně | Stránky vám to nezapomenou. | dest
 *Plískanice*. | Stránky leží pod dekou a koukají, jak prší. Do konce chvilky zbývá {min} minut. | Strhnout deku | Budou vám to vyčítat. Dlouho. | dest
 Bláto *všude*. | Někdo se nepřezul a stránky vytírají. Za {min} minut bude sucho. | Přejít po mokrým | Nechte tam stopy a uvidíte. | dest
@@ -250,7 +250,7 @@ Mlha *nad jezerem*. | Od Máchova jezera se valí mlha a stránky ztratily cestu
 Zapocený *stránky*. | Je takové dusno, že se stránky potí, i když nic nedělají. Osuší se za {min} minut. | Podat ručník | Ručník je taky mokrej. | dusno
 Něco *visí ve vzduchu*. | Bude bouřka, nebude bouřka. Stránky čekají a potí se. Ještě {min} minut. | Přestat čekat | Stejně to nepřijde. Nebo jo. | dusno
 *Spacák* se lepí. | V tomhle dusnu se na garáži přespávat nedá, spacák se lepí na všechno. Stránky se z něj vyprošťují ještě {min} minut. | Pomoct jim ven | Uvnitř je mokro. Nechtějte vědět čím. | dusno
-*Lepí* se to. | Všechno se lepí: chyty, magnézko, stránky. Odlepí se za {min} minut. | Odlepit stránky | Lepí se i na vás. | dusno
+*Lepí* se to. | Všechno se lepí: chyty, mágo, stránky. Odlepí se za {min} minut. | Odlepit stránky | Lepí se i na vás. | dusno
 
 # ===== VEDRO =====
 *Vedro*. | Stránky se rozteklé válí na žíněnce a čekají na zimu. Za {min} minut se seberou. Možná. | Zvednout je | Lepí se. Fakt hodně. | vedro
@@ -268,7 +268,7 @@ Vrata *bouchají*. | Vítr mlátí s vraty garáže a stránky je drží. Ješt�
 *Ulítly*. | Stránky se nechaly odfouknout až k Máchovu jezeru. Vrátí se za {min} minut. | Zavolat je zpátky | Proti větru vás neslyší. | vitr
 
 # ===== MRÁZ =====
-*Mrzne*. | Na garáži je taková zima, že magnézko zmrzlo na kámen. Stránky se zahřívají ještě {min} minut. | Zahřát je | Ruce mají ledový. Nechcete to. | mraz
+*Mrzne*. | Na garáži je taková zima, že mágo zmrzlo na kámen. Stránky se zahřívají ještě {min} minut. | Zahřát je | Ruce mají ledový. Nechcete to. | mraz
 Chyty *jak led*. | Za mrazu se chyty nedají držet a stránky to nesnáší. Zkuste to za {min} minut. | Chytit se stejně | Prsty vám upadnou. My za to nemůžem. | mraz
 *Klepou se*. | Stránky se klepou zimou a nedokážou napsat ani slovo. Rozmrznou za {min} minut. | Přinést deku | Deka je ve spacáku a ve spacáku je krysa. | mraz
 Pod *nulou*. | Stránky přemýšlí, jestli už je dost zima na to, aby se nemuselo lézt. Je. Ještě {min} minut. | Přesvědčit je | Neprošlo by to ani v létě. | mraz
@@ -321,3 +321,195 @@ Spí *jak NeLezec*. | Stránky spí tvrdě jak NeLezec po šesti pivech za hodin
 *Fotbálek* spí. | I fotbálek ve druhé garáži má noc. Panáčci visí hlavou dolů a stránky taky. Do šesti. | Zatočit tyčí | Probudíte celou ulici. | noc
 *Wi-Fi* má noc. | Wi-Fi tu máme, ale v noci nikomu nic nepošle. Stránky jsou offline a spí do šesti. | Připojit se stejně | Heslo ví jen rozhodčí. A ten spí. | noc
 *Ráno* bude kocovina. | Stránky to vědí, a tak spí, dokud to jde. Do šesti je nechte být. | Udělat jim kafe | Rychlovarka je v zázemí. Stránky taky. | noc
+
+# ===== RÁNO — NEVYSPALÉ =====
+*Nevyspalé*. | Někdo nás v noci vzbudil. Bylo {cas}. Jsme nevyspalé a je to jeho vina. |  |  | rano
+*Nevyspalé* hromadně. | V noci nás vzbudili {pocet}×. Poprvé bylo {cas}. Jsme nevyspalé a je to vaše vina. |  |  | rano
+*Bez výkonu*. | Bylo {cas}, když nás někdo vzbudil. Dneska od nás nečekejte žádné výkony. |  |  | rano
+*Bez kafe*. | Kdosi nás v noci budil. Bylo {cas}. Kafe nemáme a náladu taky ne. |  |  | rano
+*Vytaženo* ze spacáku. | Někdo nás v noci vytáhl ze spacáku, bylo {cas}. Nemluvte na nás. |  |  | rano
+*Půl plynu*. | Budíček v noci: {cas}. Dopoledne jedeme na půl plynu. |  |  | rano
+*Hlášení* z noci. | Hlášení z noci: budíček {cas}, pachatel neznámý. Zatím. |  |  | rano
+*Trestnej* bod. | Bylo {cas} a někdo nás vzbudil. Rozhodčí to zapsali jako trestnej bod. Vám. |  |  | rano
+*Dlužíte* pivo. | Někdo nás v noci vytáhl z dopadiště. Bylo {cas}. Zaplatíte to pivem. |  |  | rano
+*Jednorožec* naopak. | Budili nás v noci {pocet}×, poprvé {cas}. Tohle je na Jednorožce, ale ne v dobrým. |  |  | rano
+*Jak po závodech*. | {pocet}× vzbuzené, poprvé {cas}. Jsme nevyspalé jak po závodech, jen bez piva. |  |  | rano
+*Rušná* noc. | V noci tu bylo rušno: budili nás {pocet}×, poprvé {cas}. Dneska bez nás. |  |  | rano
+
+# ===== RÁNO — VYSPALÉ =====
+*Vyspalé*. | Vyspalé do růžova. V noci nás nikdo nebudil. |  |  | vyspale
+*Milé* ráno. | Dobré ráno. Nikdo nás v noci nebudil, tak jsme dneska výjimečně milé. |  |  | vyspale
+*Klid*. | Celou noc klid. Ani krysa nás nebudila. |  |  | vyspale
+*Odpočaté*. | Noc bez budíčku. Stránky jsou odpočaté a těší se, až je zase někdo vyruší. |  |  | vyspale
+*Bod navíc*. | Nikdo v noci nebudil. Rozhodčí to oceňují bodem navíc. |  |  | vyspale
+*Zázrak*. | Ráno bez kocoviny a bez budíčku. Zázrak. |  |  | vyspale
+Spaly jsme jak zabité | Spaly jsme jak zabité. Tedy jak NeLezec po závodech. |  |  | vyspale
+Vyspalé, umyté, nalezené | Vyspalé, umyté, nalezené. Dneska to bude dobrý den. |  |  | vyspale
+Osm hodin spánku | Osm hodin spánku. Na garáži rekord. |  |  | vyspale
+Noc bez budíčku | Noc bez budíčku. Ráno jsme si dokonce ustlaly spacák. |  |  | vyspale
+Nikdo v noci nevolal, nepsal, nebudil | Nikdo v noci nevolal, nepsal, nebudil. Takhle si představujeme lezeckou komunitu. |  |  | vyspale
+Vyspalé do růžova a připravené nechat se | Vyspalé do růžova a připravené nechat se vyrušit. Ale až po desáté. |  |  | vyspale
+Klidná noc | Klidná noc. Jen ptáci, a ti se nepočítají. |  |  | vyspale
+Ráno jak z reklamy: vyspalé, svěží, s či | Ráno jak z reklamy: vyspalé, svěží, s čistým mágem. |  |  | vyspale
+Dobré ráno | Dobré ráno! Dneska to dáme i bez kafe. Asi. |  |  | vyspale
+V noci nás nikdo nebudil | V noci nás nikdo nebudil. Děkujeme, že jste spali taky. |  |  | vyspale
+Hodiny ukazujou šest a my jsme fakt vsta | Hodiny ukazujou šest a my jsme fakt vstaly. Vyspalé. |  |  | vyspale
+
+# ===== HRA — POVZBUZENÍ =====
+Dělej | Dělej! |  |  | hra-chyt
+Nohy, nohy | Nohy, nohy! |  |  | hra-chyt
+Drž | Drž! |  |  | hra-chyt
+Ještě kus | Ještě kus! |  |  | hra-chyt
+Pumpuješ | Pumpuješ! |  |  | hra-chyt
+Dýchej | Dýchej! |  |  | hra-chyt
+Hezký | Hezký! |  |  | hra-chyt
+Allez | Allez! |  |  | hra-chyt
+Neser se s tím | Neser se s tím! |  |  | hra-chyt
+Tohle je přece 6A | Tohle je přece 6A! |  |  | hra-chyt
+Na pivo to máš | Na pivo to máš! |  |  | hra-chyt
+Koukej na nohy, ne na nás | Koukej na nohy, ne na nás! |  |  | hra-chyt
+Rozhodčí koukají | Rozhodčí koukají! |  |  | hra-chyt
+Bubliny jsou tvoje kamarádky | Bubliny jsou tvoje kamarádky! |  |  | hra-chyt
+Ten spoďák drž | Ten spoďák drž! |  |  | hra-chyt
+Fokus vole | Fokus vole! |  |  | hra-chyt
+Fokus | Fokus! |  |  | hra-chyt
+Dejchej | Dejchej! |  |  | hra-chyt
+Pořádně to drž | Pořádně to drž! |  |  | hra-chyt
+Vklidu | Vklidu... |  |  | hra-chyt
+Vklidu | Vklidu... Vklidu... SKOOOČ! |  |  | hra-chyt
+Pooď | Pooď! |  |  | hra-chyt
+Namádžuj | Namádžuj! |  |  | hra-chyt
+Pěkně | Pěkně! Drž! |  |  | hra-chyt
+Drž to | Drž to! |  |  | hra-chyt
+Nepouštěj | Nepouštěj! |  |  | hra-chyt
+Taaak | Taaak! |  |  | hra-chyt
+Zamkni | Zamkni! |  |  | hra-chyt
+Nepadej | Nepadej! |  |  | hra-chyt
+Teď to neposer | Teď to neposer! |  |  | hra-chyt
+Jo | Jo! Máš to! |  |  | hra-chyt
+Jdi si pro to | Jdi si pro to! |  |  | hra-chyt
+Neboj se úspěchu | Neboj se úspěchu. |  |  | hra-chyt
+
+# ===== HRA — PÁD =====
+Bum | Bum. Dopadiště drží. |  |  | hra-pad
+Gravitace je svinstvo | Gravitace je svinstvo. |  |  | hra-pad
+Spadl jsi jak NeLezec po šesti pivech | Spadl jsi jak NeLezec po šesti pivech. |  |  | hra-pad
+To nebyla chyba, to byl úmysl | To nebyla chyba, to byl úmysl. |  |  | hra-pad
+Moonboard je svině | Moonboard je svině. |  |  | hra-pad
+Málo mága | Málo mága. |  |  | hra-pad
+Prošlapaný místo | Prošlapaný místo. Smůla. |  |  | hra-pad
+Rozhodčí to viděli | Rozhodčí to viděli. |  |  | hra-pad
+Na vlastní nebezpečí | Na vlastní nebezpečí. Podepsal jsi to. |  |  | hra-pad
+Tohle si zapíšu do deníku | Tohle si zapíšu do deníku. |  |  | hra-pad
+Aspoň že je tu dopadiště | Aspoň že je tu dopadiště. První závody ho neměly. |  |  | hra-pad
+Krysa se lekla víc než ty | Krysa se lekla víc než ty. |  |  | hra-pad
+To je debil | To je debil, to jsem neviděl. |  |  | hra-pad
+ticho | *ticho* |  |  | hra-pad
+Jáááj | Jáááj! |  |  | hra-pad
+Haha | Haha! |  |  | hra-pad
+Nevadí | Nevadí, borče. |  |  | hra-pad
+Znova | Znova! |  |  | hra-pad
+Proč sis to pustil | Proč sis to pustil? |  |  | hra-pad
+Posrals to | Posrals to. |  |  | hra-pad
+
+# ===== HRA — TOP =====
+Top | Top! Respekt. |  |  | hra-top
+Top | Top! Rozhodčí kývli. |  |  | hra-top
+Dal jsi to | Dal jsi to. Pivo čeká. |  |  | hra-top
+Za tohle by byly body | Za tohle by byly body. Kdyby byly závody. |  |  | hra-top
+Top | Top! Teď ještě slézt. |  |  | hra-top
+Top | Top! Zapiš si to na kartu. |  |  | hra-top
+Top | Top! Tohle by vzali i do Pumpiček. |  |  | hra-top
+
+# ===== HRA — ZRANĚNÍ =====
+Kotník | Kotník. Klasika z roku 2023. |  |  | hra-zraneni
+Malíček | Malíček. Jako v roce 2024. Jednorožec je tvůj. |  |  | hra-zraneni
+Zranění | Zranění. Rozhodčí tě posouvají o místo výš. Tak to u nás chodí. |  |  | hra-zraneni
+Au | Au. Podepsal jsi poučení, tak nebreč. |  |  | hra-zraneni
+Gravitace je svinstvo | Gravitace je svinstvo. Poučení to říkalo. |  |  | hra-zraneni
+Prst do háje | Prst do háje. Kampusovka se směje. |  |  | hra-zraneni
+Tohle chce led | Tohle chce led. Lednice je tu od roku 2019. |  |  | hra-zraneni
+Zraněnej | Zraněnej. Dneska už jen piješ a radíš ostatním. |  |  | hra-zraneni
+Dopadiště je prošlapaný | Dopadiště je prošlapaný. Přesně tady. |  |  | hra-zraneni
+Bolí to | Bolí to? To je dobře, žiješ. |  |  | hra-zraneni
+Vlastní blbost, nebo fyzikální zákony | Vlastní blbost, nebo fyzikální zákony? Poučení kryje obojí. |  |  | hra-zraneni
+
+# ===== HRA — ÚVOD PUMPIČKA =====
+Pumpička | Pumpička? Tak ukaž ty svaly. |  |  | hra-uvod-pumpicka
+Nad 7A, jo | Nad 7A, jo? Moonboard tě zná. |  |  | hra-uvod-pumpicka
+Pumpičky to tu mají nejlehčí | Pumpičky to tu mají nejlehčí. Nikomu to neříkej. |  |  | hra-uvod-pumpicka
+Kampusovka ti závidí | Kampusovka ti závidí. |  |  | hra-uvod-pumpicka
+Rozlezenej | Rozlezenej? Ne? Tak jdeme. |  |  | hra-uvod-pumpicka
+Pumpička na startu | Pumpička na startu. Rozhodčí zbystřili. |  |  | hra-uvod-pumpicka
+Nezapomeň dýchat, svaly to za tebe neudě | Nezapomeň dýchat, svaly to za tebe neudělají. |  |  | hra-uvod-pumpicka
+Pumpička | Pumpička. Pivo počká. Asi. |  |  | hra-uvod-pumpicka
+Čtyřicítka je tvůj obývák | Čtyřicítka je tvůj obývák. |  |  | hra-uvod-pumpicka
+Hodně nahoru a málo dolů | Hodně nahoru a málo dolů. |  |  | hra-uvod-pumpicka
+
+# ===== HRA — ÚVOD SOFTMOVER =====
+SoftMover | SoftMover. Ani tak, ani tak. Jako polojasno. |  |  | hra-uvod-softmover
+Pod 7A, ale pravidelně | Pod 7A, ale pravidelně. Respekt. |  |  | hra-uvod-softmover
+Půlka boulderů s Pumpičkama, půlka s NeL | Půlka boulderů s Pumpičkama, půlka s NeLezcema. Ty jsi doma všude. |  |  | hra-uvod-softmover
+SoftMover na startu | SoftMover na startu. Rozhodčí si dělají čárku. |  |  | hra-uvod-softmover
+Měkce, ale jistě | Měkce, ale jistě. |  |  | hra-uvod-softmover
+Uprostřed je nejvíc místa | Uprostřed je nejvíc místa. A nejvíc stresu. |  |  | hra-uvod-softmover
+SoftMover | SoftMover. Klasika. Jdeme na to. |  |  | hra-uvod-softmover
+Žádnej tlak | Žádnej tlak. Jen Moonboard. |  |  | hra-uvod-softmover
+Nohy tam, kde jsou chyty | Nohy tam, kde jsou chyty. Ruce taky. |  |  | hra-uvod-softmover
+Tohle zvládneš | Tohle zvládneš. Asi. |  |  | hra-uvod-softmover
+
+# ===== HRA — ÚVOD NELEZEC =====
+NeLezec na Moonboardu | NeLezec na Moonboardu? Odvaha, nebo pivo? |  |  | hra-uvod-nelezec
+Nikdy jsi nelezl | Nikdy jsi nelezl? Tak dneska poprvé. |  |  | hra-uvod-nelezec
+NeLezec | NeLezec. Dopadiště už se těší. |  |  | hra-uvod-nelezec
+Odvážný | Odvážný. Nebo jen hodně piv. |  |  | hra-uvod-nelezec
+NeLezec na čtyřicítce | NeLezec na čtyřicítce. Rozhodčí si sedli do první řady. |  |  | hra-uvod-nelezec
+Klid, dopadiště je měkký | Klid, dopadiště je měkký. Většinou. |  |  | hra-uvod-nelezec
+Vítej | Vítej. Gravitace tě taky vítá. |  |  | hra-uvod-nelezec
+Dneska se ukáže, proč jsi NeLezec | Dneska se ukáže, proč jsi NeLezec. |  |  | hra-uvod-nelezec
+NeLezci mají na BG tradici | NeLezci mají na BG tradici: bedna, Jednorožci, zlomeniny. |  |  | hra-uvod-nelezec
+Podepsal jsi poučení | Podepsal jsi poučení? Dobře. |  |  | hra-uvod-nelezec
+
+# ===== HRA — HECOVÁNÍ =====
+Dáš to | Dáš to! Dělej! |  |  | hra-hec
+Celá garáž ti fandí | Celá garáž ti fandí! |  |  | hra-hec
+Neser se s tím a lez | Neser se s tím a lez! |  |  | hra-hec
+Tři pády | Tři pády? To je teprve rozlez. |  |  | hra-hec
+Kluci, hecujte ho | Kluci, hecujte ho! |  |  | hra-hec
+Tohle už musí jít | Tohle už musí jít! |  |  | hra-hec
+Na pivo to máš, na chyt taky | Na pivo to máš, na chyt taky! |  |  | hra-hec
+Dýchej a zkus to znovu | Dýchej a zkus to znovu. |  |  | hra-hec
+
+# ===== HRA — ROZHODČÍ =====
+Neplatí, sáhl jsi na zeď | Rozhodčí: Neplatí, sáhl jsi na zeď! |  |  | hra-rozhodci
+Tohle jsme neviděli | Rozhodčí: Tohle jsme neviděli. Znova. |  |  | hra-rozhodci
+Noha na struktuře se nepočítá | Rozhodčí: Noha na struktuře se nepočítá. |  |  | hra-rozhodci
+Dvě sekundy, ne jedna | Rozhodčí: Dvě sekundy, ne jedna! |  |  | hra-rozhodci
+Bez úplatku to neprojde | Rozhodčí: Bez úplatku to neprojde. |  |  | hra-rozhodci
+Chyt neměl tvoji barvu | Rozhodčí: Chyt neměl tvoji barvu. |  |  | hra-rozhodci
+Viděli jsme to jinak | Rozhodčí: Viděli jsme to jinak. |  |  | hra-rozhodci
+Tohle je na protest | Rozhodčí: Tohle je na protest. Nebo na pivo. |  |  | hra-rozhodci
+
+# ===== HRA — JMÉNA BOULDRŮ =====
+Krysí traverz | Krysí traverz |  |  | hra-boulder
+Vodičku né | Vodičku né |  |  | hra-boulder
+Do-do-dopadiště | Do-do-dopadiště |  |  | hra-boulder
+Prochcaný vrata | Prochcaný vrata |  |  | hra-boulder
+Zevl kýbl | Zevl kýbl |  |  | hra-boulder
+Poslední cigáro | Poslední cigáro |  |  | hra-boulder
+Basa kozlíka | Basa kozlíka |  |  | hra-boulder
+Spacák s překvapením | Spacák s překvapením |  |  | hra-boulder
+Ovoce na provázku | Ovoce na provázku |  |  | hra-boulder
+Úplatek pro rozhodčí | Úplatek pro rozhodčí |  |  | hra-boulder
+Grunťák | Grunťák |  |  | hra-boulder
+Srání s trámy | Srání s trámy |  |  | hra-boulder
+Půl roku jen lezení | Půl roku jen lezení |  |  | hra-boulder
+Gravitace je svinstvo | Gravitace je svinstvo |  |  | hra-boulder
+Kolaudace | Kolaudace |  |  | hra-boulder
+Druhá garáž | Druhá garáž |  |  | hra-boulder
+Jednorožec | Jednorožec |  |  | hra-boulder
+Hodně nahoru, málo dolů | Hodně nahoru, málo dolů |  |  | hra-boulder
+Ptačí hnízdo | Ptačí hnízdo |  |  | hra-boulder
+Luxfera | Luxfera |  |  | hra-boulder
+Stále pijeme | Stále pijeme |  |  | hra-boulder
+Molitan z Meziříčí | Molitan z Meziříčí |  |  | hra-boulder

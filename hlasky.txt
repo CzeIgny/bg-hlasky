@@ -6,7 +6,7 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · hra-cekarna · meteo-bourka · meteo-snih · meteo-dest · meteo-mlha · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu · pocitadla
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · hra-cekarna · meteo-bourka · hra-rest · meteo-snih · meteo-dest · meteo-mlha · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu · pocitadla
 #           Prázdné nebo neznámé téma = náhodná schválnost.
 #           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
 #
@@ -552,6 +552,16 @@ Bezradný | Bezradný |  |  | hra-boulder-cvicne
 Meteostanice | Bouřka. To se dalo čekat, celej tejden bylo dusno a teď tohle. |  |  | meteo-bourka
 Meteostanice | Hřmí jak blázen. Ještě že máme vrata, co netěsní, aspoň to slyšíme pořádně. |  |  | meteo-bourka
 Meteostanice | Blýská se. Kdo dneska leze, leze na vlastní nebezpečí. Jako vždycky, ale dneska víc. |  |  | meteo-bourka
+
+# ===== HRA — REST =====
+Rest | Dej si rest. Ruce ti poděkujou. |  |  | hra-rest
+Rest | Sedni, vydechni, pak zase nahoru. |  |  | hra-rest
+Rest | Rest je taky trénink. Prý. |  |  | hra-rest
+Rest | Pět minut rest, říkají všichni. Tady máš chvilku. |  |  | hra-rest
+Rest | Kdo restuje, ten leze. Pomaleji, ale leze. |  |  | hra-rest
+Rest | Napij se vody. Nebo piva. Hlavně nekoukej do mobilu. |  |  | hra-rest
+Rest | Rest na dopadišti, klasika garáže. |  |  | hra-rest
+Rest | Otřepej ruce. Ne, ne o mě. |  |  | hra-rest
 
 # ===== METEOSTANICE — SNÍH =====
 Meteostanice | Bílý svinstvo všude. Venku nikdo nepoleze, tak aspoň v garáži. |  |  | meteo-snih

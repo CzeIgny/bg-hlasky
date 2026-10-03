@@ -6,7 +6,7 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · hra-cekarna · meteo-bourka · hra-rest · meteo-snih · meteo-dest · meteo-mlha · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu · pocitadla
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · hra-cekarna · meteo-bourka · hra-rest · hra-cek-pumpicka · meteo-snih · meteo-dest · hra-cek-softmover · hra-cek-nelezec · meteo-mlha · meteo-mraz · hra-cek-krysa · hra-cek-spolulezec · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu · pocitadla
 #           Prázdné nebo neznámé téma = náhodná schválnost.
 #           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
 #
@@ -568,6 +568,13 @@ Meteostanice | Bílý svinstvo všude. Venku nikdo nepoleze, tak aspoň v gará�
 Meteostanice | Napadlo. Za hodinu to bude břečka a za dvě ledovka. Krása. |  |  | meteo-snih
 Meteostanice | Na Vysokáči to dneska nevylezeš ani v mačkách. |  |  | meteo-snih
 
+# ===== HRA — ČEKÁRNA: PUMPIČKA =====
+Pumpička | Pět cé? To dám na jednu ruku. |  |  | hra-cek-pumpicka
+Pumpička | Prsty mám z oceli. Hlavu taky. |  |  | hra-cek-pumpicka
+Pumpička | Rozcvička je pro slabochy. |  |  | hra-cek-pumpicka
+Pumpička | Vyber mě. Triko jsem si sundal kvůli tobě. |  |  | hra-cek-pumpicka
+Pumpička | Kampus je můj kamarád. |  |  | hra-cek-pumpicka
+
 # ===== METEOSTANICE — DÉŠŤ =====
 Meteostanice | Vrata zas prochcaný. Kdyby aspoň pořádně, ale takhle? |  |  | meteo-dest
 Meteostanice | Ani pořádnej déšť to nezvládne. Skála mokrá, nálada taky. |  |  | meteo-dest
@@ -582,10 +589,24 @@ Meteostanice | Prší a fouká do vrat. Kdo je zavře, dostane pivo. |  |  | met
 Meteostanice | Kdyby to aspoň napršelo do kasičky. |  |  | meteo-dest
 Meteostanice | Mokro všude. Mágo jak těsto. |  |  | meteo-dest
 
+# ===== HRA — ČEKÁRNA: SOFTMOVER =====
+SoftMover | Hlavně měkce. Jako kočka. Jako hodně opatrná kočka. |  |  | hra-cek-softmover
+SoftMover | Já to lezu technikou. Síla je přeceňovaná. |  |  | hra-cek-softmover
+SoftMover | Čepici si nesundám. Ani na topu. |  |  | hra-cek-softmover
+SoftMover | Bacha na prsty, říkají. Bacha na mě, říkám. |  |  | hra-cek-softmover
+SoftMover | Moonboard je jen deska s dírama. Zvládneme to. |  |  | hra-cek-softmover
+
 # ===== METEOSTANICE — MLHA =====
 Meteostanice | Nevidíš ani na druhej konec garáže. Top neexistuje. |  |  | meteo-mlha
 Meteostanice | Mlha jak mlíko. Kdo nedojde, ztratil se. Nehledáme. |  |  | meteo-mlha
 Meteostanice | Vlhko leze do kostí i do chytů. |  |  | meteo-mlha
+
+# ===== HRA — ČEKÁRNA: NELEZEC =====
+NeLezec | Já jsem tu kvůli pivu. Ale klidně to zkusím. |  |  | hra-cek-nelezec
+NeLezec | Lezečky? Tenisky jsou pohodlnější. |  |  | hra-cek-nelezec
+NeLezec | Kdybych spadl, nikomu to neříkejte. |  |  | hra-cek-nelezec
+NeLezec | Odvaha mi nechybí. Technika jo. |  |  | hra-cek-nelezec
+NeLezec | Jednorožec bude můj. Jednou. |  |  | hra-cek-nelezec
 
 # ===== METEOSTANICE — MRÁZ =====
 Meteostanice | Chyty jak kusy ledu, prsty necítíš od prvního kroku. |  |  | meteo-mraz
@@ -598,12 +619,26 @@ Meteostanice | Lezečky tvrdý jak prkno. Nohy taky. |  |  | meteo-mraz
 Meteostanice | Aspoň to tře. Výborný tření, kdyby se dalo hejbat. |  |  | meteo-mraz
 Meteostanice | Na Vysokáči přimrzneš ke skále. Tady aspoň k žíněnce. |  |  | meteo-mraz
 
+# ===== HRA — ČEKÁRNA: KRYSA =====
+Krysa | Já po zdech lezu zadarmo. Bez Moonboardu. |  |  | hra-cek-krysa
+Krysa | Odemknout? Napřed sýr. |  |  | hra-cek-krysa
+Krysa | Na dopadišti bydlím. Na stěně jsem jen na návštěvě. |  |  | hra-cek-krysa
+Krysa | Pííp. To jako ne. |  |  | hra-cek-krysa
+Krysa | Až mě odemknete, ohlodám vám chyty. |  |  | hra-cek-krysa
+
 # ===== METEOSTANICE — VEDRO =====
 Meteostanice | Chyty se potěj víc než ty. Mágo nestačí. |  |  | meteo-vedro
 Meteostanice | V garáži se nedá dejchat a venku taky ne. |  |  | meteo-vedro
 Meteostanice | Kdo dneska vyleze nahoru, dostane úpal. |  |  | meteo-vedro
 Meteostanice | Pivo se ohřeje dřív, než ho dopiješ. Tak pij rychlejc. |  |  | meteo-vedro
 Meteostanice | Lepí se chyty, lepí se trička, lepí se všechno. |  |  | meteo-vedro
+
+# ===== HRA — ČEKÁRNA: SPOLULEZEC =====
+Spolulezec | Já? Já jistím. To se musí odemknout. |  |  | hra-cek-spolulezec
+Spolulezec | Spolulezec leze, až když nikdo nekouká. |  |  | hra-cek-spolulezec
+Spolulezec | Klobouk se na Moonboard nehodí. Prý. |  |  | hra-cek-spolulezec
+Spolulezec | Někdo tě chytat musí. Tak to jsem já. |  |  | hra-cek-spolulezec
+Spolulezec | Lézt budu, až mě odemknete. Kdy, to nevím ani já. |  |  | hra-cek-spolulezec
 
 # ===== METEOSTANICE — DUSNO =====
 Meteostanice | Vzduch se dá krájet a pumpa přijde dřív než obvykle. |  |  | meteo-dusno

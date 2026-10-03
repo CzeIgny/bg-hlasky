@@ -675,6 +675,7 @@ Cookies | Odmítnout nejde. Tlačítko Odmítnout ukradla krysa. |  |  | cookies
 Cookies | Nastavení uloženo do kasičky. Vybírá se po dvacce. |  |  | cookies
 Cookies | Partneři, se kterými sdílíme vaše data: nikdo. Nikdo s námi nechce mluvit. |  |  | cookies
 Cookies | Souhlasem se zavazujete donést pivo. Platí i zpětně. |  |  | cookies
+Cookies | Pro změnu buďme upřímní: jednu sušenku máme. |  |  | cookies
 
 # ===== IKONKA IE 6.0 =====
 Ikonka IE 6.0 | Váš prohlížeč je příliš moderní. Stránka se zobrazí správně, a to my nechceme. |  |  | ikonka-ie
@@ -746,3 +747,8 @@ Statistika | Návštěvníci z mobilu: většina. Z Nokie 3310: zatím nikdo. | 
 Statistika | Konverze na lezce: neměřitelná, ale věříme. |  |  | pocitadla
 Statistika | Data se neprodávají. Nikdo je nechce. |  |  | pocitadla
 Statistika | Počítadlo počítá každé načtení. I to vaše, co jste teď udělali. |  |  | pocitadla
+Rozbité počítadlo | Stránky nejedou, tak se nepočítá. Kdo tu je, ten tu oficiálně není. |  |  | pocitadla
+Rozbité počítadlo | Počítadlo spí. Probuďte ho a dozví se to všichni. |  |  | pocitadla
+Rozbité počítadlo | Návštěvnost v pauze se nepočítá. Rozhodčí to stejně viděli. |  |  | pocitadla
+Rozbité počítadlo | Chyba 503: počítadlo je na pivu. Vrátí se, až se vrátí stránky. |  |  | pocitadla
+Rozbité počítadlo | Počítat se bude, až stránky pojedou. Do té doby jste nula. |  |  | pocitadla

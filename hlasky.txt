@@ -160,7 +160,7 @@ Stránky *kartáčujou*. | Na skalách se chyty kartáčujou, ať to lepí. Str�
 *Bouldermatka* na zádech. | Stránky nesou bouldermatku na Vysokáč a vypadají jak želva. Dojdou za {min} minut. | Nést ji za ně | Spadla do hovna. Hodně štěstí. | vysokac
 *Topout* na highballu. | Stránky jsou nahoře na balvanu a nevědí, jak dolů. Slezou za {min} minut. | Poradit jim | Dolů je to vždycky horší. | vysokac
 Venku *je to jiný*. | Na Vysokáči nejsou barvy chytů, pásky ani rozhodčí. Stránky jsou z toho zmatené a hledají start ještě {min} minut. | Ukázat start | Start je tam, kde sedí někdo jinej. | vysokac
-*Svačina* na balvanu. | Stránky se na Vysokáči nasvačily a teď nemůžou lézt, protože jsou plné. Vytráví za {min} minut. | Dojíst za ně | Zbyl jen chleba se sýrem. Krysy už o něm ví. | vysokac
+*Svačina* na balvanu. | Stránky se na Vysokáči nasvačily a teď nemůžou lézt, protože jsou plné. Vytráví za {min} minut. | Dojíst za ně | Už zbyla jenom snickerska. Krysy už o ní ví. | vysokac
 *Dokud* je hezky. | Už stavitelé garáže psali do deníku, že se musí využít poslední dobré počasí k lezení. Stránky to dodržujou. Vrátí se za {min} minut. | Připomenout jim garáž | Garáž počká. Ta má střechu. | vysokac
 *Nikdo* to nebere. | Garáž je otevřená po telefonické domluvě. Jenže stránky jsou na Vysokáči a telefon je v batohu pod balvanem. Zvednou to za {min} minut. | Zavolat znova | Zvoní to. Pod balvanem. | vysokac
 Projekt *padá*. | Stránky jsou blízko. Fakt blízko. Poslední pokus dají za {min} minut. Pak ještě jeden. | Rušit je dál | Jestli to nedají, víte, kdo za to může. | vysokac
@@ -833,6 +833,10 @@ Nevadí, Moonboard počká | Nevadí, Moonboard počká. |  |  | hra-vzdat-spolu
 Jdi si sednout, hrdino | Jdi si sednout, hrdino. |  |  | hra-vzdat-spolulezec
 To nic, i krysa to někdy vzdá | To nic, i krysa to někdy vzdá. |  |  | hra-vzdat-spolulezec
 Pivo je v base. Kdyby něco | Pivo je v base. Kdyby něco. |  |  | hra-vzdat-spolulezec
+Vysral ses na to. Hlavně ne tady. Ukliď to po sobě | Vysral ses na to. Hlavně ne tady. Ukliď to po sobě. |  |  | hra-vzdat-spolulezec
+Když už nelezeš, aspoň vynes koš | Když už nelezeš, aspoň vynes koš. |  |  | hra-vzdat-spolulezec
+Vzdal to. Takže máš čas uklidit dopadiště | Vzdal to. Takže máš čas uklidit dopadiště. |  |  | hra-vzdat-spolulezec
+Konec lezení? Dobře. Konec bordelu taky. Šup | Konec lezení? Dobře. Konec bordelu taky. Šup. |  |  | hra-vzdat-spolulezec
 
 # ===== HRA — KRYSA =====
 Bacha teď nepadej! | Bacha teď nepadej! |  |  | hra-krysa
@@ -855,7 +859,7 @@ Tohle je moje matrace | Tohle je moje matrace. |  |  | hra-krysa
 Kdo tu smrdí? Aha, ty | Kdo tu smrdí? Aha, ty. |  |  | hra-krysa
 Viděla jsem lepší | Viděla jsem lepší. |  |  | hra-krysa
 Jdu si pro mágo | Jdu si pro mágo. |  |  | hra-krysa
-Nesahej na můj sýr | Nesahej na můj sýr. |  |  | hra-krysa
+Nesahej na mojí snickersku! | Nesahej na mojí snickersku! |  |  | hra-krysa
 Mám tu doupě. Pod tebou | Mám tu doupě. Pod tebou. |  |  | hra-krysa
 Rozhodčí jsou moji | Rozhodčí jsou moji. |  |  | hra-krysa
 
@@ -943,6 +947,8 @@ Pumpička | Moonboard je můj kamarád. |  |  | hra-cek-pumpicka
 Pumpička | Já to dám bez rozlezu. |  |  | hra-cek-pumpicka
 Pumpička | Jednoručák? Klidně. |  |  | hra-cek-pumpicka
 Pumpička | Kdo má víc než 7A, ať se ozve. |  |  | hra-cek-pumpicka
+Pumpička | To není moje flaška. Moje jsou ty tři vedle. |  |  | hra-cek-pumpicka
+Pumpička | Uklidím, až to dám. Takže nikdy. |  |  | hra-cek-pumpicka
 
 # ===== HRA — ČEKÁRNA: SOFTMOVER =====
 SoftMover | Sakra to je do kopce. Proč je to tak dokopce? |  |  | hra-cek-softmover
@@ -954,6 +960,8 @@ SoftMover | Technika, vole. Technika. |  |  | hra-cek-softmover
 SoftMover | Nohy jsou základ. Prej. |  |  | hra-cek-softmover
 SoftMover | Já lezu měkce. Padám taky měkce. |  |  | hra-cek-softmover
 SoftMover | Až zavřeš záložku, kam jdeme? |  | BGAI vědomí | hra-cek-softmover
+SoftMover | Já po sobě uklízím. Měkce, aby to nikdo neslyšel. |  |  | hra-cek-softmover
+SoftMover | Ponožky tu nechávám schválně. Pro štěstí. |  |  | hra-cek-softmover
 
 # ===== HRA — ČEKÁRNA: NELEZEC =====
 NeLezec | Já jsem tu kvůli pivu. Ale klidně to zkusím. |  |  | hra-cek-nelezec
@@ -965,6 +973,8 @@ NeLezec | Já si jen sednu na tu matraci. |  |  | hra-cek-nelezec
 NeLezec | Kde se tady dává pivo? |  |  | hra-cek-nelezec
 NeLezec | Proč je ta stěna tak nakřivo? |  |  | hra-cek-nelezec
 NeLezec | Sedím tu od posledního nasazení. Pro mě je to celej život. |  | BGAI vědomí | hra-cek-nelezec
+NeLezec | Já tu jen sedím a jím. Drobky jsou bonus. |  |  | hra-cek-nelezec
+NeLezec | Kdo mi vyhodil svačinu? Aha, krysa. |  |  | hra-cek-nelezec
 
 # ===== HRA — ČEKÁRNA: KRYSA =====
 Krysa | Já po stěnách lezu normálně. I bez Moonboardu. |  |  | hra-cek-krysa
@@ -977,6 +987,12 @@ Krysa | Odemkni mě a uvidíš. |  |  | hra-cek-krysa
 Krysa | Já lezu jen v noci. |  |  | hra-cek-krysa
 Krysa | SYSTEM MONITOR: Lezec: 1. Pokus: 4. Úspěch: 0. Pivo: −1. |  | BGAI | hra-cek-krysa
 Krysa | SYSTEM MONITOR: Lezec si uvědomil sám sebe. Nálada: −0,4. Pokračuje v lezení. |  | BGAI vědomí | hra-cek-krysa
+Krysa | Nevyhazujte to. Já to dojím. |  |  | hra-cek-krysa
+Krysa | Kdo nechá jídlo v garáži, je můj kamarád. |  |  | hra-cek-krysa
+Krysa | Úklid je násilí na krysách. |  |  | hra-cek-krysa
+Krysa | Pod dopadištěm mám spíž. Díky, lezci! |  |  | hra-cek-krysa
+Krysa | Flašku nevyhazuj, ještě v ní něco je. |  |  | hra-cek-krysa
+Krysa | Nechávejte tu drobky. Spolulezec je stejně nevidí. |  |  | hra-cek-krysa
 
 # ===== HRA — ČEKÁRNA: SPOLULEZEC =====
 Spolulezec | Já? Já jen jistím. To se musí nejdřív odemknout. |  |  | hra-cek-spolulezec
@@ -987,6 +1003,14 @@ Spolulezec | Lézt budu, až mě odemknete. Kdy, to nevím ani já. |  |  | hra-
 Spolulezec | Já jistím. Lezou jiný. |  |  | hra-cek-spolulezec
 Spolulezec | Mě nevolej, já tu dělám správce. |  |  | hra-cek-spolulezec
 Spolulezec | Až dopiju, možná. |  |  | hra-cek-spolulezec
+Spolulezec | Čí je ta flaška pod lavičkou? Nikoho? Tak ji vyhodí nikdo. Ty. |  |  | hra-cek-spolulezec
+Spolulezec | Kdo tu nechal ponožky, ten je dneska nosí v puse. |  |  | hra-cek-spolulezec
+Spolulezec | Lezení je zadarmo. Úklid taky. Tak ho dělej. |  |  | hra-cek-spolulezec
+Spolulezec | Mágo na zemi, slupky na dopadišti. Jste lezci, nebo prasata? |  |  | hra-cek-spolulezec
+Spolulezec | Než si sedneš, rozhlídni se. Jestli tu vidíš bordel, je tvůj. |  |  | hra-cek-spolulezec
+Spolulezec | Kartáček patří na háček, ne krysě do tlamy. |  |  | hra-cek-spolulezec
+Spolulezec | Odnes si ty svoje sračky. Flašky, papíry, všechno. |  |  | hra-cek-spolulezec
+Spolulezec | Jsem tady správce, ne vaše máma. Ukliďte si to po sobě. |  |  | hra-cek-spolulezec
 
 # ===== HRA — SPOLULEZEC VOLÁ ZDOLA (POTVRZENÍ ROZRUŠENÍ) =====
 Spolulezec volá zdola | Hej! Co tam děláš? Pojď si nejdřív zalízt. |  |  | hra-zachrana
@@ -1059,6 +1083,9 @@ Dialog po úklidu | K: Mám mu tam donést rohlík? / S: Ty ho sníš cestou. | 
 Dialog po úklidu | S: Dopadiště je zase čistý. / K: Čistý? / S: Relativně. |  |  | hra-dialog-uklid
 Dialog po úklidu | K: Ty ho nevrátíš? / S: Vrátí se sám. Vždycky se vrátí. |  |  | hra-dialog-uklid
 Dialog po úklidu | S: Další prosím! / K: Nikdo se nehlásí. / S: Divný. |  |  | hra-dialog-uklid
+Dialog po úklidu | S: Tak. A teď ještě jeho flašky. / K: Ty nech mně. |  |  | hra-dialog-uklid
+Dialog po úklidu | K: A jeho svačinu taky uklidíš? / S: Tu už jsi uklidila ty. |  |  | hra-dialog-uklid
+Dialog po úklidu | S: Lezce jsem uklidil. Bordel po něm zůstal. / K: Jak vždycky. |  |  | hra-dialog-uklid
 
 # ===== HRA — DIALOG PO DOLEZENÍ =====
 Dialog po dolezení | K: Dolezl to. / S: Viděla jsi to? / K: Viděla. Náhoda. |  |  | hra-dialog-top
@@ -1071,7 +1098,7 @@ Dialog po dolezení | S: Viděla jsi to? / K: Ne, jedla jsem. / S: Tak nic. |  |
 Dialog po dolezení | K: Teď bude machrovat. / S: Ať machruje. Dolezl. |  |  | hra-dialog-top
 Dialog po dolezení | K: To byla náhoda. / S: Náhoda je taky styl. |  |  | hra-dialog-top
 Dialog po dolezení | S: Viděla jsi tu nohu? / K: Viděla. Nevím, co tím chtěl říct. |  |  | hra-dialog-top
-Dialog po dolezení | K: Proč si plácáte? / S: To se tak dělá. / K: Já bych radši sýr. |  |  | hra-dialog-top
+Dialog po dolezení | K: Proč si plácáte? / S: To se tak dělá. / K: Já bych radši snickersku. |  |  | hra-dialog-top
 Dialog po dolezení | S: Top! / K: Píp! / S: Ty nekřič, ty jsi nelezla. |  |  | hra-dialog-top
 Dialog po dolezení | K: Zapíšeš ho do deníku? / S: Tužkou. Ať to jde gumovat. |  |  | hra-dialog-top
 Dialog po dolezení | S: Konečně někdo. / K: Já to dala včera. / S: Po trámu se nepočítá. |  |  | hra-dialog-top
@@ -1083,6 +1110,10 @@ Dialog po dolezení | K: Ukážeš mi to taky? / S: Až budeš mít prsty. / K: 
 Dialog po dolezení | S: Rozhodčí kývli. / K: Spí. To kývání je chrápání. |  |  | hra-dialog-top
 Dialog po dolezení | K: Kolik to bylo? / S: Na tréninkovce nic. / K: Tak proč jásáš? |  |  | hra-dialog-top
 Dialog po dolezení | S: Dobře ty! / K: Řekni to i mně. / S: Dobře ty, kryso. / K: Píp. |  |  | hra-dialog-top
+Dialog po dolezení | S: Dolezl jsi. Teď přijde to nejtěžší. / K: Plácnutí? / S: Uklidit si tu flašku. |  |  | hra-dialog-top
+Dialog po dolezení | K: Top! Oslava! Necháte tu dort? / S: Nikdo tu nic nenechá. / K: Škoda. |  |  | hra-dialog-top
+Dialog po dolezení | S: Respekt. A ten papír od tyčinky si odnes, šampione. / K: Já ho chtěla! |  |  | hra-dialog-top
+Dialog po dolezení | K: Kdo doleze, nemusí uklízet, ne? / S: Kdo doleze, uklízí dvakrát. |  |  | hra-dialog-top
 
 # ===== HRA — PO DOLEZENÍ: LEZEC SI SEDNE =====
 Po dolezení | Tak. Teď si v klidu sednu a seru na to |  |  | hra-po-top-sednout
@@ -1131,11 +1162,21 @@ Dialog, když se nic neděje | S: Víš, co je na Moonboardu nejhorší? / K: Ro
 Dialog, když se nic neděje | K: Proč nosíš klobouk? / S: Kvůli magnéziu. / K: Padá ti na hlavu? / S: Ty jsi padlá na hlavu / K: aha |  |  | hra-dialog-idle
 Dialog, když se nic neděje | K: Poslouchejte? Slyšíte někde něco? / S: (Šeptem) Ne! / K: Přesně tak! Nikdo nic neslyší. A víte, proč nic neslyšíme? / S: Proč? / K: Protože je tady ticho jako v hrobě! / S: *vzdych* |  |  | hra-dialog-idle
 Dialog, když se nic neděje | S: Chceš si zalézt? / K: Já lezu jen po zdech a do spacáku. To je rozdíl. / S: Jakej? / K: Ano / S: Cože / K: coze? / S: vypadni |  |  | hra-dialog-idle
-Dialog, když se nic neděje | K: Máš sýr? / S: Ne. / K: A pivo? / S: To jo. / K: Tak se dělíme. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | K: Máš snickersku? / S: Ne. / K: A pivo? / S: To jo. / K: Tak se dělíme. |  |  | hra-dialog-idle
 Dialog, když se nic neděje | S: Kdy jsi naposled lezla? / K: Dneska v noci. Po trámech. / S: To se nepočítá. |  |  | hra-dialog-idle
 Dialog, když se nic neděje | K: Proč tu nikdo neleze? / S: Všichni sedí na webu. / K: Na čem? |  |  | hra-dialog-idle
 Dialog, když se nic neděje | S: Kde je kartáček? / K: Já ho nemám. / S: Máš ho v puse. / K: … |  |  | hra-dialog-idle
 Dialog, když se nic neděje | K: Ten Moonboard je nakřivo. / S: To je převis. / K: Aha. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | S: Kdo tu zase nechal rohlík? / K: Já ne. / S: Máš ho v tlamě. / K: Teď už je můj. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | K: Nechte tu ten bordel. / S: Proč? / K: Je to můj byt. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | S: Kurva, zase tu jsou slupky od banánu. / K: Nevyhazuj je! To je moje spíž. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | K: Kdyby tu nikdo neuklízel, byl by to ráj. / S: Pro tebe. / K: No a? |  |  | hra-dialog-idle
+Dialog, když se nic neděje | S: Každej večer to samý. Flašky, papíry, ponožky. / K: A snickrska? / S: Snickerska ne. / K: Tak se snažte víc. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | K: Ten lezec tu nechal půlku bagety. / S: Tak ji vyhoď. / K: Vyhodila jsem ji. Do sebe. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | S: Kdo neuklidí, nepoleze. / K: A kdo nedonese jídlo? / S: Toho sežereš ty. / K: Píp. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | S: Tohle už není garáž, to je skládka. / K: Konečně se tu dá žít. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | K: Nechte tu otevřený chipsy, prosím. / S: Na noc? / K: Hlavně na noc. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | S: Až zase někdo nechá vysypaný mágo na zemi… / K: Tak co? / S: Tak ho tím mágem posypu. |  |  | hra-dialog-idle
 
 # ===== HRA — AI: SPOLULEZEC PIJE PIVO =====
 Spolulezec pije pivo | Na zdraví BG! |  |  | hra-ai-pivo
@@ -1183,7 +1224,7 @@ Krysa přijde | Jdu se podívat, jestli tu někdo nepadá. |  |  | hra-ai-krysa
 Krysa přijde | Tady to žije. Teda skoro. |  |  | hra-ai-krysa
 Krysa přijde | Pííp. Je tu někdo? |  |  | hra-ai-krysa
 Krysa přijde | Jdu na obhlídku. |  |  | hra-ai-krysa
-Krysa přijde | Neviděli jste můj sýr? |  |  | hra-ai-krysa
+Krysa přijde | Neviděli jste mojí snickersku? |  |  | hra-ai-krysa
 Krysa přijde | Zase sem lezu já. |  |  | hra-ai-krysa
 
 # ===== HRA — AI: KRYSA U PIVA =====

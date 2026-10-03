@@ -6,7 +6,7 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · hra-cekarna · meteo-bourka · hra-rest · hra-cek-pumpicka · meteo-snih · meteo-dest · hra-cek-softmover · hra-cek-nelezec · meteo-mlha · meteo-mraz · hra-cek-krysa · hra-cek-spolulezec · meteo-vedro · hra-benchmark · meteo-dusno · meteo-vitr · hra-dialog-zraneni · hra-dialog-uklid · meteo-tlak · hra-dialog-top · meteo-hezky · meteo-polojasno · hra-dialog-idle · hra-tlacitko · meteo-zatazeno · hra-ai-pivo · cookies · hra-ai-kartac · ikonka-ie · hra-ai-protazeni · ikonka-800 · hra-ai-krysa · ikonka-notepad · hra-ai-krysa-pivo · notepad-menu · pocitadla · hra-po-top-sednout · hra-po-top-pivo · hra-po-top-hrdina · hra-po-top-lehnout · hra-po-top-lehnout-s · hra-rest-lezec · hra-ai-lezec-start · hra-ai-lezec · hra-ai-lezec-vzdat · hra-pivo-doslo · hra-pivo-doslo-krysa
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · hra-cekarna · meteo-bourka · hra-rest · hra-cek-pumpicka · meteo-snih · meteo-dest · hra-cek-softmover · hra-cek-nelezec · meteo-mlha · meteo-mraz · hra-cek-krysa · hra-cek-spolulezec · meteo-vedro · hra-benchmark · meteo-dusno · meteo-vitr · hra-dialog-zraneni · hra-dialog-uklid · meteo-tlak · hra-dialog-top · meteo-hezky · meteo-polojasno · hra-dialog-idle · hra-tlacitko · meteo-zatazeno · hra-ai-pivo · cookies · hra-ai-kartac · ikonka-ie · hra-ai-protazeni · ikonka-800 · hra-ai-krysa · ikonka-notepad · hra-ai-krysa-pivo · notepad-menu · pocitadla · hra-po-top-sednout · hra-po-top-pivo · hra-po-top-hrdina · hra-po-top-lehnout · hra-po-top-lehnout-s · hra-rest-lezec · hra-ai-lezec-start · hra-ai-lezec · hra-ai-lezec-vzdat · hra-pivo-doslo · hra-pivo-doslo-krysa · hra-zachrana
 #           Prázdné nebo neznámé téma = náhodná schválnost.
 #           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
 #
@@ -931,3 +931,13 @@ Došlo pivo (spolulezec) | Kdo vypil poslední? Obnovte stránku, prosím vás. 
 Došlo pivo (krysa) | Prázdná. Kdo to vypil? Já ne. |  |  | hra-pivo-doslo-krysa
 Došlo pivo (krysa) | Pííp. Obnov stránku, ať je co čuchat. |  |  | hra-pivo-doslo-krysa
 Došlo pivo (krysa) | Ani kapka. Tohle je krize. |  |  | hra-pivo-doslo-krysa
+
+# ===== HRA — SPOLULEZEC VOLÁ ZDOLA (POTVRZENÍ ROZRUŠENÍ) =====
+Spolulezec volá zdola | Hej! Co tam děláš? Pojď si nejdřív zalízt. |  |  | hra-zachrana
+Spolulezec volá zdola | Počkej! Než je rozrušíš, dej aspoň jeden boulder. |  |  | hra-zachrana
+Spolulezec volá zdola | Neklikej! Dolez a vejdeš bez ostudy. |  |  | hra-zachrana
+Spolulezec volá zdola | Hej ty nahoře! Tady dole je stěna. Ta tě nezapíše. |  |  | hra-zachrana
+Spolulezec volá zdola | Co blbneš? Stránky lezou, nech je. Pojď sem. |  |  | hra-zachrana
+Spolulezec volá zdola | Tohle tlačítko si zapamatujou. Radši si zalez. |  |  | hra-zachrana
+Spolulezec volá zdola | Kam ses vydal? Moonboard je tady dole! |  |  | hra-zachrana
+Spolulezec volá zdola | Ty jo, ty seš rychlej. Na tlačítko. Zkus to radši na stěně. |  |  | hra-zachrana

@@ -6,7 +6,7 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · meteo-bourka · meteo-snih · meteo-dest · meteo-mlha · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · meteo-bourka · meteo-snih · meteo-dest · meteo-mlha · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno · cookies · ikonka-ie · ikonka-800 · ikonka-notepad
 #           Prázdné nebo neznámé téma = náhodná schválnost.
 #           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
 #
@@ -551,7 +551,16 @@ Meteostanice | Na Vysokáči to dneska nevylezeš ani v mačkách. |  |  | meteo
 # ===== METEOSTANICE — DÉŠŤ =====
 Meteostanice | Vrata zas prochcaný. Kdyby aspoň pořádně, ale takhle? |  |  | meteo-dest
 Meteostanice | Ani pořádnej déšť to nezvládne. Skála mokrá, nálada taky. |  |  | meteo-dest
-Meteostanice | Magnézko se lepí, chyty kloužou, a to se ještě nikdo nezačal potit. |  |  | meteo-dest
+Meteostanice | Mágo se lepí, chyty kloužou, a to se ještě nikdo nezačal potit. |  |  | meteo-dest
+Meteostanice | Leje. Fukar suší boty, boty smrděj, fukar smrdí. |  |  | meteo-dest
+Meteostanice | Pískovec za mokra nelezte. Garáž za mokra jo, i když kape. |  |  | meteo-dest
+Meteostanice | Kape do garáže. Kýbl stojí tam, kde vždycky. |  |  | meteo-dest
+Meteostanice | Prší celej den. Ani to nevypadá, že by to někoho bavilo. |  |  | meteo-dest
+Meteostanice | Dneska se leze jenom na garáži a jenom ze vzteku. |  |  | meteo-dest
+Meteostanice | Na Vysokáči by sis zlomil všechno, co sis ještě nezlomil. |  |  | meteo-dest
+Meteostanice | Prší a fouká do vrat. Kdo je zavře, dostane pivo. |  |  | meteo-dest
+Meteostanice | Kdyby to aspoň napršelo do kasičky. |  |  | meteo-dest
+Meteostanice | Mokro všude. Mágo jak těsto. |  |  | meteo-dest
 
 # ===== METEOSTANICE — MLHA =====
 Meteostanice | Nevidíš ani na druhej konec garáže. Top neexistuje. |  |  | meteo-mlha
@@ -562,11 +571,19 @@ Meteostanice | Vlhko leze do kostí i do chytů. |  |  | meteo-mlha
 Meteostanice | Chyty jak kusy ledu, prsty necítíš od prvního kroku. |  |  | meteo-mraz
 Meteostanice | Fukar jede naplno a stejně je tu zima jak v psírně. |  |  | meteo-mraz
 Meteostanice | Pivo se chladí samo. To je jediný plus. |  |  | meteo-mraz
+Meteostanice | Kdo první sáhne na chyt, obětoval prsty za ostatní. |  |  | meteo-mraz
+Meteostanice | Ráno se vrata nedají otevřít, večer zavřít. |  |  | meteo-mraz
+Meteostanice | Topení slibuje, fukar se snaží, nikdo nevěří. |  |  | meteo-mraz
+Meteostanice | Lezečky tvrdý jak prkno. Nohy taky. |  |  | meteo-mraz
+Meteostanice | Aspoň to tře. Výborný tření, kdyby se dalo hejbat. |  |  | meteo-mraz
+Meteostanice | Na Vysokáči přimrzneš ke skále. Tady aspoň k žíněnce. |  |  | meteo-mraz
 
 # ===== METEOSTANICE — VEDRO =====
-Meteostanice | Chyty se potěj víc než ty. Magnézko nestačí. |  |  | meteo-vedro
+Meteostanice | Chyty se potěj víc než ty. Mágo nestačí. |  |  | meteo-vedro
 Meteostanice | V garáži se nedá dejchat a venku taky ne. |  |  | meteo-vedro
 Meteostanice | Kdo dneska vyleze nahoru, dostane úpal. |  |  | meteo-vedro
+Meteostanice | Pivo se ohřeje dřív, než ho dopiješ. Tak pij rychlejc. |  |  | meteo-vedro
+Meteostanice | Lepí se chyty, lepí se trička, lepí se všechno. |  |  | meteo-vedro
 
 # ===== METEOSTANICE — DUSNO =====
 Meteostanice | Vzduch se dá krájet a pumpa přijde dřív než obvykle. |  |  | meteo-dusno
@@ -574,7 +591,7 @@ Meteostanice | Něco se chystá. Asi bouřka. Nebo zase jenom dusno. |  |  | met
 Meteostanice | Jak v prádelně. Trička se suší přímo na lidech. |  |  | meteo-dusno
 
 # ===== METEOSTANICE — VÍTR =====
-Meteostanice | Vrata mlátěj, plachty lítaj, magnézko je všude kromě rukou. |  |  | meteo-vitr
+Meteostanice | Vrata mlátěj, plachty lítaj, mágo je všude kromě rukou. |  |  | meteo-vitr
 Meteostanice | Na Vysokáči by tě to sfouklo ze skály. Tady aspoň jen do žíněnky. |  |  | meteo-vitr
 Meteostanice | Fičí to. Kdo zase nechal otevřený vrata? |  |  | meteo-vitr
 
@@ -587,13 +604,96 @@ Meteostanice | Dneska to není tebou. Teda asi. |  |  | meteo-tlak
 Meteostanice | Zase to slunce. Kdo to má furt mžourat? |  |  | meteo-hezky
 Meteostanice | Všichni jsou na Vysokáči a garáž je prázdná. Hezký počasí nás jednou zničí. |  |  | meteo-hezky
 Meteostanice | Na skále se spálíš, v garáži se uvaříš. Výběr žádnej. |  |  | meteo-hezky
+Meteostanice | Takhle hezky to dlouho nevydrží, to vám povídám. |  |  | meteo-hezky
+Meteostanice | Ani mráček. Něco se chystá. |  |  | meteo-hezky
+Meteostanice | Skála suchá, výmluvy došly. Hrůza. |  |  | meteo-hezky
+Meteostanice | Všichni jsou venku a nikdo nemá čas na garáž. Zrada. |  |  | meteo-hezky
+Meteostanice | Zítra bude určitě hůř, tak si to moc neužívejte. |  |  | meteo-hezky
+Meteostanice | Na Vysokáči je narváno a v garáži je dusno. Kam teď? |  |  | meteo-hezky
+Meteostanice | Obloha jak vymetená. To se nám nelíbí. |  |  | meteo-hezky
+Meteostanice | Je tak hezky, že se nedá nic dělat. A to je přesně ten problém. |  |  | meteo-hezky
+Meteostanice | Tělo chce ven, prsty chtějí na garáž, hlava chce pivo. |  |  | meteo-hezky
+Meteostanice | Hlavně to nezakřiknout. Už je to zakřiknutý. |  |  | meteo-hezky
+Meteostanice | V noci bude zima jak v psírně, uvidíte. |  |  | meteo-hezky
+Meteostanice | Ani mráček. Kdo to má furt vydržet? |  |  | meteo-hezky
+Meteostanice | Skála volá, gauč volá víc. |  |  | meteo-hezky
+Meteostanice | Nádherně. Až moc. Takový počasí se jednou vymstí. |  |  | meteo-hezky
+Meteostanice | Pískovec suchej jak troud. Lezci taky. |  |  | meteo-hezky
+Meteostanice | Hezky je. Co s tím teď máme dělat? |  |  | meteo-hezky
+Meteostanice | Hvězdy, slunce, je to jedno. Hlavně že se zase nedá nic vyčítat. |  |  | meteo-hezky
 
 # ===== METEOSTANICE — POLOJASNO =====
 Meteostanice | Ani pořádný slunce, ani pořádný mraky. Nerozhodný jak NeLezec před bouldrem. |  |  | meteo-polojasno
 Meteostanice | Chvíli svítí, chvíli ne. Na skálu se to nevyplatí, v garáži je to škoda. |  |  | meteo-polojasno
 Meteostanice | Určitě se to zkazí přesně ve chvíli, kdy vylezeš. |  |  | meteo-polojasno
+Meteostanice | Mraky se nemůžou rozhodnout. My taky ne. |  |  | meteo-polojasno
+Meteostanice | Kousek modrý, kousek šedý. Jak modřina. |  |  | meteo-polojasno
+Meteostanice | Předpověď říká, že bude. Co bude, neřekla. |  |  | meteo-polojasno
+Meteostanice | Napůl hezky. Druhá půlka je naše. |  |  | meteo-polojasno
 
 # ===== METEOSTANICE — ZATAŽENO =====
 Meteostanice | Ani slunko, ani déšť. Prostě nic. To se nedá vydržet. |  |  | meteo-zatazeno
 Meteostanice | Šedivo. Den jak vymáchanej v kýblu. |  |  | meteo-zatazeno
 Meteostanice | Prej by mohlo pršet. Nebo taky ne. Nikdo nic neví. |  |  | meteo-zatazeno
+Meteostanice | Nebe jak víko od kýblu. A pod ním my. |  |  | meteo-zatazeno
+Meteostanice | Ani nesvítí, ani neprší. Takový počasí by se mělo zakázat. |  |  | meteo-zatazeno
+Meteostanice | Šedivo. Na skálu se nechce, na garáž se nechce, tak aspoň pivo. |  |  | meteo-zatazeno
+Meteostanice | Kdyby aspoň pršelo, měli bysme výmluvu. |  |  | meteo-zatazeno
+Meteostanice | Barva oblohy: beton. Barva nálady: taky. |  |  | meteo-zatazeno
+Meteostanice | Ani stín to nevrhá. Prej to tak zůstane do jara. |  |  | meteo-zatazeno
+Meteostanice | Fotky z Vysokáče dneska stejně nikdo nedá. |  |  | meteo-zatazeno
+Meteostanice | Mraky visí tak nízko, že by se o ně dalo opřít. Na topu bacha. |  |  | meteo-zatazeno
+Meteostanice | Neprší, ale tváří se to tak. Nejhorší kombinace. |  |  | meteo-zatazeno
+Meteostanice | Mágo vlhne jen z toho, jak se na to dívá. |  |  | meteo-zatazeno
+Meteostanice | Šero od rána. Světlo v garáži zas vyhraje. |  |  | meteo-zatazeno
+Meteostanice | Ani teplo, ani zima. Prostě tak nějak blbě. |  |  | meteo-zatazeno
+Meteostanice | Bez slunce, bez deště, bez chuti. Ideální na lezení, kdyby se chtělo. |  |  | meteo-zatazeno
+Meteostanice | Nad Doksama zase deka. Kdo ji tam furt dává? |  |  | meteo-zatazeno
+Meteostanice | Je tak šedivo, že i chyty vypadají smutně. |  |  | meteo-zatazeno
+Meteostanice | Předpověď: bude to stát za prd. Skutečnost: přesně. |  |  | meteo-zatazeno
+Meteostanice | Kdo čeká na sluníčko, dočká se v květnu. |  |  | meteo-zatazeno
+
+# ===== COOKIES (ŽLUTÁ IKONKA) =====
+Cookies | Souhlas zaznamenán. Teda nezaznamenán, nemáme kam. |  |  | cookies
+Cookies | Výborně. Pivo bylo uloženo do vašeho prohlížeče. Vyzvednete si ho na garáži. |  |  | cookies
+Cookies | Nezbytná piva: jedno. Řidič má smůlu. |  |  | cookies
+Cookies | Vaše preference byly předány rozhodčím. Úplatek nebyl přiložen. |  |  | cookies
+Cookies | Sledujeme vás jen pohledem. A to ještě blbě, máme mágo v očích. |  |  | cookies
+Cookies | Vaše data jsou u nás v bezpečí. Nikdo je tu neumí otevřít. |  |  | cookies
+Cookies | Cookies nemáme. Máme rohlík z pumpy a ten je od středy. |  |  | cookies
+Cookies | Odmítnout nejde. Tlačítko Odmítnout ukradla krysa. |  |  | cookies
+Cookies | Nastavení uloženo do kasičky. Vybírá se po dvacce. |  |  | cookies
+Cookies | Partneři, se kterými sdílíme vaše data: nikdo. Nikdo s námi nechce mluvit. |  |  | cookies
+Cookies | Děkujeme. Vaše souhlasy přečte Grunt a pak odpojí elektriku. |  |  | cookies
+Cookies | Souhlasem se zavazujete donést pivo. Platí i zpětně. |  |  | cookies
+
+# ===== IKONKA IE 6.0 =====
+Ikonka IE 6.0 | Váš prohlížeč je příliš moderní. Stránka se zobrazí správně, a to my nechceme. |  |  | ikonka-ie
+Ikonka IE 6.0 | Doporučujeme Internet Explorer 6.0. Disketu s ním má Grunt v šuplíku. |  |  | ikonka-ie
+Ikonka IE 6.0 | Zjištěn prohlížeč novější než naše stěna. Přepínám do kompatibilního režimu. |  |  | ikonka-ie
+Ikonka IE 6.0 | Chyba na řádku 1: stránka vypadá moc dobře. Opravujeme. |  |  | ikonka-ie
+Ikonka IE 6.0 | Pro správné zobrazení vypněte JavaScript, styly a radši i počítač. |  |  | ikonka-ie
+Ikonka IE 6.0 | Stránka byla testována v IE 6.0 na monitoru, který už nesvítí. |  |  | ikonka-ie
+Ikonka IE 6.0 | Váš prohlížeč umí věci, které my ne. Zakázali jsme mu to. |  |  | ikonka-ie
+
+# ===== IKONKA 800×600 =====
+Ikonka 800×600 | Takhle to má vypadat. Nehýbejte monitorem. |  |  | ikonka-800
+Ikonka 800×600 | 800×600. Víc pixelů jsme si nemohli dovolit. |  |  | ikonka-800
+Ikonka 800×600 | Zbytek obrazovky si nechte na pasiáns. |  |  | ikonka-800
+Ikonka 800×600 | Doporučená vzdálenost od monitoru: délka paže s pivem. |  |  | ikonka-800
+Ikonka 800×600 | Šířka stránky odpovídá šířce garáže. Zhruba. |  |  | ikonka-800
+Ikonka 800×600 | Kdo má víc než 800 pixelů, ať se nevytahuje. |  |  | ikonka-800
+
+# ===== IKONKA NOTEPAD =====
+Ikonka Notepad | <!-- tady Grunt odpojil elektriku, zbytek dopíšu zítra --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- nesahat, nevím proč to funguje --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- TODO: opravit vrata --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- kniha návštěv zatím nefunguje --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- sem přijde blikající GIF, až ho někdo nakreslí --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- tohle psal Notepad, ne já --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- 6 piv za hodinu je strop. Bylo. --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- magnézko? MÁGO! --> |  |  | ikonka-notepad
+Ikonka Notepad | <marquee>VÍTEJTE NA STRÁNKÁCH BOULDER GARÁŽE</marquee> |  |  | ikonka-notepad
+Ikonka Notepad | <blink>NOVINKA!!!</blink> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- pokud tohle čteš, jsi ten typ, co čte i pravidla závodů. Respekt. --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- kód zkontroloval rozhodčí. Za úplatek. --> |  |  | ikonka-notepad

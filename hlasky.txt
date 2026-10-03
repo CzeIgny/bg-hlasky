@@ -6,7 +6,7 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · meteo-bourka · meteo-snih · meteo-dest · meteo-mlha · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · meteo-bourka · meteo-snih · meteo-dest · meteo-mlha · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu · pocitadla
 #           Prázdné nebo neznámé téma = náhodná schválnost.
 #           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
 #
@@ -715,3 +715,24 @@ Nahradit | Nahradit „magnézko“ za „mágo“: hotovo. Tady se magnézko ne
 Zobrazit nápovědu | Nápověda: lezte nahoru. Kdo spadne, zkusí to znovu. |  |  | notepad-menu
 Zobrazit nápovědu | Nápověda je na nástěnce v garáži. Vedle mapy. |  |  | notepad-menu
 O aplikaci | Poznámkový blok BG, verze 5C. Licencováno pro: Dáda. Všechna práva vypita. |  |  | notepad-menu
+
+# ===== POČÍTADLA (KLIK) =====
+Vyzvednout výhru | Výhra se vydává osobně na garáži. Pivo s sebou, to je poplatek. |  |  | pocitadla
+Vyzvednout výhru | Výhra byla odeslána poštou. Až dorazí, tak dorazí. |  |  | pocitadla
+Vyzvednout výhru | Pro vyzvednutí výhry stačí přijít na garáž a říct heslo. Heslo je: lezu. |  |  | pocitadla
+Vyzvednout výhru | Gratulujeme podruhé. Výhra je pořád nic, ale už je vaše. |  |  | pocitadla
+Přiznat se | Přiznání přijato. Rozhřešení dá rozhodčí, za úplatek. |  |  | pocitadla
+Přiznat se | Zapsáno. Pokání: tři bouldery na kolmáči a jedno pivo. |  |  | pocitadla
+Přiznat se | Upřímnost oceňujeme. Stránky se ale stejně zlobí. |  |  | pocitadla
+Přiznat se | Přiznání se počítá jako polehčující okolnost. Ostuda zůstává. |  |  | pocitadla
+Zapřít | Zapírání se nepočítá. Rozhodčí to viděli. |  |  | pocitadla
+Zapřít | Na kameře je to jasně vidět. Kamera sice nemáme, ale stejně. |  |  | pocitadla
+Zapřít | Zapřít jde leda pivo. A to taky ne. |  |  | pocitadla
+Statistika | Průměrná doba na stránce: dokud stránky nezavřou. |  |  | pocitadla
+Statistika | Nejčastější zdroj návštěv: někdo to poslal v hospodě. |  |  | pocitadla
+Statistika | Nejnavštěvovanější den: ten, kdy byly závody. |  |  | pocitadla
+Statistika | Míra odchodu: vysoká, hlavně když stránky odpočívají. |  |  | pocitadla
+Statistika | Návštěvníci z mobilu: většina. Z Nokie 3310: zatím nikdo. |  |  | pocitadla
+Statistika | Konverze na lezce: neměřitelná, ale věříme. |  |  | pocitadla
+Statistika | Data se neprodávají. Nikdo je nechce. |  |  | pocitadla
+Statistika | Počítadlo počítá každé načtení. I to vaše, co jste teď udělali. |  |  | pocitadla

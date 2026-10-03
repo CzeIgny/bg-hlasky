@@ -929,13 +929,10 @@ Dolezl! Někdo to natoč | Dolezl! Někdo to natoč! |  |  | hra-top
 Top! Krysa tleská | Top! Krysa tleská. |  |  | hra-top
 
 # ===== HRA — ČEKÁRNA (POZVÁNKA) =====
-Čekárna | Než nasereš stránky, zkus to vylízt. Kdo doleze, má respekt. |  |  | hra-cekarna
 Čekárna | Stránky spí, stěna ne. Zalez si. |  |  | hra-cekarna
 Čekárna | Rozrušit je umí každej. Nech je napokoji. |  |  | hra-cekarna
-Čekárna | Vyber si kategorii a lez. Klíče od stránek dostane, kdo doleze. |  |  | hra-cekarna
 Čekárna | Hele, než klikneš na to tlačítko, mrkni sem. |  |  | hra-cekarna
 Čekárna | Kluci si dávaj pauzu. Ty můžeš lízt. |  |  | hra-cekarna
-Čekárna | Tlačítko tě pustí dovnitř, ale přes síň hanby. Stěna tě pustí s respektem. Lez |  |  | hra-cekarna
 Čekárna | Krysa to zkoušela taky. A dala to! |  |  | hra-cekarna
 Čekárna | Neklikej nahoru, lez sem dolů. |  |  | hra-cekarna
 Čekárna | Stránky spí. Stěna je volná. Tak co? |  |  | hra-cekarna
@@ -1015,30 +1012,6 @@ Spolulezec | Než si sedneš, rozhlídni se. Jestli tu vidíš bordel, je tvůj.
 Spolulezec | Kartáček patří na háček, ne krysě do tlamy. |  |  | hra-cek-spolulezec
 Spolulezec | Odnes si ty svoje sračky. Flašky, papíry, všechno. |  |  | hra-cek-spolulezec
 Spolulezec | Jsem tady správce, ne vaše máma. Ukliďte si to po sobě. |  |  | hra-cek-spolulezec
-
-# ===== HRA — SPOLULEZEC VOLÁ ZDOLA (POTVRZENÍ ROZRUŠENÍ) =====
-Spolulezec volá zdola | Hej! Co tam děláš? Pojď si nejdřív zalízt. |  |  | hra-zachrana
-Spolulezec volá zdola | Počkej! Než je rozrušíš, dej aspoň jeden boulder. |  |  | hra-zachrana
-Spolulezec volá zdola | Neklikej! Na nic neklikej a pojď si zalízt. |  |  | hra-zachrana
-Spolulezec volá zdola | Hej ty nahoře! Tady dole je stěna. |  |  | hra-zachrana
-Spolulezec volá zdola | Co blbneš? Stránky nemaj čas, nech je. Pojď sem. |  |  | hra-zachrana
-Spolulezec volá zdola | Jsi si jistej? Nechces si nejdřív trošku zalízt? |  |  | hra-zachrana
-Spolulezec volá zdola | Kam ses vydal? Moonboard je tady dole! |  |  | hra-zachrana
-Spolulezec volá zdola | Ty jo, tak ty seš rychlej. Na tlačítko kliknu a nic si pořádně nepřečet, že? |  |  | hra-zachrana
-Spolulezec volá zdola | Hej! Nejdřív zalízt, pak klikat! |  |  | hra-zachrana
-Spolulezec volá zdola | Stůj! Tam ne! Sem dolů! |  |  | hra-zachrana
-Spolulezec volá zdola | Ty je fakt chceš rozrušit? Radši lez. |  |  | hra-zachrana
-Spolulezec volá zdola | Nech to tlačítko bejt a pojď na stěnu! |  |  | hra-zachrana
-
-# ===== HRA — SPOLULEZEC U TLAČÍTKA =====
-Spolulezec u tlačítka | Dolezl jsi, tak můžeš dál. Bez rozrušení, ale potichu. |  |  | hra-tlacitko
-Spolulezec u tlačítka | Přepnul jsem ti to. Kdo doleze, může vstoupit. |  |  | hra-tlacitko
-Spolulezec u tlačítka | Tudy. A boty si nezouvej, tady se chodí v lezečkách. |  |  | hra-tlacitko
-Spolulezec u tlačítka | Stránky o tom vědí. Já jim to řekl. |  |  | hra-tlacitko
-Spolulezec u tlačítka | Hotovo. Teď už tě nikdo nebude sprdávat. |  |  | hra-tlacitko
-Spolulezec u tlačítka | Přepnuto. Dolezl jsi, tak jdi. |  |  | hra-tlacitko
-Spolulezec u tlačítka | Klíče od stránek jsou tvoje. Neztrať je. |  |  | hra-tlacitko
-Spolulezec u tlačítka | Tak. Stránky jsou v pohodě, ty taky. |  |  | hra-tlacitko
 
 # ===== HRA — DIALOG PO ZRANĚNÍ =====
 Dialog po zranění | K: Von se nehejbe. / S: Nic mu neni. / K: Můžu si vzít jeho pytlík s mágem? |  |  | hra-dialog-zraneni

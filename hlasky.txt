@@ -811,6 +811,10 @@ rozhodčí přijali úplatek | Rozhodčí: Mňam. Platí. |  |  | hra-uplatek-ok
 úplatek není komu dát | Na co? Nic se neděje. |  |  | hra-uplatek-ne
 úplatek není komu dát | Šetři to. Rozhodčí ještě přijdou. |  |  | hra-uplatek-ne
 úplatek není komu dát | Klid, zatím nikdo nepíská. |  |  | hra-uplatek-ne
+úplatek není komu dát | Uplácet nikoho, kdo nic nevidí, je plejtvání. |  |  | hra-uplatek-ne
+úplatek není komu dát | Rozhodčí spí. Nebuď je. |  |  | hra-uplatek-ne
+úplatek není komu dát | Úplatek je na problém. Problém zatím nemáš. |  |  | hra-uplatek-ne
+úplatek není komu dát | Schovej to. Ještě se bude hodit. |  |  | hra-uplatek-ne
 
 # ===== HRA — VYSRAT SE NA TO (LEZEC) =====
 Seru na to. Jdu na pivo | Seru na to. Jdu na pivo. |  |  | hra-vzdat
@@ -1122,6 +1126,10 @@ Po dolezení | Dneska už jen radím ostatním. |  |  | hra-po-top-sednout
 Po dolezení | Teď si dám pauzu. Celej den. |  |  | hra-po-top-sednout
 Po dolezení | Já už dneska nic. |  |  | hra-po-top-sednout
 Po dolezení | Sednu si a budu dělat chytrýho. |  |  | hra-po-top-sednout
+Po dolezení | Sedím. Dívám se. Radím. Nelezu. |  |  | hra-po-top-sednout
+Po dolezení | Tak a teď kritizuju ostatní. |  |  | hra-po-top-sednout
+Po dolezení | Odsud je to vidět líp než zeshora. |  |  | hra-po-top-sednout
+Po dolezení | Dneska už jen lavička. Lavička nepumpuje. |  |  | hra-po-top-sednout
 
 # ===== HRA — PO DOLEZENÍ: LEZEC JDE NA PIVO =====
 Po dolezení | Tohle jsem si zasloužil. |  |  | hra-po-top-pivo
@@ -1130,6 +1138,10 @@ Po dolezení | Jak piješ, tak lezeš. |  |  | hra-po-top-pivo
 Po dolezení | Jedno za top. Druhý za strach. |  |  | hra-po-top-pivo
 Po dolezení | Na zdraví, kurva. |  |  | hra-po-top-pivo
 Po dolezení | Tohle je nejlepší pivo dneška. |  |  | hra-po-top-pivo
+Po dolezení | Za top se pije. To je pravidlo. |  |  | hra-po-top-pivo
+Po dolezení | Chladný pivo, teplý prsty. |  |  | hra-po-top-pivo
+Po dolezení | Na zdraví Moonu. Ať mě příště nezabije. |  |  | hra-po-top-pivo
+Po dolezení | Tohle pivo jsem vylezl. |  |  | hra-po-top-pivo
 
 # ===== HRA — PO DOLEZENÍ: ODCHOD HRDINY =====
 Po dolezení | Příště zas! A zavři za sebou! |  |  | hra-po-top-hrdina
@@ -1138,6 +1150,10 @@ Po dolezení | Pozdravuj stránky! |  |  | hra-po-top-hrdina
 Po dolezení | Sbohem, legendo! |  |  | hra-po-top-hrdina
 Po dolezení | Zavři vrata! |  |  | hra-po-top-hrdina
 Po dolezení | Až budeš slavnej, vzpomeň si na nás! |  |  | hra-po-top-hrdina
+Po dolezení | Jdi, než si to rozmyslíš! |  |  | hra-po-top-hrdina
+Po dolezení | A doma se pochlub. Ale stručně. |  |  | hra-po-top-hrdina
+Po dolezení | Vrať se, až to zapomeneš! |  |  | hra-po-top-hrdina
+Po dolezení | Tak čau. A kartáček zůstává tady! |  |  | hra-po-top-hrdina
 
 # ===== HRA — PO DOLEZENÍ: LEZEC SE SVALÍ =====
 Po dolezení | Už nikdy. Teda zítra zas. |  |  | hra-po-top-lehnout
@@ -1146,6 +1162,10 @@ Po dolezení | Chvilku si tady poležím. mám dost |  |  | hra-po-top-lehnout
 Po dolezení | Tady umřu. Šťastnej. |  |  | hra-po-top-lehnout
 Po dolezení | Nikdo na mě nesahejte. |  |  | hra-po-top-lehnout
 Po dolezení | Ruce jak bochníky. |  |  | hra-po-top-lehnout
+Po dolezení | Dopadiště je měkčí než postel. |  |  | hra-po-top-lehnout
+Po dolezení | Ještě minutku. Nebo hodinu. |  |  | hra-po-top-lehnout
+Po dolezení | Leží se mi tu líp než leze. |  |  | hra-po-top-lehnout
+Po dolezení | Zavolejte mi, až budu zase mít předloktí. |  |  | hra-po-top-lehnout
 
 # ===== HRA — PO DOLEZENÍ: SPOLULEZEC PODÁ PIVO =====
 Po dolezení | Na. Zasloužíš si ho. |  |  | hra-po-top-lehnout-s
@@ -1154,6 +1174,10 @@ Po dolezení | Pivo pro vítěze. Teplý, ale pivo. |  |  | hra-po-top-lehnout-s
 Po dolezení | Vstávej, hrdino. Tady máš. |  |  | hra-po-top-lehnout-s
 Po dolezení | Na, ať neumřeš. |  |  | hra-po-top-lehnout-s
 Po dolezení | Za odměnu. Nevylij to. |  |  | hra-po-top-lehnout-s
+Po dolezení | Napij se, ať tu nezvadneš. |  |  | hra-po-top-lehnout-s
+Po dolezení | Tu máš. A flašku pak vynes, ne že ne. |  |  | hra-po-top-lehnout-s
+Po dolezení | Pivo místo medaile. Medaile nejsou. |  |  | hra-po-top-lehnout-s
+Po dolezení | Pomalu. Jedno je zadarmo, druhý už ne. |  |  | hra-po-top-lehnout-s
 
 # ===== HRA — DIALOG, KDYŽ SE NIC NEDĚJE =====
 Dialog, když se nic neděje | K: Nuda. / S: Nuda je dobrá. / K: nuda je nuda / S: odpal |  |  | hra-dialog-idle
@@ -1216,6 +1240,10 @@ Spolulezec se protahuje | Krk mi křupe jak suchar. |  |  | hra-ai-protazeni
 Spolulezec se protahuje | Protáhnout, aby to pak nebolelo. Bolí to stejně. |  |  | hra-ai-protazeni
 Spolulezec se protahuje | Ještě ramena a jsem jak novej. |  |  | hra-ai-protazeni
 Spolulezec se protahuje | Moje záda chtěj do důchodu. |  |  | hra-ai-protazeni
+Spolulezec se protahuje | Kdo se nerozcvičí, ten pak leží. Viz dopadiště. |  |  | hra-ai-protazeni
+Spolulezec se protahuje | Ramena jak rezavý panty. |  |  | hra-ai-protazeni
+Spolulezec se protahuje | Protahuju se. To se počítá jako trénink. |  |  | hra-ai-protazeni
+Spolulezec se protahuje | Jedno zívnutí, dvě protažení, hotovo. |  |  | hra-ai-protazeni
 
 # ===== HRA — AI: KRYSA PŘIJDE =====
 Krysa přijde | Pííp. Jak u vás swinguje život? |  |  | hra-ai-krysa
@@ -1234,6 +1262,10 @@ Krysa u piva | Kdo to vypil? Já ne. Zatím. |  |  | hra-ai-krysa-pivo
 Krysa u piva | Tady něco zbylo? |  |  | hra-ai-krysa-pivo
 Krysa u piva | Mňam. Kozlík. |  |  | hra-ai-krysa-pivo
 Krysa u piva | Jen očuchám. Neboj. |  |  | hra-ai-krysa-pivo
+Krysa u piva | Pííp. Tady je zátka. Zátka je skoro pivo. |  |  | hra-ai-krysa-pivo
+Krysa u piva | Kdo nechal otevřenou flašku? Díky, kdokoli. |  |  | hra-ai-krysa-pivo
+Krysa u piva | Čuchám, nepiju. Zatím. |  |  | hra-ai-krysa-pivo
+Krysa u piva | Jen ochutnám. Na zdraví lezců. |  |  | hra-ai-krysa-pivo
 
 # ===== HRA — AI LEZEC: NÁSTUP =====
 Ai lezec: nástup | S: Ty jsi zraněnej, tak se už jen dívej. / L: Ukážu ti, jak se to dělá. Tak bacha |  |  | hra-ai-lezec-start
@@ -1243,6 +1275,10 @@ Ai lezec: nástup | L: Tohle docela vypadá jednoduše. Mrd, prd, fix a jsi tam.
 Ai lezec: nástup | S: Ty už nepolezeš. / L: Tak já. Bacha. |  |  | hra-ai-lezec-start
 Ai lezec: nástup | L: Uhni, já to zkusím. / S: Hlavně ho nepřišlápni. |  |  | hra-ai-lezec-start
 Ai lezec: nástup | S: Kdo chce lízt? / L: Já. Mám vyhřátý prsty. |  |  | hra-ai-lezec-start
+Ai lezec: nástup | L: Uhni, teď jdu já. / S: Hlavně nespadni na toho zraněnýho. |  |  | hra-ai-lezec-start
+Ai lezec: nástup | S: Lezeš? / L: Lezu. Někdo to tu za něj dolízt musí. |  |  | hra-ai-lezec-start
+Ai lezec: nástup | L: Tohle dám. Viděl jsem, kde to nedal. / S: Všude? |  |  | hra-ai-lezec-start
+Ai lezec: nástup | S: Další dobrovolník. / L: Spíš oběť. Ale jdu. |  |  | hra-ai-lezec-start
 
 # ===== HRA — AI LEZEC: NÁSTUP PO DOLEZENÍ HRÁČE =====
 Ai lezec: nástup | S: Ten to dal. Kdo dál? / L: Já. A zkusím vynechat tenhle chyt / S: Tak ukaž! |  |  | hra-ai-lezec-start-top
@@ -1307,6 +1343,10 @@ Došlo pivo (spolulezec) | Kdo vypil poslední? Obnovte stránku, prosím vás n
 Došlo pivo (spolulezec) | Basa je prázdná! Obnov stránku, ať je pivo! |  |  | hra-pivo-doslo
 Došlo pivo (spolulezec) | Došlo pivo. F5 a je doplněno. Dělej. |  |  | hra-pivo-doslo
 Došlo pivo (spolulezec) | Bez piva nelezu a nejistím. Obnov to. |  |  | hra-pivo-doslo
+Došlo pivo (spolulezec) | Pivo došlo. Stránka se obnoví a pivo s ní. Zkus to. |  |  | hra-pivo-doslo
+Došlo pivo (spolulezec) | Žízeň. Obnov stránku, nebo tu nikdo nic nevyleze. |  |  | hra-pivo-doslo
+Došlo pivo (spolulezec) | Prázdná basa. F5 je jediná cesta. |  |  | hra-pivo-doslo
+Došlo pivo (spolulezec) | Bez piva tu nebudu jistit. Obnov to. |  |  | hra-pivo-doslo
 
 # ===== HRA — DOŠLO PIVO (KRYSA) =====
 Došlo pivo (krysa) | Prázdná. Kdo to vypil? Já ne. |  |  | hra-pivo-doslo-krysa
@@ -1315,6 +1355,10 @@ Došlo pivo (krysa) | Ani kapka. Tohle je humanitární krize. |  |  | hra-pivo-
 Došlo pivo (krysa) | Pííp. Prázdná basa. Tragédie. |  |  | hra-pivo-doslo-krysa
 Došlo pivo (krysa) | Ani lahev. Kdo to dělal? |  |  | hra-pivo-doslo-krysa
 Došlo pivo (krysa) | Já za to nemůžu. Asi. |  |  | hra-pivo-doslo-krysa
+Došlo pivo (krysa) | Prázdná basa. Smutnější než prázdný dopadiště. |  |  | hra-pivo-doslo-krysa
+Došlo pivo (krysa) | Pííp. Nikdo nedonesl? Tak já taky nic neuklidím. |  |  | hra-pivo-doslo-krysa
+Došlo pivo (krysa) | Bez piva tu bude jen mágo. A já. |  |  | hra-pivo-doslo-krysa
+Došlo pivo (krysa) | Basa prázdná, flašky prázdný, srdce prázdný. |  |  | hra-pivo-doslo-krysa
 
 # ===== HRA — POŘÁD NIC (SPOLULEZEC NAŠTVANÝ) =====
 Pořád nic | Pořád nic? Obnov tu stránku! F5! Není to tak těžký! |  |  | hra-pivo-doslo2
@@ -1336,6 +1380,10 @@ Zhasínám | Stěna zavřená z technickejch důvodů. Technickej důvod je pivo
 Zhasínám | Zhasínám. Až se doplní pivo, rozsviť si. |  |  | hra-pivo-konec
 Zhasínám | Tak a dost. Tma. Pivo si doneste. |  |  | hra-pivo-konec
 Zhasínám | Zhasínám. Kdo chce lízt potmě, ať leze. |  |  | hra-pivo-konec
+Zhasínám | Žádný pivo, žádný jištění. Zhasínám. |  |  | hra-pivo-konec
+Zhasínám | Jdu domů. Kdo tu zůstane, uklidí. |  |  | hra-pivo-konec
+Zhasínám | Světlo zhasne s posledním pivem. Tak. |  |  | hra-pivo-konec
+Zhasínám | Dobrou. A ten bordel tu nenechávejte. |  |  | hra-pivo-konec
 
 # ===== HRA — KRYSA VE TMĚ =====
 Krysa ve tmě | Konečně klid. |  |  | hra-pivo-tma-krysa
@@ -1345,6 +1393,10 @@ Krysa ve tmě | Já tu zůstanu. Brousím si zuby na ten Benchmark od Moona. |  
 Krysa ve tmě | Teď je to tu moje. |  |  | hra-pivo-tma-krysa
 Krysa ve tmě | Pííp. Potmě se leze nejlíp. |  |  | hra-pivo-tma-krysa
 Krysa ve tmě | Konečně můžu na Moonboard. |  |  | hra-pivo-tma-krysa
+Krysa ve tmě | Tma. Konečně vylezu na Moon já. |  |  | hra-pivo-tma-krysa
+Krysa ve tmě | Teď je to moje garáž. |  |  | hra-pivo-tma-krysa
+Krysa ve tmě | Ve tmě nikdo neuklízí. Ráj. |  |  | hra-pivo-tma-krysa
+Krysa ve tmě | Pííp. Najdu drobky po čuchu. |  |  | hra-pivo-tma-krysa
 
 # ===== HRA — DONÁŠKA PIVA (TRÉNINKOVKA): ODCHOD =====
 Jde pro pivo | Dobře, skočím pro pivo. Nikam nechoď. |  |  | hra-pivo-donaska
@@ -1354,6 +1406,10 @@ Jde pro pivo | Hned jsem zpátky. Na nic nesahej a nelez proboha! |  |  | hra-pi
 Jde pro pivo | Jdu pro basu. Hlídej mi klobouk. |  |  | hra-pivo-donaska
 Jde pro pivo | Tohle je krize. Jdu to vyřešit. |  |  | hra-pivo-donaska
 Jde pro pivo | Nikam nechoď, hned jsem zpátky s pivem. |  |  | hra-pivo-donaska
+Jde pro pivo | Jdu pro basu. Kdo mezitím leze, ten platí. |  |  | hra-pivo-donaska
+Jde pro pivo | Pivo samo nepřijde. Bohužel. |  |  | hra-pivo-donaska
+Jde pro pivo | Skočím do večerky. Nikdo nic nerozbijte. |  |  | hra-pivo-donaska
+Jde pro pivo | Zásoby došly. Expedice za pivem začíná. |  |  | hra-pivo-donaska
 
 # ===== HRA — DONÁŠKA PIVA (TRÉNINKOVKA): NÁVRAT =====
 Pivo je | Tak. Zásobování obnoveno. |  |  | hra-pivo-donaska2
@@ -1363,3 +1419,7 @@ Pivo je | Pivo je. Můžeš zase padat. |  |  | hra-pivo-donaska2
 Pivo je | Plná basa! Kdo chce? |  |  | hra-pivo-donaska2
 Pivo je | Tak, pivo je. Můžeme pokračovat. |  |  | hra-pivo-donaska2
 Pivo je | Donesl jsem. Teď mi aspoň poděkuj. |  |  | hra-pivo-donaska2
+Pivo je | Je to tu. Studený a plný. |  |  | hra-pivo-donaska2
+Pivo je | Pivo dorazilo. Krysa, ruce pryč. |  |  | hra-pivo-donaska2
+Pivo je | Basa zpátky. Lezení může pokračovat. |  |  | hra-pivo-donaska2
+Pivo je | Doneseno. Prázdný flašky pak do basy, jasný? |  |  | hra-pivo-donaska2

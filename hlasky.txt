@@ -6,7 +6,7 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · meteo-bourka · meteo-snih · meteo-dest · meteo-mlha · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu · pocitadla
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · hra-cekarna · meteo-bourka · meteo-snih · meteo-dest · meteo-mlha · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu · pocitadla
 #           Prázdné nebo neznámé téma = náhodná schválnost.
 #           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
 #
@@ -537,6 +537,16 @@ Bez rozhodčích | Bez rozhodčích |  |  | hra-boulder-cvicne
 Zkušební jízda | Zkušební jízda |  |  | hra-boulder-cvicne
 Kolmáč na zahřátí | Kolmáč na zahřátí |  |  | hra-boulder-cvicne
 Bezradný | Bezradný |  |  | hra-boulder-cvicne
+
+# ===== HRA — ČEKÁRNA (POZVÁNKA) =====
+Čekárna | Než je vzbudíš, zkus to vylízt. Kdo doleze, má respekt. |  |  | hra-cekarna
+Čekárna | Stránky spí, stěna ne. Zalez si. |  |  | hra-cekarna
+Čekárna | Rozrušit je umí každej. Dolízt ne. |  |  | hra-cekarna
+Čekárna | Vyber si kategorii a lez. Klíče od stránek dostane, kdo doleze. |  |  | hra-cekarna
+Čekárna | Hele, než klikneš na to tlačítko, mrkni sem. |  |  | hra-cekarna
+Čekárna | Kluci si dávaj pauzu. Ty můžeš lízt. |  |  | hra-cekarna
+Čekárna | Tlačítko tě pustí dovnitř, ale do síně hanby. Stěna tě pustí s respektem. |  |  | hra-cekarna
+Čekárna | Krysa to zkoušela taky. Nedolezla. |  |  | hra-cekarna
 
 # ===== METEOSTANICE — BOUŘKA =====
 Meteostanice | Bouřka. To se dalo čekat, celej tejden bylo dusno a teď tohle. |  |  | meteo-bourka

@@ -6,7 +6,7 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · hra-cekarna · meteo-bourka · hra-rest · hra-cek-pumpicka · meteo-snih · meteo-dest · hra-cek-softmover · hra-cek-nelezec · meteo-mlha · meteo-mraz · hra-cek-krysa · hra-cek-spolulezec · meteo-vedro · hra-benchmark · meteo-dusno · meteo-vitr · hra-dialog-zraneni · hra-dialog-uklid · meteo-tlak · hra-dialog-top · meteo-hezky · meteo-polojasno · hra-dialog-idle · hra-tlacitko · meteo-zatazeno · hra-ai-pivo · cookies · hra-ai-kartac · ikonka-ie · hra-ai-protazeni · ikonka-800 · hra-ai-krysa · ikonka-notepad · hra-ai-krysa-pivo · notepad-menu · pocitadla · hra-po-top-sednout · hra-po-top-pivo · hra-po-top-hrdina · hra-po-top-lehnout · hra-po-top-lehnout-s · hra-rest-lezec · hra-ai-lezec-start · hra-ai-lezec · hra-ai-lezec-vzdat · hra-pivo-doslo · hra-pivo-doslo-krysa · hra-zachrana · hra-pivo-doslo2 · hra-pivo-konec · hra-pivo-tma-krysa · hra-pivo-donaska · hra-pivo-donaska2
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu · pocitadla · meteo-hezky · meteo-polojasno · meteo-zatazeno · meteo-dest · meteo-bourka · meteo-mlha · meteo-snih · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-boulder · hra-boulder-cvicne · hra-benchmark · hra-chyt · hra-hec · hra-odpocet · hra-rest · hra-rest-lezec · hra-rozhodci · hra-dab · hra-dab-spolulezec · hra-rada-uplatek · hra-uplatek-ok · hra-uplatek-ne · hra-krysa · hra-pad · hra-zraneni · hra-top · hra-cekarna · hra-cek-pumpicka · hra-cek-softmover · hra-cek-nelezec · hra-cek-krysa · hra-cek-spolulezec · hra-zachrana · hra-tlacitko · hra-dialog-zraneni · hra-dialog-uklid · hra-dialog-top · hra-po-top-sednout · hra-po-top-pivo · hra-po-top-hrdina · hra-po-top-lehnout · hra-po-top-lehnout-s · hra-dialog-idle · hra-ai-pivo · hra-ai-kartac · hra-ai-pucuj · hra-ai-protazeni · hra-ai-krysa · hra-ai-krysa-pivo · hra-ai-lezec-start · hra-ai-lezec-start-top · hra-ai-lezec-start-nikdo · hra-ai-lezec · hra-ai-lezec-vzdat · hra-pivo-doslo · hra-pivo-doslo-krysa · hra-pivo-doslo2 · hra-pivo-konec · hra-pivo-tma-krysa · hra-pivo-donaska · hra-pivo-donaska2
 #           Prázdné nebo neznámé téma = náhodná schválnost.
 #           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
 #
@@ -348,84 +348,210 @@ Dobré ráno | Dobré ráno! Dneska to dáme i bez kafe. Asi. |  |  | vyspale
 V noci nás nikdo nebudil | V noci nás nikdo nebudil. Děkujeme, že jste spali taky. |  |  | vyspale
 Hodiny ukazujou šest a my jsme fakt vsta | Hodiny ukazujou šest a my jsme fakt vstaly. Vyspalé. |  |  | vyspale
 
-# ===== HRA — POVZBUZENÍ =====
-Dělej | Dělej! |  |  | hra-chyt
-Nohy, nohy | Nohy, nohy! |  |  | hra-chyt
-Drž | Drž! |  |  | hra-chyt
-Ještě kus | Ještě kus! |  |  | hra-chyt
-Lez! Natejká ti | Lez! Natejká ti! |  |  | hra-chyt
-Dýchej | Dýchej! |  |  | hra-chyt
-Hezký | Hezký! |  |  | hra-chyt
-Allez | Allez! |  |  | hra-chyt
-Neser se s tím | Neser se s tím! |  |  | hra-chyt
-Tohle je přece 6A | Tohle je přece 6A! |  |  | hra-chyt
-Na pivo to máš | Na pivo to máš! |  |  | hra-chyt
-Koukej na nohy, ne na nás | Koukej na nohy, ne na nás! |  |  | hra-chyt
-Rozhodčí koukají | Rozhodčí koukají! |  |  | hra-chyt
-Bubliny jsou tvoje kamarádky | Bubliny jsou tvoje kamarádky! |  |  | hra-chyt
-Ten spoďák drž | Ten spoďák drž! |  |  | hra-chyt
-Fokus vole | Fokus vole! |  |  | hra-chyt
-Fokus | Fokus! |  |  | hra-chyt
-Dejchej | Dejchej! |  |  | hra-chyt
-Pořádně to drž | Pořádně to drž! |  |  | hra-chyt
-Vklidu | Vklidu... |  |  | hra-chyt
-Vklidu | Vklidu... Vklidu... SKOOOČ! |  |  | hra-chyt
-Pooď | Pooď! |  |  | hra-chyt
-Namádžuj | Namádžuj! |  |  | hra-chyt
-Pěkně | Pěkně! Drž! |  |  | hra-chyt
-Drž to | Drž to! |  |  | hra-chyt
-Nepouštěj | Nepouštěj! |  |  | hra-chyt
-Taaak | Taaak! |  |  | hra-chyt
-Zamkni | Zamkni! |  |  | hra-chyt
-Nepadej | Nepadej! |  |  | hra-chyt
-Teď to neposer | Teď to neposer! |  |  | hra-chyt
-Jo | Jo! Máš to! |  |  | hra-chyt
-Jdi si pro to | Jdi si pro to! |  |  | hra-chyt
-Neboj se úspěchu | Neboj se úspěchu. |  |  | hra-chyt
+# ===== COOKIES (ŽLUTÁ IKONKA) =====
+Cookies | Souhlas zaznamenán. Teda nezaznamenán, nemáme kam. |  |  | cookies
+Cookies | Výborně. Pivo bylo uloženo do vašeho prohlížeče. Vyzvednete si ho na garáži. |  |  | cookies
+Cookies | Nezbytná piva: jedno. Řidič má smůlu. |  |  | cookies
+Cookies | Vaše preference byly předány rozhodčím. Úplatek nebyl přiložen. |  |  | cookies
+Cookies | Sledujeme vás jen pohledem. A to ještě blbě, máme mágo v očích. |  |  | cookies
+Cookies | Vaše data jsou u nás v bezpečí. Nikdo je tu neumí otevřít. |  |  | cookies
+Cookies | Cookies nemáme. Máme rohlík z pumpy a ten je od středy. |  |  | cookies
+Cookies | Odmítnout nejde. Tlačítko Odmítnout ukradla krysa. |  |  | cookies
+Cookies | Nastavení uloženo do kasičky. Vybírá se po dvacce. |  |  | cookies
+Cookies | Partneři, se kterými sdílíme vaše data: nikdo. Nikdo s námi nechce mluvit. |  |  | cookies
+Cookies | Souhlasem se zavazujete donést pivo. Platí i zpětně. |  |  | cookies
+Cookies | Pro změnu buďme upřímní: jednu sušenku máme. |  |  | cookies
 
-# ===== HRA — PÁD =====
-Bum | Bum. Dopadiště drží. |  |  | hra-pad
-Gravitace je svinstvo | Gravitace je svinstvo. |  |  | hra-pad
-Spadl jsi jak NeLezec po šesti pivech | Spadl jsi jak NeLezec po šesti pivech. |  |  | hra-pad
-To nebyla chyba, to byl úmysl | To nebyla chyba, to byl úmysl. |  |  | hra-pad
-Moonboard je svině | Moonboard je svině. |  |  | hra-pad
-Málo mága | Málo mága. |  |  | hra-pad
-Prošlapaný místo | Prošlapaný místo. Smůla. |  |  | hra-pad
-Rozhodčí to viděli | Rozhodčí to viděli. |  |  | hra-pad
-Na vlastní nebezpečí | Na vlastní nebezpečí. Podepsal jsi to. |  |  | hra-pad
-Tohle si zapíšu do deníku | Tohle si zapíšu do deníku. |  |  | hra-pad
-Aspoň že je tu dopadiště | Aspoň že je tu dopadiště. První závody ho neměly. |  |  | hra-pad
-Krysa se lekla víc než ty | Krysa se lekla víc než ty. |  |  | hra-pad
-To je debil | To je debil, to jsem neviděl. |  |  | hra-pad
-ticho | *ticho* |  |  | hra-pad
-Jáááj | Jáááj! |  |  | hra-pad
-Haha | Haha! |  |  | hra-pad
-Nevadí | Nevadí, borče. |  |  | hra-pad
-Znova | Znova! |  |  | hra-pad
-Proč sis to pustil | Proč sis to pustil? |  |  | hra-pad
-Posrals to | Posrals to. |  |  | hra-pad
+# ===== IKONKA IE 6.0 =====
+Ikonka IE 6.0 | Váš prohlížeč je příliš moderní. Stránka se zobrazí správně, a to my nechceme. |  |  | ikonka-ie
+Ikonka IE 6.0 | Doporučujeme Internet Explorer 6.0. Disketu s ním má Dáda v šuplíku. |  |  | ikonka-ie
+Ikonka IE 6.0 | Zjištěn prohlížeč novější než naše stěna. Přepínám do kompatibilního režimu. |  |  | ikonka-ie
+Ikonka IE 6.0 | Chyba na řádku 1: stránka vypadá moc dobře. Opravujeme. |  |  | ikonka-ie
+Ikonka IE 6.0 | Pro správné zobrazení vypněte JavaScript, styly a radši i počítač. |  |  | ikonka-ie
+Ikonka IE 6.0 | Stránka byla testována v IE 6.0 na monitoru, který už nesvítí. |  |  | ikonka-ie
+Ikonka IE 6.0 | Váš prohlížeč umí věci, které my ne. Zakázali jsme mu to. |  |  | ikonka-ie
 
-# ===== HRA — TOP =====
-Top | Top! Respekt. |  |  | hra-top
-Top | Top! Rozhodčí kývli. |  |  | hra-top
-Dal jsi to | Dal jsi to. Pivo čeká. |  |  | hra-top
-Za tohle by byly body | Za tohle by byly body. Kdyby byly závody. |  |  | hra-top
-Top | Top! Teď ještě slézt. |  |  | hra-top
-Top | Top! Zapiš si to na kartu. |  |  | hra-top
-Top | Top! Tohle by vzali i do Pumpiček. |  |  | hra-top
+# ===== IKONKA 800×600 =====
+Ikonka 800×600 | Takhle to má vypadat. Nehýbejte monitorem. |  |  | ikonka-800
+Ikonka 800×600 | 800×600. Víc pixelů jsme si nemohli dovolit. |  |  | ikonka-800
+Ikonka 800×600 | Zbytek obrazovky si nechte na pasiáns. |  |  | ikonka-800
+Ikonka 800×600 | Doporučená vzdálenost od monitoru: délka paže s pivem. |  |  | ikonka-800
+Ikonka 800×600 | Šířka stránky odpovídá šířce garáže. Zhruba. |  |  | ikonka-800
+Ikonka 800×600 | Kdo má víc než 800 pixelů, ať se nevytahuje. |  |  | ikonka-800
 
-# ===== HRA — ZRANĚNÍ =====
-Kotník | Kotník. Klasika z roku 2023. |  |  | hra-zraneni
-Malíček | Malíček. Jako v roce 2024. Jednorožec je tvůj. |  |  | hra-zraneni
-Zranění | Zranění. Rozhodčí tě posouvají o místo výš. Tak to u nás chodí. |  |  | hra-zraneni
-Au | Au. Podepsal jsi poučení, tak nebreč. |  |  | hra-zraneni
-Gravitace je svinstvo | Gravitace je svinstvo. Poučení to říkalo. |  |  | hra-zraneni
-Prst do háje | Prst do háje. Kampusovka se směje. |  |  | hra-zraneni
-Tohle chce led | Tohle chce led. Lednice je tu od roku 2019. |  |  | hra-zraneni
-Zraněnej | Zraněnej. Dneska už jen piješ a radíš ostatním. |  |  | hra-zraneni
-Dopadiště je prošlapaný | Dopadiště je prošlapaný. Přesně tady. |  |  | hra-zraneni
-Bolí to | Bolí to? To je dobře, žiješ. |  |  | hra-zraneni
-Vlastní blbost, nebo fyzikální zákony | Vlastní blbost, nebo fyzikální zákony? Poučení kryje obojí. |  |  | hra-zraneni
+# ===== IKONKA NOTEPAD =====
+Ikonka Notepad | <!-- tady Grunt odpojil elektriku, zbytek dopíšu zítra --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- nesahat, nevím proč to funguje --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- TODO: opravit vrata --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- kniha návštěv zatím nefunguje --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- sem přijde blikající GIF, až ho někdo nakreslí --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- tohle psal Notepad, ne já --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- 6 piv za hodinu je strop. Bylo. --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- magnézko? MÁGO! --> |  |  | ikonka-notepad
+Ikonka Notepad | <marquee>VÍTEJTE NA STRÁNKÁCH BOULDER GARÁŽE</marquee> |  |  | ikonka-notepad
+Ikonka Notepad | <blink>NOVINKA!!!</blink> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- pokud tohle čteš, jsi ten typ, co čte i pravidla závodů. Respekt. --> |  |  | ikonka-notepad
+Ikonka Notepad | <!-- kód zkontroloval rozhodčí. Za úplatek. --> |  |  | ikonka-notepad
+
+# ===== NOTEPAD — MENU =====
+Nový | Nový soubor nejde. Nejdřív dodělejte ten starý. |  |  | notepad-menu
+Nový | Nový boulder se staví v sobotu. Přineste vrtačku. |  |  | notepad-menu
+Otevřít | Otevřít jde jen garáž. Klíč dostane každý, kdo vypadá normálně. |  |  | notepad-menu
+Uložit | Soubor nelze uložit: disketa je plná. (A: chráněna proti zápisu) |  |  | notepad-menu
+Uložit jako | Uloženo jako final_final_FINAL2_opravdu.html |  |  | notepad-menu
+Tisk | Tiskárna nemá toner. Poslední náplň šla na plakát k závodům. |  |  | notepad-menu
+Zpět | Zpět to nejde. Gravitace je svinstvo. |  |  | notepad-menu
+Zpět | Zpět jde jen dolů. Po zádech. |  |  | notepad-menu
+Vyjmout | Vyjmout jde jen chyt, a to imbusem. |  |  | notepad-menu
+Vložit | Vložit jde jen dvacka do kasičky. |  |  | notepad-menu
+Najít | Hledáte smysl? Ten tu nenajdete. Zkuste Vysokáč. |  |  | notepad-menu
+Najít | Hledaný výraz „top“ nebyl nalezen. Lezte výš. |  |  | notepad-menu
+Nahradit | Nahradit „magnézko“ za „mágo“: hotovo. Tady se magnézko neříká. |  |  | notepad-menu
+Čas a datum | Na pivo je vždycky dobrá doba. |  |  | notepad-menu
+Zobrazit nápovědu | Nápověda: lezte nahoru. Kdo spadne, zkusí to znovu. |  |  | notepad-menu
+Zobrazit nápovědu | Nápověda je na nástěnce v garáži. Vedle mapy. |  |  | notepad-menu
+O aplikaci | Poznámkový blok BG, verze 5C. Licencováno pro: Dáda. Všechna práva vypita. |  |  | notepad-menu
+
+# ===== POČÍTADLA (KLIK) =====
+Vyzvednout výhru | Výhra se vydává osobně na garáži. Pivo s sebou, to je poplatek. |  |  | pocitadla
+Vyzvednout výhru | Výhra byla odeslána poštou. Až dorazí, tak dorazí. |  |  | pocitadla
+Vyzvednout výhru | Pro vyzvednutí výhry stačí přijít na garáž a říct heslo. Heslo je: lezu. |  |  | pocitadla
+Vyzvednout výhru | Gratulujeme podruhé. Výhra je pořád nic, ale už je vaše. |  |  | pocitadla
+Přiznat se | Přiznání přijato. Rozhřešení dá rozhodčí, za úplatek. |  |  | pocitadla
+Přiznat se | Zapsáno. Pokání: tři bouldery na kolmáči a jedno pivo. |  |  | pocitadla
+Přiznat se | Upřímnost oceňujeme. Stránky se ale stejně zlobí. |  |  | pocitadla
+Přiznat se | Přiznání se počítá jako polehčující okolnost. Ostuda zůstává. |  |  | pocitadla
+Zapřít | Zapírání se nepočítá. Rozhodčí to viděli. |  |  | pocitadla
+Zapřít | Na kameře je to jasně vidět. Kamera sice nemáme, ale stejně. |  |  | pocitadla
+Zapřít | Zapřít jde leda pivo. A to taky ne. |  |  | pocitadla
+Statistika | Průměrná doba na stránce: dokud stránky nezavřou. |  |  | pocitadla
+Statistika | Nejčastější zdroj návštěv: někdo to poslal v hospodě. |  |  | pocitadla
+Statistika | Nejnavštěvovanější den: ten, kdy byly závody. |  |  | pocitadla
+Statistika | Míra odchodu: vysoká, hlavně když stránky odpočívají. |  |  | pocitadla
+Statistika | Návštěvníci z mobilu: většina. Z Nokie 3310: zatím nikdo. |  |  | pocitadla
+Statistika | Konverze na lezce: neměřitelná, ale věříme. |  |  | pocitadla
+Statistika | Data se neprodávají. Nikdo je nechce. |  |  | pocitadla
+Statistika | Počítadlo počítá každé načtení. I to vaše, co jste teď udělali. |  |  | pocitadla
+Rozbité počítadlo | Stránky nejedou, tak se nepočítá. Kdo tu je, ten tu oficiálně není. |  |  | pocitadla
+Rozbité počítadlo | Počítadlo spí. Probuďte ho a dozví se to všichni. |  |  | pocitadla
+Rozbité počítadlo | Návštěvnost v pauze se nepočítá. Rozhodčí to stejně viděli. |  |  | pocitadla
+Rozbité počítadlo | Chyba 503: počítadlo je na pivu. Vrátí se, až se vrátí stránky. |  |  | pocitadla
+Rozbité počítadlo | Počítat se bude, až stránky pojedou. Do té doby jste nula. |  |  | pocitadla
+
+# ===== METEOSTANICE — JASNO =====
+Meteostanice | Zase to slunce. Kdo to má furt mžourat? |  |  | meteo-hezky
+Meteostanice | Všichni jsou na Vysokáči a garáž je prázdná. Hezký počasí nás jednou zničí. |  |  | meteo-hezky
+Meteostanice | Na skále se spálíš, v garáži se uvaříš. Výběr žádnej. |  |  | meteo-hezky
+Meteostanice | Takhle hezky to dlouho nevydrží, to vám povídám. |  |  | meteo-hezky
+Meteostanice | Ani mráček. Něco se chystá. |  |  | meteo-hezky
+Meteostanice | Skála suchá, výmluvy došly. Hrůza. |  |  | meteo-hezky
+Meteostanice | Všichni jsou venku a nikdo nemá čas na garáž. Zrada. |  |  | meteo-hezky
+Meteostanice | Zítra bude určitě hůř, tak si to moc neužívejte. |  |  | meteo-hezky
+Meteostanice | Na Vysokáči je narváno a v garáži je dusno. Kam teď? |  |  | meteo-hezky
+Meteostanice | Obloha jak vymetená. To se nám nelíbí. |  |  | meteo-hezky
+Meteostanice | Je tak hezky, že se nedá nic dělat. A to je přesně ten problém. |  |  | meteo-hezky
+Meteostanice | Tělo chce ven, prsty chtějí na garáž, hlava chce pivo. |  |  | meteo-hezky
+Meteostanice | Hlavně to nezakřiknout. Už je to zakřiknutý. |  |  | meteo-hezky
+Meteostanice | V noci bude zima jak v psírně, uvidíte. |  |  | meteo-hezky
+Meteostanice | Ani mráček. Kdo to má furt vydržet? |  |  | meteo-hezky
+Meteostanice | Skála volá, gauč volá víc. |  |  | meteo-hezky
+Meteostanice | Nádherně. Až moc. Takový počasí se jednou vymstí. |  |  | meteo-hezky
+Meteostanice | Pískovec suchej jak troud. Lezci taky. |  |  | meteo-hezky
+Meteostanice | Hezky je. Co s tím teď máme dělat? |  |  | meteo-hezky
+Meteostanice | Hvězdy, slunce, je to jedno. Hlavně že se zase nedá nic vyčítat. |  |  | meteo-hezky
+
+# ===== METEOSTANICE — POLOJASNO =====
+Meteostanice | Ani pořádný slunce, ani pořádný mraky. Nerozhodný jak NeLezec před bouldrem. |  |  | meteo-polojasno
+Meteostanice | Chvíli svítí, chvíli ne. Na skálu se to nevyplatí, v garáži je to škoda. |  |  | meteo-polojasno
+Meteostanice | Určitě se to zkazí přesně ve chvíli, kdy vylezeš. |  |  | meteo-polojasno
+Meteostanice | Mraky se nemůžou rozhodnout. My taky ne. |  |  | meteo-polojasno
+Meteostanice | Kousek modrý, kousek šedý. Jak modřina. |  |  | meteo-polojasno
+Meteostanice | Předpověď říká, že bude. Co bude, neřekla. |  |  | meteo-polojasno
+Meteostanice | Napůl hezky. Druhá půlka je naše. |  |  | meteo-polojasno
+
+# ===== METEOSTANICE — ZATAŽENO =====
+Meteostanice | Ani slunko, ani déšť. Prostě nic. To se nedá vydržet. |  |  | meteo-zatazeno
+Meteostanice | Šedivo. Den jak vymáchanej v kýblu. |  |  | meteo-zatazeno
+Meteostanice | Prej by mohlo pršet. Nebo taky ne. Nikdo nic neví. |  |  | meteo-zatazeno
+Meteostanice | Nebe jak víko od kýblu. A pod ním my. |  |  | meteo-zatazeno
+Meteostanice | Ani nesvítí, ani neprší. Takový počasí by se mělo zakázat. |  |  | meteo-zatazeno
+Meteostanice | Šedivo. Na skálu se nechce, na garáž se nechce, tak aspoň pivo. |  |  | meteo-zatazeno
+Meteostanice | Kdyby aspoň pršelo, měli bysme výmluvu. |  |  | meteo-zatazeno
+Meteostanice | Barva oblohy: beton. Barva nálady: taky. |  |  | meteo-zatazeno
+Meteostanice | Ani stín to nevrhá. Prej to tak zůstane do jara. |  |  | meteo-zatazeno
+Meteostanice | Fotky z Vysokáče dneska stejně nikdo nedá. |  |  | meteo-zatazeno
+Meteostanice | Mraky visí tak nízko, že by se o ně dalo opřít. Na topu bacha. |  |  | meteo-zatazeno
+Meteostanice | Neprší, ale tváří se to tak. Nejhorší kombinace. |  |  | meteo-zatazeno
+Meteostanice | Mágo vlhne jen z toho, jak se na to dívá. |  |  | meteo-zatazeno
+Meteostanice | Šero od rána. Světlo v garáži zas vyhraje. |  |  | meteo-zatazeno
+Meteostanice | Ani teplo, ani zima. Prostě tak nějak blbě. |  |  | meteo-zatazeno
+Meteostanice | Bez slunce, bez deště, bez chuti. Ideální na lezení, kdyby se chtělo. |  |  | meteo-zatazeno
+Meteostanice | Nad Doksama zase deka. Kdo ji tam furt dává? |  |  | meteo-zatazeno
+Meteostanice | Je tak šedivo, že i chyty vypadají smutně. |  |  | meteo-zatazeno
+Meteostanice | Předpověď: bude to stát za prd. Skutečnost: přesně. |  |  | meteo-zatazeno
+Meteostanice | Kdo čeká na sluníčko, dočká se v květnu. |  |  | meteo-zatazeno
+
+# ===== METEOSTANICE — DÉŠŤ =====
+Meteostanice | Vrata zas prochcaný. Kdyby aspoň pořádně, ale takhle? |  |  | meteo-dest
+Meteostanice | Ani pořádnej déšť to nezvládne. Skála mokrá, nálada taky. |  |  | meteo-dest
+Meteostanice | Mágo se lepí, chyty kloužou, a to se ještě nikdo nezačal potit. |  |  | meteo-dest
+Meteostanice | Leje. Fukar suší boty, boty smrděj, fukar smrdí. |  |  | meteo-dest
+Meteostanice | Pískovec za mokra nelezte. Garáž za mokra jo, i když kape. |  |  | meteo-dest
+Meteostanice | Kape do garáže. Kýbl stojí tam, kde vždycky. |  |  | meteo-dest
+Meteostanice | Prší celej den. Ani to nevypadá, že by to někoho bavilo. |  |  | meteo-dest
+Meteostanice | Dneska se leze jenom na garáži a jenom ze vzteku. |  |  | meteo-dest
+Meteostanice | Na Vysokáči by sis zlomil všechno, co sis ještě nezlomil. |  |  | meteo-dest
+Meteostanice | Prší a fouká do vrat. Kdo je zavře, dostane pivo. |  |  | meteo-dest
+Meteostanice | Kdyby to aspoň napršelo do kasičky. |  |  | meteo-dest
+Meteostanice | Mokro všude. Mágo jak těsto. |  |  | meteo-dest
+
+# ===== METEOSTANICE — BOUŘKA =====
+Meteostanice | Bouřka. To se dalo čekat, celej tejden bylo dusno a teď tohle. |  |  | meteo-bourka
+Meteostanice | Hřmí jak blázen. Ještě že máme vrata, co netěsní, aspoň to slyšíme pořádně. |  |  | meteo-bourka
+Meteostanice | Blýská se. Kdo dneska leze, leze na vlastní nebezpečí. Jako vždycky, ale dneska víc. |  |  | meteo-bourka
+
+# ===== METEOSTANICE — MLHA =====
+Meteostanice | Nevidíš ani na druhej konec garáže. Top neexistuje. |  |  | meteo-mlha
+Meteostanice | Mlha jak mlíko. Kdo nedojde, ztratil se. Nehledáme. |  |  | meteo-mlha
+Meteostanice | Vlhko leze do kostí i do chytů. |  |  | meteo-mlha
+
+# ===== METEOSTANICE — SNÍH =====
+Meteostanice | Bílý svinstvo všude. Venku nikdo nepoleze, tak aspoň v garáži. |  |  | meteo-snih
+Meteostanice | Napadlo. Za hodinu to bude břečka a za dvě ledovka. Krása. |  |  | meteo-snih
+Meteostanice | Na Vysokáči to dneska nevylezeš ani v mačkách. |  |  | meteo-snih
+
+# ===== METEOSTANICE — MRÁZ =====
+Meteostanice | Chyty jak kusy ledu, prsty necítíš od prvního kroku. |  |  | meteo-mraz
+Meteostanice | Fukar jede naplno a stejně je tu zima jak v psírně. |  |  | meteo-mraz
+Meteostanice | Pivo se chladí samo. To je jediný plus. |  |  | meteo-mraz
+Meteostanice | Kdo první sáhne na chyt, obětoval prsty za ostatní. |  |  | meteo-mraz
+Meteostanice | Ráno se vrata nedají otevřít, večer zavřít. |  |  | meteo-mraz
+Meteostanice | Topení slibuje, fukar se snaží, nikdo nevěří. |  |  | meteo-mraz
+Meteostanice | Lezečky tvrdý jak prkno. Nohy taky. |  |  | meteo-mraz
+Meteostanice | Aspoň to tře. Výborný tření, kdyby se dalo hejbat. |  |  | meteo-mraz
+Meteostanice | Na Vysokáči přimrzneš ke skále. Tady aspoň k žíněnce. |  |  | meteo-mraz
+
+# ===== METEOSTANICE — VEDRO =====
+Meteostanice | Chyty se potěj víc než ty. Mágo nestačí. |  |  | meteo-vedro
+Meteostanice | V garáži se nedá dejchat a venku taky ne. |  |  | meteo-vedro
+Meteostanice | Kdo dneska vyleze nahoru, dostane úpal. |  |  | meteo-vedro
+Meteostanice | Pivo se ohřeje dřív, než ho dopiješ. Tak pij rychlejc. |  |  | meteo-vedro
+Meteostanice | Lepí se chyty, lepí se trička, lepí se všechno. |  |  | meteo-vedro
+
+# ===== METEOSTANICE — DUSNO =====
+Meteostanice | Vzduch se dá krájet a pumpa přijde dřív než obvykle. |  |  | meteo-dusno
+Meteostanice | Něco se chystá. Asi bouřka. Nebo zase jenom dusno. |  |  | meteo-dusno
+Meteostanice | Jak v prádelně. Trička se suší přímo na lidech. |  |  | meteo-dusno
+
+# ===== METEOSTANICE — VÍTR =====
+Meteostanice | Vrata mlátěj, plachty lítaj, mágo je všude kromě rukou. |  |  | meteo-vitr
+Meteostanice | Na Vysokáči by tě to sfouklo ze skály. Tady aspoň jen do žíněnky. |  |  | meteo-vitr
+Meteostanice | Fičí to. Kdo zase nechal otevřený vrata? |  |  | meteo-vitr
+
+# ===== METEOSTANICE — NÍZKÝ TLAK =====
+Meteostanice | Hlava třeští, síla žádná. Lezení se dneska omlouvá. |  |  | meteo-tlak
+Meteostanice | Celá garáž je nějaká rozbitá a nikdo neví proč. |  |  | meteo-tlak
+Meteostanice | Dneska to není tebou. Teda asi. |  |  | meteo-tlak
 
 # ===== HRA — ÚVOD PUMPIČKA =====
 Pumpička | Pumpička? Tak ukaž ty svaly. |  |  | hra-uvod-pumpicka
@@ -463,26 +589,6 @@ Dneska se ukáže, proč jsi NeLezec | Dneska se ukáže, proč jsi NeLezec. |  
 NeLezci mají na BG tradici | NeLezci mají na BG tradici: bedna, Jednorožci, zlomeniny. |  |  | hra-uvod-nelezec
 Podepsal jsi poučení | Podepsal jsi poučení? Dobře. |  |  | hra-uvod-nelezec
 
-# ===== HRA — HECOVÁNÍ =====
-Dáš to | Dáš to! Dělej! |  |  | hra-hec
-Celá garáž ti fandí | Celá garáž ti fandí! |  |  | hra-hec
-Neser se s tím a lez | Neser se s tím a lez! |  |  | hra-hec
-Tři pády | Tři pády? To je teprve rozlez. |  |  | hra-hec
-Kluci, hecujte ho | Kluci, hecujte ho! |  |  | hra-hec
-Tohle už musí jít | Tohle už musí jít! |  |  | hra-hec
-Na pivo to máš, na chyt taky | Na pivo to máš, na chyt taky! |  |  | hra-hec
-Dýchej a zkus to znovu | Dýchej a zkus to znovu. |  |  | hra-hec
-
-# ===== HRA — ROZHODČÍ =====
-Neplatí, sáhl jsi na zeď | Rozhodčí: Neplatí, sáhl jsi na zeď! |  |  | hra-rozhodci
-Tohle jsme neviděli | Rozhodčí: Tohle jsme neviděli. Znova. |  |  | hra-rozhodci
-Noha na struktuře se nepočítá | Rozhodčí: Noha na struktuře se nepočítá. |  |  | hra-rozhodci
-Dvě sekundy, ne jedna | Rozhodčí: Dvě sekundy, ne jedna! |  |  | hra-rozhodci
-Bez úplatku to neprojde | Rozhodčí: Bez úplatku to neprojde. |  |  | hra-rozhodci
-Chyt neměl tvoji barvu | Rozhodčí: Chyt neměl tvoji barvu. |  |  | hra-rozhodci
-Viděli jsme to jinak | Rozhodčí: Viděli jsme to jinak. |  |  | hra-rozhodci
-Tohle je na protest | Rozhodčí: Tohle je na protest. Nebo na pivo. |  |  | hra-rozhodci
-
 # ===== HRA — JMÉNA BOULDRŮ =====
 Krysí traverz | Krysí traverz 6B+ |  |  | hra-boulder
 Vodičku né | Vodičku né 5C |  |  | hra-boulder
@@ -507,6 +613,137 @@ Luxfera | Luxfera 6C |  |  | hra-boulder
 Stále pijeme | Stále pijeme 5C |  |  | hra-boulder
 Molitan z Meziříčí | Molitan z Meziříčí 5C |  |  | hra-boulder
 
+# ===== HRA — CVIČNÉ BOULDERY =====
+Rozlez | Rozlez |  |  | hra-boulder-cvicne
+Nanečisto | Nanečisto |  |  | hra-boulder-cvicne
+Pískoviště | Pískoviště |  |  | hra-boulder-cvicne
+Zahřívací kolo | Zahřívací kolo |  |  | hra-boulder-cvicne
+Generálka | Generálka |  |  | hra-boulder-cvicne
+Plyšák | Plyšák |  |  | hra-boulder-cvicne
+Suchej trénink | Suchej trénink |  |  | hra-boulder-cvicne
+Trenažér | Trenažér |  |  | hra-boulder-cvicne
+Bez rozhodčích | Bez rozhodčích |  |  | hra-boulder-cvicne
+Zkušební jízda | Zkušební jízda |  |  | hra-boulder-cvicne
+Kolmáč na zahřátí | Kolmáč na zahřátí |  |  | hra-boulder-cvicne
+Bezradný | Bezradný |  |  | hra-boulder-cvicne
+
+# ===== HRA — BENCHMARK =====
+Benchmark | Benchmark. Tady obtížnost nelže. Je přísná. |  |  | hra-benchmark
+Benchmark | Tohle je benchmark. Napsaný číslo je jen zdvořilost. |  |  | hra-benchmark
+Benchmark | Benchmark. Kdo to dá, může to vyprávět u piva. |  |  | hra-benchmark
+Benchmark | Na benchmarku se nepodvádí. Rozhodčí koukají dvakrát. |  |  | hra-benchmark
+Benchmark | Benchmark. Teď tě Moonboard poměří. |  |  | hra-benchmark
+Benchmark | Hodnotili to moderátoři. Neměli dobrej den. |  |  | hra-benchmark
+
+# ===== HRA — POVZBUZENÍ =====
+Dělej | Dělej! |  |  | hra-chyt
+Nohy, nohy | Nohy, nohy! |  |  | hra-chyt
+Drž | Drž! |  |  | hra-chyt
+Ještě kus | Ještě kus! |  |  | hra-chyt
+Lez! Natejká ti | Lez! Natejká ti! |  |  | hra-chyt
+Dýchej | Dýchej! |  |  | hra-chyt
+Hezký | Hezký! |  |  | hra-chyt
+Allez | Allez! |  |  | hra-chyt
+Neser se s tím | Neser se s tím! |  |  | hra-chyt
+Tohle je přece 6A | Tohle je přece 6A! |  |  | hra-chyt
+Na pivo to máš | Na pivo to máš! |  |  | hra-chyt
+Koukej na nohy, ne na nás | Koukej na nohy, ne na nás! |  |  | hra-chyt
+Rozhodčí koukají | Rozhodčí koukají! |  |  | hra-chyt
+Bubliny jsou tvoje kamarádky | Bubliny jsou tvoje kamarádky! |  |  | hra-chyt
+Ten spoďák drž | Ten spoďák drž! |  |  | hra-chyt
+Fokus vole | Fokus vole! |  |  | hra-chyt
+Fokus | Fokus! |  |  | hra-chyt
+Dejchej | Dejchej! |  |  | hra-chyt
+Pořádně to drž | Pořádně to drž! |  |  | hra-chyt
+Vklidu | Vklidu... |  |  | hra-chyt
+Vklidu | Vklidu... Vklidu... SKOOOČ! |  |  | hra-chyt
+Pooď | Pooď! |  |  | hra-chyt
+Namádžuj | Namádžuj! |  |  | hra-chyt
+Pěkně | Pěkně! Drž! |  |  | hra-chyt
+Drž to | Drž to! |  |  | hra-chyt
+Nepouštěj | Nepouštěj! |  |  | hra-chyt
+Taaak | Taaak! |  |  | hra-chyt
+Zamkni | Zamkni! |  |  | hra-chyt
+Nepadej | Nepadej! |  |  | hra-chyt
+Teď to neposer | Teď to neposer! |  |  | hra-chyt
+Jo | Jo! Máš to! |  |  | hra-chyt
+Jdi si pro to | Jdi si pro to! |  |  | hra-chyt
+Neboj se úspěchu | Neboj se úspěchu. |  |  | hra-chyt
+
+# ===== HRA — HECOVÁNÍ =====
+Dáš to | Dáš to! Dělej! |  |  | hra-hec
+Celá garáž ti fandí | Celá garáž ti fandí! |  |  | hra-hec
+Neser se s tím a lez | Neser se s tím a lez! |  |  | hra-hec
+Tři pády | Tři pády? To je teprve rozlez. |  |  | hra-hec
+Kluci, hecujte ho | Kluci, hecujte ho! |  |  | hra-hec
+Tohle už musí jít | Tohle už musí jít! |  |  | hra-hec
+Na pivo to máš, na chyt taky | Na pivo to máš, na chyt taky! |  |  | hra-hec
+Dýchej a zkus to znovu | Dýchej a zkus to znovu. |  |  | hra-hec
+
+# ===== HRA — ODPOČET: LEZ! =====
+odpočet: Lez! | Lez! |  |  | hra-odpocet
+odpočet: Lez! | Teď! |  |  | hra-odpocet
+odpočet: Lez! | Jdi na to! |  |  | hra-odpocet
+odpočet: Lez! | Ukaž jim to! |  |  | hra-odpocet
+odpočet: Lez! | Šup na to! |  |  | hra-odpocet
+
+# ===== HRA — REST =====
+Rest | Dej si rest. Ruce ti poděkujou. |  |  | hra-rest
+Rest | Sedni, vydechni, pak zase nahoru. |  |  | hra-rest
+Rest | Rest je taky trénink. Prý. |  |  | hra-rest
+Rest | Pět minut rest, říkají všichni. Tady máš chvilku. |  |  | hra-rest
+Rest | Kdo restuje, ten leze. Pomaleji, ale leze. |  |  | hra-rest
+Rest | Napij se vody. Nebo piva. Hlavně nekoukej do mobilu. |  |  | hra-rest
+Rest | Rest na dopadišti, klasika garáže. |  |  | hra-rest
+Rest | Otřepej ruce. Ne, ne o mě. |  |  | hra-rest
+
+# ===== HRA — REST (LEZEC) =====
+Rest | Jen chvilku. Ruce, vzpamatujte se. |  |  | hra-rest-lezec
+Rest | Sedím. Přemýšlím. Hlavně sedím. |  |  | hra-rest-lezec
+Rest | Ještě minutku a jdu na to. |  |  | hra-rest-lezec
+Rest | Předloktí jak bochníky. Chvíli to potrvá. |  |  | hra-rest-lezec
+Rest | Tohle není vzdávání. To je taktika. |  |  | hra-rest-lezec
+
+# ===== HRA — ROZHODČÍ =====
+Neplatí, sáhl jsi na zeď | Rozhodčí: Neplatí, sáhl jsi na zeď! |  |  | hra-rozhodci
+Tohle jsme neviděli | Rozhodčí: Tohle jsme neviděli. Znova. |  |  | hra-rozhodci
+Noha na struktuře se nepočítá | Rozhodčí: Noha na struktuře se nepočítá. |  |  | hra-rozhodci
+Dvě sekundy, ne jedna | Rozhodčí: Dvě sekundy, ne jedna! |  |  | hra-rozhodci
+Bez úplatku to neprojde | Rozhodčí: Bez úplatku to neprojde. |  |  | hra-rozhodci
+Chyt neměl tvoji barvu | Rozhodčí: Chyt neměl tvoji barvu. |  |  | hra-rozhodci
+Viděli jsme to jinak | Rozhodčí: Viděli jsme to jinak. |  |  | hra-rozhodci
+Tohle je na protest | Rozhodčí: Tohle je na protest. Nebo na pivo. |  |  | hra-rozhodci
+
+# ===== HRA — DAB (ROZHODČÍ) =====
+dab (rozhodčí) | Rozhodčí: Dab! Noha na dopadišti. |  |  | hra-dab
+dab (rozhodčí) | Rozhodčí: Dotyk dopadiště. To se nepočítá. |  |  | hra-dab
+dab (rozhodčí) | Rozhodčí: Viděli jsme to. Dab. |  |  | hra-dab
+dab (rozhodčí) | Rozhodčí: Pata na matraci. Dab jak řemen. |  |  | hra-dab
+
+# ===== HRA — DAB: SPOLULEZEC NADÁVÁ =====
+dab: spolulezec nadává | Ty vole, dab hned na prvním chytu? Znova! |  |  | hra-dab-spolulezec
+dab: spolulezec nadává | Do prdele, nohy nahoru! Jedeš znova. |  |  | hra-dab-spolulezec
+dab: spolulezec nadává | Kurva, vždyť jsi ještě ani nezačal! |  |  | hra-dab-spolulezec
+dab: spolulezec nadává | Dab? Fakt? Tohle ti nikdo neuvěří. Znova. |  |  | hra-dab-spolulezec
+dab: spolulezec nadává | Nohy máš od toho, abys je zvedal. Ne abys jima hladil matraci! |  |  | hra-dab-spolulezec
+
+# ===== HRA — SPOLULEZEC RADÍ ÚPLATEK =====
+spolulezec radí úplatek | Podplať je! Dělej, tlačítko dole! |  |  | hra-rada-uplatek
+spolulezec radí úplatek | Dej jim pusu, než si to rozmyslej! |  |  | hra-rada-uplatek
+spolulezec radí úplatek | Úplatek! Teď, nebo nikdy! |  |  | hra-rada-uplatek
+spolulezec radí úplatek | Neřeš to a zaplať! |  |  | hra-rada-uplatek
+
+# ===== HRA — ROZHODČÍ PŘIJALI ÚPLATEK =====
+rozhodčí přijali úplatek | Rozhodčí: Přijato. Tah platí. |  |  | hra-uplatek-ok
+rozhodčí přijali úplatek | Rozhodčí: Nic jsme neviděli. |  |  | hra-uplatek-ok
+rozhodčí přijali úplatek | Rozhodčí: Dopadiště? Jaký dopadiště? |  |  | hra-uplatek-ok
+rozhodčí přijali úplatek | Rozhodčí: Děkujeme. Pokračujte. |  |  | hra-uplatek-ok
+
+# ===== HRA — ÚPLATEK NENÍ KOMU DÁT =====
+úplatek není komu dát | Teď není komu. Schovej si to na rozhodčí. |  |  | hra-uplatek-ne
+úplatek není komu dát | Úplatek se dává, až když je problém. |  |  | hra-uplatek-ne
+úplatek není komu dát | Rozhodčí zrovna koukaj jinam. Nech si to. |  |  | hra-uplatek-ne
+
 # ===== HRA — KRYSA =====
 Já tu byla dřív | Já tu byla dřív. |  |  | hra-krysa
 Mám permanentku | Mám permanentku. |  |  | hra-krysa
@@ -524,19 +761,49 @@ Mágo mi chutná | Mágo mi chutná. |  |  | hra-krysa
 Jsem tu nejstarší člen | Jsem tu nejstarší člen. |  |  | hra-krysa
 Píp. Tak co, dáš to | Píp. Tak co, dáš to? |  |  | hra-krysa
 
-# ===== HRA — CVIČNÉ BOULDERY =====
-Rozlez | Rozlez |  |  | hra-boulder-cvicne
-Nanečisto | Nanečisto |  |  | hra-boulder-cvicne
-Pískoviště | Pískoviště |  |  | hra-boulder-cvicne
-Zahřívací kolo | Zahřívací kolo |  |  | hra-boulder-cvicne
-Generálka | Generálka |  |  | hra-boulder-cvicne
-Plyšák | Plyšák |  |  | hra-boulder-cvicne
-Suchej trénink | Suchej trénink |  |  | hra-boulder-cvicne
-Trenažér | Trenažér |  |  | hra-boulder-cvicne
-Bez rozhodčích | Bez rozhodčích |  |  | hra-boulder-cvicne
-Zkušební jízda | Zkušební jízda |  |  | hra-boulder-cvicne
-Kolmáč na zahřátí | Kolmáč na zahřátí |  |  | hra-boulder-cvicne
-Bezradný | Bezradný |  |  | hra-boulder-cvicne
+# ===== HRA — PÁD =====
+Bum | Bum. Dopadiště drží. |  |  | hra-pad
+Gravitace je svinstvo | Gravitace je svinstvo. |  |  | hra-pad
+Spadl jsi jak NeLezec po šesti pivech | Spadl jsi jak NeLezec po šesti pivech. |  |  | hra-pad
+To nebyla chyba, to byl úmysl | To nebyla chyba, to byl úmysl. |  |  | hra-pad
+Moonboard je svině | Moonboard je svině. |  |  | hra-pad
+Málo mága | Málo mága. |  |  | hra-pad
+Prošlapaný místo | Prošlapaný místo. Smůla. |  |  | hra-pad
+Rozhodčí to viděli | Rozhodčí to viděli. |  |  | hra-pad
+Na vlastní nebezpečí | Na vlastní nebezpečí. Podepsal jsi to. |  |  | hra-pad
+Tohle si zapíšu do deníku | Tohle si zapíšu do deníku. |  |  | hra-pad
+Aspoň že je tu dopadiště | Aspoň že je tu dopadiště. První závody ho neměly. |  |  | hra-pad
+Krysa se lekla víc než ty | Krysa se lekla víc než ty. |  |  | hra-pad
+To je debil | To je debil, to jsem neviděl. |  |  | hra-pad
+ticho | *ticho* |  |  | hra-pad
+Jáááj | Jáááj! |  |  | hra-pad
+Haha | Haha! |  |  | hra-pad
+Nevadí | Nevadí, borče. |  |  | hra-pad
+Znova | Znova! |  |  | hra-pad
+Proč sis to pustil | Proč sis to pustil? |  |  | hra-pad
+Posrals to | Posrals to. |  |  | hra-pad
+
+# ===== HRA — ZRANĚNÍ =====
+Kotník | Kotník. Klasika z roku 2023. |  |  | hra-zraneni
+Malíček | Malíček. Jako v roce 2024. Jednorožec je tvůj. |  |  | hra-zraneni
+Zranění | Zranění. Rozhodčí tě posouvají o místo výš. Tak to u nás chodí. |  |  | hra-zraneni
+Au | Au. Podepsal jsi poučení, tak nebreč. |  |  | hra-zraneni
+Gravitace je svinstvo | Gravitace je svinstvo. Poučení to říkalo. |  |  | hra-zraneni
+Prst do háje | Prst do háje. Kampusovka se směje. |  |  | hra-zraneni
+Tohle chce led | Tohle chce led. Lednice je tu od roku 2019. |  |  | hra-zraneni
+Zraněnej | Zraněnej. Dneska už jen piješ a radíš ostatním. |  |  | hra-zraneni
+Dopadiště je prošlapaný | Dopadiště je prošlapaný. Přesně tady. |  |  | hra-zraneni
+Bolí to | Bolí to? To je dobře, žiješ. |  |  | hra-zraneni
+Vlastní blbost, nebo fyzikální zákony | Vlastní blbost, nebo fyzikální zákony? Poučení kryje obojí. |  |  | hra-zraneni
+
+# ===== HRA — TOP =====
+Top | Top! Respekt. |  |  | hra-top
+Top | Top! Rozhodčí kývli. |  |  | hra-top
+Dal jsi to | Dal jsi to. Pivo čeká. |  |  | hra-top
+Za tohle by byly body | Za tohle by byly body. Kdyby byly závody. |  |  | hra-top
+Top | Top! Teď ještě slézt. |  |  | hra-top
+Top | Top! Zapiš si to na kartu. |  |  | hra-top
+Top | Top! Tohle by vzali i do Pumpiček. |  |  | hra-top
 
 # ===== HRA — ČEKÁRNA (POZVÁNKA) =====
 Čekárna | Než je vzbudíš, zkus to vylízt. Kdo doleze, má respekt. |  |  | hra-cekarna
@@ -548,46 +815,12 @@ Bezradný | Bezradný |  |  | hra-boulder-cvicne
 Čekárna | Tlačítko tě pustí dovnitř, ale do síně hanby. Stěna tě pustí s respektem. |  |  | hra-cekarna
 Čekárna | Krysa to zkoušela taky. Nedolezla. |  |  | hra-cekarna
 
-# ===== METEOSTANICE — BOUŘKA =====
-Meteostanice | Bouřka. To se dalo čekat, celej tejden bylo dusno a teď tohle. |  |  | meteo-bourka
-Meteostanice | Hřmí jak blázen. Ještě že máme vrata, co netěsní, aspoň to slyšíme pořádně. |  |  | meteo-bourka
-Meteostanice | Blýská se. Kdo dneska leze, leze na vlastní nebezpečí. Jako vždycky, ale dneska víc. |  |  | meteo-bourka
-
-# ===== HRA — REST =====
-Rest | Dej si rest. Ruce ti poděkujou. |  |  | hra-rest
-Rest | Sedni, vydechni, pak zase nahoru. |  |  | hra-rest
-Rest | Rest je taky trénink. Prý. |  |  | hra-rest
-Rest | Pět minut rest, říkají všichni. Tady máš chvilku. |  |  | hra-rest
-Rest | Kdo restuje, ten leze. Pomaleji, ale leze. |  |  | hra-rest
-Rest | Napij se vody. Nebo piva. Hlavně nekoukej do mobilu. |  |  | hra-rest
-Rest | Rest na dopadišti, klasika garáže. |  |  | hra-rest
-Rest | Otřepej ruce. Ne, ne o mě. |  |  | hra-rest
-
-# ===== METEOSTANICE — SNÍH =====
-Meteostanice | Bílý svinstvo všude. Venku nikdo nepoleze, tak aspoň v garáži. |  |  | meteo-snih
-Meteostanice | Napadlo. Za hodinu to bude břečka a za dvě ledovka. Krása. |  |  | meteo-snih
-Meteostanice | Na Vysokáči to dneska nevylezeš ani v mačkách. |  |  | meteo-snih
-
 # ===== HRA — ČEKÁRNA: PUMPIČKA =====
 Pumpička | Sedm A? To dám na jednu ruku. |  |  | hra-cek-pumpicka
 Pumpička | Prsty mám z oceli. Hlavu taky. |  |  | hra-cek-pumpicka
 Pumpička | Rozcvička je pro slabochy. |  |  | hra-cek-pumpicka
 Pumpička | Vyber mě. Triko jsem si sundal kvůli tobě. |  |  | hra-cek-pumpicka
 Pumpička | Kampus je můj kamarád. |  |  | hra-cek-pumpicka
-
-# ===== METEOSTANICE — DÉŠŤ =====
-Meteostanice | Vrata zas prochcaný. Kdyby aspoň pořádně, ale takhle? |  |  | meteo-dest
-Meteostanice | Ani pořádnej déšť to nezvládne. Skála mokrá, nálada taky. |  |  | meteo-dest
-Meteostanice | Mágo se lepí, chyty kloužou, a to se ještě nikdo nezačal potit. |  |  | meteo-dest
-Meteostanice | Leje. Fukar suší boty, boty smrděj, fukar smrdí. |  |  | meteo-dest
-Meteostanice | Pískovec za mokra nelezte. Garáž za mokra jo, i když kape. |  |  | meteo-dest
-Meteostanice | Kape do garáže. Kýbl stojí tam, kde vždycky. |  |  | meteo-dest
-Meteostanice | Prší celej den. Ani to nevypadá, že by to někoho bavilo. |  |  | meteo-dest
-Meteostanice | Dneska se leze jenom na garáži a jenom ze vzteku. |  |  | meteo-dest
-Meteostanice | Na Vysokáči by sis zlomil všechno, co sis ještě nezlomil. |  |  | meteo-dest
-Meteostanice | Prší a fouká do vrat. Kdo je zavře, dostane pivo. |  |  | meteo-dest
-Meteostanice | Kdyby to aspoň napršelo do kasičky. |  |  | meteo-dest
-Meteostanice | Mokro všude. Mágo jak těsto. |  |  | meteo-dest
 
 # ===== HRA — ČEKÁRNA: SOFTMOVER =====
 SoftMover | Hlavně měkce. Jako kočka. Jako hodně opatrná kočka. |  |  | hra-cek-softmover
@@ -596,28 +829,12 @@ SoftMover | Čepici si nesundám. Ani na topu. |  |  | hra-cek-softmover
 SoftMover | Bacha na prsty, říkají. Bacha na mě, říkám. |  |  | hra-cek-softmover
 SoftMover | Moonboard je jen deska s dírama. Zvládneme to. |  |  | hra-cek-softmover
 
-# ===== METEOSTANICE — MLHA =====
-Meteostanice | Nevidíš ani na druhej konec garáže. Top neexistuje. |  |  | meteo-mlha
-Meteostanice | Mlha jak mlíko. Kdo nedojde, ztratil se. Nehledáme. |  |  | meteo-mlha
-Meteostanice | Vlhko leze do kostí i do chytů. |  |  | meteo-mlha
-
 # ===== HRA — ČEKÁRNA: NELEZEC =====
 NeLezec | Já jsem tu kvůli pivu. Ale klidně to zkusím. |  |  | hra-cek-nelezec
 NeLezec | Lezečky? Tenisky jsou pohodlnější. |  |  | hra-cek-nelezec
 NeLezec | Kdybych spadl, nikomu to neříkejte. |  |  | hra-cek-nelezec
 NeLezec | Odvaha mi nechybí. Technika jo. |  |  | hra-cek-nelezec
 NeLezec | Jednorožec bude můj. Jednou. |  |  | hra-cek-nelezec
-
-# ===== METEOSTANICE — MRÁZ =====
-Meteostanice | Chyty jak kusy ledu, prsty necítíš od prvního kroku. |  |  | meteo-mraz
-Meteostanice | Fukar jede naplno a stejně je tu zima jak v psírně. |  |  | meteo-mraz
-Meteostanice | Pivo se chladí samo. To je jediný plus. |  |  | meteo-mraz
-Meteostanice | Kdo první sáhne na chyt, obětoval prsty za ostatní. |  |  | meteo-mraz
-Meteostanice | Ráno se vrata nedají otevřít, večer zavřít. |  |  | meteo-mraz
-Meteostanice | Topení slibuje, fukar se snaží, nikdo nevěří. |  |  | meteo-mraz
-Meteostanice | Lezečky tvrdý jak prkno. Nohy taky. |  |  | meteo-mraz
-Meteostanice | Aspoň to tře. Výborný tření, kdyby se dalo hejbat. |  |  | meteo-mraz
-Meteostanice | Na Vysokáči přimrzneš ke skále. Tady aspoň k žíněnce. |  |  | meteo-mraz
 
 # ===== HRA — ČEKÁRNA: KRYSA =====
 Krysa | Já po zdech lezu zadarmo. Bez Moonboardu. |  |  | hra-cek-krysa
@@ -626,13 +843,6 @@ Krysa | Na dopadišti bydlím. Na stěně jsem jen na návštěvě. |  |  | hra-
 Krysa | Pííp. To jako ne. |  |  | hra-cek-krysa
 Krysa | Až mě odemknete, ohlodám vám chyty. |  |  | hra-cek-krysa
 
-# ===== METEOSTANICE — VEDRO =====
-Meteostanice | Chyty se potěj víc než ty. Mágo nestačí. |  |  | meteo-vedro
-Meteostanice | V garáži se nedá dejchat a venku taky ne. |  |  | meteo-vedro
-Meteostanice | Kdo dneska vyleze nahoru, dostane úpal. |  |  | meteo-vedro
-Meteostanice | Pivo se ohřeje dřív, než ho dopiješ. Tak pij rychlejc. |  |  | meteo-vedro
-Meteostanice | Lepí se chyty, lepí se trička, lepí se všechno. |  |  | meteo-vedro
-
 # ===== HRA — ČEKÁRNA: SPOLULEZEC =====
 Spolulezec | Já? Já jistím. To se musí odemknout. |  |  | hra-cek-spolulezec
 Spolulezec | Spolulezec leze, až když nikdo nekouká. |  |  | hra-cek-spolulezec
@@ -640,23 +850,21 @@ Spolulezec | Klobouk se na Moonboard nehodí. Prý. |  |  | hra-cek-spolulezec
 Spolulezec | Někdo tě chytat musí. Tak to jsem já. |  |  | hra-cek-spolulezec
 Spolulezec | Lézt budu, až mě odemknete. Kdy, to nevím ani já. |  |  | hra-cek-spolulezec
 
-# ===== METEOSTANICE — DUSNO =====
-Meteostanice | Vzduch se dá krájet a pumpa přijde dřív než obvykle. |  |  | meteo-dusno
-Meteostanice | Něco se chystá. Asi bouřka. Nebo zase jenom dusno. |  |  | meteo-dusno
-Meteostanice | Jak v prádelně. Trička se suší přímo na lidech. |  |  | meteo-dusno
+# ===== HRA — SPOLULEZEC VOLÁ ZDOLA (POTVRZENÍ ROZRUŠENÍ) =====
+Spolulezec volá zdola | Hej! Co tam děláš? Pojď si nejdřív zalízt. |  |  | hra-zachrana
+Spolulezec volá zdola | Počkej! Než je rozrušíš, dej aspoň jeden boulder. |  |  | hra-zachrana
+Spolulezec volá zdola | Neklikej! Dolez a vejdeš bez ostudy. |  |  | hra-zachrana
+Spolulezec volá zdola | Hej ty nahoře! Tady dole je stěna. Ta tě nezapíše. |  |  | hra-zachrana
+Spolulezec volá zdola | Co blbneš? Stránky lezou, nech je. Pojď sem. |  |  | hra-zachrana
+Spolulezec volá zdola | Tohle tlačítko si zapamatujou. Radši si zalez. |  |  | hra-zachrana
+Spolulezec volá zdola | Kam ses vydal? Moonboard je tady dole! |  |  | hra-zachrana
+Spolulezec volá zdola | Ty jo, ty seš rychlej. Na tlačítko. Zkus to radši na stěně. |  |  | hra-zachrana
 
-# ===== HRA — BENCHMARK =====
-Benchmark | Benchmark. Tady obtížnost nelže. Je přísná. |  |  | hra-benchmark
-Benchmark | Tohle je benchmark. Napsaný číslo je jen zdvořilost. |  |  | hra-benchmark
-Benchmark | Benchmark. Kdo to dá, může to vyprávět u piva. |  |  | hra-benchmark
-Benchmark | Na benchmarku se nepodvádí. Rozhodčí koukají dvakrát. |  |  | hra-benchmark
-Benchmark | Benchmark. Teď tě Moonboard poměří. |  |  | hra-benchmark
-Benchmark | Hodnotili to moderátoři. Neměli dobrej den. |  |  | hra-benchmark
-
-# ===== METEOSTANICE — VÍTR =====
-Meteostanice | Vrata mlátěj, plachty lítaj, mágo je všude kromě rukou. |  |  | meteo-vitr
-Meteostanice | Na Vysokáči by tě to sfouklo ze skály. Tady aspoň jen do žíněnky. |  |  | meteo-vitr
-Meteostanice | Fičí to. Kdo zase nechal otevřený vrata? |  |  | meteo-vitr
+# ===== HRA — SPOLULEZEC U TLAČÍTKA =====
+Spolulezec u tlačítka | Dolezl jsi, tak pojď dál. Bez rozrušení, slušně. |  |  | hra-tlacitko
+Spolulezec u tlačítka | Přepnul jsem ti to. Kdo doleze, nemusí nic rozrušovat. |  |  | hra-tlacitko
+Spolulezec u tlačítka | Tudy. A boty si nezouvej, tady se chodí v lezečkách. |  |  | hra-tlacitko
+Spolulezec u tlačítka | Stránky o tom vědí. Já jim to řekl. |  |  | hra-tlacitko
 
 # ===== HRA — DIALOG PO ZRANĚNÍ =====
 Dialog po zranění | K: Ten se nehýbe. / S: Dýchá. To stačí. / K: Můžu si vzít jeho pytlík s mágem? |  |  | hra-dialog-zraneni
@@ -665,11 +873,6 @@ Dialog po zranění | S: Podepsal poučení? / K: Podepsal. Já jsem svědek. / 
 Dialog po zranění | K: Mám zavolat záchranku? / S: Máš telefon? / K: Ne. / S: Tak nevolej. |  |  | hra-dialog-zraneni
 Dialog po zranění | K: To byl hezkej pád. / S: Sedm z deseti. Dopad nic moc. |  |  | hra-dialog-zraneni
 
-# ===== METEOSTANICE — NÍZKÝ TLAK =====
-Meteostanice | Hlava třeští, síla žádná. Lezení se dneska omlouvá. |  |  | meteo-tlak
-Meteostanice | Celá garáž je nějaká rozbitá a nikdo neví proč. |  |  | meteo-tlak
-Meteostanice | Dneska to není tebou. Teda asi. |  |  | meteo-tlak
-
 # ===== HRA — DIALOG PO ÚKLIDU =====
 Dialog po úklidu | K: Kam jsi ho dal? / S: Kam patří. / K: Pod dopadiště? / S: Neptej se. |  |  | hra-dialog-uklid
 Dialog po úklidu | S: Tak. Uklizeno. / K: Za chvíli přijde další. / S: Vždycky přijde další. |  |  | hra-dialog-uklid
@@ -677,198 +880,12 @@ Dialog po úklidu | K: Najde se? / S: Na jaře. Při velkým úklidu. |  |  | hr
 Dialog po úklidu | S: Kdo další? / K: Já ne. Já jen koukám. |  |  | hra-dialog-uklid
 Dialog po úklidu | K: Děláš to nějak rutinně. / S: Dělám to každej den, krysko. |  |  | hra-dialog-uklid
 
-# ===== METEOSTANICE — JASNO =====
-Meteostanice | Zase to slunce. Kdo to má furt mžourat? |  |  | meteo-hezky
-Meteostanice | Všichni jsou na Vysokáči a garáž je prázdná. Hezký počasí nás jednou zničí. |  |  | meteo-hezky
-Meteostanice | Na skále se spálíš, v garáži se uvaříš. Výběr žádnej. |  |  | meteo-hezky
-Meteostanice | Takhle hezky to dlouho nevydrží, to vám povídám. |  |  | meteo-hezky
-Meteostanice | Ani mráček. Něco se chystá. |  |  | meteo-hezky
-Meteostanice | Skála suchá, výmluvy došly. Hrůza. |  |  | meteo-hezky
-Meteostanice | Všichni jsou venku a nikdo nemá čas na garáž. Zrada. |  |  | meteo-hezky
-Meteostanice | Zítra bude určitě hůř, tak si to moc neužívejte. |  |  | meteo-hezky
-Meteostanice | Na Vysokáči je narváno a v garáži je dusno. Kam teď? |  |  | meteo-hezky
-Meteostanice | Obloha jak vymetená. To se nám nelíbí. |  |  | meteo-hezky
-Meteostanice | Je tak hezky, že se nedá nic dělat. A to je přesně ten problém. |  |  | meteo-hezky
-Meteostanice | Tělo chce ven, prsty chtějí na garáž, hlava chce pivo. |  |  | meteo-hezky
-Meteostanice | Hlavně to nezakřiknout. Už je to zakřiknutý. |  |  | meteo-hezky
-Meteostanice | V noci bude zima jak v psírně, uvidíte. |  |  | meteo-hezky
-Meteostanice | Ani mráček. Kdo to má furt vydržet? |  |  | meteo-hezky
-Meteostanice | Skála volá, gauč volá víc. |  |  | meteo-hezky
-Meteostanice | Nádherně. Až moc. Takový počasí se jednou vymstí. |  |  | meteo-hezky
-Meteostanice | Pískovec suchej jak troud. Lezci taky. |  |  | meteo-hezky
-Meteostanice | Hezky je. Co s tím teď máme dělat? |  |  | meteo-hezky
-Meteostanice | Hvězdy, slunce, je to jedno. Hlavně že se zase nedá nic vyčítat. |  |  | meteo-hezky
-
 # ===== HRA — DIALOG PO DOLEZENÍ =====
 Dialog po dolezení | K: Dolezl to. / S: Viděla jsi to? / K: Viděla. Náhoda. |  |  | hra-dialog-top
 Dialog po dolezení | K: Mně nikdo nikdy neplácne. / S: Ty nemáš ruce, máš tlapky. |  |  | hra-dialog-top
 Dialog po dolezení | K: Já bych to dala rychlejc. / S: Ty bys to ohlodala. / K: To je taky styl. |  |  | hra-dialog-top
 Dialog po dolezení | S: Tohle se počítá. / K: Kde se to počítá? / S: Někde určitě. |  |  | hra-dialog-top
 Dialog po dolezení | K: Teď bude chtít pivo. / S: Teď si ho i zaslouží. |  |  | hra-dialog-top
-
-# ===== METEOSTANICE — POLOJASNO =====
-Meteostanice | Ani pořádný slunce, ani pořádný mraky. Nerozhodný jak NeLezec před bouldrem. |  |  | meteo-polojasno
-Meteostanice | Chvíli svítí, chvíli ne. Na skálu se to nevyplatí, v garáži je to škoda. |  |  | meteo-polojasno
-Meteostanice | Určitě se to zkazí přesně ve chvíli, kdy vylezeš. |  |  | meteo-polojasno
-Meteostanice | Mraky se nemůžou rozhodnout. My taky ne. |  |  | meteo-polojasno
-Meteostanice | Kousek modrý, kousek šedý. Jak modřina. |  |  | meteo-polojasno
-Meteostanice | Předpověď říká, že bude. Co bude, neřekla. |  |  | meteo-polojasno
-Meteostanice | Napůl hezky. Druhá půlka je naše. |  |  | meteo-polojasno
-
-# ===== HRA — DIALOG, KDYŽ SE NIC NEDĚJE =====
-Dialog, když se nic neděje | K: Nuda. / S: Nuda je dobrá. Nuda znamená, že nikdo nepadá. |  |  | hra-dialog-idle
-Dialog, když se nic neděje | K: Kdy zas někdo poleze? / S: Až se někdo odváží. / K: Takže nikdy. |  |  | hra-dialog-idle
-Dialog, když se nic neděje | S: Víš, co je na Moonboardu nejhorší? / K: Rozhodčí. / S: Ne. Že na něj nikdo neleze. |  |  | hra-dialog-idle
-Dialog, když se nic neděje | K: Proč nosíš klobouk? / S: Kvůli magnéziu. / K: Padá ti na hlavu? / S: Padá mi na všechno. |  |  | hra-dialog-idle
-Dialog, když se nic neděje | K: Slyšíš to? / S: Ne. / K: Já taky ne. To je ticho. Divný. |  |  | hra-dialog-idle
-Dialog, když se nic neděje | S: Chceš si zalézt? / K: Já lezu po zdech. To je rozdíl. / S: Jakej? / K: Zdi neodpovídají. |  |  | hra-dialog-idle
-
-# ===== METEOSTANICE — ZATAŽENO =====
-Meteostanice | Ani slunko, ani déšť. Prostě nic. To se nedá vydržet. |  |  | meteo-zatazeno
-Meteostanice | Šedivo. Den jak vymáchanej v kýblu. |  |  | meteo-zatazeno
-Meteostanice | Prej by mohlo pršet. Nebo taky ne. Nikdo nic neví. |  |  | meteo-zatazeno
-Meteostanice | Nebe jak víko od kýblu. A pod ním my. |  |  | meteo-zatazeno
-Meteostanice | Ani nesvítí, ani neprší. Takový počasí by se mělo zakázat. |  |  | meteo-zatazeno
-Meteostanice | Šedivo. Na skálu se nechce, na garáž se nechce, tak aspoň pivo. |  |  | meteo-zatazeno
-Meteostanice | Kdyby aspoň pršelo, měli bysme výmluvu. |  |  | meteo-zatazeno
-Meteostanice | Barva oblohy: beton. Barva nálady: taky. |  |  | meteo-zatazeno
-Meteostanice | Ani stín to nevrhá. Prej to tak zůstane do jara. |  |  | meteo-zatazeno
-Meteostanice | Fotky z Vysokáče dneska stejně nikdo nedá. |  |  | meteo-zatazeno
-Meteostanice | Mraky visí tak nízko, že by se o ně dalo opřít. Na topu bacha. |  |  | meteo-zatazeno
-Meteostanice | Neprší, ale tváří se to tak. Nejhorší kombinace. |  |  | meteo-zatazeno
-Meteostanice | Mágo vlhne jen z toho, jak se na to dívá. |  |  | meteo-zatazeno
-Meteostanice | Šero od rána. Světlo v garáži zas vyhraje. |  |  | meteo-zatazeno
-Meteostanice | Ani teplo, ani zima. Prostě tak nějak blbě. |  |  | meteo-zatazeno
-Meteostanice | Bez slunce, bez deště, bez chuti. Ideální na lezení, kdyby se chtělo. |  |  | meteo-zatazeno
-Meteostanice | Nad Doksama zase deka. Kdo ji tam furt dává? |  |  | meteo-zatazeno
-Meteostanice | Je tak šedivo, že i chyty vypadají smutně. |  |  | meteo-zatazeno
-Meteostanice | Předpověď: bude to stát za prd. Skutečnost: přesně. |  |  | meteo-zatazeno
-Meteostanice | Kdo čeká na sluníčko, dočká se v květnu. |  |  | meteo-zatazeno
-
-# ===== HRA — SPOLULEZEC U TLAČÍTKA =====
-Spolulezec u tlačítka | Dolezl jsi, tak pojď dál. Bez rozrušení, slušně. |  |  | hra-tlacitko
-Spolulezec u tlačítka | Přepnul jsem ti to. Kdo doleze, nemusí nic rozrušovat. |  |  | hra-tlacitko
-Spolulezec u tlačítka | Tudy. A boty si nezouvej, tady se chodí v lezečkách. |  |  | hra-tlacitko
-Spolulezec u tlačítka | Stránky o tom vědí. Já jim to řekl. |  |  | hra-tlacitko
-
-# ===== COOKIES (ŽLUTÁ IKONKA) =====
-Cookies | Souhlas zaznamenán. Teda nezaznamenán, nemáme kam. |  |  | cookies
-Cookies | Výborně. Pivo bylo uloženo do vašeho prohlížeče. Vyzvednete si ho na garáži. |  |  | cookies
-Cookies | Nezbytná piva: jedno. Řidič má smůlu. |  |  | cookies
-Cookies | Vaše preference byly předány rozhodčím. Úplatek nebyl přiložen. |  |  | cookies
-Cookies | Sledujeme vás jen pohledem. A to ještě blbě, máme mágo v očích. |  |  | cookies
-Cookies | Vaše data jsou u nás v bezpečí. Nikdo je tu neumí otevřít. |  |  | cookies
-Cookies | Cookies nemáme. Máme rohlík z pumpy a ten je od středy. |  |  | cookies
-Cookies | Odmítnout nejde. Tlačítko Odmítnout ukradla krysa. |  |  | cookies
-Cookies | Nastavení uloženo do kasičky. Vybírá se po dvacce. |  |  | cookies
-Cookies | Partneři, se kterými sdílíme vaše data: nikdo. Nikdo s námi nechce mluvit. |  |  | cookies
-Cookies | Souhlasem se zavazujete donést pivo. Platí i zpětně. |  |  | cookies
-Cookies | Pro změnu buďme upřímní: jednu sušenku máme. |  |  | cookies
-
-# ===== HRA — AI: SPOLULEZEC PIJE PIVO =====
-Spolulezec pije pivo | Na zdraví stěny. |  |  | hra-ai-pivo
-Spolulezec pije pivo | Jedno pro kuráž. |  |  | hra-ai-pivo
-Spolulezec pije pivo | Pitný režim. Doporučuje rozhodčí. |  |  | hra-ai-pivo
-Spolulezec pije pivo | Teplý. Zase někdo nechal basu na sluníčku. |  |  | hra-ai-pivo
-Spolulezec pije pivo | Tohle je izotonický, slyšel jsem. |  |  | hra-ai-pivo
-
-# ===== IKONKA IE 6.0 =====
-Ikonka IE 6.0 | Váš prohlížeč je příliš moderní. Stránka se zobrazí správně, a to my nechceme. |  |  | ikonka-ie
-Ikonka IE 6.0 | Doporučujeme Internet Explorer 6.0. Disketu s ním má Dáda v šuplíku. |  |  | ikonka-ie
-Ikonka IE 6.0 | Zjištěn prohlížeč novější než naše stěna. Přepínám do kompatibilního režimu. |  |  | ikonka-ie
-Ikonka IE 6.0 | Chyba na řádku 1: stránka vypadá moc dobře. Opravujeme. |  |  | ikonka-ie
-Ikonka IE 6.0 | Pro správné zobrazení vypněte JavaScript, styly a radši i počítač. |  |  | ikonka-ie
-Ikonka IE 6.0 | Stránka byla testována v IE 6.0 na monitoru, který už nesvítí. |  |  | ikonka-ie
-Ikonka IE 6.0 | Váš prohlížeč umí věci, které my ne. Zakázali jsme mu to. |  |  | ikonka-ie
-
-# ===== HRA — AI: SPOLULEZEC KARTÁČUJE =====
-Spolulezec kartáčuje | Kdo to tu zase osahal. |  |  | hra-ai-kartac
-Spolulezec kartáčuje | Mágo, pot a zoufalství. Klasika. |  |  | hra-ai-kartac
-Spolulezec kartáčuje | Čistej chyt, čistá hlava. |  |  | hra-ai-kartac
-Spolulezec kartáčuje | Tenhle chyt má víc otisků než policejní kartotéka. |  |  | hra-ai-kartac
-
-# ===== IKONKA 800×600 =====
-Ikonka 800×600 | Takhle to má vypadat. Nehýbejte monitorem. |  |  | ikonka-800
-Ikonka 800×600 | 800×600. Víc pixelů jsme si nemohli dovolit. |  |  | ikonka-800
-Ikonka 800×600 | Zbytek obrazovky si nechte na pasiáns. |  |  | ikonka-800
-Ikonka 800×600 | Doporučená vzdálenost od monitoru: délka paže s pivem. |  |  | ikonka-800
-Ikonka 800×600 | Šířka stránky odpovídá šířce garáže. Zhruba. |  |  | ikonka-800
-Ikonka 800×600 | Kdo má víc než 800 pixelů, ať se nevytahuje. |  |  | ikonka-800
-
-# ===== HRA — AI: SPOLULEZEC SE PROTAHUJE =====
-Spolulezec se protahuje | Záda. Zase záda. |  |  | hra-ai-protazeni
-Spolulezec se protahuje | Jen protáhnout. Lézt nebudu. |  |  | hra-ai-protazeni
-Spolulezec se protahuje | Kdo jistí, taky trpí. |  |  | hra-ai-protazeni
-
-# ===== IKONKA NOTEPAD =====
-Ikonka Notepad | <!-- tady Grunt odpojil elektriku, zbytek dopíšu zítra --> |  |  | ikonka-notepad
-Ikonka Notepad | <!-- nesahat, nevím proč to funguje --> |  |  | ikonka-notepad
-Ikonka Notepad | <!-- TODO: opravit vrata --> |  |  | ikonka-notepad
-Ikonka Notepad | <!-- kniha návštěv zatím nefunguje --> |  |  | ikonka-notepad
-Ikonka Notepad | <!-- sem přijde blikající GIF, až ho někdo nakreslí --> |  |  | ikonka-notepad
-Ikonka Notepad | <!-- tohle psal Notepad, ne já --> |  |  | ikonka-notepad
-Ikonka Notepad | <!-- 6 piv za hodinu je strop. Bylo. --> |  |  | ikonka-notepad
-Ikonka Notepad | <!-- magnézko? MÁGO! --> |  |  | ikonka-notepad
-Ikonka Notepad | <marquee>VÍTEJTE NA STRÁNKÁCH BOULDER GARÁŽE</marquee> |  |  | ikonka-notepad
-Ikonka Notepad | <blink>NOVINKA!!!</blink> |  |  | ikonka-notepad
-Ikonka Notepad | <!-- pokud tohle čteš, jsi ten typ, co čte i pravidla závodů. Respekt. --> |  |  | ikonka-notepad
-Ikonka Notepad | <!-- kód zkontroloval rozhodčí. Za úplatek. --> |  |  | ikonka-notepad
-
-# ===== HRA — AI: KRYSA PŘIJDE =====
-Krysa přijde | Pííp. Co je nového? |  |  | hra-ai-krysa
-Krysa přijde | Zase nikdo neleze? |  |  | hra-ai-krysa
-Krysa přijde | Jdu se podívat, jestli tu někdo nepadá. |  |  | hra-ai-krysa
-Krysa přijde | Tady to žije. Teda skoro. |  |  | hra-ai-krysa
-
-# ===== NOTEPAD — MENU =====
-Nový | Nový soubor nejde. Nejdřív dodělejte ten starý. |  |  | notepad-menu
-Nový | Nový boulder se staví v sobotu. Přineste vrtačku. |  |  | notepad-menu
-Otevřít | Otevřít jde jen garáž. Klíč dostane každý, kdo vypadá normálně. |  |  | notepad-menu
-Uložit | Soubor nelze uložit: disketa je plná. (A: chráněna proti zápisu) |  |  | notepad-menu
-Uložit jako | Uloženo jako final_final_FINAL2_opravdu.html |  |  | notepad-menu
-Tisk | Tiskárna nemá toner. Poslední náplň šla na plakát k závodům. |  |  | notepad-menu
-Zpět | Zpět to nejde. Gravitace je svinstvo. |  |  | notepad-menu
-Zpět | Zpět jde jen dolů. Po zádech. |  |  | notepad-menu
-Vyjmout | Vyjmout jde jen chyt, a to imbusem. |  |  | notepad-menu
-Vložit | Vložit jde jen dvacka do kasičky. |  |  | notepad-menu
-Najít | Hledáte smysl? Ten tu nenajdete. Zkuste Vysokáč. |  |  | notepad-menu
-Najít | Hledaný výraz „top“ nebyl nalezen. Lezte výš. |  |  | notepad-menu
-Nahradit | Nahradit „magnézko“ za „mágo“: hotovo. Tady se magnézko neříká. |  |  | notepad-menu
-Čas a datum | Na pivo je vždycky dobrá doba. |  |  | notepad-menu
-Zobrazit nápovědu | Nápověda: lezte nahoru. Kdo spadne, zkusí to znovu. |  |  | notepad-menu
-Zobrazit nápovědu | Nápověda je na nástěnce v garáži. Vedle mapy. |  |  | notepad-menu
-O aplikaci | Poznámkový blok BG, verze 5C. Licencováno pro: Dáda. Všechna práva vypita. |  |  | notepad-menu
-
-# ===== HRA — AI: KRYSA U PIVA =====
-Krysa u piva | Tady to voní. |  |  | hra-ai-krysa-pivo
-Krysa u piva | Jedno pro mě taky. |  |  | hra-ai-krysa-pivo
-Krysa u piva | Kdo to vypil? Já ne. Zatím. |  |  | hra-ai-krysa-pivo
-
-# ===== POČÍTADLA (KLIK) =====
-Vyzvednout výhru | Výhra se vydává osobně na garáži. Pivo s sebou, to je poplatek. |  |  | pocitadla
-Vyzvednout výhru | Výhra byla odeslána poštou. Až dorazí, tak dorazí. |  |  | pocitadla
-Vyzvednout výhru | Pro vyzvednutí výhry stačí přijít na garáž a říct heslo. Heslo je: lezu. |  |  | pocitadla
-Vyzvednout výhru | Gratulujeme podruhé. Výhra je pořád nic, ale už je vaše. |  |  | pocitadla
-Přiznat se | Přiznání přijato. Rozhřešení dá rozhodčí, za úplatek. |  |  | pocitadla
-Přiznat se | Zapsáno. Pokání: tři bouldery na kolmáči a jedno pivo. |  |  | pocitadla
-Přiznat se | Upřímnost oceňujeme. Stránky se ale stejně zlobí. |  |  | pocitadla
-Přiznat se | Přiznání se počítá jako polehčující okolnost. Ostuda zůstává. |  |  | pocitadla
-Zapřít | Zapírání se nepočítá. Rozhodčí to viděli. |  |  | pocitadla
-Zapřít | Na kameře je to jasně vidět. Kamera sice nemáme, ale stejně. |  |  | pocitadla
-Zapřít | Zapřít jde leda pivo. A to taky ne. |  |  | pocitadla
-Statistika | Průměrná doba na stránce: dokud stránky nezavřou. |  |  | pocitadla
-Statistika | Nejčastější zdroj návštěv: někdo to poslal v hospodě. |  |  | pocitadla
-Statistika | Nejnavštěvovanější den: ten, kdy byly závody. |  |  | pocitadla
-Statistika | Míra odchodu: vysoká, hlavně když stránky odpočívají. |  |  | pocitadla
-Statistika | Návštěvníci z mobilu: většina. Z Nokie 3310: zatím nikdo. |  |  | pocitadla
-Statistika | Konverze na lezce: neměřitelná, ale věříme. |  |  | pocitadla
-Statistika | Data se neprodávají. Nikdo je nechce. |  |  | pocitadla
-Statistika | Počítadlo počítá každé načtení. I to vaše, co jste teď udělali. |  |  | pocitadla
-Rozbité počítadlo | Stránky nejedou, tak se nepočítá. Kdo tu je, ten tu oficiálně není. |  |  | pocitadla
-Rozbité počítadlo | Počítadlo spí. Probuďte ho a dozví se to všichni. |  |  | pocitadla
-Rozbité počítadlo | Návštěvnost v pauze se nepočítá. Rozhodčí to stejně viděli. |  |  | pocitadla
-Rozbité počítadlo | Chyba 503: počítadlo je na pivu. Vrátí se, až se vrátí stránky. |  |  | pocitadla
-Rozbité počítadlo | Počítat se bude, až stránky pojedou. Do té doby jste nula. |  |  | pocitadla
 
 # ===== HRA — PO DOLEZENÍ: LEZEC SI SEDNE =====
 Po dolezení | Tak. Teď si v klidu sednu. |  |  | hra-po-top-sednout
@@ -895,18 +912,67 @@ Po dolezení | Na. Zasloužíš si ho. |  |  | hra-po-top-lehnout-s
 Po dolezení | Doplň tekutiny, hrdino. |  |  | hra-po-top-lehnout-s
 Po dolezení | Pivo pro vítěze. Teplý, ale pivo. |  |  | hra-po-top-lehnout-s
 
-# ===== HRA — REST (LEZEC) =====
-Rest | Jen chvilku. Ruce, vzpamatujte se. |  |  | hra-rest-lezec
-Rest | Sedím. Přemýšlím. Hlavně sedím. |  |  | hra-rest-lezec
-Rest | Ještě minutku a jdu na to. |  |  | hra-rest-lezec
-Rest | Předloktí jak bochníky. Chvíli to potrvá. |  |  | hra-rest-lezec
-Rest | Tohle není vzdávání. To je taktika. |  |  | hra-rest-lezec
+# ===== HRA — DIALOG, KDYŽ SE NIC NEDĚJE =====
+Dialog, když se nic neděje | K: Nuda. / S: Nuda je dobrá. Nuda znamená, že nikdo nepadá. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | K: Kdy zas někdo poleze? / S: Až se někdo odváží. / K: Takže nikdy. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | S: Víš, co je na Moonboardu nejhorší? / K: Rozhodčí. / S: Ne. Že na něj nikdo neleze. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | K: Proč nosíš klobouk? / S: Kvůli magnéziu. / K: Padá ti na hlavu? / S: Padá mi na všechno. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | K: Slyšíš to? / S: Ne. / K: Já taky ne. To je ticho. Divný. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | S: Chceš si zalézt? / K: Já lezu po zdech. To je rozdíl. / S: Jakej? / K: Zdi neodpovídají. |  |  | hra-dialog-idle
+
+# ===== HRA — AI: SPOLULEZEC PIJE PIVO =====
+Spolulezec pije pivo | Na zdraví stěny. |  |  | hra-ai-pivo
+Spolulezec pije pivo | Jedno pro kuráž. |  |  | hra-ai-pivo
+Spolulezec pije pivo | Pitný režim. Doporučuje rozhodčí. |  |  | hra-ai-pivo
+Spolulezec pije pivo | Teplý. Zase někdo nechal basu na sluníčku. |  |  | hra-ai-pivo
+Spolulezec pije pivo | Tohle je izotonický, slyšel jsem. |  |  | hra-ai-pivo
+
+# ===== HRA — AI: SPOLULEZEC KARTÁČUJE =====
+Spolulezec kartáčuje | Kdo to tu zase osahal. |  |  | hra-ai-kartac
+Spolulezec kartáčuje | Mágo, pot a zoufalství. Klasika. |  |  | hra-ai-kartac
+Spolulezec kartáčuje | Čistej chyt, čistá hlava. |  |  | hra-ai-kartac
+Spolulezec kartáčuje | Tenhle chyt má víc otisků než policejní kartotéka. |  |  | hra-ai-kartac
+
+# ===== HRA — AI: SPOLULEZEC OPUCUJE CHYT =====
+Spolulezec pucuje | Jdu opucovat chyt. Je na něm víc mága než chytu. |  |  | hra-ai-pucuj
+Spolulezec pucuje | Tenhle chyt klouže jak mýdlo. Moment. |  |  | hra-ai-pucuj
+Spolulezec pucuje | Kdo na to sahal s tatrankou? |  |  | hra-ai-pucuj
+Spolulezec pucuje | Údržba stěny. Nerušit. |  |  | hra-ai-pucuj
+Spolulezec pucuje | Okartáčovat, ofouknout, hotovo. Jako zubař. |  |  | hra-ai-pucuj
+
+# ===== HRA — AI: SPOLULEZEC SE PROTAHUJE =====
+Spolulezec se protahuje | Záda. Zase záda. |  |  | hra-ai-protazeni
+Spolulezec se protahuje | Jen protáhnout. Lézt nebudu. |  |  | hra-ai-protazeni
+Spolulezec se protahuje | Kdo jistí, taky trpí. |  |  | hra-ai-protazeni
+
+# ===== HRA — AI: KRYSA PŘIJDE =====
+Krysa přijde | Pííp. Co je nového? |  |  | hra-ai-krysa
+Krysa přijde | Zase nikdo neleze? |  |  | hra-ai-krysa
+Krysa přijde | Jdu se podívat, jestli tu někdo nepadá. |  |  | hra-ai-krysa
+Krysa přijde | Tady to žije. Teda skoro. |  |  | hra-ai-krysa
+
+# ===== HRA — AI: KRYSA U PIVA =====
+Krysa u piva | Tady to voní. |  |  | hra-ai-krysa-pivo
+Krysa u piva | Jedno pro mě taky. |  |  | hra-ai-krysa-pivo
+Krysa u piva | Kdo to vypil? Já ne. Zatím. |  |  | hra-ai-krysa-pivo
 
 # ===== HRA — AI LEZEC: NÁSTUP =====
 Ai lezec: nástup | S: Ty jsi zraněnej, tak se dívej. / L: Ukážu ti, jak se to dělá. |  |  | hra-ai-lezec-start
 Ai lezec: nástup | L: Uhni, teď jdu já. / S: Opatrně, jeden už tu leží. |  |  | hra-ai-lezec-start
 Ai lezec: nástup | S: Kdo poleze? / L: Já. Někdo to tu musí zachránit. |  |  | hra-ai-lezec-start
 Ai lezec: nástup | L: Tohle vypadá jednoduše. / S: To říkal i ten předtím. |  |  | hra-ai-lezec-start
+
+# ===== HRA — AI LEZEC: NÁSTUP PO DOLEZENÍ HRÁČE =====
+Ai lezec: nástup | S: Ten to dal. Kdo dál? / L: Já. A rychlejc. |  |  | hra-ai-lezec-start-top
+Ai lezec: nástup | L: Jestli to dal on, dám to i já. / S: To bych neříkal nahlas. |  |  | hra-ai-lezec-start-top
+Ai lezec: nástup | S: Další! / L: Jdu. Drž mi pivo. |  |  | hra-ai-lezec-start-top
+Ai lezec: nástup | L: Teď ukážu, jak se to leze doopravdy. / S: Zase. |  |  | hra-ai-lezec-start-top
+
+# ===== HRA — AI LEZEC: NÁSTUP, KDYŽ NIKDO NELEZE =====
+Ai lezec: nástup | S: Nikdo nic? Tak jo. Kdo jde? / L: Já. Než se rozhodne. |  |  | hra-ai-lezec-start-nikdo
+Ai lezec: nástup | L: Na co čeká? / S: Asi na odvahu. Jdi ty. |  |  | hra-ai-lezec-start-nikdo
+Ai lezec: nástup | S: Stěna se nudí. / L: Tak ji pobavím. |  |  | hra-ai-lezec-start-nikdo
+Ai lezec: nástup | L: Já to rozlezu, ať to tu není studený. / S: Hlavně nespadni na mě. |  |  | hra-ai-lezec-start-nikdo
 
 # ===== HRA — AI LEZEC: PŘI LEZENÍ =====
 Ai lezec: při lezení | Tohle dám. |  |  | hra-ai-lezec
@@ -931,16 +997,6 @@ Došlo pivo (spolulezec) | Kdo vypil poslední? Obnovte stránku, prosím vás. 
 Došlo pivo (krysa) | Prázdná. Kdo to vypil? Já ne. |  |  | hra-pivo-doslo-krysa
 Došlo pivo (krysa) | Pííp. Obnov stránku, ať je co čuchat. |  |  | hra-pivo-doslo-krysa
 Došlo pivo (krysa) | Ani kapka. Tohle je krize. |  |  | hra-pivo-doslo-krysa
-
-# ===== HRA — SPOLULEZEC VOLÁ ZDOLA (POTVRZENÍ ROZRUŠENÍ) =====
-Spolulezec volá zdola | Hej! Co tam děláš? Pojď si nejdřív zalízt. |  |  | hra-zachrana
-Spolulezec volá zdola | Počkej! Než je rozrušíš, dej aspoň jeden boulder. |  |  | hra-zachrana
-Spolulezec volá zdola | Neklikej! Dolez a vejdeš bez ostudy. |  |  | hra-zachrana
-Spolulezec volá zdola | Hej ty nahoře! Tady dole je stěna. Ta tě nezapíše. |  |  | hra-zachrana
-Spolulezec volá zdola | Co blbneš? Stránky lezou, nech je. Pojď sem. |  |  | hra-zachrana
-Spolulezec volá zdola | Tohle tlačítko si zapamatujou. Radši si zalez. |  |  | hra-zachrana
-Spolulezec volá zdola | Kam ses vydal? Moonboard je tady dole! |  |  | hra-zachrana
-Spolulezec volá zdola | Ty jo, ty seš rychlej. Na tlačítko. Zkus to radši na stěně. |  |  | hra-zachrana
 
 # ===== HRA — POŘÁD NIC (SPOLULEZEC NAŠTVANÝ) =====
 Pořád nic | Pořád nic? Obnov tu stránku! F5! Není to tak těžký! |  |  | hra-pivo-doslo2

@@ -1021,6 +1021,20 @@ Dialog po zranění | K: To byl hezkej pád. / S: Sedm z deseti. Dopad nic moc. 
 Dialog po zranění | K: Dýchá? / S: Dýchá. / K: Škoda, chtěla jsem jeho místo. |  |  | hra-dialog-zraneni
 Dialog po zranění | S: Tohle je na Jednorožce. / K: Já taky chci Jednorožce! / S: Tak spadni. |  |  | hra-dialog-zraneni
 Dialog po zranění | K: Mám mu přinést led? / S: Máme jen pivo. / K: Tak pivo. |  |  | hra-dialog-zraneni
+Dialog po zranění | K: Žije? / S: Nadává. To je dobrý znamení. |  |  | hra-dialog-zraneni
+Dialog po zranění | S: Kde to bolí? / K: Jeho všude. Mě nikde. |  |  | hra-dialog-zraneni
+Dialog po zranění | K: Proč se tak kroutí? / S: To je zranění. / K: Vypadá to jako tanec. |  |  | hra-dialog-zraneni
+Dialog po zranění | S: Tohle už jsem viděl. Rok 2019, stejný místo. / K: A přežil? / S: Leze dodnes. Hůř. |  |  | hra-dialog-zraneni
+Dialog po zranění | K: Pííp. Mám ho olíznout? / S: Nesahej na něj. / K: Olíznout není sahat. |  |  | hra-dialog-zraneni
+Dialog po zranění | S: Kotník, nebo ego? / K: Podle zvuku obojí. |  |  | hra-dialog-zraneni
+Dialog po zranění | K: Dopadiště zas selhalo. / S: Dopadiště nikdy neselže. Selhávají lidi. |  |  | hra-dialog-zraneni
+Dialog po zranění | S: Ležet můžeš. Brečet ne. / K: Já brečím. / S: Ty jsi krysa, ty můžeš. |  |  | hra-dialog-zraneni
+Dialog po zranění | K: Zavolej mu mámu. / S: Ta by ho zabila víc. |  |  | hra-dialog-zraneni
+Dialog po zranění | S: Za tohle je Jednorožec. / K: A za to kňučení? / S: Za to nic. |  |  | hra-dialog-zraneni
+Dialog po zranění | K: Proč lezete, když to bolí? / S: Protože pivo po tom chutná líp. |  |  | hra-dialog-zraneni
+Dialog po zranění | S: Neboj, nic to není. / K: To říkáš vždycky. / S: A vždycky to něco je. |  |  | hra-dialog-zraneni
+Dialog po zranění | K: Má na čele otisk chytu. / S: Aspoň ví, který to byl. |  |  | hra-dialog-zraneni
+Dialog po zranění | S: Zapiš to do deníku. / K: Neumím psát. / S: Tak to aspoň pokousej. |  |  | hra-dialog-zraneni
 
 # ===== HRA — DIALOG PO ÚKLIDU =====
 Dialog po úklidu | K: Kam jsi ho dal? / S: Kam patří. / K: Pod dopadiště? / S: Neptej se. |  |  | hra-dialog-uklid
@@ -1031,6 +1045,20 @@ Dialog po úklidu | K: Děláš to nějak rutinně. / S: Dělám to každej den,
 Dialog po úklidu | K: Zase pod dopadiště? / S: Tam je místa dost. |  |  | hra-dialog-uklid
 Dialog po úklidu | S: Další do sbírky. / K: Brzo tam nebude místo. |  |  | hra-dialog-uklid
 Dialog po úklidu | K: Necháš ho tam? / S: Do zítřka. Pak uvidíme. |  |  | hra-dialog-uklid
+Dialog po úklidu | K: Kolik jich tam máš? / S: Nepočítám. Počítá rozhodčí. |  |  | hra-dialog-uklid
+Dialog po úklidu | S: Hotovo. Stěna je volná. / K: Tak lez ty. / S: Já? Já tady uklízím. |  |  | hra-dialog-uklid
+Dialog po úklidu | K: Smrdí to tam pod tím. / S: Tak se tam necpi. |  |  | hra-dialog-uklid
+Dialog po úklidu | S: Kdyby se někdo ptal, odešel sám. / K: Po čtyřech? / S: Po čtyřech je to taky odchod. |  |  | hra-dialog-uklid
+Dialog po úklidu | K: Byl těžkej? / S: Míň než basa. Víc než ty. |  |  | hra-dialog-uklid
+Dialog po úklidu | S: Tak. A teď pivo. / K: Pro mě taky? / S: Pro tebe víčko. |  |  | hra-dialog-uklid
+Dialog po úklidu | K: Proč ho nedáš na lavičku? / S: Lavička je pro ty, co dolezli. |  |  | hra-dialog-uklid
+Dialog po úklidu | S: Úklid je půlka lezení. / K: A druhá půlka? / S: Pivo. |  |  | hra-dialog-uklid
+Dialog po úklidu | K: Zase jsi ho šoupnul pod matraci. / S: Je tam teplo a nikdo ho nevidí. |  |  | hra-dialog-uklid
+Dialog po úklidu | S: Až se probudí, řekni mu, že to bylo 7A. / K: Bylo? / S: Bude. |  |  | hra-dialog-uklid
+Dialog po úklidu | K: Mám mu tam donést rohlík? / S: Ty ho sníš cestou. |  |  | hra-dialog-uklid
+Dialog po úklidu | S: Dopadiště je zase čistý. / K: Čistý? / S: Relativně. |  |  | hra-dialog-uklid
+Dialog po úklidu | K: Ty ho nevrátíš? / S: Vrátí se sám. Vždycky se vrátí. |  |  | hra-dialog-uklid
+Dialog po úklidu | S: Další prosím! / K: Nikdo se nehlásí. / S: Divný. |  |  | hra-dialog-uklid
 
 # ===== HRA — DIALOG PO DOLEZENÍ =====
 Dialog po dolezení | K: Dolezl to. / S: Viděla jsi to? / K: Viděla. Náhoda. |  |  | hra-dialog-top
@@ -1041,6 +1069,20 @@ Dialog po dolezení | K: Teď bude chtít pivo. / S: Teď si ho i zaslouží. | 
 Dialog po dolezení | K: Plácáte si pořád. / S: Závidíš? / K: Jo. |  |  | hra-dialog-top
 Dialog po dolezení | S: Viděla jsi to? / K: Ne, jedla jsem. / S: Tak nic. |  |  | hra-dialog-top
 Dialog po dolezení | K: Teď bude machrovat. / S: Ať machruje. Dolezl. |  |  | hra-dialog-top
+Dialog po dolezení | K: To byla náhoda. / S: Náhoda je taky styl. |  |  | hra-dialog-top
+Dialog po dolezení | S: Viděla jsi tu nohu? / K: Viděla. Nevím, co tím chtěl říct. |  |  | hra-dialog-top
+Dialog po dolezení | K: Proč si plácáte? / S: To se tak dělá. / K: Já bych radši sýr. |  |  | hra-dialog-top
+Dialog po dolezení | S: Top! / K: Píp! / S: Ty nekřič, ty jsi nelezla. |  |  | hra-dialog-top
+Dialog po dolezení | K: Zapíšeš ho do deníku? / S: Tužkou. Ať to jde gumovat. |  |  | hra-dialog-top
+Dialog po dolezení | S: Konečně někdo. / K: Já to dala včera. / S: Po trámu se nepočítá. |  |  | hra-dialog-top
+Dialog po dolezení | K: Má mokrý triko. / S: To je pot vítězství. / K: Smrdí jako pot porážky. |  |  | hra-dialog-top
+Dialog po dolezení | S: Respekt. / K: Respekt. A teď pivo? / S: Teď pivo. |  |  | hra-dialog-top
+Dialog po dolezení | K: Dolezl, ale nohy měl jak kráva. / S: Nohy se nepočítají. Top se počítá. |  |  | hra-dialog-top
+Dialog po dolezení | S: Tohle by nedal ani rok 2019. / K: Rok neleze. / S: Neber mi to. |  |  | hra-dialog-top
+Dialog po dolezení | K: Ukážeš mi to taky? / S: Až budeš mít prsty. / K: Mám čtyři na každý tlapce. |  |  | hra-dialog-top
+Dialog po dolezení | S: Rozhodčí kývli. / K: Spí. To kývání je chrápání. |  |  | hra-dialog-top
+Dialog po dolezení | K: Kolik to bylo? / S: Na tréninkovce nic. / K: Tak proč jásáš? |  |  | hra-dialog-top
+Dialog po dolezení | S: Dobře ty! / K: Řekni to i mně. / S: Dobře ty, kryso. / K: Píp. |  |  | hra-dialog-top
 
 # ===== HRA — PO DOLEZENÍ: LEZEC SI SEDNE =====
 Po dolezení | Tak. Teď si v klidu sednu a seru na to |  |  | hra-po-top-sednout

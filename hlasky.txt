@@ -6,7 +6,7 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu · pocitadla · meteo-hezky · meteo-polojasno · meteo-zatazeno · meteo-dest · meteo-bourka · meteo-mlha · meteo-snih · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-boulder · hra-boulder-cvicne · hra-benchmark · hra-chyt · hra-hec · hra-odpocet · hra-rest · hra-rest-lezec · hra-rozhodci · hra-dab · hra-dab-spolulezec · hra-rada-uplatek · hra-uplatek-ok · hra-uplatek-ne · hra-krysa · hra-pad · hra-zraneni · hra-top · hra-cekarna · hra-cek-pumpicka · hra-cek-softmover · hra-cek-nelezec · hra-cek-krysa · hra-cek-spolulezec · hra-zachrana · hra-tlacitko · hra-dialog-zraneni · hra-dialog-uklid · hra-dialog-top · hra-po-top-sednout · hra-po-top-pivo · hra-po-top-hrdina · hra-po-top-lehnout · hra-po-top-lehnout-s · hra-dialog-idle · hra-ai-pivo · hra-ai-kartac · hra-ai-pucuj · hra-ai-protazeni · hra-ai-krysa · hra-ai-krysa-pivo · hra-ai-lezec-start · hra-ai-lezec-start-top · hra-ai-lezec-start-nikdo · hra-ai-lezec · hra-ai-lezec-vzdat · hra-pivo-doslo · hra-pivo-doslo-krysa · hra-pivo-doslo2 · hra-pivo-konec · hra-pivo-tma-krysa · hra-pivo-donaska · hra-pivo-donaska2
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu · pocitadla · meteo-hezky · meteo-polojasno · meteo-zatazeno · meteo-dest · meteo-bourka · meteo-mlha · meteo-snih · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-boulder · hra-boulder-cvicne · hra-benchmark · hra-chyt · hra-hec · hra-odpocet · hra-rest · hra-rest-lezec · hra-rozhodci · hra-dab · hra-dab-spolulezec · hra-rada-uplatek · hra-uplatek-ok · hra-uplatek-ne · hra-vzdat · hra-vzdat-spolulezec · hra-krysa · hra-pad · hra-zraneni · hra-top · hra-cekarna · hra-cek-pumpicka · hra-cek-softmover · hra-cek-nelezec · hra-cek-krysa · hra-cek-spolulezec · hra-zachrana · hra-tlacitko · hra-dialog-zraneni · hra-dialog-uklid · hra-dialog-top · hra-po-top-sednout · hra-po-top-pivo · hra-po-top-hrdina · hra-po-top-lehnout · hra-po-top-lehnout-s · hra-dialog-idle · hra-ai-pivo · hra-ai-kartac · hra-ai-pucuj · hra-ai-protazeni · hra-ai-krysa · hra-ai-krysa-pivo · hra-ai-lezec-start · hra-ai-lezec-start-top · hra-ai-lezec-start-nikdo · hra-ai-lezec · hra-ai-lezec-vzdat · hra-pivo-doslo · hra-pivo-doslo-krysa · hra-pivo-doslo2 · hra-pivo-konec · hra-pivo-tma-krysa · hra-pivo-donaska · hra-pivo-donaska2
 #           Prázdné nebo neznámé téma = náhodná schválnost.
 #           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
 #
@@ -811,6 +811,28 @@ rozhodčí přijali úplatek | Rozhodčí: Mňam. Platí. |  |  | hra-uplatek-ok
 úplatek není komu dát | Na co? Nic se neděje. |  |  | hra-uplatek-ne
 úplatek není komu dát | Šetři to. Rozhodčí ještě přijdou. |  |  | hra-uplatek-ne
 úplatek není komu dát | Klid, zatím nikdo nepíská. |  |  | hra-uplatek-ne
+
+# ===== HRA — VYSRAT SE NA TO (LEZEC) =====
+Seru na to. Jdu na pivo | Seru na to. Jdu na pivo. |  |  | hra-vzdat
+Dneska ne. Prsty mám jak špagety | Dneska ne. Prsty mám jak špagety. |  |  | hra-vzdat
+Tohle nevylezu ani za bednu piva | Tohle nevylezu ani za bednu piva. |  |  | hra-vzdat
+Kdo to stavěl, ať to leze sám | Kdo to stavěl, ať to leze sám. |  |  | hra-vzdat
+Stejně to je sandbag | Stejně to je sandbag. |  |  | hra-vzdat
+Moonboard je svině. Končím | Moonboard je svině. Končím. |  |  | hra-vzdat
+Jdu radši na kolmáč | Jdu radši na kolmáč. |  |  | hra-vzdat
+Zítra. Fakt zítra | Zítra. Fakt zítra. |  |  | hra-vzdat
+Ne. Prostě ne | Ne. Prostě ne. |  |  | hra-vzdat
+Tohle není lezení, to je mučení | Tohle není lezení, to je mučení. |  |  | hra-vzdat
+
+# ===== HRA — VYSRAT SE NA TO (SPOLULEZEC) =====
+Tak jo. Aspoň je volná stěna | Tak jo. Aspoň je volná stěna. |  |  | hra-vzdat-spolulezec
+Vzdal to. Zapisuju do deníku | Vzdal to. Zapisuju do deníku. |  |  | hra-vzdat-spolulezec
+Klasika. Pivo je vždycky jednodušší | Klasika. Pivo je vždycky jednodušší. |  |  | hra-vzdat-spolulezec
+Ty vole, ani jsi to pořádně nezkusil | Ty vole, ani jsi to pořádně nezkusil. |  |  | hra-vzdat-spolulezec
+Nevadí, Moonboard počká | Nevadí, Moonboard počká. |  |  | hra-vzdat-spolulezec
+Jdi si sednout, hrdino | Jdi si sednout, hrdino. |  |  | hra-vzdat-spolulezec
+To nic, i krysa to někdy vzdá | To nic, i krysa to někdy vzdá. |  |  | hra-vzdat-spolulezec
+Pivo je v base. Kdyby něco | Pivo je v base. Kdyby něco. |  |  | hra-vzdat-spolulezec
 
 # ===== HRA — KRYSA =====
 Bacha teď nepadej! | Bacha teď nepadej! |  |  | hra-krysa

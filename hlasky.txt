@@ -6,7 +6,7 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · hra-cekarna · meteo-bourka · hra-rest · hra-cek-pumpicka · meteo-snih · meteo-dest · hra-cek-softmover · hra-cek-nelezec · meteo-mlha · meteo-mraz · hra-cek-krysa · hra-cek-spolulezec · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu · pocitadla
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · hra-cekarna · meteo-bourka · hra-rest · hra-cek-pumpicka · meteo-snih · meteo-dest · hra-cek-softmover · hra-cek-nelezec · meteo-mlha · meteo-mraz · hra-cek-krysa · hra-cek-spolulezec · meteo-vedro · hra-benchmark · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu · pocitadla
 #           Prázdné nebo neznámé téma = náhodná schválnost.
 #           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
 #
@@ -490,15 +490,15 @@ Do-do-dopadiště | Do-do-dopadiště 5C |  |  | hra-boulder
 Prochcaný vrata | Prochcaný vrata 6A+ |  |  | hra-boulder
 Zevl kýbl | Zevl kýbl 6A+ |  |  | hra-boulder
 Poslední cigáro | Poslední cigáro 6C |  |  | hra-boulder
-Basa kozlíka | Basa kozlíka 6B |  |  | hra-boulder
+Basa kozlíka | Basa kozlíka 6B B |  |  | hra-boulder
 Spacák s překvapením | Spacák s překvapením 6C+ |  |  | hra-boulder
 Ovoce na provázku | Ovoce na provázku 6B |  |  | hra-boulder
 Úplatek pro rozhodčí | Úplatek pro rozhodčí 6C |  |  | hra-boulder
 Grunťák | Grunťák 7A |  |  | hra-boulder
 Srání s trámy | Srání s trámy 6B+ |  |  | hra-boulder
-Půl roku jen lezení | Půl roku jen lezení 6C+ |  |  | hra-boulder
+Půl roku jen lezení | Půl roku jen lezení 6C+ B |  |  | hra-boulder
 Gravitace je svinstvo | Gravitace je svinstvo 5C |  |  | hra-boulder
-Kolaudace | Kolaudace 5C |  |  | hra-boulder
+Kolaudace | Kolaudace 5C B |  |  | hra-boulder
 Druhá garáž | Druhá garáž 6A+ |  |  | hra-boulder
 Jednorožec | Jednorožec 7A |  |  | hra-boulder
 Hodně nahoru, málo dolů | Hodně nahoru, málo dolů 5C |  |  | hra-boulder
@@ -569,7 +569,7 @@ Meteostanice | Napadlo. Za hodinu to bude břečka a za dvě ledovka. Krása. | 
 Meteostanice | Na Vysokáči to dneska nevylezeš ani v mačkách. |  |  | meteo-snih
 
 # ===== HRA — ČEKÁRNA: PUMPIČKA =====
-Pumpička | Pět cé? To dám na jednu ruku. |  |  | hra-cek-pumpicka
+Pumpička | Sedm A? To dám na jednu ruku. |  |  | hra-cek-pumpicka
 Pumpička | Prsty mám z oceli. Hlavu taky. |  |  | hra-cek-pumpicka
 Pumpička | Rozcvička je pro slabochy. |  |  | hra-cek-pumpicka
 Pumpička | Vyber mě. Triko jsem si sundal kvůli tobě. |  |  | hra-cek-pumpicka
@@ -644,6 +644,14 @@ Spolulezec | Lézt budu, až mě odemknete. Kdy, to nevím ani já. |  |  | hra-
 Meteostanice | Vzduch se dá krájet a pumpa přijde dřív než obvykle. |  |  | meteo-dusno
 Meteostanice | Něco se chystá. Asi bouřka. Nebo zase jenom dusno. |  |  | meteo-dusno
 Meteostanice | Jak v prádelně. Trička se suší přímo na lidech. |  |  | meteo-dusno
+
+# ===== HRA — BENCHMARK =====
+Benchmark | Benchmark. Tady obtížnost nelže. Je přísná. |  |  | hra-benchmark
+Benchmark | Tohle je benchmark. Napsaný číslo je jen zdvořilost. |  |  | hra-benchmark
+Benchmark | Benchmark. Kdo to dá, může to vyprávět u piva. |  |  | hra-benchmark
+Benchmark | Na benchmarku se nepodvádí. Rozhodčí koukají dvakrát. |  |  | hra-benchmark
+Benchmark | Benchmark. Teď tě Moonboard poměří. |  |  | hra-benchmark
+Benchmark | Hodnotili to moderátoři. Neměli dobrej den. |  |  | hra-benchmark
 
 # ===== METEOSTANICE — VÍTR =====
 Meteostanice | Vrata mlátěj, plachty lítaj, mágo je všude kromě rukou. |  |  | meteo-vitr

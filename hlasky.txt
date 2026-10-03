@@ -6,7 +6,7 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · hra-cekarna · meteo-bourka · hra-rest · hra-cek-pumpicka · meteo-snih · meteo-dest · hra-cek-softmover · hra-cek-nelezec · meteo-mlha · meteo-mraz · hra-cek-krysa · hra-cek-spolulezec · meteo-vedro · hra-benchmark · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu · pocitadla
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · hra-cekarna · meteo-bourka · hra-rest · hra-cek-pumpicka · meteo-snih · meteo-dest · hra-cek-softmover · hra-cek-nelezec · meteo-mlha · meteo-mraz · hra-cek-krysa · hra-cek-spolulezec · meteo-vedro · hra-benchmark · meteo-dusno · meteo-vitr · hra-dialog-zraneni · hra-dialog-uklid · meteo-tlak · hra-dialog-top · meteo-hezky · meteo-polojasno · hra-dialog-idle · hra-tlacitko · meteo-zatazeno · hra-ai-pivo · cookies · hra-ai-kartac · ikonka-ie · hra-ai-protazeni · ikonka-800 · hra-ai-krysa · ikonka-notepad · hra-ai-krysa-pivo · notepad-menu · pocitadla
 #           Prázdné nebo neznámé téma = náhodná schválnost.
 #           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
 #
@@ -658,10 +658,24 @@ Meteostanice | Vrata mlátěj, plachty lítaj, mágo je všude kromě rukou. |  
 Meteostanice | Na Vysokáči by tě to sfouklo ze skály. Tady aspoň jen do žíněnky. |  |  | meteo-vitr
 Meteostanice | Fičí to. Kdo zase nechal otevřený vrata? |  |  | meteo-vitr
 
+# ===== HRA — DIALOG PO ZRANĚNÍ =====
+Dialog po zranění | K: Ten se nehýbe. / S: Dýchá. To stačí. / K: Můžu si vzít jeho pytlík s mágem? |  |  | hra-dialog-zraneni
+Dialog po zranění | K: Pííp. Další do sbírky. / S: Neříkej mu to, ještě by se urazil. |  |  | hra-dialog-zraneni
+Dialog po zranění | S: Podepsal poučení? / K: Podepsal. Já jsem svědek. / S: Tak je to v pořádku. |  |  | hra-dialog-zraneni
+Dialog po zranění | K: Mám zavolat záchranku? / S: Máš telefon? / K: Ne. / S: Tak nevolej. |  |  | hra-dialog-zraneni
+Dialog po zranění | K: To byl hezkej pád. / S: Sedm z deseti. Dopad nic moc. |  |  | hra-dialog-zraneni
+
 # ===== METEOSTANICE — NÍZKÝ TLAK =====
 Meteostanice | Hlava třeští, síla žádná. Lezení se dneska omlouvá. |  |  | meteo-tlak
 Meteostanice | Celá garáž je nějaká rozbitá a nikdo neví proč. |  |  | meteo-tlak
 Meteostanice | Dneska to není tebou. Teda asi. |  |  | meteo-tlak
+
+# ===== HRA — DIALOG PO ÚKLIDU =====
+Dialog po úklidu | K: Kam jsi ho dal? / S: Kam patří. / K: Pod dopadiště? / S: Neptej se. |  |  | hra-dialog-uklid
+Dialog po úklidu | S: Tak. Uklizeno. / K: Za chvíli přijde další. / S: Vždycky přijde další. |  |  | hra-dialog-uklid
+Dialog po úklidu | K: Najde se? / S: Na jaře. Při velkým úklidu. |  |  | hra-dialog-uklid
+Dialog po úklidu | S: Kdo další? / K: Já ne. Já jen koukám. |  |  | hra-dialog-uklid
+Dialog po úklidu | K: Děláš to nějak rutinně. / S: Dělám to každej den, krysko. |  |  | hra-dialog-uklid
 
 # ===== METEOSTANICE — JASNO =====
 Meteostanice | Zase to slunce. Kdo to má furt mžourat? |  |  | meteo-hezky
@@ -685,6 +699,13 @@ Meteostanice | Pískovec suchej jak troud. Lezci taky. |  |  | meteo-hezky
 Meteostanice | Hezky je. Co s tím teď máme dělat? |  |  | meteo-hezky
 Meteostanice | Hvězdy, slunce, je to jedno. Hlavně že se zase nedá nic vyčítat. |  |  | meteo-hezky
 
+# ===== HRA — DIALOG PO DOLEZENÍ =====
+Dialog po dolezení | K: Dolezl to. / S: Viděla jsi to? / K: Viděla. Náhoda. |  |  | hra-dialog-top
+Dialog po dolezení | K: Mně nikdo nikdy neplácne. / S: Ty nemáš ruce, máš tlapky. |  |  | hra-dialog-top
+Dialog po dolezení | K: Já bych to dala rychlejc. / S: Ty bys to ohlodala. / K: To je taky styl. |  |  | hra-dialog-top
+Dialog po dolezení | S: Tohle se počítá. / K: Kde se to počítá? / S: Někde určitě. |  |  | hra-dialog-top
+Dialog po dolezení | K: Teď bude chtít pivo. / S: Teď si ho i zaslouží. |  |  | hra-dialog-top
+
 # ===== METEOSTANICE — POLOJASNO =====
 Meteostanice | Ani pořádný slunce, ani pořádný mraky. Nerozhodný jak NeLezec před bouldrem. |  |  | meteo-polojasno
 Meteostanice | Chvíli svítí, chvíli ne. Na skálu se to nevyplatí, v garáži je to škoda. |  |  | meteo-polojasno
@@ -693,6 +714,14 @@ Meteostanice | Mraky se nemůžou rozhodnout. My taky ne. |  |  | meteo-polojasn
 Meteostanice | Kousek modrý, kousek šedý. Jak modřina. |  |  | meteo-polojasno
 Meteostanice | Předpověď říká, že bude. Co bude, neřekla. |  |  | meteo-polojasno
 Meteostanice | Napůl hezky. Druhá půlka je naše. |  |  | meteo-polojasno
+
+# ===== HRA — DIALOG, KDYŽ SE NIC NEDĚJE =====
+Dialog, když se nic neděje | K: Nuda. / S: Nuda je dobrá. Nuda znamená, že nikdo nepadá. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | K: Kdy zas někdo poleze? / S: Až se někdo odváží. / K: Takže nikdy. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | S: Víš, co je na Moonboardu nejhorší? / K: Rozhodčí. / S: Ne. Že na něj nikdo neleze. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | K: Proč nosíš klobouk? / S: Kvůli magnéziu. / K: Padá ti na hlavu? / S: Padá mi na všechno. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | K: Slyšíš to? / S: Ne. / K: Já taky ne. To je ticho. Divný. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | S: Chceš si zalézt? / K: Já lezu po zdech. To je rozdíl. / S: Jakej? / K: Zdi neodpovídají. |  |  | hra-dialog-idle
 
 # ===== METEOSTANICE — ZATAŽENO =====
 Meteostanice | Ani slunko, ani déšť. Prostě nic. To se nedá vydržet. |  |  | meteo-zatazeno
@@ -716,6 +745,12 @@ Meteostanice | Je tak šedivo, že i chyty vypadají smutně. |  |  | meteo-zata
 Meteostanice | Předpověď: bude to stát za prd. Skutečnost: přesně. |  |  | meteo-zatazeno
 Meteostanice | Kdo čeká na sluníčko, dočká se v květnu. |  |  | meteo-zatazeno
 
+# ===== HRA — SPOLULEZEC U TLAČÍTKA =====
+Spolulezec u tlačítka | Dolezl jsi, tak pojď dál. Bez rozrušení, slušně. |  |  | hra-tlacitko
+Spolulezec u tlačítka | Přepnul jsem ti to. Kdo doleze, nemusí nic rozrušovat. |  |  | hra-tlacitko
+Spolulezec u tlačítka | Tudy. A boty si nezouvej, tady se chodí v lezečkách. |  |  | hra-tlacitko
+Spolulezec u tlačítka | Stránky o tom vědí. Já jim to řekl. |  |  | hra-tlacitko
+
 # ===== COOKIES (ŽLUTÁ IKONKA) =====
 Cookies | Souhlas zaznamenán. Teda nezaznamenán, nemáme kam. |  |  | cookies
 Cookies | Výborně. Pivo bylo uloženo do vašeho prohlížeče. Vyzvednete si ho na garáži. |  |  | cookies
@@ -730,6 +765,13 @@ Cookies | Partneři, se kterými sdílíme vaše data: nikdo. Nikdo s námi nech
 Cookies | Souhlasem se zavazujete donést pivo. Platí i zpětně. |  |  | cookies
 Cookies | Pro změnu buďme upřímní: jednu sušenku máme. |  |  | cookies
 
+# ===== HRA — AI: SPOLULEZEC PIJE PIVO =====
+Spolulezec pije pivo | Na zdraví stěny. |  |  | hra-ai-pivo
+Spolulezec pije pivo | Jedno pro kuráž. |  |  | hra-ai-pivo
+Spolulezec pije pivo | Pitný režim. Doporučuje rozhodčí. |  |  | hra-ai-pivo
+Spolulezec pije pivo | Teplý. Zase někdo nechal basu na sluníčku. |  |  | hra-ai-pivo
+Spolulezec pije pivo | Tohle je izotonický, slyšel jsem. |  |  | hra-ai-pivo
+
 # ===== IKONKA IE 6.0 =====
 Ikonka IE 6.0 | Váš prohlížeč je příliš moderní. Stránka se zobrazí správně, a to my nechceme. |  |  | ikonka-ie
 Ikonka IE 6.0 | Doporučujeme Internet Explorer 6.0. Disketu s ním má Dáda v šuplíku. |  |  | ikonka-ie
@@ -739,6 +781,12 @@ Ikonka IE 6.0 | Pro správné zobrazení vypněte JavaScript, styly a radši i p
 Ikonka IE 6.0 | Stránka byla testována v IE 6.0 na monitoru, který už nesvítí. |  |  | ikonka-ie
 Ikonka IE 6.0 | Váš prohlížeč umí věci, které my ne. Zakázali jsme mu to. |  |  | ikonka-ie
 
+# ===== HRA — AI: SPOLULEZEC KARTÁČUJE =====
+Spolulezec kartáčuje | Kdo to tu zase osahal. |  |  | hra-ai-kartac
+Spolulezec kartáčuje | Mágo, pot a zoufalství. Klasika. |  |  | hra-ai-kartac
+Spolulezec kartáčuje | Čistej chyt, čistá hlava. |  |  | hra-ai-kartac
+Spolulezec kartáčuje | Tenhle chyt má víc otisků než policejní kartotéka. |  |  | hra-ai-kartac
+
 # ===== IKONKA 800×600 =====
 Ikonka 800×600 | Takhle to má vypadat. Nehýbejte monitorem. |  |  | ikonka-800
 Ikonka 800×600 | 800×600. Víc pixelů jsme si nemohli dovolit. |  |  | ikonka-800
@@ -746,6 +794,11 @@ Ikonka 800×600 | Zbytek obrazovky si nechte na pasiáns. |  |  | ikonka-800
 Ikonka 800×600 | Doporučená vzdálenost od monitoru: délka paže s pivem. |  |  | ikonka-800
 Ikonka 800×600 | Šířka stránky odpovídá šířce garáže. Zhruba. |  |  | ikonka-800
 Ikonka 800×600 | Kdo má víc než 800 pixelů, ať se nevytahuje. |  |  | ikonka-800
+
+# ===== HRA — AI: SPOLULEZEC SE PROTAHUJE =====
+Spolulezec se protahuje | Záda. Zase záda. |  |  | hra-ai-protazeni
+Spolulezec se protahuje | Jen protáhnout. Lézt nebudu. |  |  | hra-ai-protazeni
+Spolulezec se protahuje | Kdo jistí, taky trpí. |  |  | hra-ai-protazeni
 
 # ===== IKONKA NOTEPAD =====
 Ikonka Notepad | <!-- tady Grunt odpojil elektriku, zbytek dopíšu zítra --> |  |  | ikonka-notepad
@@ -760,6 +813,12 @@ Ikonka Notepad | <marquee>VÍTEJTE NA STRÁNKÁCH BOULDER GARÁŽE</marquee> |  
 Ikonka Notepad | <blink>NOVINKA!!!</blink> |  |  | ikonka-notepad
 Ikonka Notepad | <!-- pokud tohle čteš, jsi ten typ, co čte i pravidla závodů. Respekt. --> |  |  | ikonka-notepad
 Ikonka Notepad | <!-- kód zkontroloval rozhodčí. Za úplatek. --> |  |  | ikonka-notepad
+
+# ===== HRA — AI: KRYSA PŘIJDE =====
+Krysa přijde | Pííp. Co je nového? |  |  | hra-ai-krysa
+Krysa přijde | Zase nikdo neleze? |  |  | hra-ai-krysa
+Krysa přijde | Jdu se podívat, jestli tu někdo nepadá. |  |  | hra-ai-krysa
+Krysa přijde | Tady to žije. Teda skoro. |  |  | hra-ai-krysa
 
 # ===== NOTEPAD — MENU =====
 Nový | Nový soubor nejde. Nejdřív dodělejte ten starý. |  |  | notepad-menu
@@ -779,6 +838,11 @@ Nahradit | Nahradit „magnézko“ za „mágo“: hotovo. Tady se magnézko ne
 Zobrazit nápovědu | Nápověda: lezte nahoru. Kdo spadne, zkusí to znovu. |  |  | notepad-menu
 Zobrazit nápovědu | Nápověda je na nástěnce v garáži. Vedle mapy. |  |  | notepad-menu
 O aplikaci | Poznámkový blok BG, verze 5C. Licencováno pro: Dáda. Všechna práva vypita. |  |  | notepad-menu
+
+# ===== HRA — AI: KRYSA U PIVA =====
+Krysa u piva | Tady to voní. |  |  | hra-ai-krysa-pivo
+Krysa u piva | Jedno pro mě taky. |  |  | hra-ai-krysa-pivo
+Krysa u piva | Kdo to vypil? Já ne. Zatím. |  |  | hra-ai-krysa-pivo
 
 # ===== POČÍTADLA (KLIK) =====
 Vyzvednout výhru | Výhra se vydává osobně na garáži. Pivo s sebou, to je poplatek. |  |  | pocitadla

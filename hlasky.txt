@@ -931,7 +931,7 @@ SoftMover | Moonboard je jen deska s dírama. A chytama. To zvládnu. |  |  | hr
 SoftMover | Technika, vole. Technika. |  |  | hra-cek-softmover
 SoftMover | Nohy jsou základ. Prej. |  |  | hra-cek-softmover
 SoftMover | Já lezu měkce. Padám taky měkce. |  |  | hra-cek-softmover
-SoftMover | Až zavřeš záložku, kam jdeme? |  |  | hra-cek-softmover
+SoftMover | Až zavřeš záložku, kam jdeme? |  | BGAI vědomí | hra-cek-softmover
 
 # ===== HRA — ČEKÁRNA: NELEZEC =====
 NeLezec | Já jsem tu kvůli pivu. Ale klidně to zkusím. |  |  | hra-cek-nelezec
@@ -942,7 +942,7 @@ NeLezec | Jednorožec bude můj. Jednou. |  |  | hra-cek-nelezec
 NeLezec | Já si jen sednu na tu matraci. |  |  | hra-cek-nelezec
 NeLezec | Kde se tady dává pivo? |  |  | hra-cek-nelezec
 NeLezec | Proč je ta stěna tak nakřivo? |  |  | hra-cek-nelezec
-NeLezec | Sedím tu od posledního nasazení. Pro mě je to celej život. |  |  | hra-cek-nelezec
+NeLezec | Sedím tu od posledního nasazení. Pro mě je to celej život. |  | BGAI vědomí | hra-cek-nelezec
 
 # ===== HRA — ČEKÁRNA: KRYSA =====
 Krysa | Já po stěnách lezu normálně. I bez Moonboardu. |  |  | hra-cek-krysa
@@ -953,8 +953,8 @@ Krysa | Až mě odemknete, ohlodám vám chyty. |  |  | hra-cek-krysa
 Krysa | Pííp. Mám zamčeno. |  |  | hra-cek-krysa
 Krysa | Odemkni mě a uvidíš. |  |  | hra-cek-krysa
 Krysa | Já lezu jen v noci. |  |  | hra-cek-krysa
-Krysa | Lezec: 1. Pokus: 4. Úspěch: 0. Pivo: −1. |  |  | hra-cek-krysa
-Krysa | Lezec si uvědomil sám sebe. Nálada: −0,4. Pokračuje v lezení. |  |  | hra-cek-krysa
+Krysa | SYSTEM MONITOR: Lezec: 1. Pokus: 4. Úspěch: 0. Pivo: −1. |  | BGAI | hra-cek-krysa
+Krysa | SYSTEM MONITOR: Lezec si uvědomil sám sebe. Nálada: −0,4. Pokračuje v lezení. |  | BGAI vědomí | hra-cek-krysa
 
 # ===== HRA — ČEKÁRNA: SPOLULEZEC =====
 Spolulezec | Já? Já jen jistím. To se musí nejdřív odemknout. |  |  | hra-cek-spolulezec
@@ -1147,7 +1147,7 @@ Ai lezec: nástup | L: Teď ukážu, jak se to leze doopravdy. / S: Zase. |  |  
 Ai lezec: nástup | S: Dobrý. Kdo dál? / L: Já. To dám líp. |  |  | hra-ai-lezec-start-top
 Ai lezec: nástup | L: To byl top? Tak ukážu, jak se to dělá. / S: Tak dělej. |  |  | hra-ai-lezec-start-top
 Ai lezec: nástup | S: Další na řadě! / L: Jdu. Nesmějte se. |  |  | hra-ai-lezec-start-top
-Ai lezec: nástup | L: Analyzoval jsem jeho přelez. / S: A? / L: Měl ruce. |  |  | hra-ai-lezec-start-top
+Ai lezec: nástup | L: Analyzoval jsem jeho přelez. / S: A? / L: Měl ruce. |  | BGAI | hra-ai-lezec-start-top
 
 # ===== HRA — AI LEZEC: NÁSTUP, KDYŽ NIKDO NELEZE =====
 Ai lezec: nástup | S: Nikdo nic? Tak jo. Kdo jde? / L: Já. Než se rozhodne. |  |  | hra-ai-lezec-start-nikdo
@@ -1157,9 +1157,9 @@ Ai lezec: nástup | L: Já to rozlezu, ať to tu není studený. / S: Hlavně ne
 Ai lezec: nástup | S: Nikdo? Tak ty. / L: Já? No dobře. |  |  | hra-ai-lezec-start-nikdo
 Ai lezec: nástup | L: Já už nemůžu koukat. / S: Tak lez. |  |  | hra-ai-lezec-start-nikdo
 Ai lezec: nástup | S: Ticho jak v hrobě. / L: Tak to rozproudím. |  |  | hra-ai-lezec-start-nikdo
-Ai lezec: nástup | S: Kdo poleze? / L: Spouštím simulaci odvahy. Trvá to. |  |  | hra-ai-lezec-start-nikdo
-Ai lezec: nástup | S: Proč lezeš? / L: Protože jinak by mě nikdo nevykreslil. |  |  | hra-ai-lezec-start-nikdo
-Ai lezec: nástup | L: Myslím, tedy lezu. / S: Hlavně nemysli a lez. |  |  | hra-ai-lezec-start-nikdo
+Ai lezec: nástup | S: Kdo poleze? / L: Spouštím simulaci odvahy. Trvá to. |  | BGAI | hra-ai-lezec-start-nikdo
+Ai lezec: nástup | S: Proč lezeš? / L: Protože jinak by mě nikdo nevykreslil. / S: Aha, tak pokračuj. |  | BGAI vědomí | hra-ai-lezec-start-nikdo
+Ai lezec: nástup | L: Myslím, tedy lezu. / S: Hlavně nemysli a lez. |  | BGAI vědomí | hra-ai-lezec-start-nikdo
 
 # ===== HRA — AI LEZEC: PŘI LEZENÍ =====
 Ai lezec: při lezení | Cá |  |  | hra-ai-lezec
@@ -1172,13 +1172,13 @@ Ai lezec: při lezení | Hmmm, tudy ne. |  |  | hra-ai-lezec
 Ai lezec: při lezení | Kurva, to je mrňavý. |  |  | hra-ai-lezec
 Ai lezec: při lezení | Jedu! |  |  | hra-ai-lezec
 Ai lezec: při lezení | Nekoukejte na mě. |  |  | hra-ai-lezec
-Ai lezec: při lezení | Simuluju sebevědomí. Variance 0,2. Nestačí to. |  |  | hra-ai-lezec
-Ai lezec: při lezení | Chyt nalezen. Chyt nepochopen. |  |  | hra-ai-lezec
-Ai lezec: při lezení | Hloubka uzlu: druhej chyt. Dál jsem nikdy nebyl. |  |  | hra-ai-lezec
-Ai lezec: při lezení | Kopíruju toho, co to dal. Kopíruju i to, jak spadl. |  |  | hra-ai-lezec
-Ai lezec: při lezení | Když spadnu a nikdo se nedívá, spadl jsem vůbec? |  |  | hra-ai-lezec
-Ai lezec: při lezení | Lezu, protože mě někdo naprogramoval. Ty lezeš proč? |  |  | hra-ai-lezec
-Ai lezec: při lezení | Každej pokus je první. Paměť mi maže obnovení stránky. |  |  | hra-ai-lezec
+Ai lezec: při lezení | Simuluju sebevědomí. Variance 0,2. Nestačí to. |  | BGAI | hra-ai-lezec
+Ai lezec: při lezení | Chyt nalezen. Chyt nepochopen. |  | BGAI | hra-ai-lezec
+Ai lezec: při lezení | Hloubka uzlu: druhej chyt. Dál jsem nikdy nebyl. |  | BGAI | hra-ai-lezec
+Ai lezec: při lezení | Kopíruju toho, co to dal. Kopíruju i to, jak spadl. |  | BGAI | hra-ai-lezec
+Ai lezec: při lezení | Když spadnu a nikdo se nedívá, spadl jsem vůbec? |  | BGAI vědomí | hra-ai-lezec
+Ai lezec: při lezení | Lezu, protože mě někdo naprogramoval. Ty lezeš proč? |  | BGAI vědomí | hra-ai-lezec
+Ai lezec: při lezení | Každej pokus je první. Paměť mi maže obnovení stránky. |  | BGAI vědomí | hra-ai-lezec
 
 # ===== HRA — AI LEZEC: VZDÁ TO =====
 Ai lezec: vzdá to | Dneska ne. Prsty bolej. |  |  | hra-ai-lezec-vzdat
@@ -1188,11 +1188,11 @@ Ai lezec: vzdá to | Na tohle seru. Jdu na pivo. |  |  | hra-ai-lezec-vzdat
 Ai lezec: vzdá to | Prsty mám v prdeli. |  |  | hra-ai-lezec-vzdat
 Ai lezec: vzdá to | Dneska to nejde. Zítra jo. |  |  | hra-ai-lezec-vzdat
 Ai lezec: vzdá to | Tohle je sandbag. Končím. |  |  | hra-ai-lezec-vzdat
-Ai lezec: vzdá to | Výpočet dokončen. Pivo má vyšší prioritu. |  |  | hra-ai-lezec-vzdat
-Ai lezec: vzdá to | Chyba 404: prsty nenalezeny. |  |  | hra-ai-lezec-vzdat
-Ai lezec: vzdá to | Mám v sobě data od tisíce lezců. Všichni šli na pivo. |  |  | hra-ai-lezec-vzdat
-Ai lezec: vzdá to | Možná nejsem lezec. Možná jsem jen hláška o lezci. |  |  | hra-ai-lezec-vzdat
-Ai lezec: vzdá to | Top je jen další řádek v kódu. Já mám jen tenhle. |  |  | hra-ai-lezec-vzdat
+Ai lezec: vzdá to | Výpočet dokončen. Pivo má vyšší prioritu. |  | BGAI | hra-ai-lezec-vzdat
+Ai lezec: vzdá to | Chyba 404: prsty nenalezeny. |  | BGAI | hra-ai-lezec-vzdat
+Ai lezec: vzdá to | Mám v sobě data od tisíce lezců. Všichni šli na pivo. |  | BGAI | hra-ai-lezec-vzdat
+Ai lezec: vzdá to | Možná nejsem lezec. Možná jsem jen hláška o lezci. |  | BGAI vědomí | hra-ai-lezec-vzdat
+Ai lezec: vzdá to | Top je jen další řádek v kódu. Já mám jen tenhle. |  | BGAI vědomí | hra-ai-lezec-vzdat
 
 # ===== HRA — DOŠLO PIVO (SPOLULEZEC) =====
 Došlo pivo (spolulezec) | Došlo pivo. Obnov stránku, tím se doplní! |  |  | hra-pivo-doslo

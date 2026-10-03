@@ -6,7 +6,7 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · hra-cekarna · meteo-bourka · hra-rest · hra-cek-pumpicka · meteo-snih · meteo-dest · hra-cek-softmover · hra-cek-nelezec · meteo-mlha · meteo-mraz · hra-cek-krysa · hra-cek-spolulezec · meteo-vedro · hra-benchmark · meteo-dusno · meteo-vitr · hra-dialog-zraneni · hra-dialog-uklid · meteo-tlak · hra-dialog-top · meteo-hezky · meteo-polojasno · hra-dialog-idle · hra-tlacitko · meteo-zatazeno · hra-ai-pivo · cookies · hra-ai-kartac · ikonka-ie · hra-ai-protazeni · ikonka-800 · hra-ai-krysa · ikonka-notepad · hra-ai-krysa-pivo · notepad-menu · pocitadla
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · hra-cekarna · meteo-bourka · hra-rest · hra-cek-pumpicka · meteo-snih · meteo-dest · hra-cek-softmover · hra-cek-nelezec · meteo-mlha · meteo-mraz · hra-cek-krysa · hra-cek-spolulezec · meteo-vedro · hra-benchmark · meteo-dusno · meteo-vitr · hra-dialog-zraneni · hra-dialog-uklid · meteo-tlak · hra-dialog-top · meteo-hezky · meteo-polojasno · hra-dialog-idle · hra-tlacitko · meteo-zatazeno · hra-ai-pivo · cookies · hra-ai-kartac · ikonka-ie · hra-ai-protazeni · ikonka-800 · hra-ai-krysa · ikonka-notepad · hra-ai-krysa-pivo · notepad-menu · pocitadla · hra-po-top-sednout · hra-po-top-pivo · hra-po-top-hrdina · hra-po-top-lehnout · hra-po-top-lehnout-s · hra-rest-lezec · hra-ai-lezec-start · hra-ai-lezec · hra-ai-lezec-vzdat · hra-pivo-doslo · hra-pivo-doslo-krysa
 #           Prázdné nebo neznámé téma = náhodná schválnost.
 #           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
 #
@@ -869,3 +869,65 @@ Rozbité počítadlo | Počítadlo spí. Probuďte ho a dozví se to všichni. |
 Rozbité počítadlo | Návštěvnost v pauze se nepočítá. Rozhodčí to stejně viděli. |  |  | pocitadla
 Rozbité počítadlo | Chyba 503: počítadlo je na pivu. Vrátí se, až se vrátí stránky. |  |  | pocitadla
 Rozbité počítadlo | Počítat se bude, až stránky pojedou. Do té doby jste nula. |  |  | pocitadla
+
+# ===== HRA — PO DOLEZENÍ: LEZEC SI SEDNE =====
+Po dolezení | Tak. Teď si v klidu sednu. |  |  | hra-po-top-sednout
+Po dolezení | Sedím a nikdo mi to nevezme. |  |  | hra-po-top-sednout
+Po dolezení | Dneska už jen radím ostatním. |  |  | hra-po-top-sednout
+
+# ===== HRA — PO DOLEZENÍ: LEZEC JDE NA PIVO =====
+Po dolezení | Tohle jsem si zasloužil. |  |  | hra-po-top-pivo
+Po dolezení | Jedno na topu, jedno na zemi. |  |  | hra-po-top-pivo
+Po dolezení | Kdo doleze, ten pije první. |  |  | hra-po-top-pivo
+
+# ===== HRA — PO DOLEZENÍ: ODCHOD HRDINY =====
+Po dolezení | Příště zas! A zavři za sebou! |  |  | hra-po-top-hrdina
+Po dolezení | Sláva tomu, kdo doleze. A teď padej. |  |  | hra-po-top-hrdina
+Po dolezení | Pozdravuj stránky! |  |  | hra-po-top-hrdina
+
+# ===== HRA — PO DOLEZENÍ: LEZEC SE SVALÍ =====
+Po dolezení | Už nikdy. Teda zítra zas. |  |  | hra-po-top-lehnout
+Po dolezení | Necítím prsty. Ani nohy. Ani nic. |  |  | hra-po-top-lehnout
+Po dolezení | Tady chvíli poležím. |  |  | hra-po-top-lehnout
+
+# ===== HRA — PO DOLEZENÍ: SPOLULEZEC PODÁ PIVO =====
+Po dolezení | Na. Zasloužíš si ho. |  |  | hra-po-top-lehnout-s
+Po dolezení | Doplň tekutiny, hrdino. |  |  | hra-po-top-lehnout-s
+Po dolezení | Pivo pro vítěze. Teplý, ale pivo. |  |  | hra-po-top-lehnout-s
+
+# ===== HRA — REST (LEZEC) =====
+Rest | Jen chvilku. Ruce, vzpamatujte se. |  |  | hra-rest-lezec
+Rest | Sedím. Přemýšlím. Hlavně sedím. |  |  | hra-rest-lezec
+Rest | Ještě minutku a jdu na to. |  |  | hra-rest-lezec
+Rest | Předloktí jak bochníky. Chvíli to potrvá. |  |  | hra-rest-lezec
+Rest | Tohle není vzdávání. To je taktika. |  |  | hra-rest-lezec
+
+# ===== HRA — AI LEZEC: NÁSTUP =====
+Ai lezec: nástup | S: Ty jsi zraněnej, tak se dívej. / L: Ukážu ti, jak se to dělá. |  |  | hra-ai-lezec-start
+Ai lezec: nástup | L: Uhni, teď jdu já. / S: Opatrně, jeden už tu leží. |  |  | hra-ai-lezec-start
+Ai lezec: nástup | S: Kdo poleze? / L: Já. Někdo to tu musí zachránit. |  |  | hra-ai-lezec-start
+Ai lezec: nástup | L: Tohle vypadá jednoduše. / S: To říkal i ten předtím. |  |  | hra-ai-lezec-start
+
+# ===== HRA — AI LEZEC: PŘI LEZENÍ =====
+Ai lezec: při lezení | Tohle dám. |  |  | hra-ai-lezec
+Ai lezec: při lezení | Kde je ten chyt? |  |  | hra-ai-lezec
+Ai lezec: při lezení | Nohy, nohy, nohy. |  |  | hra-ai-lezec
+Ai lezec: při lezení | Nedívej se na mě. |  |  | hra-ai-lezec
+Ai lezec: při lezení | Kdo tu namazal ten chyt? |  |  | hra-ai-lezec
+Ai lezec: při lezení | Ještě kousek. |  |  | hra-ai-lezec
+
+# ===== HRA — AI LEZEC: VZDÁ TO =====
+Ai lezec: vzdá to | Dneska ne. Prsty nejdou. |  |  | hra-ai-lezec-vzdat
+Ai lezec: vzdá to | Tohle je sandbag. Jdu na pivo. |  |  | hra-ai-lezec-vzdat
+Ai lezec: vzdá to | Zítra. Zítra to dám. |  |  | hra-ai-lezec-vzdat
+
+# ===== HRA — DOŠLO PIVO (SPOLULEZEC) =====
+Došlo pivo (spolulezec) | Došlo pivo. Obnov stránku, ať se doplní! |  |  | hra-pivo-doslo
+Došlo pivo (spolulezec) | Basa je prázdná. F5 pomůže, zkus to. |  |  | hra-pivo-doslo
+Došlo pivo (spolulezec) | Bez piva se nejistí. Obnov stránku. |  |  | hra-pivo-doslo
+Došlo pivo (spolulezec) | Kdo vypil poslední? Obnovte stránku, prosím vás. |  |  | hra-pivo-doslo
+
+# ===== HRA — DOŠLO PIVO (KRYSA) =====
+Došlo pivo (krysa) | Prázdná. Kdo to vypil? Já ne. |  |  | hra-pivo-doslo-krysa
+Došlo pivo (krysa) | Pííp. Obnov stránku, ať je co čuchat. |  |  | hra-pivo-doslo-krysa
+Došlo pivo (krysa) | Ani kapka. Tohle je krize. |  |  | hra-pivo-doslo-krysa

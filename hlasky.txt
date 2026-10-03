@@ -6,7 +6,7 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · meteo-bourka · meteo-snih · meteo-dest · meteo-mlha · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno · cookies · ikonka-ie · ikonka-800 · ikonka-notepad
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · hra-chyt · hra-pad · hra-top · hra-zraneni · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-hec · hra-rozhodci · hra-boulder · hra-krysa · hra-boulder-cvicne · meteo-bourka · meteo-snih · meteo-dest · meteo-mlha · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · meteo-hezky · meteo-polojasno · meteo-zatazeno · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu
 #           Prázdné nebo neznámé téma = náhodná schválnost.
 #           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
 #
@@ -664,12 +664,11 @@ Cookies | Cookies nemáme. Máme rohlík z pumpy a ten je od středy. |  |  | co
 Cookies | Odmítnout nejde. Tlačítko Odmítnout ukradla krysa. |  |  | cookies
 Cookies | Nastavení uloženo do kasičky. Vybírá se po dvacce. |  |  | cookies
 Cookies | Partneři, se kterými sdílíme vaše data: nikdo. Nikdo s námi nechce mluvit. |  |  | cookies
-Cookies | Děkujeme. Vaše souhlasy přečte Grunt a pak odpojí elektriku. |  |  | cookies
 Cookies | Souhlasem se zavazujete donést pivo. Platí i zpětně. |  |  | cookies
 
 # ===== IKONKA IE 6.0 =====
 Ikonka IE 6.0 | Váš prohlížeč je příliš moderní. Stránka se zobrazí správně, a to my nechceme. |  |  | ikonka-ie
-Ikonka IE 6.0 | Doporučujeme Internet Explorer 6.0. Disketu s ním má Grunt v šuplíku. |  |  | ikonka-ie
+Ikonka IE 6.0 | Doporučujeme Internet Explorer 6.0. Disketu s ním má Dáda v šuplíku. |  |  | ikonka-ie
 Ikonka IE 6.0 | Zjištěn prohlížeč novější než naše stěna. Přepínám do kompatibilního režimu. |  |  | ikonka-ie
 Ikonka IE 6.0 | Chyba na řádku 1: stránka vypadá moc dobře. Opravujeme. |  |  | ikonka-ie
 Ikonka IE 6.0 | Pro správné zobrazení vypněte JavaScript, styly a radši i počítač. |  |  | ikonka-ie
@@ -697,3 +696,22 @@ Ikonka Notepad | <marquee>VÍTEJTE NA STRÁNKÁCH BOULDER GARÁŽE</marquee> |  
 Ikonka Notepad | <blink>NOVINKA!!!</blink> |  |  | ikonka-notepad
 Ikonka Notepad | <!-- pokud tohle čteš, jsi ten typ, co čte i pravidla závodů. Respekt. --> |  |  | ikonka-notepad
 Ikonka Notepad | <!-- kód zkontroloval rozhodčí. Za úplatek. --> |  |  | ikonka-notepad
+
+# ===== NOTEPAD — MENU =====
+Nový | Nový soubor nejde. Nejdřív dodělejte ten starý. |  |  | notepad-menu
+Nový | Nový boulder se staví v sobotu. Přineste vrtačku. |  |  | notepad-menu
+Otevřít | Otevřít jde jen garáž. Klíč dostane každý, kdo vypadá normálně. |  |  | notepad-menu
+Uložit | Soubor nelze uložit: disketa je plná. (A: chráněna proti zápisu) |  |  | notepad-menu
+Uložit jako | Uloženo jako final_final_FINAL2_opravdu.html |  |  | notepad-menu
+Tisk | Tiskárna nemá toner. Poslední náplň šla na plakát k závodům. |  |  | notepad-menu
+Zpět | Zpět to nejde. Gravitace je svinstvo. |  |  | notepad-menu
+Zpět | Zpět jde jen dolů. Po zádech. |  |  | notepad-menu
+Vyjmout | Vyjmout jde jen chyt, a to imbusem. |  |  | notepad-menu
+Vložit | Vložit jde jen dvacka do kasičky. |  |  | notepad-menu
+Najít | Hledáte smysl? Ten tu nenajdete. Zkuste Vysokáč. |  |  | notepad-menu
+Najít | Hledaný výraz „top“ nebyl nalezen. Lezte výš. |  |  | notepad-menu
+Nahradit | Nahradit „magnézko“ za „mágo“: hotovo. Tady se magnézko neříká. |  |  | notepad-menu
+Čas a datum | Na pivo je vždycky dobrá doba. |  |  | notepad-menu
+Zobrazit nápovědu | Nápověda: lezte nahoru. Kdo spadne, zkusí to znovu. |  |  | notepad-menu
+Zobrazit nápovědu | Nápověda je na nástěnce v garáži. Vedle mapy. |  |  | notepad-menu
+O aplikaci | Poznámkový blok BG, verze 5C. Licencováno pro: Dáda. Všechna práva vypita. |  |  | notepad-menu

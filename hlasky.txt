@@ -36,7 +36,6 @@ Stránky *v sádře*. | Stránky mají ruku v sádře a celý den jim na ni vši
 *Přestavba.* | Stránky se zkoušely vejít na MoonBoard. Nevešly se. Probíhá přestavba garáže, hotovo za {min} minut. | Vlézt na staveniště | Bez helmy na vlastní nebezpečí. | stavba
 Web *na cestě*. | Web odjel kamionem do Velkého Meziříčí pro dopadiště. A pro do-dopadiště. A pro do-do-dopadiště. Bude zpátky za {min} minut. | Zastavit kamion | Stránky neumí parkovat. Pozor! | stavba
 *Brigáda*. | Probíhá brigáda: vyklidit bordel, očistit zdi, vymést, vyplet vjezd. Web má koště v ruce ještě {min} minut. | Přiložit ruku k dílu | Dostanete lopatku. Tu horší. | stavba
-*Trámy*. | Stránky zrovna hoblují trámy. Někdo konečně sehnal hoblík. Hotovo za {min} minut. | Podržet trám | Na druhém konci. Tam, kde to padá. | stavba
 Třetí *garáž*. | Stránky jednají o třetí garáži. Návod je přitom jasný: třetí garáž nepořizujte. Jednání skončí za {min} minut. | Vstoupit do jednání | A kam by šel MadMax týpek? | stavba
 *Lešení*. | Stránky stojí na lešení, které nikdo nedrží. Slézt chtějí za {min} minut, pokud lešení vydrží. | Podržet lešení | Hlavně nekýchat. | stavba
 *Překližka*. | Dorazilo dvacet desek překližky a stránky je nosí do garáže. Práce zbývá ještě na {min} minut. | Ukrást jednu desku | Hej! Kam s tím jdeš? | stavba

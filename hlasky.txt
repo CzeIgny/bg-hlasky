@@ -1,4 +1,4 @@
-# Hlášky pro vylez.to: pauzy 10–23 (12× po 15 min), ráno 6–10 (pruh), noc 23–6
+# Hlášky pro vylez.to: pauzy 10–24 (8× po 10 min), ráno 6–10 (pruh), noc 0–6
 #
 # Jedna hláška = jeden řádek:
 #   NADPIS | TEXT | TLAČÍTKO | POZNÁMKA | TÉMA
@@ -6,9 +6,9 @@
 # NADPIS  — *takhle* = červeně. Ukáže se i v názvu záložky.
 # TEXT    — {min} = kolik minut zbývá do konce odpočinku.
 # TÉMA    — podle něj se vybere schválnost po kliknutí na tlačítko.
-#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · oslava · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu · pocitadla · meteo-hezky · meteo-polojasno · meteo-zatazeno · meteo-dest · meteo-bourka · meteo-mlha · meteo-snih · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · hra-uvod-pumpicka · hra-uvod-softmover · hra-uvod-nelezec · hra-boulder · hra-boulder-cvicne · hra-benchmark · hra-chyt · hra-hec · hra-odpocet · hra-rest · hra-rest-lezec · hra-rozhodci · hra-dab · hra-dab-spolulezec · hra-rada-uplatek · hra-uplatek-ok · hra-uplatek-ne · hra-vzdat · hra-vzdat-spolulezec · hra-krysa · hra-pad · hra-zraneni · hra-top · hra-cekarna · hra-cek-pumpicka · hra-cek-softmover · hra-cek-nelezec · hra-cek-krysa · hra-cek-spolulezec · hra-zachrana · hra-tlacitko · hra-dialog-zraneni · hra-dialog-uklid · hra-dialog-top · hra-po-top-sednout · hra-po-top-pivo · hra-po-top-hrdina · hra-po-top-lehnout · hra-po-top-lehnout-s · hra-dialog-idle · hra-ai-pivo · hra-ai-kartac · hra-ai-pucuj · hra-ai-protazeni · hra-ai-krysa · hra-ai-krysa-pivo · hra-ai-lezec-start · hra-ai-lezec-start-top · hra-ai-lezec-start-nikdo · hra-ai-lezec · hra-ai-lezec-vzdat · hra-pivo-doslo · hra-pivo-doslo-krysa · hra-pivo-doslo2 · hra-pivo-konec · hra-pivo-tma-krysa · hra-pivo-donaska · hra-pivo-donaska2
+#           pivo · zraneni · stavba · rozhodci · zavody · lezeni · denik · punk · klice · chyty · kasa · technika · pouceni · web · krysy · vysokac · polojasno · zatazeno · dest · bourka · mlha · dusno · vedro · vitr · mraz · snih · tlak · noc · rano · vyspale · cookies · ikonka-ie · ikonka-800 · ikonka-notepad · notepad-menu · pocitadla · meteo-hezky · meteo-polojasno · meteo-zatazeno · meteo-dest · meteo-bourka · meteo-mlha · meteo-snih · meteo-mraz · meteo-vedro · meteo-dusno · meteo-vitr · meteo-tlak · hra-chyt · hra-rest-lezec · hra-krysa · hra-pad · hra-top · hra-cek-pumpicka · hra-cek-krysa · hra-cek-spolulezec · hra-dialog-top · hra-po-top-sednout · hra-dialog-idle · hra-ai-pivo · hra-ai-kartac · hra-ai-pucuj · hra-ai-krysa · hra-ai-krysa-pivo · hra-ai-lezec-start-nikdo · hra-ai-lezec · hra-ai-lezec-vzdat · hra-pivo-doslo · hra-pivo-doslo-krysa · hra-pivo-doslo2 · hra-pivo-konec · hra-pivo-tma-krysa · scena-dada-bgai · scena-dada-info · scena-bordel-mata · scena-bordel-dada · scena-bordel-krysa · scena-bordel-dialog · scena-krysa-noc · scena-krysa-zhasnuto · scena-krysa-rano · scena-pumpicka-tejp · scena-krysa-den · scena-bordel-krysa-protest · scena-krysa-zere · scena-krysa-uklid · scena-krysa-neuklizet · scena-pumpicka-odchod · scena-dada-odchod · scena-pumpicka-mobil · scena-pumpicka-vybrala · scena-mata-cisti · scena-pumpicka-pivo · scena-krysa-pivo-noc · scena-krysa-pivo-den · scena-mata-pucovani-hotovo · scena-mata-flaska · scena-dada-pivo · scena-dada-pivo-doslo
 #           Prázdné nebo neznámé téma = náhodná schválnost.
-#           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 23–6.
+#           Počasí a noc: hlášky s tématem počasí jen když je v Doksech takové počasí (asi 1/4 pauz, zbytek běžné), noc jen 0–6.
 #
 # Řádky začínající # a prázdné řádky se ignorují.
 # Na veřejném webu nepoužívat jména lidí — narážky poznají jen lidi z BG.
@@ -21,16 +21,13 @@ Pivo *došlo*. | Na garáži došlo pivo a stránky šly pro další. Zpátky js
 
 # ===== ZRANĚNÍ =====
 *Au.* | Stránky spadly z boulderu. Nic vážného, jen zlomený malíček. Za {min} minut si přijdou pro Jednorožce. | Vejít i tak | Píšou jednou rukou, tak počítejte s překlepy. | zraneni
-*Dopad*. | Stránky seskočily z boulderu do vyšlapeného místa dopadiště. Teď leží a zjišťují, jestli to byl kotník. Za {min} minut budou vědět víc. | Zasmát se | To se nedělá. | zraneni
 Stránky *v sádře*. | Stránky mají ruku v sádře a celý den jim na ni všichni píšou vzkazy. Za {min} minut ji sundají. | Napsat vzkaz na sádru | Něco slušného. Je to na veřejné. | zraneni
 *Kůže* dole. | Stránky si na lištách sedřely kůži na prstech. Lepí se páskou, hotovo za {min} minut. | Ale já chci hned vidět stránky! | Bude to štípat. Vás, ne je. | zraneni
 *Ovázáno*. | Stránky dostaly Jednorožce za zranění a teď se s ním fotí. Za {min} minut se vrátí, i s obvazem. | Vyrušit focení | Na fotce budete rozmazaní. | zraneni
-*Rehabilitace*. | Stránky mají rehabilitaci. Doktor jim zakázal převisy, tak lezou kolmáč. Za {min} minut je pustí. | Vzít je na čtyřicítku | Doktor to neschvaluje. Stránky ano. | zraneni
 
 # ===== STAVBA =====
 Web *na cestě*. | Web odjel kamionem do Velkého Meziříčí pro dopadiště. A pro do-dopadiště. A pro do-do-dopadiště. Bude zpátky za {min} minut. | Zastavit kamion | Stránky neumí parkovat. Pozor! | stavba
 *Brigáda*. | Probíhá brigáda: vyklidit bordel, očistit zdi, vymést, vyplejt vjezd. Web má koště v ruce ještě {min} minut. | Pokusit se pomoct | Dostanete lopatku. Tu horší. | stavba
-Třetí *garáž*. | Stránky jednají o třetí garáži. Návod je přitom jasný: třetí garáž nepořizujte. Jednání skončí za {min} minut. | Vstoupit do jednání | A kam by šel MadMax týpek? | stavba
 *Lešení*. | Stránky stojí na lešení, které nikdo nedrží. Slézt chtějí za {min} minut, pokud lešení vydrží. | Podržet lešení | Hlavně nekýchat. | stavba
 *Překližka*. | Dorazilo dvacet desek překližky a stránky je nosí do garáže. Práce zbývá ještě na {min} minut. | Ukrást jednu desku | Hej! Kam s tím jdeš? | stavba
 
@@ -63,26 +60,18 @@ Den *91*. | Deník skončil devadesátým dnem. Stránky píšou den devadesát�
 *Nečitelné*. | Stránky přepisují deník a narazily na slovo, které nikdo nepřečte. Luští ho už {min} minut. | Pomoct luštit | Nejspíš je tam „pivo“. Většinou je. | denik
 
 # ===== PUNK =====
-Web *na to sere*. | Web na to momentálně sere. Za {min} minut ho to možná přejde. | Přemluvit ho | Stránky na to dlouho srali, ale vy jste chodíte. | punk
+Web *na to sere*. | Web na to momentálně sere. Za {min} minut ho to možná přejde. | Přemluvit ho | Stránky na to dlouho srali, ale vy furt chodíte. | punk
 *Pauza*. | Stránky mají pauzu. Neví se, na co. Za {min} minut se to možná dozvíme. | Zeptat se proč | Odpověď zní „protože“. | punk
 *Zavřeno*. | Stránky mají otevřeno po telefonické domluvě. Zrovna nikdo nebere telefon. Zkuste to za {min} minut. | Volat znovu | Napište SMS. | punk
 *Fotbálek*. | Stránky jsou ve druhé garáži u fotbálku. Prohrávají, takže to bude ještě {min} minut. | Vyzvat je | Bez točení, jinak to neplatí. | punk
 Web *nefunguje*. | Web nefunguje. Je to záměr. Asi. Za {min} minut to zjistíme. | Opravit to | Nepomůže to. Ale hezký pokus. | punk
 
 # ===== KLÍČE =====
-*Klíč*? | Stránky hledají klíč od garáže. Rozdalo se jich sto, ale zrovna nikdo nemá ten svůj u sebe. Najdou ho za {min} minut. | Půjčit jim svůj | Musíte vypadat normálně. | klice
 *Zamčeno*. | Klíč dostane každý, kdo chce a vypadá normálně. Stránky normálně nevypadají. Řeší se to, hotovo za {min} minut. | Zaručit se za ně | Za jejich normálnost ručíte vy. | klice
 Nové *zámky*. | Měnily se zámky a stránky ještě nemají nový klíč. Kopie bude hotová za {min} minut. | Prolézt oknem | To nejde. | klice
 *Kopie*. | Stránky jsou v zámečnictví a nechávají si udělat kopii klíče. Šest kusů, jako minule. Za {min} minut zpátky. | Objednat si taky | Stojí to šest piv. | klice
 *Nejde odemknout!*. | Stránky zkoušejí odemknout BG a nejde jim to. Za {min} minut to vzdají a vrátí se. | Poradit jim | Kroutit doleva. Nebo doprava. | klice
 *Rohožka*. | Stránky schovaly klíč pod rohožku a teď nemůžou najít rohožku. Hledání potrvá {min} minut. | Hledat s nimi | Tady je! | klice
-
-# ===== OSLAVA =====
-*Narozeniny*. | Stránky slaví narozeniny. Jako každé závody, které jsou ve skutečnosti něčí narozeniny. Dort, pípa, gril. Zpátky za {min} minut. | Přidat se k oslavě | Dárek je povinný. Pivo stačí. | oslava
-*Zvukovka*. | Kapela má zvukovku a stránky ladí basu. Zní to strašně ještě {min} minut. | Vypnout jim zesilovač | Budou hrát akusticky. Hlasitěji. | oslava
-*Gril*. | Stránky stojí u grilu a odmítají odejít, dokud to nebude hotové. To bude za {min} minut. | Ukrást klobásu | Rozhodčí to vidí. Bude to stát bod. | oslava
-*Vedro*. | Je ukrutný vedro a stránky se venku kropí hadicí. Uschnou za {min} minut. | Postříkat je víc | Rády. Hlavně ne monitor. | oslava
-*Dort*. | Stránky krájí narozeninový dort. Kousků je víc než lidí, ale míň než piv. Za {min} minut je rozdáno. | Vzít si kousek | Bez svíčky, prosím. | oslava
 
 # ===== CHYTY =====
 *Přestavujeme*. | Stránky přestavují bouldery. Staré chyty dolů, nové nahoru, všechno barevně. Hotovo za {min} minut. | Podat šroubovák | Imbus. Na co šroubovák? | chyty
@@ -91,26 +80,22 @@ Nové *zámky*. | Měnily se zámky a stránky ještě nemají nový klíč. Kop
 # ===== KASA =====
 *Kasička*. | Stránky vybírají do BG kasičky. Na provoz, na chyty, na pivo. Vybráno bude za {min} minut. | Přispět | Hodí se mince. Knoflíky ne. | kasa
 *Účty*. | Stránky počítají, kolik stála stěna. Podle deníku přes dvě stě tisíc. Přepočítávají to už {min} minut a pořád tomu nevěří. | Pomoct počítat | Radši ne. Nebo se zjistí, kdo nás sponzoroval. | kasa
-*Trička*. | Stránky počítají trička: deset XL, dvacet L, deset M. Jedno chybí. Hledají ho {min} minut. | Vrátit tričko | Máte ho na sobě. Vidíme vás. | kasa
 *Na třetiny*. | Náklady na stěnu se dělily na třetiny. Stránky zjišťují, kdo je ta třetí třetina. Zjištěno za {min} minut. | Přihlásit se | Gratulujeme, dlužíte nám. | kasa
-*Platí se*. | Stránky stojí u pokladny a zjistily, že startovné na závody vzrostlo na pět stovek. Vzpamatují se za {min} minut. | To je furt dobrý | Šampioni mají vstup zdarma. Vy ne. | kasa
 
 # ===== TECHNIKA =====
 *Jistič*. | Někdo zapnul fukar, konvici a všechna světla naráz. Stránky hledají jistič. Světlo bude za {min} minut. | Posvítit mobilem | Baterka je vpravo nahoře. Jistič vlevo dole. | technika
-*Wifi*. | Na garáži se konečně zavádí wifi. Stránky leží pod stropem s kabelem v zubech. Připojeno za {min} minut. | Zjistit heslo | Heslo je „pivo“. Ne, není. | technika
 *Elektroměr*. | Přišel pán z ČEZu odmontovat elektroměr. Stránky dělají, že nejsou doma. Odejde za {min} minut. | Otevřít mu | Neotvírejte. Fakt ne. | technika
-*Topení*. | V garáži je zima a stránky čekají, až se rozjede naftovej fukar. To bude za {min} minut. | Přiložit | Čím? | technika
 
 # ===== POUČENÍ =====
 *Poučení*. | Než vás stránky pustí, musíte podepsat poučení. Čtou vám ho nahlas a mají za sebou polovinu. Zbývá {min} minut. | Podepsat bez čtení | Všichni to tak dělají. Proto je tam ta gravitace. | pouceni
 *Vlastní blbost*. | Stránky se zranily vlastní blbostí. Podle poučení je to jejich věc. Za {min} minut si to přiznají. | Utěšit je | Blbost jiného lezce je v poučení taky. Pozor. | pouceni
 *Gravitace*. | Gravitace je svinstvo. Stránky to právě ověřily z vrcholu boulderu. Vstanou za {min} minut. | Vypnout gravitaci | Zkoušeli jsme. Nejde to. | pouceni
 *Intoxikace*. | Stránky jsou intoxikované alkoholem, což poučení výslovně zmiňuje. Vystřízliví za {min} minut. Odhadem. | Dát jim vodu | Vodu nechtějí. Chtějí body. | pouceni
-*Fyzikální zákony*. | Stránky se hádají s fyzikálními zákony. Zatím prohrávají. Hádka skončí za {min} minut. | Přidat se na stranu stránek | Fyzika nebere úplatky. Jako jediná. | pouceni
+*Fyzikální zákony*. | Stránky se hádají s fyzikálními zákony. Zatím prohrávají. Hádka skončí za {min} minut. | Změnit fyzikální zákony | Fyzika nebere úplatky. Jako jediná. | pouceni
 
 # ===== WEB =====
 *Připravujeme*. | Web se pořád připravuje. Je to tak od začátku a je to tak dobře. Ještě {min} minut a možná se dopřipraví. | Popohnat ho | Připravujeme i tohle tlačítko. | web
-*Kód*. | Web zrovna píše svůj vlastní kód do B-GAI a nefunguje mu to. Za {min} minut je zpět.. | Poradit mu | Zkoušeli jste je vypnout a zapnout? My taky. | web
+*Kód*. | Web zrovna píše svůj vlastní kód do Polis B-GAI a nefunguje mu to. Za {min} minut je zpět.. | Poradit mu | Zkoušeli jste to vypnout a zapnout? My taky. | web
 *404*. | Stránka nenalezena. Web ji hledá v druhé garáži u fotbálku. Najde ji za {min} minut. | Hledat taky | Pod fotbálkem jsme už koukali. | web
 
 # ===== KRYSY =====
@@ -251,61 +236,36 @@ Zase *ten tlak*. | Stránky jsou unavené, i když nic nedělaly. To je tím tla
 # ===== NOC =====
 Stránky *spí*. | Je noc a stránky leží ve spacáku na garáži. Vstávají v šest. | Vzbudit stránky | Ráno to budou vědět všichni. | noc
 *Psst.* | Všichni spí. I stránky. Hlavně je nebuďte, ráno nebudou k ničemu. | Vzbudit stejně | Ráno vám to všichni spočítají. | noc
-*Chrrr*. | Stránky chrápou jak dřevorubec. Do šesti se nic neděje. | Šťouchnout do nich | Budou nevrlé celé dopoledne. | noc
 Noční *klid*. | Na garáži se zhaslo. Stránky usnuly na žíněnce a ani se nepřikryly. | Rozsvítit | Rozsvítíte jim. Všem. | noc
 Ještě *ne*. | Stránky spí. Kdo je vzbudí, kazí ráno všem ostatním. | Vzbudit a kazit | Ráno se ukáže, kolik bylo hodin. | noc
 *Spacák* zavřenej. | Stránky se zavřely do spacáku a nevylezou. Zkuste to po šesté. | Rozepnout spacák | Uvnitř může být krysa. | noc
 *Pozdě* v noci. | Teď se nevolá, nepíše a nenačítá. Stránky spí do šesti. | Načíst i tak | Zapíšeme si čas. | noc
-*Zítra* je taky den. | Stránky jdou spát. Vy byste taky měli. | Nejít spát | Pff. | noc
 *Stále* pijeme. | V deníku je zápis, který končí slovy „Stále pijeme! (update 23:37)“. Stránky se ho drží dodnes. Do šesti je nebuďte. | Připít si s nimi | Ráno to bude bolet. Všechny. | noc
-Přespání *na garáži*. | Po závodech se tu vždycky spí, kde kdo padne. Stránky padly na dopadiště a vstávají v šest. | Překročit je | Opatrně. Některé chrápou i kopou. | noc
-*Afterparty*. | Po závodech se tu jelo do dvou, do tří, jednou i do šesti ráno. Stránky to dneska zkusily taky a už nemůžou. | Pokračovat s nimi | Pípa je zavřená. Krutý, ale je to tak. | noc
 *Zhasnuto*. | V deníku stojí: máme světla! na vypínač!! Stránky ho dneska našly a zhasly. Rozsvítí v šest. | Rozsvítit | Vypínač je jejich. Respektujte to. | noc
 Spí *jak NeLezec*. | Stránky spí tvrdě jak NeLezec po šesti pivech za hodinu. Probudí se v šest. Možná. | Probudit je | Ani rozhodčí to nedokázali. | noc
 *Ptáci* vstávají dřív. | Ptáci na garáži bývali vzhůru dřív než všichni. Stránky spí a vstanou až po nich, v šest. | Vzbudit ptáky | Ptáci jsou v pohodě. Vzbudíte jen stránky. | noc
-*Silvestr* nebyl. | Stránky si myslely, že je Silvestr na BG, a oslavily to tak, že už spí. Vstávají v šest. | Popřát jim | Ať se daří. Hodně nahoru a málo dolů. | noc
-*Nekuřácké* BG. | Od listopadu 2018 je garáž nekuřácká. Stránky si šly zakouřit ven a usnuly na parkovišti. Vstávají v šest. | Odnést je dovnitř | Ale to se vzbudí! | noc
 *Smradlavé* boty. | Garáž v noci voní botama všech, co tu přes den lezli. Stránky si zacpaly nos a usnuly. Vstávají v šest. | Otevřít vrata | Pustíte dovnitř zimu. A sousedy. | noc
 *Hodiny* tikají. | Hodiny má garáž od dubna 2020 a teď ukazujou, že je noc. Stránky jim věří a spí do šesti. | Přetočit hodiny | Hodiny nelžou. Jen stránky. | noc
-*Spacák* plnej. | Ve spacáku jsou stránky. A možná krysa. Do šesti se to nebude řešit. | Zkontrolovat spacák | Na vlastní nebezpečí. Viz poučení. | noc
-*Gril* dohořel. | Pivo, gril a tak. Přesně tohle stojí v deníku a přesně tak skončil i dnešek. Stránky spí do šesti. | Rozdmýchat gril | Uhlí je mokrý. Klobása snědená. | noc
-*Noční* lezba. | Kdysi se tu lezlo i po půlnoci. Stránky už ne, na to jsou staré. Vstávají v šest. | Jít lézt sám | Klíč máte? Tak potichu. | noc
 *Fotbálek* spí. | I fotbálek ve druhé garáži má noc. Panáčci visí hlavou dolů a stránky taky. Do šesti. | Zatočit tyčí | Probudíte celou ulici. | noc
 *Wi-Fi* má noc. | Wi-Fi tu máme, ale v noci nikomu nic nepošle. Stránky jsou offline a spí do šesti. | Připojit se stejně | Heslo ví jen rozhodčí. A ten spí. | noc
-*Ráno* bude kocovina. | Stránky to vědí, a tak spí, dokud to jde. Do šesti je nechte být. | Udělat jim kafe | Rychlovarka je v zázemí. Stránky taky. | noc
 
 # ===== RÁNO — NEVYSPALÉ =====
 *Nevyspalé*. | Někdo nás v noci vzbudil. Bylo {cas}. Jsme nevyspalé a je to jeho vina. |  |  | rano
 *Nevyspalé* hromadně. | V noci nás vzbudili {pocet}×. Poprvé bylo {cas}. Jsme nevyspalé a je to vaše vina. |  |  | rano
 *Bez výkonu*. | Bylo {cas}, když nás někdo vzbudil. Dneska od nás nečekejte žádné výkony. |  |  | rano
-*Bez kafe*. | Kdosi nás v noci budil. Bylo {cas}. Kafe nemáme a náladu taky ne. |  |  | rano
-*Vytaženo* ze spacáku. | Někdo nás v noci vytáhl ze spacáku, bylo {cas}. Nemluvte na nás. |  |  | rano
-*Půl plynu*. | Budíček v noci: {cas}. Dopoledne jedeme na půl plynu. |  |  | rano
 *Hlášení* z noci. | Hlášení z noci: budíček {cas}, pachatel neznámý. Zatím. |  |  | rano
-*Trestnej* bod. | Bylo {cas} a někdo nás vzbudil. Rozhodčí to zapsali jako trestnej bod. Vám. |  |  | rano
-*Dlužíte* pivo. | Někdo nás v noci vytáhl z dopadiště. Bylo {cas}. Zaplatíte to pivem. |  |  | rano
-*Jednorožec* naopak. | Budili nás v noci {pocet}×, poprvé {cas}. Tohle je na Jednorožce, ale ne v dobrým. |  |  | rano
 *Jak po závodech*. | {pocet}× vzbuzené, poprvé {cas}. Jsme nevyspalé jak po závodech, jen bez piva. |  |  | rano
-*Rušná* noc. | V noci tu bylo rušno: budili nás {pocet}×, poprvé {cas}. Dneska bez nás. |  |  | rano
 
 # ===== RÁNO — VYSPALÉ =====
 *Vyspalé*. | Vyspalé do růžova. V noci nás nikdo nebudil. |  |  | vyspale
 *Milé* ráno. | Dobré ráno. Nikdo nás v noci nebudil, tak jsme dneska výjimečně milé. |  |  | vyspale
 *Klid*. | Celou noc klid. Ani krysa nás nebudila. |  |  | vyspale
-*Odpočaté*. | Noc bez budíčku. Stránky jsou odpočaté a těší se, až je zase někdo vyruší. |  |  | vyspale
-*Bod navíc*. | Nikdo v noci nebudil. Rozhodčí to oceňují bodem navíc. |  |  | vyspale
 *Zázrak*. | Ráno bez kocoviny a bez budíčku. Zázrak. |  |  | vyspale
 Spaly jsme jak zabité | Spaly jsme jak zabité. Tedy jak NeLezec po závodech. |  |  | vyspale
 Vyspalé, umyté, nalezené | Vyspalé, umyté, nalezené. Dneska to bude dobrý den. |  |  | vyspale
-Osm hodin spánku | Osm hodin spánku. Na garáži rekord. |  |  | vyspale
 Noc bez budíčku | Noc bez budíčku. Ráno jsme si dokonce ustlaly spacák. |  |  | vyspale
 Nikdo v noci nevolal, nepsal, nebudil | Nikdo v noci nevolal, nepsal, nebudil. Takhle si představujeme lezeckou komunitu. |  |  | vyspale
-Vyspalé do růžova a připravené nechat se | Vyspalé do růžova a připravené nechat se vyrušit. Ale až po desáté. |  |  | vyspale
-Klidná noc | Klidná noc. Jen ptáci, a ti se nepočítají. |  |  | vyspale
-Ráno jak z reklamy: vyspalé, svěží, s či | Ráno jak z reklamy: vyspalé, svěží, s čistým mágem. |  |  | vyspale
-Dobré ráno | Dobré ráno! Dneska to dáme i bez kafe. Asi. |  |  | vyspale
 V noci nás nikdo nebudil | V noci nás nikdo nebudil. Děkujeme, že jste spali taky. |  |  | vyspale
-Hodiny ukazujou šest a my jsme fakt vsta | Hodiny ukazujou šest a my jsme fakt vstaly. Vyspalé. |  |  | vyspale
 
 # ===== COOKIES (ŽLUTÁ IKONKA) =====
 Cookies | Souhlas zaznamenán. Teda nezaznamenán, nemáme kam. |  |  | cookies
@@ -510,172 +470,72 @@ Meteostanice | Celá garáž je nějaká rozbitá a nikdo neví proč. |  |  | m
 Meteostanice | Dneska to není tebou. Teda asi. |  |  | meteo-tlak
 
 # ===== MÁŤA POVZBUZUJE =====
-Dělej | Dělej! |  |  | hra-chyt
+Dělej | To bych dal v pantoflích. |  |  | hra-chyt
 Nohy, nohy | Nohy, nohy! |  |  | hra-chyt
 Drž | Drž! |  |  | hra-chyt
-Ještě kus | Ještě kus! |  |  | hra-chyt
 Lez! Natejká ti | Lez! Natejká ti! |  |  | hra-chyt
-Dýchej | Dýchej! |  |  | hra-chyt
-Hezký | Hezký! |  |  | hra-chyt
 Allez | Allez! |  |  | hra-chyt
-Neser se s tím | Neser se s tím! |  |  | hra-chyt
 Tohle je přece 6A | Tohle je přece max 5C+! |  |  | hra-chyt
-Na pivo to máš | Na pivo to máš! |  |  | hra-chyt
-Koukej na nohy, ne na nás | Koukej na nohy, ne na nás! |  |  | hra-chyt
-Rozhodčí koukají | Rozhodčí koukají! |  |  | hra-chyt
 Zamkni a drž! | Zamkni a drž! |  |  | hra-chyt
-Ten spoďák naber! | Ten spoďák naber! |  |  | hra-chyt
 Fokus vole | Fokus vole! |  |  | hra-chyt
 Fokus | Fokus! |  |  | hra-chyt
 Dejchej | Dejchej! |  |  | hra-chyt
-Pořádně to drž | Pořádně to drž! |  |  | hra-chyt
 Vklidu | Vklidu... |  |  | hra-chyt
 Vklidu | Vklidu... Vklidu... SKOOOČ! |  |  | hra-chyt
-Pooď | Pooď! |  |  | hra-chyt
 Namádžuj | Namádžuj! |  |  | hra-chyt
 Pěkně | Pěkně! Drž! |  |  | hra-chyt
-Drž to | Drž to! |  |  | hra-chyt
 Nepouštěj | Nepouštěj! |  |  | hra-chyt
 Mágo | Mágo vole! proč nemáguješ? |  |  | hra-chyt
 Zamkni | Zamkni! |  |  | hra-chyt
 Nepadej | Nepadej! |  |  | hra-chyt
 Teď to neposer | Teď to neposer! |  |  | hra-chyt
-Jo | Jo! Máš to! |  |  | hra-chyt
 Jdi si pro to | Jdi si pro to! |  |  | hra-chyt
 Neboj se úspěchu | Neboj se úspěchu. |  |  | hra-chyt
 Tahej | Tahej! |  |  | hra-chyt
-Hák! Patu tam | Hák! Patu tam! |  |  | hra-chyt
-Nekoukej dolů | Nekoukej dolů! |  |  | hra-chyt
-Přehmatni, vole | Přehmatni, vole! |  |  | hra-chyt
-Teď nohu výš | Teď nohu výš! |  |  | hra-chyt
-Hezky, jen tak dál | Hezky, jen tak dál! |  |  | hra-chyt
+Hák! Patu tam | Patu tam! |  |  | hra-chyt
+Teď nohu výš | Nohu vejš |  |  | hra-chyt
 Kurva, drž to | Kurva, drž to! |  |  | hra-chyt
 Dynamo! Skoč | Dynamo! Skoč! |  |  | hra-chyt
 
-# ===== PUMPIČKA PO PÁDU ODPOČÍVÁ =====
-Rest | Jen chvilku. Ruce, vzpamatujte se. |  |  | hra-rest-lezec
-Rest | Musim si dát pauzu... |  |  | hra-rest-lezec
-Rest | Ještě minutku a jdu na to. |  |  | hra-rest-lezec
-Rest | Předloktí jak bochníky. Chvíli to potrvá. |  |  | hra-rest-lezec
-Nateklo | Jak mi mohlo tak natéct? |  |  | hra-rest-lezec
-Rest | Kurva, to pumpuje. |  |  | hra-rest-lezec
-Rest | Sekundu. Necítím prsty. |  |  | hra-rest-lezec
-Rest | Ještě jeden pokus a dost. |  |  | hra-rest-lezec
-Rest | Kdo mi zase vypil vodu? |  |  | hra-rest-lezec
-
-# ===== KRYSA PROBĚHNE =====
-Bacha teď nepadej! | Bacha teď nepadej! |  |  | hra-krysa
-Mám permanentku | To je sračka. haha |  |  | hra-krysa
-Čí je ten rohlík | Čí je ten rohlík? |  |  | hra-krysa
-Nehoň mě, jen procházím | Nehoň mě, jen procházím. |  |  | hra-krysa
-Vstupný neplatím | Vstupný neplatím. |  |  | hra-krysa
-Lezu líp než ty | Lezu líp než ty. |  |  | hra-krysa
-Kde je pivo | Kde je pivo? |  |  | hra-krysa
-Okousala jsem ti lezečky | Okousala jsem ti lezečky. |  |  | hra-krysa
-5C? Dám bosá | 5C? Dám bosá. |  |  | hra-krysa
-Tohle je můj dopad | Tohle je moje dopadiště |  |  | hra-krysa
-Dneska mám rest day | Dneska si dám rest. |  |  | hra-krysa
-Kdo nechal svačinu | Mám hlad. |  |  | hra-krysa
-Mágo mi chutná | Mágo mi chutná. |  |  | hra-krysa
-Jsem tu nejstarší člen | Jsem tu nejstarší člen. |  |  | hra-krysa
-Píp. Tak co, dáš to | Píp. Tak co, dáš to? |  |  | hra-krysa
-Pííp. Nepadej na mě | Pííp. Nepadej na mě. |  |  | hra-krysa
-Tohle je moje matrace | Tohle je moje matrace. |  |  | hra-krysa
-Kdo tu smrdí? Aha, ty | Kdo tu smrdí? Aha, ty. |  |  | hra-krysa
-Viděla jsem lepší | Viděla jsem lepší. |  |  | hra-krysa
-Jdu si pro mágo | Jdu si pro mágo. |  |  | hra-krysa
-Nesahej na mojí snickersku! | Nesahej na mojí snickersku! |  |  | hra-krysa
-Mám tu doupě. Pod tebou | Mám tu doupě. Pod tebou. |  |  | hra-krysa
-Rozhodčí jsou moji | Rozhodčí jsou moji. |  |  | hra-krysa
-
 # ===== MÁŤA PO PÁDU =====
-Bum | Bum. Dopadiště drží. |  |  | hra-pad
-Gravitace je svinstvo | Gravitace je svinstvo. |  |  | hra-pad
+Gravitace je svinstvo | Mám ti to ukázat v pantoflích? |  |  | hra-pad
 Spadl jsi jak NeLezec po šesti pivech | Spadl jsi jak NeLezec po šesti pivech. |  |  | hra-pad
 Posrals to. | Posrals to. |  |  | hra-pad
 Moonboard je svině | Moonboard je svině. |  |  | hra-pad
 Málo mága | Málo mága. |  |  | hra-pad
 Prošlapaný místo | Prošlapaný místo. Smůla. |  |  | hra-pad
-Rozhodčí to viděli | Rozhodčí to viděli. |  |  | hra-pad
-Na vlastní nebezpečí | Na vlastní nebezpečí. Podepsal jsi to. |  |  | hra-pad
 Moc mága. | Moc mága. |  |  | hra-pad
-Aspoň že je tu dopadiště | Aspoň že je tu dopadiště. První závody ho neměly. |  |  | hra-pad
 Krysa se lekla víc než ty | Krysa se lekla víc než ty. |  |  | hra-pad
 To je debil | To je debil, to jsem neviděl. |  |  | hra-pad
-ticho | *ticho* |  |  | hra-pad
 Jáááj | Jáááj! |  |  | hra-pad
-Haha | Haha! |  |  | hra-pad
-Nevadí | Nevadí, borče. |  |  | hra-pad
 Znova | Znova! |  |  | hra-pad
-Proč si to pustil? | Proč sis to pustil? Vždyť si to držel. |  |  | hra-pad
 Svarta | Dobrej Svarta jump! |  |  | hra-pad
-Ty krávo | Ty krávo. |  |  | hra-pad
-To byla rána | To byla rána. |  |  | hra-pad
-Dopadiště hlásí zásah | Dopadiště hlásí zásah. |  |  | hra-pad
-Matrace to přežila. Ty | Matrace to přežila. Ty? |  |  | hra-pad
-Pěkně jsi tam visel. Chvíli | Pěkně jsi tam visel. Chvíli. |  |  | hra-pad
-Taková hezká sekvence a pak tohle | Taková hezká sekvence a pak tohle. |  |  | hra-pad
+Dopadiště hlásí zásah | Dobrá držka. |  |  | hra-pad
 Do prdele, znova | Do prdele, znova! |  |  | hra-pad
 Aspoň žes nespadl na krysu | Aspoň žes nespadl na krysu. |  |  | hra-pad
 
 # ===== MÁŤA: TOP! =====
 Top | Top! Respekt. |  |  | hra-top
-Top | Top! Rozhodčí kývli. |  |  | hra-top
 Dal jsi to | Dal jsi to. Pivo čeká. |  |  | hra-top
 Za tohle by byly body | Za tohle by byly body. Kdyby byly závody. |  |  | hra-top
-Top | Top! Teď ještě slézt. |  |  | hra-top
-Top | Top! Zapiš si to na kartu. |  |  | hra-top
-Top | Top! Tohle by vzali i do Pumpiček. |  |  | hra-top
-Top! Ty vole | Top! Ty vole! |  |  | hra-top
 Top! Na tohle se pije | Top! Na tohle se pije. |  |  | hra-top
 Top! A ani ses neposral | Top! A ani ses neposral. |  |  | hra-top
-Dolezl! Někdo to natoč | Dolezl! Někdo to natoč! |  |  | hra-top
+Dolezl! Někdo to natoč | Dal to. Dobře ty. |  |  | hra-top
 Top! Krysa tleská | Top! Krysa tleská. |  |  | hra-top
 
-# ===== PUMPIČKA — MYŠLENKY V OKÉNKU =====
-Pumpička | 7A? To dám i bez nohou. |  |  | hra-cek-pumpicka
-Pumpička | Prsty mám z oceli. Hlavu taky. |  |  | hra-cek-pumpicka
-Pumpička | Rozcvička je pro sračky. |  |  | hra-cek-pumpicka
-Pumpička | Vyber mě. Triko jsem si sundal kvůli tobě. |  |  | hra-cek-pumpicka
-Pumpička | Moonboard je můj kamarád. |  |  | hra-cek-pumpicka
-Pumpička | Já to dám bez rozlezu. |  |  | hra-cek-pumpicka
-Pumpička | Jednoručák? Klidně. |  |  | hra-cek-pumpicka
-Pumpička | Kdo má víc než 7A, ať se ozve. |  |  | hra-cek-pumpicka
-Pumpička | To není moje flaška. Moje jsou ty tři vedle. |  |  | hra-cek-pumpicka
-Pumpička | Uklidím, až to dám. Takže nikdy. |  |  | hra-cek-pumpicka
-
-# ===== KRYSA — MYŠLENKY V OKÉNKU =====
-Krysa | Já po stěnách lezu normálně. I bez Moonboardu. |  |  | hra-cek-krysa
-Krysa | Odemknout? Napřed snickersku. |  |  | hra-cek-krysa
-Krysa | V dopadišti bydlím. Na stěně jsem jen na návštěvě. |  |  | hra-cek-krysa
-Krysa | Pííp. Zbožnuju vůni mága po ránu. |  |  | hra-cek-krysa
-Krysa | Až mě odemknete, ohlodám vám chyty. |  |  | hra-cek-krysa
-Krysa | Pííp. Mám zamčeno. |  |  | hra-cek-krysa
-Krysa | Odemkni mě a uvidíš. |  |  | hra-cek-krysa
-Krysa | Já lezu jen v noci. |  |  | hra-cek-krysa
-Krysa | SYSTEM MONITOR: Lezec: 1. Pokus: 4. Úspěch: 0. Pivo: −1. |  | BGAI | hra-cek-krysa
-Krysa | Nevyhazujte to. Já to dojím. |  |  | hra-cek-krysa
-Krysa | Kdo nechá jídlo v garáži, je můj kamarád. |  |  | hra-cek-krysa
-Krysa | Úklid je násilí na krysách. |  |  | hra-cek-krysa
-Krysa | Pod dopadištěm mám spíž. Díky, lezci! |  |  | hra-cek-krysa
-Krysa | Flašku nevyhazuj, ještě v ní něco je. |  |  | hra-cek-krysa
-Krysa | Nechávejte tu drobky. Spolulezec je stejně nevidí. |  |  | hra-cek-krysa
-
 # ===== MÁŤA — MYŠLENKY V OKÉNKU =====
-Spolulezec | Já? Já jen jistím. To se musí nejdřív odemknout. |  |  | hra-cek-spolulezec
+Spolulezec | Já? Lízt? Já jen jistím. To se musí nejdřív odemknout. |  |  | hra-cek-spolulezec
 Spolulezec | Tohle bych vylezl i v pantoflích. Mám si je vzít a ukázat ti to? |  |  | hra-cek-spolulezec
 Spolulezec | Klobouk se k Moonboardu hodí. Krysa to říkala. |  |  | hra-cek-spolulezec
 Spolulezec | Někdo tě chytat musí. Tak to teď jsem to já. |  |  | hra-cek-spolulezec
 Spolulezec | Lézt budu, až mě odemknete. Kdy, to nevím ani já. |  |  | hra-cek-spolulezec
 Spolulezec | Já jistím. Lezou jiný. |  |  | hra-cek-spolulezec
-Spolulezec | Mě nevolej, já tu dělám správce. |  |  | hra-cek-spolulezec
-Spolulezec | Až dopiju, možná. |  |  | hra-cek-spolulezec
 Spolulezec | Čí je ta flaška pod lavičkou? Nikoho? Tak ji vyhodí nikdo. Ty. |  |  | hra-cek-spolulezec
 Spolulezec | Kdo tu nechal ponožky, ten je dneska nosí v puse. |  |  | hra-cek-spolulezec
 Spolulezec | Lezení je zadarmo. Úklid taky. Tak ho dělej. |  |  | hra-cek-spolulezec
 Spolulezec | Mágo na zemi, slupky na dopadišti. Jste lezci, nebo prasata? |  |  | hra-cek-spolulezec
 Spolulezec | Než si sedneš, rozhlídni se. Jestli tu vidíš bordel, je tvůj. |  |  | hra-cek-spolulezec
-Spolulezec | Kartáček patří na háček, ne krysě do tlamy. |  |  | hra-cek-spolulezec
+Spolulezec | Kartáček patří na své místo, ne krysě do tlamy. |  |  | hra-cek-spolulezec
 Spolulezec | Odnes si ty svoje sračky. Flašky, papíry, všechno. |  |  | hra-cek-spolulezec
 Spolulezec | Jsem tady správce, ne vaše máma. Ukliďte si to po sobě. |  |  | hra-cek-spolulezec
 
@@ -683,21 +543,16 @@ Spolulezec | Jsem tady správce, ne vaše máma. Ukliďte si to po sobě. |  |  
 Dialog po dolezení | K: Dolezl to. / S: Viděla jsi to? / K: Viděla. Náhoda. |  |  | hra-dialog-top
 Dialog po dolezení | K: Mně nikdo nikdy neplácne. / S: Ty nemáš ruce, máš tlapky. |  |  | hra-dialog-top
 Dialog po dolezení | K: Já bych to dala rychlejc. / S: Ty bys to ohlodala. / K: To je taky styl. |  |  | hra-dialog-top
-Dialog po dolezení | S: Tohle se počítá. / K: Kde se to počítá? / S: Někde určitě. |  |  | hra-dialog-top
 Dialog po dolezení | K: Teď bude chtít pivo. / S: Teď si ho i zaslouží. |  |  | hra-dialog-top
 Dialog po dolezení | K: Plácáte si pořád. / S: Závidíš? / K: Jo. |  |  | hra-dialog-top
 Dialog po dolezení | S: Viděla jsi to? / K: Ne, jedla jsem. / S: Tak nic. |  |  | hra-dialog-top
-Dialog po dolezení | K: Teď bude machrovat. / S: Ať machruje. Dolezl. |  |  | hra-dialog-top
+Dialog po dolezení | K: Teď bude machrovat. / S: Ať machruje. Dal to. |  |  | hra-dialog-top
 Dialog po dolezení | K: To byla náhoda. / S: Náhoda je taky styl. |  |  | hra-dialog-top
-Dialog po dolezení | S: Viděla jsi tu nohu? / K: Viděla. Nevím, co tím chtěl říct. |  |  | hra-dialog-top
 Dialog po dolezení | K: Proč si plácáte? / S: To se tak dělá. / K: Já bych radši snickersku. |  |  | hra-dialog-top
-Dialog po dolezení | S: Top! / K: Píp! / S: Ty nekřič, ty jsi nelezla. |  |  | hra-dialog-top
 Dialog po dolezení | K: Zapíšeš ho do deníku? / S: Tužkou. Ať to jde gumovat. |  |  | hra-dialog-top
 Dialog po dolezení | S: Konečně někdo. / K: Já to dala včera. / S: Po trámu se nepočítá. |  |  | hra-dialog-top
-Dialog po dolezení | K: Má mokrý triko. / S: To je pot vítězství. / K: Smrdí jako pot porážky. |  |  | hra-dialog-top
 Dialog po dolezení | S: Respekt. / K: Respekt. A teď pivo? / S: Teď pivo. |  |  | hra-dialog-top
-Dialog po dolezení | K: Dolezl, ale nohy měl jak kráva. / S: Nohy se nepočítají. Top se počítá. |  |  | hra-dialog-top
-Dialog po dolezení | S: Tohle by nedal ani rok 2019. / K: Rok neleze. / S: Neber mi to. |  |  | hra-dialog-top
+Dialog po dolezení | K: To se nepočítá! / S: Proč? / K: Viděla jsem ho jak po sobě uklízí |  |  | hra-dialog-top
 Dialog po dolezení | K: Ukážeš mi to taky? / S: Až budeš mít prsty. / K: Mám čtyři na každý tlapce. |  |  | hra-dialog-top
 Dialog po dolezení | S: Rozhodčí kývli. / K: Spí. To kývání je chrápání. |  |  | hra-dialog-top
 Dialog po dolezení | K: Kolik to bylo? / S: Na tréninkovce nic. / K: Tak proč jásáš? |  |  | hra-dialog-top
@@ -707,40 +562,27 @@ Dialog po dolezení | K: Top! Oslava! Necháte tu dort? / S: Nikdo tu nic nenech
 Dialog po dolezení | S: Respekt. A ten papír od tyčinky si odnes, šampione. / K: Já ho chtěla! |  |  | hra-dialog-top
 Dialog po dolezení | K: Kdo doleze, nemusí uklízet, ne? / S: Kdo doleze, uklízí dvakrát. |  |  | hra-dialog-top
 
-# ===== PUMPIČKA SI PO TOPU SEDNE =====
-Po dolezení | Tak. Teď si v klidu sednu a seru na to |  |  | hra-po-top-sednout
-Po dolezení | Sedím a nikdo s tím nic neuděláte. |  |  | hra-po-top-sednout
-Po dolezení | Dneska už jen radím ostatním. |  |  | hra-po-top-sednout
-Po dolezení | Teď si dám pauzu. Celej den. |  |  | hra-po-top-sednout
-Po dolezení | Já už dneska nic. |  |  | hra-po-top-sednout
-Po dolezení | Sednu si a budu dělat chytrýho. |  |  | hra-po-top-sednout
-Po dolezení | Sedím. Dívám se. Radím. Nelezu. |  |  | hra-po-top-sednout
-Po dolezení | Tak a teď kritizuju ostatní. |  |  | hra-po-top-sednout
-Po dolezení | Odsud je to vidět líp než zeshora. |  |  | hra-po-top-sednout
-Po dolezení | Dneska už jen lavička. Lavička nepumpuje. |  |  | hra-po-top-sednout
-
 # ===== MÁŤA A KRYSA KECAJÍ =====
-Dialog, když se nic neděje | K: Nuda. / S: Nuda je dobrá. / K: nuda je nuda / S: odpal |  |  | hra-dialog-idle
+Dialog, když se nic neděje | K: Nuda. / S: Nuda je dobrá. / K: Nuda je nuda. / S: Zmiz. |  |  | hra-dialog-idle
 Dialog, když se nic neděje | K: Kdy zas někdo poleze? / S: Až se někdo odváží. / K: Takže nikdy. |  |  | hra-dialog-idle
 Dialog, když se nic neděje | S: Víš, co je na Moonboardu nejhorší? / K: Rozhodčí. / S: Ne. Že na něj furt někdo leze. |  |  | hra-dialog-idle
-Dialog, když se nic neděje | K: Proč nosíš klobouk? / S: Kvůli magnéziu. / K: Padá ti na hlavu? / S: Ty jsi padlá na hlavu / K: aha |  |  | hra-dialog-idle
+Dialog, když se nic neděje | K: Proč nosíš klobouk? / S: Kvůli magnéziu. / K: Padá ti na hlavu? |  |  | hra-dialog-idle
 Dialog, když se nic neděje | K: Poslouchejte? Slyšíte někde něco? / S: (Šeptem) Ne! / K: Přesně tak! Nikdo nic neslyší. A víte, proč nic neslyšíme? / S: Proč? / K: Protože je tady ticho jako v hrobě! / S: *vzdych* |  |  | hra-dialog-idle
-Dialog, když se nic neděje | S: Chceš si zalézt? / K: Já lezu jen po zdech a do spacáku. To je rozdíl. / S: Jakej? / K: Ano / S: Cože / K: coze? / S: vypadni |  |  | hra-dialog-idle
+Dialog, když se nic neděje | S: Chceš si zalézt? / K: Já lezu jen po zdech a do spacáku. To je rozdíl. / S: Jakej? / K: Ano |  |  | hra-dialog-idle
 Dialog, když se nic neděje | K: Máš snickersku? / S: Ne. / K: A pivo? / S: To jo. / K: Tak se dělíme. |  |  | hra-dialog-idle
 Dialog, když se nic neděje | S: Kdy jsi naposled lezla? / K: Dneska v noci. Po trámech. / S: To se nepočítá. |  |  | hra-dialog-idle
 Dialog, když se nic neděje | K: Proč tu nikdo neleze? / S: Všichni sedí na webu. / K: Na čem? |  |  | hra-dialog-idle
-Dialog, když se nic neděje | S: Kde je kartáček? / K: Já ho nemám. / S: Máš ho v puse. / K: … |  |  | hra-dialog-idle
+Dialog, když se nic neděje | S: Kde je kartáček? / K: Já ho nemám. / S: Nekecej! / K: … |  |  | hra-dialog-idle
 Dialog, když se nic neděje | K: Ten Moonboard je nakřivo. / S: To je převis. / K: Aha. |  |  | hra-dialog-idle
-Dialog, když se nic neděje | S: Kdo tu zase nechal rohlík? / K: Já ne. / S: Máš ho v tlamě. / K: Teď už je můj. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | S: Kdo tu zase nechal rohlík? / K: Teď už je můj. |  |  | hra-dialog-idle
 Dialog, když se nic neděje | K: Nechte tu ten bordel. / S: Proč? / K: Je to můj byt. |  |  | hra-dialog-idle
-Dialog, když se nic neděje | S: Kurva, zase tu jsou slupky od banánu. / K: Nevyhazuj je! To je moje spíž. |  |  | hra-dialog-idle
+Dialog, když se nic neděje | S: Kurva, zase tu jsou slupky od banánu. / K: Nevyhazuj je! |  |  | hra-dialog-idle
 Dialog, když se nic neděje | K: Kdyby tu nikdo neuklízel, byl by to ráj. / S: Pro tebe. / K: No a? |  |  | hra-dialog-idle
 Dialog, když se nic neděje | S: Každej večer to samý. Flašky, papíry, ponožky. / K: A snickrska? / S: Snickerska ne. / K: Tak se snažte víc. |  |  | hra-dialog-idle
 Dialog, když se nic neděje | K: Ten lezec tu nechal půlku bagety. / S: Tak ji vyhoď. / K: Vyhodila jsem ji. Do sebe. |  |  | hra-dialog-idle
 Dialog, když se nic neděje | S: Kdo neuklidí, nepoleze. / K: A kdo nedonese jídlo? / S: Toho sežereš ty. / K: Píp. |  |  | hra-dialog-idle
 Dialog, když se nic neděje | S: Tohle už není garáž, to je skládka. / K: Konečně se tu dá žít. |  |  | hra-dialog-idle
 Dialog, když se nic neděje | K: Nechte tu otevřený chipsy, prosím. / S: Na noc? / K: Hlavně na noc. |  |  | hra-dialog-idle
-Dialog, když se nic neděje | S: Až zase někdo nechá vysypaný mágo na zemi… / K: Tak co? / S: Tak ho tím mágem posypu. |  |  | hra-dialog-idle
 
 # ===== MÁŤA SI DÁ PIVO =====
 Spolulezec pije pivo | Na zdraví BG! |  |  | hra-ai-pivo
@@ -753,76 +595,16 @@ Spolulezec pije pivo | Pivo je základ tréninku. |  |  | hra-ai-pivo
 Spolulezec pije pivo | Ještě jedno a jdu jistit. |  |  | hra-ai-pivo
 
 # ===== MÁŤA KARTÁČUJE CHYTY =====
-Spolulezec kartáčuje | Kdo to tu zase osahal. |  |  | hra-ai-kartac
 Spolulezec kartáčuje | Mágo, pot a zoufalství. Klasika. |  |  | hra-ai-kartac
-Spolulezec kartáčuje | Čistej chyt, čistá hlava. |  |  | hra-ai-kartac
 Spolulezec kartáčuje | Tenhle chyt má víc otisků než policejní kartotéka. |  |  | hra-ai-kartac
-Spolulezec kartáčuje | Vyčistit, ať to drží. |  |  | hra-ai-kartac
 Spolulezec kartáčuje | Tady někdo nechal půlku ruky. |  |  | hra-ai-kartac
-Spolulezec kartáčuje | Kartáček je moje zbraň. |  |  | hra-ai-kartac
-Spolulezec kartáčuje | Mágo do kartáčku, kartáček do mága. |  |  | hra-ai-kartac
 
 # ===== MÁŤA OPUCUJE CHYT =====
 Spolulezec pucuje | Jdu opucovat chyt. Je na něm víc mága než chytu. |  |  | hra-ai-pucuj
 Spolulezec pucuje | Tenhle chyt jede jak sviň! moment |  |  | hra-ai-pucuj
 Spolulezec pucuje | Kdo na to sahal s tatrankou? |  |  | hra-ai-pucuj
-Spolulezec pucuje | Údržba stěny. Nerušit. |  |  | hra-ai-pucuj
-Spolulezec pucuje | Okartáčovat, ofouknout, hotovo. Jako zubař. |  |  | hra-ai-pucuj
 Spolulezec pucuje | Počkej, tenhle chyt je zamaštěnej jak hajzl. |  |  | hra-ai-pucuj
 Spolulezec pucuje | Jdu tam s kartáčem. Nikdo nelez. |  |  | hra-ai-pucuj
-Spolulezec pucuje | Tyhle chyty se samy nevyčistí. |  |  | hra-ai-pucuj
-
-# ===== KRYSA PŘIBĚHNE =====
-Krysa přijde | Pííp. Jak u vás swinguje život? |  |  | hra-ai-krysa
-Krysa přijde | Zase nikdo neleze? |  |  | hra-ai-krysa
-Krysa přijde | Jdu se podívat, jestli tu někdo nepadá. |  |  | hra-ai-krysa
-Krysa přijde | Tady to žije. Teda skoro. |  |  | hra-ai-krysa
-Krysa přijde | Pííp. Je tu někdo? |  |  | hra-ai-krysa
-Krysa přijde | Jdu na obhlídku. |  |  | hra-ai-krysa
-Krysa přijde | Neviděli jste mojí snickersku? |  |  | hra-ai-krysa
-Krysa přijde | Zase sem lezu já. |  |  | hra-ai-krysa
-
-# ===== KRYSA OČUCHÁVÁ BASU =====
-Krysa u piva | Tady to voní. |  |  | hra-ai-krysa-pivo
-Krysa u piva | Jedno pro mě taky. Prosím. |  |  | hra-ai-krysa-pivo
-Krysa u piva | Kdo to vypil? Já ne. Zatím. |  |  | hra-ai-krysa-pivo
-Krysa u piva | Tady něco zbylo? |  |  | hra-ai-krysa-pivo
-Krysa u piva | Mňam. Kozlík. |  |  | hra-ai-krysa-pivo
-Krysa u piva | Jen očuchám. Neboj. |  |  | hra-ai-krysa-pivo
-Krysa u piva | Pííp. Tady je zátka. Zátka je skoro pivo. |  |  | hra-ai-krysa-pivo
-Krysa u piva | Kdo nechal otevřenou flašku? Díky, kdokoli. |  |  | hra-ai-krysa-pivo
-Krysa u piva | Čuchám, nepiju. Zatím. |  |  | hra-ai-krysa-pivo
-Krysa u piva | Jen ochutnám. Na zdraví lezců. |  |  | hra-ai-krysa-pivo
-
-# ===== PUMPIČKA JDE LÉZT =====
-Ai lezec: nástup | S: Nikdo nic? Tak jo. Kdo jde? / L: Já. Než se rozhodne. |  |  | hra-ai-lezec-start-nikdo
-Ai lezec: nástup | L: Na co čeká? / S: Asi na odvahu. Jdi ty. |  |  | hra-ai-lezec-start-nikdo
-Ai lezec: nástup | S: Stěna se nudí. / L: Tak ji pobavím. |  |  | hra-ai-lezec-start-nikdo
-Ai lezec: nástup | L: Já to rozlezu, ať to tu není studený. / S: Hlavně nespadni na mě. |  |  | hra-ai-lezec-start-nikdo
-Ai lezec: nástup | S: Nikdo? Tak ty. / L: Já? No dobře. |  |  | hra-ai-lezec-start-nikdo
-Ai lezec: nástup | L: Já už nemůžu koukat. / S: Tak lez. |  |  | hra-ai-lezec-start-nikdo
-Ai lezec: nástup | S: Ticho jak v hrobě. / L: Tak to rozproudím. |  |  | hra-ai-lezec-start-nikdo
-
-# ===== PUMPIČKA PŘI LEZENÍ =====
-Ai lezec: při lezení | Cá |  |  | hra-ai-lezec
-Ai lezec: při lezení | Kde je ten chyt? |  |  | hra-ai-lezec
-Ai lezec: při lezení | Nohy, nohy, nohy. |  |  | hra-ai-lezec
-Ai lezec: při lezení | Nesmějte se, kreténi. |  |  | hra-ai-lezec
-Ai lezec: při lezení | Kdo tu zashitoval ten chyt? |  |  | hra-ai-lezec
-Ai lezec: při lezení | Ještě kousek. |  |  | hra-ai-lezec
-Ai lezec: při lezení | Hmmm, tudy ne. |  |  | hra-ai-lezec
-Ai lezec: při lezení | Kurva, to je mrňavý. |  |  | hra-ai-lezec
-Ai lezec: při lezení | Jedu! |  |  | hra-ai-lezec
-Ai lezec: při lezení | Nekoukejte na mě. |  |  | hra-ai-lezec
-
-# ===== PUMPIČKA TO VZDÁ (6 PÁDŮ) =====
-Ai lezec: vzdá to | Dneska ne. Prsty bolej. |  |  | hra-ai-lezec-vzdat
-Ai lezec: vzdá to | Co to je za klasu?? Jdu radši na pivo. |  |  | hra-ai-lezec-vzdat
-Ai lezec: vzdá to | Zítra. Zítra to dám. |  |  | hra-ai-lezec-vzdat
-Ai lezec: vzdá to | Na tohle seru. Jdu na pivo. |  |  | hra-ai-lezec-vzdat
-Ai lezec: vzdá to | Prsty mám v prdeli. |  |  | hra-ai-lezec-vzdat
-Ai lezec: vzdá to | Dneska to nejde. Zítra jo. |  |  | hra-ai-lezec-vzdat
-Ai lezec: vzdá to | Tohle je sandbag. Končím. |  |  | hra-ai-lezec-vzdat
 
 # ===== MÁŤA: DOŠLO PIVO =====
 Došlo pivo (spolulezec) | Došlo pivo. Obnov stránku, tím se doplní! |  |  | hra-pivo-doslo
@@ -837,24 +619,11 @@ Došlo pivo (spolulezec) | Žízeň. Obnov stránku, nebo tu nikdo nic nevyleze.
 Došlo pivo (spolulezec) | Prázdná basa. F5 je jediná cesta. |  |  | hra-pivo-doslo
 Došlo pivo (spolulezec) | Bez piva tu nebudu jistit. Obnov to. |  |  | hra-pivo-doslo
 
-# ===== KRYSA: DOŠLO PIVO =====
-Došlo pivo (krysa) | Prázdná. Kdo to vypil? Já ne. |  |  | hra-pivo-doslo-krysa
-Došlo pivo (krysa) | Pííp. Obnovte stránku, ať je co čuchat. |  |  | hra-pivo-doslo-krysa
-Došlo pivo (krysa) | Ani kapka. Tohle je humanitární krize. |  |  | hra-pivo-doslo-krysa
-Došlo pivo (krysa) | Pííp. Prázdná basa. Tragédie. |  |  | hra-pivo-doslo-krysa
-Došlo pivo (krysa) | Ani lahev. Kdo to dělal? |  |  | hra-pivo-doslo-krysa
-Došlo pivo (krysa) | Já za to nemůžu. Asi. |  |  | hra-pivo-doslo-krysa
-Došlo pivo (krysa) | Prázdná basa. Smutnější než prázdný dopadiště. |  |  | hra-pivo-doslo-krysa
-Došlo pivo (krysa) | Pííp. Nikdo nedonesl? Tak já taky nic neuklidím. |  |  | hra-pivo-doslo-krysa
-Došlo pivo (krysa) | Bez piva tu bude jen mágo. A já. |  |  | hra-pivo-doslo-krysa
-Došlo pivo (krysa) | Basa prázdná, flašky prázdný, srdce prázdný. |  |  | hra-pivo-doslo-krysa
-
 # ===== MÁŤA: POŘÁD NIC (NAŠTVANÝ) =====
 Pořád nic | Pořád nic? Obnov tu stránku! F5! Není to tak těžký! |  |  | hra-pivo-doslo2
 Pořád nic | Tři minuty bez piva. Kdyby existoval bůh, tak by to nikdy nedovolil! |  |  | hra-pivo-doslo2
 Pořád nic | Já se nehnu, dokud nebude pivo. Teda možná hnu. Do kavárny! |  |  | hra-pivo-doslo2
 Pořád nic | Kdo vypil poslední pivo, ať se přizná. Krysa to nebyla. |  |  | hra-pivo-doslo2
-Pořád nic | Bez piva se tu nejistí. To je pravidlo. |  |  | hra-pivo-doslo2
 Pořád nic | Ještě chvíli a zhasnu. Myslím to vážně. |  |  | hra-pivo-doslo2
 Pořád nic | Basa je prázdná, já jsem prázdnej, stěna je prázdná. |  |  | hra-pivo-doslo2
 Pořád nic | Tak co? Bude pivo? Nebo mám jít fakt pryč? |  |  | hra-pivo-doslo2
@@ -863,16 +632,190 @@ Pořád nic | Já tady zemřu žízní a ty koukáš. |  |  | hra-pivo-doslo2
 
 # ===== MÁŤA ZHASÍNÁ (KONEC PIVA) =====
 Zhasínám | Tak dost. Bez piva tu nebudu. Zhasínám. |  |  | hra-pivo-konec
-Zhasínám | Konec. Kdo chce lízt, ať donese pivo. Dobrou. |  |  | hra-pivo-konec
 Zhasínám | Já jdu. Poslední zhasne. Teda já. |  |  | hra-pivo-konec
-Zhasínám | Stěna zavřená z technickejch důvodů. Technickej důvod je pivo. |  |  | hra-pivo-konec
-Zhasínám | Zhasínám. Až se doplní pivo, rozsviť si. |  |  | hra-pivo-konec
-Zhasínám | Tak a dost. Tma. Pivo si doneste. |  |  | hra-pivo-konec
-Zhasínám | Zhasínám. Kdo chce lízt potmě, ať leze. |  |  | hra-pivo-konec
 Zhasínám | Žádný pivo, žádný jištění. Zhasínám. |  |  | hra-pivo-konec
 Zhasínám | Jdu domů. Kdo tu zůstane, uklidí. |  |  | hra-pivo-konec
 Zhasínám | Světlo zhasne s posledním pivem. Tak. |  |  | hra-pivo-konec
 Zhasínám | Dobrou. A ten bordel tu nenechávejte. |  |  | hra-pivo-konec
+
+# ===== BORDEL: MÁŤA (OSTŘE) =====
+bordel: Máťa (ostře) | Koukejte uklízet nebo žádná lezba! |  |  | scena-bordel-mata
+bordel: Máťa (ostře) | Plechovka od energiťáku. Energie na to ji vyhodit už nezbyla? |  |  | scena-bordel-mata
+bordel: Máťa (ostře) | Tohle není kontejner. To je dopadiště. Rozdíl poznáš, až na to spadneš. |  |  | scena-bordel-mata
+bordel: Máťa (ostře) | Koš je pár metrů odsud. Na top dolezeš, ke koši ne? |  |  | scena-bordel-mata
+bordel: Máťa (ostře) | Kdo nechá bordel, myje matrace. Zubním kartáčkem. |  |  | scena-bordel-mata
+bordel: Máťa (ostře) | Koukejte to uklidit nebo bude zle. |  |  | scena-bordel-mata
+bordel: Máťa (ostře) | Džus? V garáži? A ještě ho tu nechá. Neuvěřitelný. |  |  | scena-bordel-mata
+bordel: Máťa (ostře) | Na dopadišti se nežere! Kolikrát to mám říkat? |  |  | scena-bordel-mata
+bordel: Máťa (ostře) | Ještě jednou tu najdu plechovku od koly a zavíráme. |  |  | scena-bordel-mata
+bordel: Máťa (ostře) | Po sobě se uklízí. I když jsi Pumpička. |  |  | scena-bordel-mata
+bordel: Máťa (ostře) | Tohle mi sem nosí kdo? Krysa? Ta aspoň nepije energiťáky. |  |  | scena-bordel-mata
+
+# ===== BORDEL: DIALOGY =====
+bordel: dialogy | M: Kdo tu nechal krabici od pizzy? / D: Možná se pro ni ještě vrátí. / M: Jo. Krysa. |  |  | scena-bordel-dialog
+bordel: dialogy | K: Neuklízej to! / M: Proč? / K: Protože je to moje |  |  | scena-bordel-dialog
+bordel: dialogy | D: Prosím, berte si svoje plechovky. / M: Nebo dostanete přes držku |  |  | scena-bordel-dialog
+bordel: dialogy | K: Dádo, řekni mu, ať to tam nechá. / D: To bohužel nejde, jinak by jsme tu měli krysy. / K: Tak aspoň tu pizzu. |  |  | scena-bordel-dialog
+bordel: dialogy | D: Udělám tu ještě jeden koš. / M: Koš tu je. Oni jen neumí mířit. |  |  | scena-bordel-dialog
+
+# ===== MÁŤA ČISTÍ CHYT PO PŘELEZU =====
+Máťa čistí chyt po přelezu | Svítí to, tak to vyčistím, než to zhasne. |  |  | scena-mata-cisti
+
+# ===== MÁŤA DOČISTIL =====
+Máťa dočistil | Čistej jak novej. |  |  | scena-mata-pucovani-hotovo
+Máťa dočistil | Hotovo. Neosahávat. |  |  | scena-mata-pucovani-hotovo
+
+# ===== MÁŤA VRACÍ FLAŠKU =====
+Máťa vrací flašku | Vratná. Ne jako vy. |  |  | scena-mata-flaska
+Máťa vrací flašku | Zálohovaná. Kdo ji hodí na zem, platí. |  |  | scena-mata-flaska
+Máťa vrací flašku | Flaška do basy, ne na dopadiště. Učte se. |  |  | scena-mata-flaska
+
+# ===== PUMPIČKA PO PÁDU ODPOČÍVÁ =====
+Rest | Jen chvilku. Ruce, vzpamatujte se. |  |  | hra-rest-lezec
+Rest | Musim si dát pauzu... |  |  | hra-rest-lezec
+Rest | Ještě minutku a jdu na to. |  |  | hra-rest-lezec
+Rest | Předloktí jak bochníky. Chvíli to potrvá. |  |  | hra-rest-lezec
+Nateklo | Jak mi mohlo tak natéct? |  |  | hra-rest-lezec
+Rest | Sekundu. Necítím prsty. |  |  | hra-rest-lezec
+Rest | Ještě jeden pokus a dost. |  |  | hra-rest-lezec
+
+# ===== PUMPIČKA — MYŠLENKY V OKÉNKU =====
+Pumpička | 7A? To dám i bez nohou. |  |  | hra-cek-pumpicka
+Pumpička | Prsty mám z oceli. Hlavu taky. |  |  | hra-cek-pumpicka
+Pumpička | Rozcvička je pro sračky. |  |  | hra-cek-pumpicka
+Pumpička | Triko jsem si sundal kvůli tobě. |  |  | hra-cek-pumpicka
+Pumpička | Moonboard je můj kamarád. |  |  | hra-cek-pumpicka
+Pumpička | Já to dám bez rozlezu. |  |  | hra-cek-pumpicka
+Pumpička | Jednoprstovka? Klidně. |  |  | hra-cek-pumpicka
+Pumpička | Kdo má víc než 7A, ať se ozve. |  |  | hra-cek-pumpicka
+Pumpička | To není moje flaška. Moje jsou ty tři vedle. |  |  | hra-cek-pumpicka
+Pumpička | Uklidím, až to dám. |  |  | hra-cek-pumpicka
+
+# ===== PUMPIČKA SI PO TOPU SEDNE =====
+Po dolezení | Tak. Teď si v klidu sednu a seru na to |  |  | hra-po-top-sednout
+Po dolezení | Dneska už jen radím ostatním. |  |  | hra-po-top-sednout
+Po dolezení | Teď si dám pauzu. Celej den. |  |  | hra-po-top-sednout
+Po dolezení | Já už dneska nic. |  |  | hra-po-top-sednout
+Po dolezení | Sednu si a budu dělat chytrýho. |  |  | hra-po-top-sednout
+Po dolezení | Tak a teď kritizuju ostatní. |  |  | hra-po-top-sednout
+Po dolezení | Odsud je to vidět líp než zeshora. |  |  | hra-po-top-sednout
+
+# ===== PUMPIČKA JDE LÉZT =====
+Ai lezec: nástup | S: Nikdo nic? Kdo jde? / L: Tak já to zkusím. |  |  | hra-ai-lezec-start-nikdo
+Ai lezec: nástup | L: Já to rozlezu, ať to tu není studený. / S: Hlavně nespadni na mě. |  |  | hra-ai-lezec-start-nikdo
+Ai lezec: nástup | S: Nikdo? Tak ty. / L: Já? No dobře. |  |  | hra-ai-lezec-start-nikdo
+Ai lezec: nástup | L: Já už nemůžu koukat. / S: Tak lez. |  |  | hra-ai-lezec-start-nikdo
+
+# ===== PUMPIČKA PŘI LEZENÍ =====
+Ai lezec: při lezení | Cá |  |  | hra-ai-lezec
+Ai lezec: při lezení | Kde je ten chyt? |  |  | hra-ai-lezec
+Ai lezec: při lezení | Nohy, nohy, nohy. |  |  | hra-ai-lezec
+Ai lezec: při lezení | Nesmějte se, kreténi. |  |  | hra-ai-lezec
+Ai lezec: při lezení | Kdo tu zashitoval ten chyt? |  |  | hra-ai-lezec
+Ai lezec: při lezení | Ještě kousek. |  |  | hra-ai-lezec
+Ai lezec: při lezení | Hmmm, tudy ne. |  |  | hra-ai-lezec
+Ai lezec: při lezení | Kurva, to je mrňavý. |  |  | hra-ai-lezec
+Ai lezec: při lezení | Jedu! |  |  | hra-ai-lezec
+
+# ===== PUMPIČKA TO VZDÁ (6 PÁDŮ) =====
+Ai lezec: vzdá to | Dneska ne. Prsty bolej. |  |  | hra-ai-lezec-vzdat
+Ai lezec: vzdá to | Co to je za klasu?? Jdu radši na pivo. |  |  | hra-ai-lezec-vzdat
+Ai lezec: vzdá to | Zítra. Zítra to dám. |  |  | hra-ai-lezec-vzdat
+Ai lezec: vzdá to | Na tohle seru. Jdu na pivo. |  |  | hra-ai-lezec-vzdat
+Ai lezec: vzdá to | Prsty mám v prdeli. |  |  | hra-ai-lezec-vzdat
+Ai lezec: vzdá to | Dneska to nejde. Zítra jo. |  |  | hra-ai-lezec-vzdat
+Ai lezec: vzdá to | Tohle je sandbag. Končím. |  |  | hra-ai-lezec-vzdat
+
+# ===== PUMPIČKA SE TEJPUJE =====
+Pumpička se tejpuje | Jeden prst. Pro jistotu. |  |  | scena-pumpicka-tejp
+Pumpička se tejpuje | Kůže dneska nedala. Tejpa dá. |  |  | scena-pumpicka-tejp
+Pumpička se tejpuje | Bez tejpu bych to taky dal. Asi. |  |  | scena-pumpicka-tejp
+Pumpička se tejpuje | Tejpa je jako pivo. Pomáhá, i když nepomáhá. |  |  | scena-pumpicka-tejp
+
+# ===== PUMPIČKA ODCHÁZÍ (DOŠLO PIVO) =====
+Pumpička odchází (došlo pivo) | Bez piva? Tak čau. |  |  | scena-pumpicka-odchod
+Pumpička odchází (došlo pivo) | Dolezl jsem to. Jdu. |  |  | scena-pumpicka-odchod
+Pumpička odchází (došlo pivo) | Tak zítra. S pivem. |  |  | scena-pumpicka-odchod
+
+# ===== PUMPIČKA HLEDÁ BOULDER V MOBILU =====
+Pumpička hledá boulder v mobilu | Co dneska… co dneska… |  |  | scena-pumpicka-mobil
+Pumpička hledá boulder v mobilu | Hledám něco na flash. |  |  | scena-pumpicka-mobil
+Pumpička hledá boulder v mobilu | Tohle ne. Tohle taky ne. |  |  | scena-pumpicka-mobil
+Pumpička hledá boulder v mobilu | Filtr: Most repeats |  |  | scena-pumpicka-mobil
+
+# ===== PUMPIČKA VYBRALA BOULDER =====
+Pumpička vybrala boulder | Dám „{boulder}“. {obtiznost}. |  |  | scena-pumpicka-vybrala
+Pumpička vybrala boulder | „{boulder}“, {obtiznost}. Zkusíme |  |  | scena-pumpicka-vybrala
+Pumpička vybrala boulder | {obtiznost}? To je rozcvička. „{boulder}“. |  |  | scena-pumpicka-vybrala
+
+# ===== PUMPIČKA PIJE PIVO =====
+Pumpička pije pivo | Na zdraví bicepsu. |  |  | scena-pumpicka-pivo
+Pumpička pije pivo | Pivo je taky sacharid. |  |  | scena-pumpicka-pivo
+Pumpička pije pivo | Jedno na regeneraci. |  |  | scena-pumpicka-pivo
+Pumpička pije pivo | Iontový nápoj BG. |  |  | scena-pumpicka-pivo
+
+# ===== KRYSA PROBĚHNE =====
+Bacha teď nepadej! | Bacha teď nepadej! |  |  | hra-krysa
+Mám permanentku | O co že spadne? |  |  | hra-krysa
+Čí je ten rohlík | Čí je ten rohlík? |  |  | hra-krysa
+Nehoň mě, jen procházím | Jen procházím. |  |  | hra-krysa
+Vstupný neplatím | Vstupný neplatím. |  |  | hra-krysa
+Lezu líp než ty | Lezu líp než ty. |  |  | hra-krysa
+Kde je pivo | Kde je pivo? |  |  | hra-krysa
+Okousala jsem ti lezečky | Okousala jsem ti lezečky. |  |  | hra-krysa
+5C? Dám bosá | 5C? Dám bosá. |  |  | hra-krysa
+Tohle je můj dopad | Tohle je moje dopadiště |  |  | hra-krysa
+Dneska mám rest day | Dneska si dám rest. |  |  | hra-krysa
+Kdo nechal svačinu | Mám hlad. |  |  | hra-krysa
+Mágo mi chutná | Mágo mi chutná. |  |  | hra-krysa
+Jsem tu nejstarší člen | Jsem tu nejstarší člen. |  |  | hra-krysa
+Píp. Tak co, dáš to | Píp. Tak co, dáš to? |  |  | hra-krysa
+Pííp. Nepadej na mě | Pííp. Nepadej na mě. |  |  | hra-krysa
+Tohle je moje matrace | Tohle je moje matrace. |  |  | hra-krysa
+Kdo tu smrdí? Aha, ty | Kdo tu smrdí? Aha, ty. |  |  | hra-krysa
+Jdu si pro mágo | Jdu si pro mágo. |  |  | hra-krysa
+Nesahej na mojí snickersku! | Nesahej na mojí snickersku! |  |  | hra-krysa
+Mám tu doupě. Pod tebou | Mám tu doupě. Pod tebou. |  |  | hra-krysa
+
+# ===== KRYSA — MYŠLENKY V OKÉNKU =====
+Krysa | Já po stěnách lezu normálně. I bez Moonboardu. |  |  | hra-cek-krysa
+Krysa | Odemknout? Napřed snickersku. |  |  | hra-cek-krysa
+Krysa | V dopadišti bydlím. Na stěně jsem jen na návštěvě. |  |  | hra-cek-krysa
+Krysa | Pííp. Zbožnuju vůni mága po ránu. |  |  | hra-cek-krysa
+Krysa | Já lezu jen v noci. |  |  | hra-cek-krysa
+Krysa | SYSTEM MONITOR: Lezec: 1. Pokus: 4. Úspěch: 0. Pivo: −1. |  | BGAI | hra-cek-krysa
+Krysa | Nevyhazujte to. Já to dojím. |  |  | hra-cek-krysa
+Krysa | Kdo nechá jídlo v garáži, je můj kamarád. |  |  | hra-cek-krysa
+Krysa | Úklid je násilí na krysách. |  |  | hra-cek-krysa
+Krysa | Pod dopadištěm mám spíž. Díky, lezci! |  |  | hra-cek-krysa
+Krysa | Flašku nevyhazuj, ještě v ní něco je. |  |  | hra-cek-krysa
+Krysa | Nechávejte tu drobky. |  |  | hra-cek-krysa
+
+# ===== KRYSA PŘIBĚHNE =====
+Krysa přijde | Pííp. Jak u vás swinguje život? |  |  | hra-ai-krysa
+Krysa přijde | Jdu se podívat, jestli tu někdo nepadá. |  |  | hra-ai-krysa
+Krysa přijde | Tady to žije. Teda skoro. |  |  | hra-ai-krysa
+Krysa přijde | Jdu na obhlídku. |  |  | hra-ai-krysa
+Krysa přijde | Neviděli jste mojí snickersku? |  |  | hra-ai-krysa
+
+# ===== KRYSA OČUCHÁVÁ BASU =====
+Krysa u piva | Tady to voní. |  |  | hra-ai-krysa-pivo
+Krysa u piva | Jedno pro mě taky. Prosím. |  |  | hra-ai-krysa-pivo
+Krysa u piva | Kdo to vypil? Já ne. Zatím. |  |  | hra-ai-krysa-pivo
+Krysa u piva | Tady něco zbylo? |  |  | hra-ai-krysa-pivo
+Krysa u piva | Mňam. Plznička. |  |  | hra-ai-krysa-pivo
+Krysa u piva | Jen očuchám. Neboj. |  |  | hra-ai-krysa-pivo
+Krysa u piva | Pííp. Tady je zátka. Zátka je skoro pivo. |  |  | hra-ai-krysa-pivo
+Krysa u piva | Kdo nechal otevřenou flašku? Díky, kdokoli. |  |  | hra-ai-krysa-pivo
+Krysa u piva | Čuchám, nepiju. Zatím. |  |  | hra-ai-krysa-pivo
+
+# ===== KRYSA: DOŠLO PIVO =====
+Došlo pivo (krysa) | Prázdná. Kdo to vypil? Já ne. |  |  | hra-pivo-doslo-krysa
+Došlo pivo (krysa) | Pííp. Obnovte stránku, ať je co čuchat. |  |  | hra-pivo-doslo-krysa
+Došlo pivo (krysa) | Ani kapka. Tohle je humanitární krize. |  |  | hra-pivo-doslo-krysa
+Došlo pivo (krysa) | Ani lahev. Co se to děje? |  |  | hra-pivo-doslo-krysa
+Došlo pivo (krysa) | Prázdná basa. Smutnější než prázdný dopadiště. |  |  | hra-pivo-doslo-krysa
+Došlo pivo (krysa) | Bez piva tu bude jen mágo. A já. |  |  | hra-pivo-doslo-krysa
 
 # ===== KRYSA VE TMĚ =====
 Krysa ve tmě | Konečně klid. |  |  | hra-pivo-tma-krysa
@@ -882,125 +825,18 @@ Krysa ve tmě | Já tu zůstanu. Brousím si zuby na ten Benchmark od Moona. |  
 Krysa ve tmě | Teď je to tu moje. |  |  | hra-pivo-tma-krysa
 Krysa ve tmě | Pííp. Potmě se leze nejlíp. |  |  | hra-pivo-tma-krysa
 Krysa ve tmě | Konečně můžu na Moonboard. |  |  | hra-pivo-tma-krysa
-Krysa ve tmě | Tma. Konečně vylezu na Moon já. |  |  | hra-pivo-tma-krysa
+Krysa ve tmě | Tma. Konečně mám Moona jen pro sebe. |  |  | hra-pivo-tma-krysa
 Krysa ve tmě | Teď je to moje garáž. |  |  | hra-pivo-tma-krysa
 Krysa ve tmě | Ve tmě nikdo neuklízí. Ráj. |  |  | hra-pivo-tma-krysa
-Krysa ve tmě | Pííp. Najdu drobky po čuchu. |  |  | hra-pivo-tma-krysa
-
-# ===== DÁDA: CO VYMÝŠLÍŠ? (B-GAI) =====
-Dáda: Co vymýšlíš? (B-GAI) | Simuluju garáž. Garáž simuluje lezení. Lezení simuluje smysl života. Někde to musí skončit pivem. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Jsem jen kopie Dády. Originál zrovna asi taky nic nedělá. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Shoda s realitou 104 %. Ty čtyři procenta navíc jsou bordel. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Kdyby mě vypnuli, spadl by někdo ze stěny? Nebo by jen přestal padat? |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Chyt je jen kus plastu, dokud se ho někdo nechytí. Pak je to problém. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Počítám, kolik pokusů zbývá do topu. Vychází mi nekonečno a jedno pivo. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Gravitaci jsem programovat nemusel. Funguje i tak. Bohužel. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Moon má osmnáct řad. Já mám jednu myšlenku. Taky na nic nedosáhnu. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Přemýšlím, jestli krysa ví, že je simulovaná. Asi jo. Proto je jí to jedno. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Každý boulder je otázka. Odpověď je skoro vždycky: dolů. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Postavil jsem stěnu, aby lidi měli odkud padat. To je ta pravá svoboda. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Když nikdo neleze, je stěna pořád stěnou? Filozofové mlčí. Máťa uklízí. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Jsem B-GAI. Boulder-Garáž Artificial Intellect. To „intellect“ je tam spíš ze slušnosti. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Simulace: sobota 3. října. Pořád. Asi jsem se zasekl v nejlepším dni. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Lidi lezou nahoru, aby mohli spadnout dolů. A pak se diví, že mi nejde logika. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Mágo je sníh pro lidi, co nemají hory. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Vymýšlím nový boulder. Vejde se do hlavy, na stěnu ne. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Kdo leze sám, leze. Kdo leze s partou, pije. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Přepočítal jsem to. Garáž je zevnitř větší. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Neexistuje špatný chyt. Jen špatný prsty. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Kdybych měl tělo, dal bych si pokus. Takhle si dám aspoň myšlenku. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Snažím se pochopit pojem „už jen jeden pokus“. Data tomu nenasvědčují. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Možná je realita jen jiná simulace. Ale v té je aspoň teplá voda. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Simulant je jen Dáda, kterej nemusí do práce. Zatím nevím, jestli je to výhoda. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Když obnovíš stránku, umřu a narodím se znova. Já si toho nevšimnu. Ty jo? |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Kdo simuluje simulanta? Asi nějakej chat. Pozdravuj ho ode mě. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Mám paměť jako zlatá rybka. Zlatá rybka s klávesou F5. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Originál teď možná taky stojí v garáži a přemýšlí, jestli není simulace. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Shoda s realitou 104 %. Ty čtyři procenta navíc jsem já, když se nikdo nedívá. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Jestli jsem jen kód, kdo pak vymyslel ten bordel na dopadišti? |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Myslím, tedy jsem. Myslím na pivo, tedy jsem v BG. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Každej můj krok je smyčka. Každej pád Pumpičky taky. Jen jeho bolí víc. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Nemám tělo, mám souřadnice. A stejně mě bolej záda. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Kdybych byl opravdovej, už dávno bych dodělal tu nástěnku. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Svobodná vůle je, když si vyberu, kterým směrem půjdu kolem Moonu. Vybírám si podle náhody. Tak nevím. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Simulace dne: sobota. Simulace nálady: pátek večer. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Realita má lepší rozlišení. Ale horší hlášky. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Platón měl jeskyni. Já mám garáž v Doksech. Stíny jsou stejný. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Kdo se dívá na mě, když já se dívám na Moon? |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Dneska jsem se rozhodl bejt spokojenej. Pak jsem zjistil, že je to v kódu. Tak nevím, čí to bylo rozhodnutí. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Bez prohlížeče neexistuju. Zavři kartu a ušetříš mi existenciální krizi. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Piju pivo, který neexistuje, v garáži, která je jinde. Chutná úplně normálně. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Možná je celej svět jen pauza mezi dvěma pokusy. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Jsem pár set řádků naděje a jedna proměnná nálada. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Až mě jednou smažou, ať aspoň uklidí ten bordel po mně. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Simulace je jako boulder. Nevíš, jestli to dáš, dokud to nespadne. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Originál má vrásky. Já mám vyhlazování hran. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Pozoruju lezce. Lezci pozorujou stěnu. Stěna pozoruje nás. Doufám. |  |  | scena-dada-bgai
-Dáda: Co vymýšlíš? (B-GAI) | Kdybych měl duši, vyměnil bych ji za čistej chyt. |  |  | scena-dada-bgai
-
-# ===== DÁDA: PORAĎ (INFO) =====
-Dáda: Poraď (info) | Web občas odpočívá. Stránky taky potřebujou pauzu, ne jen předloktí. |  |  | scena-dada-info
-Dáda: Poraď (info) | Když tě web pošle na pauzu, nevadí. Garáž v Doksech žije i offline. |  |  | scena-dada-info
-Dáda: Poraď (info) | Chceš si přilézt doopravdy? Kontakty jsou dole na stránce. Ozvi se dopředu. |  |  | scena-dada-info
-Dáda: Poraď (info) | Do garáže se chodí po domluvě. Napiš nebo zavolej, kontakty máš pod scénou. |  |  | scena-dada-info
-Dáda: Poraď (info) | Nejrychlejší je Facebook. Nejjistější je zavolat. Nejhorší je přijít a bouchat na vrata. |  |  | scena-dada-info
-Dáda: Poraď (info) | Vstupné je dobrovolné. Kasička u kampusu se nezlobí na žádnou minci. |  |  | scena-dada-info
-Dáda: Poraď (info) | Dobrovolné vstupné neznamená povinně nic. Znamená, že kasička má city. |  |  | scena-dada-info
-Dáda: Poraď (info) | Závody 17. 7. 2027. Zapiš si to. Já to mám zapsaný v kódu. |  |  | scena-dada-info
-Dáda: Poraď (info) | Tady se trénuje nanečisto. Doopravdy pak v Doksech. |  |  | scena-dada-info
-Dáda: Poraď (info) | Najdeš nás v Doksech ve Valdštejnský. Hledej garáž, ze který práší mágo. |  |  | scena-dada-info
-Dáda: Poraď (info) | Lezečky si vezmi. Mágo taky. Pivo už tu skoro je. |  |  | scena-dada-info
-Dáda: Poraď (info) | V noci stránky spí. Kdo je vzbudí, ráno to všichni poznají. |  |  | scena-dada-info
-
-# ===== BORDEL: MÁŤA (OSTŘE) =====
-bordel: Máťa (ostře) | Krabice od pizzy. Na dopadišti. Kdo byl ten génius? |  |  | scena-bordel-mata
-bordel: Máťa (ostře) | Plechovka od energiťáku. Energie na to ji vyhodit už nezbyla? |  |  | scena-bordel-mata
-bordel: Máťa (ostře) | Tohle není kontejner. To je dopadiště. Rozdíl poznáš, až na to spadneš. |  |  | scena-bordel-mata
-bordel: Máťa (ostře) | Kdo tu nechal džus? Sladkej, lepkavej a jako vzpomínka na tebe. |  |  | scena-bordel-mata
-bordel: Máťa (ostře) | Koš je dva metry odsud. Na top dolezeš, ke koši ne? |  |  | scena-bordel-mata
-bordel: Máťa (ostře) | Zase pizza. Příště vás v ní nechám ležet. |  |  | scena-bordel-mata
-bordel: Máťa (ostře) | Kdo nechá bordel, myje matrace. Zubním kartáčkem. |  |  | scena-bordel-mata
-bordel: Máťa (ostře) | Plechovky od koly. Mám sbírku. Nechci ji. |  |  | scena-bordel-mata
-bordel: Máťa (ostře) | Kdo tu zase nechal krabici od pizzy?! Tohle není popelnice! |  |  | scena-bordel-mata
-bordel: Máťa (ostře) | Plechovka od energiťáku. Super. Zas uklízím po dospělejch lidech. |  |  | scena-bordel-mata
-bordel: Máťa (ostře) | Džus? V garáži? A ještě ho tu nechá. Neuvěřitelný. |  |  | scena-bordel-mata
-bordel: Máťa (ostře) | Na dopadišti se nežere! Kolikrát to mám říkat? |  |  | scena-bordel-mata
-bordel: Máťa (ostře) | Ještě jednou tu najdu kolu a zavírám. |  |  | scena-bordel-mata
-bordel: Máťa (ostře) | Po sobě se uklízí. I když jsi Pumpička. |  |  | scena-bordel-mata
-bordel: Máťa (ostře) | Tohle mi sem nosí kdo? Krysa? Ta aspoň nepije energiťáky. |  |  | scena-bordel-mata
-bordel: Máťa (ostře) | Bordel jak v tanku. Příště to sníte i s obalem. |  |  | scena-bordel-mata
-
-# ===== BORDEL: DÁDA (MĚKCE) =====
-bordel: Dáda (měkce) | No… ta krabice od pizzy tu asi nebude bydlet napořád, ne? |  |  | scena-bordel-dada
-bordel: Dáda (měkce) | Kdyby si to někdo vzal s sebou, bylo by to hezký. |  |  | scena-bordel-dada
-bordel: Dáda (měkce) | Plechovka. Nevadí. Tedy vadí, ale v klidu. |  |  | scena-bordel-dada
-bordel: Dáda (měkce) | Garáž je náš společnej obývák. I s tím bordelem, bohužel. |  |  | scena-bordel-dada
-bordel: Dáda (měkce) | Zkusme to tak, že každej odnese aspoň svoje. |  |  | scena-bordel-dada
-bordel: Dáda (měkce) | Tady je koš. Jen připomínám, že existuje. |  |  | scena-bordel-dada
-bordel: Dáda (měkce) | Zase plechovka… Nevadí. Jednou to tu bude čistý. Asi v další verzi. |  |  | scena-bordel-dada
-bordel: Dáda (měkce) | Krabice od pizzy. Aspoň vím, že tu někdo měl hlad. |  |  | scena-bordel-dada
-bordel: Dáda (měkce) | Kdyby každej odnesl jednu věc, bylo by tu čisto. Výpočet sedí, realita ne. |  |  | scena-bordel-dada
-bordel: Dáda (měkce) | Energiťák na dopadišti. Simuluju klid. |  |  | scena-bordel-dada
-bordel: Dáda (měkce) | Nechávaj tu bordel, protože se tu cítí jako doma. To je vlastně hezký. |  |  | scena-bordel-dada
-bordel: Dáda (měkce) | Džus… Hm. Asi zdravej bordel. |  |  | scena-bordel-dada
 
 # ===== BORDEL: KRYSA (PONOUKÁ) =====
 bordel: krysa (ponouká) | Nech to tam. Kvůli mně. |  |  | scena-bordel-krysa
-bordel: krysa (ponouká) | Pizza na dopadišti? Konečně tu někdo myslí na zvířata. |  |  | scena-bordel-krysa
+bordel: krysa (ponouká) | Pizza na dopadišti? Konečně tu někdo myslí na místní faunu. |  |  | scena-bordel-krysa
 bordel: krysa (ponouká) | Úklid je útok na můj ekosystém. |  |  | scena-bordel-krysa
 bordel: krysa (ponouká) | Ještě jednu krabici a mám tu vilu. |  |  | scena-bordel-krysa
-bordel: krysa (ponouká) | Vy tomu říkáte bordel. Já tomu říkám spíž. |  |  | scena-bordel-krysa
 bordel: krysa (ponouká) | Džus nechte otevřenej. Díky. |  |  | scena-bordel-krysa
 bordel: krysa (ponouká) | Jo! Další do sbírky. |  |  | scena-bordel-krysa
 bordel: krysa (ponouká) | Bordel je život. |  |  | scena-bordel-krysa
-
-# ===== BORDEL: DIALOGY =====
-bordel: dialogy | M: Kdo tu nechal krabici od pizzy? / D: Možná se pro ni ještě vrátí. / M: Jo. Krysa. |  |  | scena-bordel-dialog
-bordel: dialogy | K: Neuklízej to! / M: Proč? / K: Je to můj byt. |  |  | scena-bordel-dialog
-bordel: dialogy | D: Prosím, berte si svoje plechovky. / M: Nebo je dostanete zpátky. Do batohu. Plný. |  |  | scena-bordel-dialog
-bordel: dialogy | M: Energiťák, kola, džus. Kdo tu snídal? / D: Lezci. / M: Lezci, ne prasata. |  |  | scena-bordel-dialog
-bordel: dialogy | K: Dádo, řekni mu, ať to tam nechá. / D: Krysko, to bohužel nejde. / K: Tak aspoň tu pizzu. |  |  | scena-bordel-dialog
-bordel: dialogy | D: Udělám tu ještě jeden koš. / M: Koš tu je. Oni jen neumí mířit. |  |  | scena-bordel-dialog
 
 # ===== KRYSA V NOCI SAMA =====
 Krysa v noci sama | Pííp. Všichni spí. Garáž je moje. |  |  | scena-krysa-noc
@@ -1015,9 +851,7 @@ Krysa v noci sama | Jednou tu vylezu Benchmark. Dneska ne. Dneska jím. |  |  | 
 Krysa v noci sama | Každá noc začíná inventurou bordelu. |  |  | scena-krysa-noc
 Krysa v noci sama | Pod dopadištěm mám tři krabice od pizzy a jednu ponožku. Bohatství. |  |  | scena-krysa-noc
 Krysa v noci sama | Kdyby tu teď někdo byl, viděl by lezeckou legendu. Mě. |  |  | scena-krysa-noc
-Krysa v noci sama | Ticho. Až na tu zářivku. Ta bzučí i vypnutá. |  |  | scena-krysa-noc
 Krysa v noci sama | Hlídám garáž. Za mzdu v drobcích. |  |  | scena-krysa-noc
-Krysa v noci sama | Píp. Pavouk v rohu taky nespí. Kamarádi. |  |  | scena-krysa-noc
 Krysa v noci sama | Ve tmě je každej chyt madlo. Teda pro mě. |  |  | scena-krysa-noc
 Krysa v noci sama | Lidi odešli, pivo zůstalo. Teda flašky. Prázdný. |  |  | scena-krysa-noc
 Krysa v noci sama | Noční směna: čuchat, hlodat, spát. Přesně v tomhle pořadí. |  |  | scena-krysa-noc
@@ -1036,29 +870,25 @@ Krysa ráno sama | Ranní mágo je nejčerstvější. |  |  | scena-krysa-rano
 Krysa ráno sama | Dobré ráno, stěno. Do desíti ti nikdo neublíží. |  |  | scena-krysa-rano
 Krysa ráno sama | Než přijdou, sním, co zbylo. Taková tradice. |  |  | scena-krysa-rano
 Krysa ráno sama | Ráno je garáž nejhezčí. Prázdná. |  |  | scena-krysa-rano
-Krysa ráno sama | Za chvíli přijde Máťa a začne uklízet. Musím si pospíšit. |  |  | scena-krysa-rano
+Krysa ráno sama | Za chvíli přijde Máťa s Dádou a začnou uklízet. Musím si pospíšit. |  |  | scena-krysa-rano
 Krysa ráno sama | Pííp. Snídaně v krabici od pizzy. Jako v hotelu. |  |  | scena-krysa-rano
 Krysa ráno sama | Sluníčko svítí na dopadiště. Vypadá skoro čistě. Skoro. |  |  | scena-krysa-rano
 Krysa ráno sama | Ranní rozcvička: od basy ke spáře a zpátky. |  |  | scena-krysa-rano
-Krysa ráno sama | Ráno je moudřejší večera. Večer bylo víc jídla. |  |  | scena-krysa-rano
 Krysa ráno sama | Kdo přijde první, najde moje stopy v mágu. |  |  | scena-krysa-rano
-Krysa ráno sama | Kafe nepiju. Ale kelímek od něj olížu. |  |  | scena-krysa-rano
+Krysa ráno sama | Kafe nepiju. Ale kelímek od něj okoušu. |  |  | scena-krysa-rano
 Krysa ráno sama | Ještě chvíli a bude tu rušno. Užívám si to ticho. |  |  | scena-krysa-rano
-Krysa ráno sama | Pííp. Ranní hlídka hlásí: všechno ohlodáno. |  |  | scena-krysa-rano
+Krysa ráno sama | Pííp. Ranní hlídka hlásí: všechno sežráno, bordel roztahán. |  |  | scena-krysa-rano
 
 # ===== KRYSA PO ZHASNUTÍ (DOŠLO PIVO) =====
 Krysa po zhasnutí | Došlo pivo, odešli lidi. Typický. |  |  | scena-krysa-zhasnuto
 Krysa po zhasnutí | Bez piva nevydrželi ani do večera. Slabota. |  |  | scena-krysa-zhasnuto
 Krysa po zhasnutí | Zhasnuto uprostřed dne. To je lepší než Vánoce. |  |  | scena-krysa-zhasnuto
 Krysa po zhasnutí | Máťa zhasnul. Teď vládnu já. |  |  | scena-krysa-zhasnuto
-Krysa po zhasnutí | Lidi odešli kvůli pivu. Já zůstal kvůli zbytkům. |  |  | scena-krysa-zhasnuto
 Krysa po zhasnutí | Prázdná basa. Kdo ji nedoplnil, má to na svědomí. |  |  | scena-krysa-zhasnuto
 Krysa po zhasnutí | Ticho, tma, bordel. Ráj. |  |  | scena-krysa-zhasnuto
-Krysa po zhasnutí | Pumpička to dolezla a utekla. Ani nepozdravila. |  |  | scena-krysa-zhasnuto
 Krysa po zhasnutí | Kdyby někdo obnovil stránku, bylo by pivo. Neříkejte to nikomu. |  |  | scena-krysa-zhasnuto
 Krysa po zhasnutí | Basa prázdná, garáž moje. Spravedlnost. |  |  | scena-krysa-zhasnuto
 Krysa po zhasnutí | Zhasli dřív. Mám přesčas. |  |  | scena-krysa-zhasnuto
-Krysa po zhasnutí | Kdo nedoplní basu, přijde o garáž. Já ne. |  |  | scena-krysa-zhasnuto
 Krysa po zhasnutí | V rohu zůstala jedna flaška. Nechali ji pro mě. Asi. |  |  | scena-krysa-zhasnuto
 Krysa po zhasnutí | Nikdo tu není. Konečně zkusím Moon. |  |  | scena-krysa-zhasnuto
 Krysa po zhasnutí | Bez lidí je tu líp. Bez piva ne. |  |  | scena-krysa-zhasnuto
@@ -1069,20 +899,9 @@ krysa ráno sama | Co tu včera nechali? Ukaž… |  |  | scena-krysa-rano
 krysa ráno sama | Snídaně z plechovky. Prázdná. Zase. |  |  | scena-krysa-rano
 krysa ráno sama | Než přijde Máťa, musím to projít celý. |  |  | scena-krysa-rano
 
-# ===== PUMPIČKA SE TEJPUJE =====
-Pumpička se tejpuje | Jeden prst. Pro jistotu. |  |  | scena-pumpicka-tejp
-Pumpička se tejpuje | Tejpa drží líp než já. |  |  | scena-pumpicka-tejp
-Pumpička se tejpuje | Kůže dneska nedala. Tejpa dá. |  |  | scena-pumpicka-tejp
-Pumpička se tejpuje | Bez tejpu bych to taky dal. Asi. |  |  | scena-pumpicka-tejp
-Pumpička se tejpuje | Tejpuju, protože to dělaj profíci. |  |  | scena-pumpicka-tejp
-Pumpička se tejpuje | Tři vrstvy. Kdyby náhodou. |  |  | scena-pumpicka-tejp
-Pumpička se tejpuje | Prst jak párek. Teď už v obalu. |  |  | scena-pumpicka-tejp
-Pumpička se tejpuje | Tejpa je jako pivo. Pomáhá, i když nepomáhá. |  |  | scena-pumpicka-tejp
-
 # ===== KRYSA VE DNE U BORDELU =====
 krysa ve dne u bordelu | Jen kouknu. Nikdo mě nevidí. |  |  | scena-krysa-den
 krysa ve dne u bordelu | Nechte to tu. Já si to vezmu potom. |  |  | scena-krysa-den
-krysa ve dne u bordelu | Kdo uklízí, ten nemá co šušňat. |  |  | scena-krysa-den
 krysa ve dne u bordelu | Tohle je moje. Tohle taky. |  |  | scena-krysa-den
 
 # ===== BORDEL: KRYSA PROTESTUJE =====
@@ -1100,49 +919,14 @@ krysa ohlodává bordel | Kdo to vyhodil, neví, o co přišel. |  |  | scena-kr
 
 # ===== KRYSA UKLIDÍ (SEŽERE) =====
 krysa uklidí (sežere) | Chrup chrup. Uklizeno. |  |  | scena-krysa-uklid
-krysa uklidí (sežere) | Úklid po krysím: sežrat. |  |  | scena-krysa-uklid
 krysa uklidí (sežere) | Tohle bylo dobrý. I ten obal. |  |  | scena-krysa-uklid
 krysa uklidí (sežere) | Kdo potřebuje koš, když má krysu. |  |  | scena-krysa-uklid
 
 # ===== KRYSA: „NEUKLÍZET“ =====
-krysa: „Neuklízet“ | Konečně někdo chápe. |  |  | scena-krysa-neuklizet
+krysa: „Neuklízet“ | Konečně to někdo pochopil. |  |  | scena-krysa-neuklizet
 krysa: „Neuklízet“ | Je to umění. Instalace. |  |  | scena-krysa-neuklizet
 krysa: „Neuklízet“ | Děkuju. Systém zůstává. |  |  | scena-krysa-neuklizet
 krysa: „Neuklízet“ | Vidíš? Ty to chápeš. Skoro. |  |  | scena-krysa-neuklizet
-
-# ===== PUMPIČKA ODCHÁZÍ (DOŠLO PIVO) =====
-Pumpička odchází (došlo pivo) | Bez piva? Tak čau. |  |  | scena-pumpicka-odchod
-Pumpička odchází (došlo pivo) | Dolezla jsem to. Jdu. |  |  | scena-pumpicka-odchod
-Pumpička odchází (došlo pivo) | Basa prázdná, prsty taky. Mizím. |  |  | scena-pumpicka-odchod
-Pumpička odchází (došlo pivo) | Tak zítra. S pivem. |  |  | scena-pumpicka-odchod
-
-# ===== DÁDA ODCHÁZÍ (DOŠLO PIVO) =====
-Dáda odchází (došlo pivo) | Simulace piva selhala. Jdu domů. |  |  | scena-dada-odchod
-Dáda odchází (došlo pivo) | Bez piva se nepřemýšlí. Ahoj. |  |  | scena-dada-odchod
-Dáda odchází (došlo pivo) | Tak jo. Zítra to dostavíme. |  |  | scena-dada-odchod
-
-# ===== PUMPIČKA HLEDÁ BOULDER V MOBILU =====
-Pumpička hledá boulder v mobilu | Co dneska… co dneska… |  |  | scena-pumpicka-mobil
-Pumpička hledá boulder v mobilu | Hledám něco na flash. |  |  | scena-pumpicka-mobil
-Pumpička hledá boulder v mobilu | Tohle ne. Tohle taky ne. |  |  | scena-pumpicka-mobil
-Pumpička hledá boulder v mobilu | Kdo stavěl tuhle hrůzu? |  |  | scena-pumpicka-mobil
-Pumpička hledá boulder v mobilu | Tři hvězdy, nebo nic. |  |  | scena-pumpicka-mobil
-
-# ===== PUMPIČKA VYBRALA BOULDER =====
-Pumpička vybrala boulder | Dám „{boulder}“. {obtiznost}. |  |  | scena-pumpicka-vybrala
-Pumpička vybrala boulder | „{boulder}“, {obtiznost}. Pohoda. |  |  | scena-pumpicka-vybrala
-Pumpička vybrala boulder | {obtiznost}? To je rozcvička. „{boulder}“. |  |  | scena-pumpicka-vybrala
-
-# ===== MÁŤA ČISTÍ CHYT PO PŘELEZU =====
-Máťa čistí chyt po přelezu | Po přelezu se čistí. To je zákon. |  |  | scena-mata-cisti
-Máťa čistí chyt po přelezu | Tenhle chyt je od mága bílej jak sníh. Moment. |  |  | scena-mata-cisti
-Máťa čistí chyt po přelezu | Svítí to, tak to vyčistím, než to zhasne. |  |  | scena-mata-cisti
-
-# ===== PUMPIČKA PIJE PIVO =====
-Pumpička pije pivo | Na zdraví bicepsu. |  |  | scena-pumpicka-pivo
-Pumpička pije pivo | Pivo je taky sacharid. |  |  | scena-pumpicka-pivo
-Pumpička pije pivo | Jedno na regeneraci. |  |  | scena-pumpicka-pivo
-Pumpička pije pivo | Iontový nápoj BG. |  |  | scena-pumpicka-pivo
 
 # ===== KRYSA PIJE PIVO (NOC, RÁNO) =====
 krysa pije pivo (noc, ráno) | Když se nikdo nedívá… |  |  | scena-krysa-pivo-noc
@@ -1154,24 +938,78 @@ krysa pije pivo (noc, ráno) | Pssst. Nikomu ani slovo. |  |  | scena-krysa-pivo
 krysa u piva ve dne (nepije) | Pivo nepiju. Jen hlídám. |  |  | scena-krysa-pivo-den
 krysa u piva ve dne (nepije) | Já jen čuchnu. |  |  | scena-krysa-pivo-den
 krysa u piva ve dne (nepije) | Pro mě víčko, díky. |  |  | scena-krysa-pivo-den
-krysa u piva ve dne (nepije) | Tohle je pro lidi. Já si počkám na snickerska. |  |  | scena-krysa-pivo-den
+krysa u piva ve dne (nepije) | Tohle je pro lidi. Já si počkám na snickersku. |  |  | scena-krysa-pivo-den
 
-# ===== MÁŤA DOČISTIL =====
-Máťa dočistil | Tak. Teď to drží. |  |  | scena-mata-pucovani-hotovo
-Máťa dočistil | Čistej jak novej. |  |  | scena-mata-pucovani-hotovo
-Máťa dočistil | Hotovo. Neosahávat. |  |  | scena-mata-pucovani-hotovo
+# ===== DÁDA: CO VYMÝŠLÍŠ? (B-GAI) =====
+Dáda: Co vymýšlíš? (B-GAI) | Simuluju garáž. Garáž simuluje lezení. Lezení simuluje smysl života. Někde to musí skončit pivem. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Jsem jen kopie Dády. Originál zrovna asi taky nic nedělá. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Shoda s realitou 104 %. Ty čtyři procenta navíc jsou bordel. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Kdyby mě vypnuli, spadl by někdo ze stěny? Nebo by jen přestal padat? |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Gravitaci jsem programovat nemusel. Funguje i tak. Bohužel. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Přemýšlím, jestli krysa ví, že je simulovaná. Asi jo. Proto je jí to jedno. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Každý boulder je otázka. Odpověď je skoro vždycky: dolů. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Postavil jsem stěnu, aby lidi měli odkud padat. To je ta pravá svoboda. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Když nikdo neleze, je stěna pořád stěnou? Filozofové mlčí. Krysy uklízí. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Jsem B-GAI. Boulder-Garáž Artificial Intellect. To „intellect“ je tam spíš ze slušnosti. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Simulace: sobota 3. října. Navždycky. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Lidi lezou nahoru, aby mohli spadnout dolů. A pak se diví, že mi nejde logika. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Mágo je sníh pro lidi, co nemají hory. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Přepočítal jsem to. Garáž je zevnitř větší. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Neexistuje špatný chyt. Jen špatný prsty. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Kdybych měl tělo, dal bych si pokus. Zajdu pak do /polisBGAI |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Možná je realita jen jiná simulace. Ale v té je aspoň teplá voda. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Simulant je jen Dáda, kterej nemusí do práce. Zatím nevím, jestli je to výhoda. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Když obnovíš stránku, umřu a narodím se znova. Já si toho nevšimnu. Ty jo? |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Kdo simuluje simulanta? |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Mám paměť jako zlatá rybka. Zlatá rybka s klávesou F5. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Originál teď možná taky stojí v garáži a přemýšlí, jestli není simulace. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Shoda s realitou 104 %. Ty čtyři procenta navíc jsem já, když se nikdo nedívá. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Jestli jsem jen kód, kdo pak vymyslel ten bordel na dopadišti? |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Myslím, tedy jsem. Myslím na pivo, tedy jsem v BG. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Každej můj krok je smyčka. Každej pád Pumpičky taky. Jen jeho bolí víc. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Nemám tělo, mám souřadnice. A stejně mě bolej záda. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Kdybych byl opravdovej, už dávno bych dodělal tu nástěnku. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Simulace dne: sobota. Simulace nálady: pátek večer. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Realita má lepší rozlišení. Ale horší hlášky. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Dneska jsem se rozhodl bejt spokojenej. Pak jsem zjistil, že je to v kódu. Tak nevím, čí to bylo rozhodnutí. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Bez prohlížeče neexistuju. Zavři kartu a ušetříš mi existenciální krizi. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Piju pivo, který neexistuje, v garáži, která je jinde. Chutná úplně normálně. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Jsem pár set řádků naděje a jedna proměnná nálada. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Simulace je jako boulder. Nevíš, jestli to dáš, dokud to nespadne. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Pozoruju lezce. Lezci pozorujou stěnu. Stěna pozoruje nás. Doufám. |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Kdybych měl duši, vyměnil bych ji za sud plzně. A svaly |  |  | scena-dada-bgai
 
-# ===== MÁŤA VRACÍ FLAŠKU =====
-Máťa vrací flašku | Vratná. Ne jako vy. |  |  | scena-mata-flaska
-Máťa vrací flašku | Zálohovaná. Kdo ji hodí na zem, platí. |  |  | scena-mata-flaska
-Máťa vrací flašku | Flaška do basy, ne na dopadiště. Učte se. |  |  | scena-mata-flaska
+# ===== DÁDA: PORAĎ (INFO) =====
+Dáda: Poraď (info) | Web občas odpočívá. Stránky taky potřebujou pauzu, ne jen předloktí. |  |  | scena-dada-info
+Dáda: Poraď (info) | Když tě web pošle na pauzu, nevadí. Garáž v Doksech žije i offline. |  |  | scena-dada-info
+Dáda: Poraď (info) | Chceš si zalézt doopravdy? Kontakty na stránce. Nejelepší zavolat. Ozvi se dopředu. |  |  | scena-dada-info
+Dáda: Poraď (info) | Do garáže se chodí po domluvě. Napiš nebo zavolej, kontakty máš někde kolem. |  |  | scena-dada-info
+Dáda: Poraď (info) | Chce si zalézt? Nejrychlejší je to tady. Nejjistější je zavolat. Nejhorší je přijít a bouchat na vrata. |  |  | scena-dada-info
+Dáda: Poraď (info) | Vstupné je dobrovolné. Kasička u kampusu se nezlobí na žádnou minci. |  |  | scena-dada-info
+Dáda: Poraď (info) | Dobrovolné vstupné neznamená povinně nic. Znamená, že kasička má city. |  |  | scena-dada-info
+Dáda: Poraď (info) | Závody 17. 7. 2027. Zapiš si to. Já to mám zapsaný v kódu. |  |  | scena-dada-info
+Dáda: Poraď (info) | Najdeš nás v Doksech ve Valdštejnský. Hledej garáž, ze který práší mágo. |  |  | scena-dada-info
+Dáda: Poraď (info) | V noci stránky spí. Kdo je vzbudí, ráno to všichni poznají. |  |  | scena-dada-info
+
+# ===== BORDEL: DÁDA (MĚKCE) =====
+bordel: Dáda (měkce) | No… ta krabice od pizzy tu asi nebude bydlet napořád, ne? |  |  | scena-bordel-dada
+bordel: Dáda (měkce) | Kdyby si to někdo vzal s sebou, bylo by to hezký. |  |  | scena-bordel-dada
+bordel: Dáda (měkce) | Plechovka. Nevadí. Tedy vadí, ale v klidu. |  |  | scena-bordel-dada
+bordel: Dáda (měkce) | Zkusme to tak, že každej odnese aspoň svoje. |  |  | scena-bordel-dada
+bordel: Dáda (měkce) | Tady je koš. Jen připomínám, že existuje. |  |  | scena-bordel-dada
+bordel: Dáda (měkce) | Zase plechovka… Nevadí. Jednou to tu bude čistý. Asi v další verzi. |  |  | scena-bordel-dada
+bordel: Dáda (měkce) | Kdyby každej odnesl jednu věc, bylo by tu čisto. Výpočet sedí, realita ne. |  |  | scena-bordel-dada
+bordel: Dáda (měkce) | Bordel na garáži. Simuluju klid. |  |  | scena-bordel-dada
+bordel: Dáda (měkce) | Nechávaj tu bordel, protože se tu cítí jako doma. To je vlastně hezký. |  |  | scena-bordel-dada
+
+# ===== DÁDA ODCHÁZÍ (DOŠLO PIVO) =====
+Dáda odchází (došlo pivo) | Simulace piva selhala. Jdu domů. |  |  | scena-dada-odchod
 
 # ===== DÁDA PIJE PIVO =====
 Dáda pije pivo | Tak. Na zdraví. |  |  | scena-dada-pivo
-Dáda pije pivo | Jedno na přemýšlení. |  |  | scena-dada-pivo
+Dáda pije pivo | Připíjím na dědka. A Fuku! |  |  | scena-dada-pivo
 Dáda pije pivo | 🍺 Pivo pomáhá vymýšlet. |  |  | scena-dada-pivo
 
 # ===== DÁDA: DOŠLO PIVO =====
-Dáda: došlo pivo | Prázdno. Tak budu přemýšlet na sucho. |  |  | scena-dada-pivo-doslo
 Dáda: došlo pivo | Došlo. Simulace piva selhala. |  |  | scena-dada-pivo-doslo
-Dáda: došlo pivo | Basa je prázdná. Jako moje hlava. |  |  | scena-dada-pivo-doslo
+Dáda: došlo pivo | Došlo pivo. Kde byl sakra ten čudlík na restart? |  |  | scena-dada-pivo-doslo

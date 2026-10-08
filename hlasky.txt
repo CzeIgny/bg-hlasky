@@ -701,9 +701,8 @@ Po dolezení | Tak a teď kritizuju ostatní. |  |  | hra-po-top-sednout
 Po dolezení | Odsud je to vidět líp než zeshora. |  |  | hra-po-top-sednout
 
 # ===== PUMPIČKA JDE LÉZT =====
-Ai lezec: nástup | S: Nikdo nic? Kdo jde? / L: Tak já to zkusím. |  |  | hra-ai-lezec-start-nikdo
 Ai lezec: nástup | L: Já to rozlezu, ať to tu není studený. / S: Hlavně nespadni na mě. |  |  | hra-ai-lezec-start-nikdo
-Ai lezec: nástup | S: Nikdo? Tak ty. / L: Já? No dobře. |  |  | hra-ai-lezec-start-nikdo
+Ai lezec: nástup | S: Proč nikdo neleze? Tak ty. / L: No dobře, tak já jdu |  |  | hra-ai-lezec-start-nikdo
 Ai lezec: nástup | L: Já už nemůžu koukat. / S: Tak lez. |  |  | hra-ai-lezec-start-nikdo
 
 # ===== PUMPIČKA PŘI LEZENÍ =====
@@ -747,6 +746,11 @@ Pumpička hledá boulder v mobilu | Filtr: Most repeats |  |  | scena-pumpicka-m
 Pumpička vybrala boulder | Dám „{boulder}“. {obtiznost}. |  |  | scena-pumpicka-vybrala
 Pumpička vybrala boulder | „{boulder}“, {obtiznost}. Zkusíme |  |  | scena-pumpicka-vybrala
 Pumpička vybrala boulder | {obtiznost}? To je rozcvička. „{boulder}“. |  |  | scena-pumpicka-vybrala
+Pumpička vybrala boulder | „{boulder}“? To si dám na rozcvičku. |  |  | scena-pumpicka-vybrala
+Pumpička vybrala boulder | {obtiznost}? Tak to je na jednu ruku. |  |  | scena-pumpicka-vybrala
+Pumpička vybrala boulder | „{boulder}“. Zní to jako výzva. |  |  | scena-pumpicka-vybrala
+Pumpička vybrala boulder | {obtiznost} a „{boulder}“. Jasně, beru. |  |  | scena-pumpicka-vybrala
+Pumpička vybrala boulder | Tenhle mi včera utekl. „{boulder}“, {obtiznost}. |  |  | scena-pumpicka-vybrala
 
 # ===== PUMPIČKA PIJE PIVO =====
 Pumpička pije pivo | Na zdraví bicepsu. |  |  | scena-pumpicka-pivo
@@ -978,6 +982,7 @@ Dáda: Co vymýšlíš? (B-GAI) | Jsem pár set řádků naděje a jedna proměn
 Dáda: Co vymýšlíš? (B-GAI) | Simulace je jako boulder. Nevíš, jestli to dáš, dokud to nespadne. |  |  | scena-dada-bgai
 Dáda: Co vymýšlíš? (B-GAI) | Pozoruju lezce. Lezci pozorujou stěnu. Stěna pozoruje nás. Doufám. |  |  | scena-dada-bgai
 Dáda: Co vymýšlíš? (B-GAI) | Kdybych měl duši, vyměnil bych ji za sud plzně. A svaly |  |  | scena-dada-bgai
+Dáda: Co vymýšlíš? (B-GAI) | Co je to B-GAI? Vlastně jsem jen Fukovi ukradl zdrojové kódy projektu GAI, přidal další 4 jádra a řekl tomu, co je to BG. |  |  | scena-dada-bgai
 
 # ===== DÁDA: PORAĎ (INFO) =====
 Dáda: Poraď (info) | Web občas odpočívá. Stránky taky potřebujou pauzu, ne jen předloktí. |  |  | scena-dada-info
